@@ -1,7 +1,7 @@
 {
   "Name": "Azure.ResourceManager.Compute",
-  "Version": "1.2.0-alpha.20230220.2",
-  "DevVersion": "1.2.0-alpha.20230220.2",
+  "Version": "1.2.0-alpha.20230220.3",
+  "DevVersion": "1.2.0-alpha.20230220.3",
   "DirectoryPath": "sdk/compute/Azure.ResourceManager.Compute",
   "ServiceDirectory": "compute",
   "ReadMePath": "sdk/compute/Azure.ResourceManager.Compute/README.md",
