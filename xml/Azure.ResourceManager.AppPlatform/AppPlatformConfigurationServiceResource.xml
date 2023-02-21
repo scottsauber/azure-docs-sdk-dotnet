@@ -7,6 +7,8 @@
   <AssemblyInfo>
     <AssemblyName>Azure.ResourceManager.AppPlatform</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <AssemblyVersion>1.0.1.0</AssemblyVersion>
+    <AssemblyVersion>1.1.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Azure.ResourceManager.ArmResource</BaseTypeName>
@@ -31,6 +33,8 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppPlatform</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -48,6 +52,8 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppPlatform</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceIdentifier</ReturnType>
@@ -78,6 +84,8 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppPlatform</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.AppPlatform.AppPlatformConfigurationServiceData</ReturnType>
@@ -99,6 +107,8 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppPlatform</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation</ReturnType>
@@ -113,9 +123,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Disable the default Application Configuration Service.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AppPlatform/Spring/{serviceName}/configurationServices/{configurationServiceName}
-            Operation Id: ConfigurationServices_Delete
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AppPlatform/Spring/{serviceName}/configurationServices/{configurationServiceName}</description></item><item><term>Operation Id</term><description>ConfigurationServices_Delete</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -130,6 +138,8 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppPlatform</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&gt;</ReturnType>
@@ -144,9 +154,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Disable the default Application Configuration Service.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AppPlatform/Spring/{serviceName}/configurationServices/{configurationServiceName}
-            Operation Id: ConfigurationServices_Delete
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AppPlatform/Spring/{serviceName}/configurationServices/{configurationServiceName}</description></item><item><term>Operation Id</term><description>ConfigurationServices_Delete</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -161,6 +169,8 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppPlatform</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.AppPlatform.AppPlatformConfigurationServiceResource&gt;</ReturnType>
@@ -172,9 +182,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get the Application Configuration Service and its properties.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AppPlatform/Spring/{serviceName}/configurationServices/{configurationServiceName}
-            Operation Id: ConfigurationServices_Get
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AppPlatform/Spring/{serviceName}/configurationServices/{configurationServiceName}</description></item><item><term>Operation Id</term><description>ConfigurationServices_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -189,6 +197,8 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppPlatform</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.AppPlatform.AppPlatformConfigurationServiceResource&gt;&gt;</ReturnType>
@@ -200,9 +210,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get the Application Configuration Service and its properties.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AppPlatform/Spring/{serviceName}/configurationServices/{configurationServiceName}
-            Operation Id: ConfigurationServices_Get
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AppPlatform/Spring/{serviceName}/configurationServices/{configurationServiceName}</description></item><item><term>Operation Id</term><description>ConfigurationServices_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -217,6 +225,8 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppPlatform</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -237,6 +247,8 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppPlatform</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceType</ReturnType>
@@ -256,6 +268,8 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppPlatform</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.AppPlatform.AppPlatformConfigurationServiceResource&gt;</ReturnType>
@@ -272,9 +286,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Create the default Application Configuration Service or update the existing Application Configuration Service.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AppPlatform/Spring/{serviceName}/configurationServices/{configurationServiceName}
-            Operation Id: ConfigurationServices_CreateOrUpdate
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AppPlatform/Spring/{serviceName}/configurationServices/{configurationServiceName}</description></item><item><term>Operation Id</term><description>ConfigurationServices_CreateOrUpdate</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -291,6 +303,8 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppPlatform</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.AppPlatform.AppPlatformConfigurationServiceResource&gt;&gt;</ReturnType>
@@ -307,9 +321,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Create the default Application Configuration Service or update the existing Application Configuration Service.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AppPlatform/Spring/{serviceName}/configurationServices/{configurationServiceName}
-            Operation Id: ConfigurationServices_CreateOrUpdate
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AppPlatform/Spring/{serviceName}/configurationServices/{configurationServiceName}</description></item><item><term>Operation Id</term><description>ConfigurationServices_CreateOrUpdate</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -326,6 +338,8 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppPlatform</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.AppPlatform.Models.AppPlatformConfigurationServiceSettingsValidateResult&gt;</ReturnType>
@@ -342,9 +356,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Check if the Application Configuration Service settings are valid.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AppPlatform/Spring/{serviceName}/configurationServices/{configurationServiceName}/validate
-            Operation Id: ConfigurationServices_Validate
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AppPlatform/Spring/{serviceName}/configurationServices/{configurationServiceName}/validate</description></item><item><term>Operation Id</term><description>ConfigurationServices_Validate</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -361,6 +373,8 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppPlatform</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.AppPlatform.Models.AppPlatformConfigurationServiceSettingsValidateResult&gt;&gt;</ReturnType>
@@ -377,9 +391,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Check if the Application Configuration Service settings are valid.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AppPlatform/Spring/{serviceName}/configurationServices/{configurationServiceName}/validate
-            Operation Id: ConfigurationServices_Validate
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.AppPlatform/Spring/{serviceName}/configurationServices/{configurationServiceName}/validate</description></item><item><term>Operation Id</term><description>ConfigurationServices_Validate</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">

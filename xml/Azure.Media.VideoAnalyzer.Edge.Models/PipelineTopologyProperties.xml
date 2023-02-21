@@ -88,7 +88,11 @@
         <ReturnType>System.Collections.Generic.IList&lt;Azure.Media.VideoAnalyzer.Edge.Models.ProcessorNodeBase&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary> List of the topology processor nodes. Processor nodes enable pipeline data to be analyzed, processed or transformed. </summary>
+        <summary>
+            List of the topology processor nodes. Processor nodes enable pipeline data to be analyzed, processed or transformed.
+            Please note <see cref="T:Azure.Media.VideoAnalyzer.Edge.Models.ProcessorNodeBase" /> is the base class. According to the scenario, a derived class of the base class might need to be assigned here, or this property needs to be casted to one of the possible derived classes.
+            The available derived classes include <see cref="T:Azure.Media.VideoAnalyzer.Edge.Models.CognitiveServicesVisionProcessor" />, <see cref="T:Azure.Media.VideoAnalyzer.Edge.Models.ExtensionProcessorBase" />, <see cref="T:Azure.Media.VideoAnalyzer.Edge.Models.GrpcExtension" />, <see cref="T:Azure.Media.VideoAnalyzer.Edge.Models.HttpExtension" />, <see cref="T:Azure.Media.VideoAnalyzer.Edge.Models.LineCrossingProcessor" />, <see cref="T:Azure.Media.VideoAnalyzer.Edge.Models.MotionDetectionProcessor" />, <see cref="T:Azure.Media.VideoAnalyzer.Edge.Models.ObjectTrackingProcessor" /> and <see cref="T:Azure.Media.VideoAnalyzer.Edge.Models.SignalGateProcessor" />.
+            </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -108,7 +112,11 @@
         <ReturnType>System.Collections.Generic.IList&lt;Azure.Media.VideoAnalyzer.Edge.Models.SinkNodeBase&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary> List of the topology sink nodes. Sink nodes allow pipeline data to be stored or exported. </summary>
+        <summary>
+            List of the topology sink nodes. Sink nodes allow pipeline data to be stored or exported.
+            Please note <see cref="T:Azure.Media.VideoAnalyzer.Edge.Models.SinkNodeBase" /> is the base class. According to the scenario, a derived class of the base class might need to be assigned here, or this property needs to be casted to one of the possible derived classes.
+            The available derived classes include <see cref="T:Azure.Media.VideoAnalyzer.Edge.Models.FileSink" />, <see cref="T:Azure.Media.VideoAnalyzer.Edge.Models.IotHubMessageSink" /> and <see cref="T:Azure.Media.VideoAnalyzer.Edge.Models.VideoSink" />.
+            </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -128,7 +136,11 @@
         <ReturnType>System.Collections.Generic.IList&lt;Azure.Media.VideoAnalyzer.Edge.Models.SourceNodeBase&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary> List of the topology source nodes. Source nodes enable external data to be ingested by the pipeline. </summary>
+        <summary>
+            List of the topology source nodes. Source nodes enable external data to be ingested by the pipeline.
+            Please note <see cref="T:Azure.Media.VideoAnalyzer.Edge.Models.SourceNodeBase" /> is the base class. According to the scenario, a derived class of the base class might need to be assigned here, or this property needs to be casted to one of the possible derived classes.
+            The available derived classes include <see cref="T:Azure.Media.VideoAnalyzer.Edge.Models.IotHubMessageSource" /> and <see cref="T:Azure.Media.VideoAnalyzer.Edge.Models.RtspSource" />.
+            </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>

@@ -7,6 +7,8 @@
   <AssemblyInfo>
     <AssemblyName>Azure.ResourceManager.SecurityInsights</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <AssemblyVersion>1.0.1.0</AssemblyVersion>
+    <AssemblyVersion>1.1.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Azure.ResourceManager.ArmResource</BaseTypeName>
@@ -31,6 +33,8 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.SecurityInsights</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -48,6 +52,8 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.SecurityInsights</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceIdentifier</ReturnType>
@@ -78,6 +84,8 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.SecurityInsights</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.SecurityInsights.SecurityInsightsAlertRuleData</ReturnType>
@@ -99,6 +107,8 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.SecurityInsights</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation</ReturnType>
@@ -113,9 +123,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Delete the alert rule.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/workspaces/{workspaceName}/providers/Microsoft.SecurityInsights/alertRules/{ruleId}
-            Operation Id: AlertRules_Delete
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/workspaces/{workspaceName}/providers/Microsoft.SecurityInsights/alertRules/{ruleId}</description></item><item><term>Operation Id</term><description>AlertRules_Delete</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -130,6 +138,8 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.SecurityInsights</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&gt;</ReturnType>
@@ -144,9 +154,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Delete the alert rule.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/workspaces/{workspaceName}/providers/Microsoft.SecurityInsights/alertRules/{ruleId}
-            Operation Id: AlertRules_Delete
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/workspaces/{workspaceName}/providers/Microsoft.SecurityInsights/alertRules/{ruleId}</description></item><item><term>Operation Id</term><description>AlertRules_Delete</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -161,6 +169,8 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.SecurityInsights</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.SecurityInsights.SecurityInsightsAlertRuleResource&gt;</ReturnType>
@@ -172,99 +182,8 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the alert rule.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/workspaces/{workspaceName}/providers/Microsoft.SecurityInsights/alertRules/{ruleId}
-            Operation Id: AlertRules_Get
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/workspaces/{workspaceName}/providers/Microsoft.SecurityInsights/alertRules/{ruleId}</description></item><item><term>Operation Id</term><description>AlertRules_Get</description></item></list></summary>
         <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="GetActionResponse">
-      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;Azure.ResourceManager.SecurityInsights.ActionResponseResource&gt; GetActionResponse (string actionId, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class Azure.ResourceManager.SecurityInsights.ActionResponseResource&gt; GetActionResponse(string actionId, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.SecurityInsights.SecurityInsightsAlertRuleResource.GetActionResponse(System.String,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetActionResponse (actionId As String, Optional cancellationToken As CancellationToken = Nothing) As Response(Of ActionResponseResource)" />
-      <MemberSignature Language="F#" Value="abstract member GetActionResponse : string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.SecurityInsights.ActionResponseResource&gt;&#xA;override this.GetActionResponse : string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.SecurityInsights.ActionResponseResource&gt;" Usage="securityInsightsAlertRuleResource.GetActionResponse (actionId, cancellationToken)" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.SecurityInsights</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.Response&lt;Azure.ResourceManager.SecurityInsights.ActionResponseResource&gt;</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="actionId" Type="System.String" Index="0" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="1" FrameworkAlternate="azure-dotnet-preview" />
-      </Parameters>
-      <Docs>
-        <param name="actionId"> Action ID. </param>
-        <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary>
-            Gets the action of alert rule.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/workspaces/{workspaceName}/providers/Microsoft.SecurityInsights/alertRules/{ruleId}/actions/{actionId}
-            Operation Id: Actions_Get
-            </summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="actionId" /> is an empty string, and was expected to be non-empty. </exception>
-        <exception cref="T:System.ArgumentNullException">
-          <paramref name="actionId" /> is null. </exception>
-      </Docs>
-    </Member>
-    <Member MemberName="GetActionResponseAsync">
-      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.SecurityInsights.ActionResponseResource&gt;&gt; GetActionResponseAsync (string actionId, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.ResourceManager.SecurityInsights.ActionResponseResource&gt;&gt; GetActionResponseAsync(string actionId, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.SecurityInsights.SecurityInsightsAlertRuleResource.GetActionResponseAsync(System.String,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetActionResponseAsync (actionId As String, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of ActionResponseResource))" />
-      <MemberSignature Language="F#" Value="abstract member GetActionResponseAsync : string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.SecurityInsights.ActionResponseResource&gt;&gt;&#xA;override this.GetActionResponseAsync : string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.SecurityInsights.ActionResponseResource&gt;&gt;" Usage="securityInsightsAlertRuleResource.GetActionResponseAsync (actionId, cancellationToken)" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.SecurityInsights</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.SecurityInsights.ActionResponseResource&gt;&gt;</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="actionId" Type="System.String" Index="0" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="1" FrameworkAlternate="azure-dotnet-preview" />
-      </Parameters>
-      <Docs>
-        <param name="actionId"> Action ID. </param>
-        <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary>
-            Gets the action of alert rule.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/workspaces/{workspaceName}/providers/Microsoft.SecurityInsights/alertRules/{ruleId}/actions/{actionId}
-            Operation Id: Actions_Get
-            </summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="actionId" /> is an empty string, and was expected to be non-empty. </exception>
-        <exception cref="T:System.ArgumentNullException">
-          <paramref name="actionId" /> is null. </exception>
-      </Docs>
-    </Member>
-    <Member MemberName="GetActionResponses">
-      <MemberSignature Language="C#" Value="public virtual Azure.ResourceManager.SecurityInsights.ActionResponseCollection GetActionResponses ();" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.ResourceManager.SecurityInsights.ActionResponseCollection GetActionResponses() cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.SecurityInsights.SecurityInsightsAlertRuleResource.GetActionResponses" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetActionResponses () As ActionResponseCollection" />
-      <MemberSignature Language="F#" Value="abstract member GetActionResponses : unit -&gt; Azure.ResourceManager.SecurityInsights.ActionResponseCollection&#xA;override this.GetActionResponses : unit -&gt; Azure.ResourceManager.SecurityInsights.ActionResponseCollection" Usage="securityInsightsAlertRuleResource.GetActionResponses " />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.SecurityInsights</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.ResourceManager.SecurityInsights.ActionResponseCollection</ReturnType>
-      </ReturnValue>
-      <Parameters />
-      <Docs>
-        <summary> Gets a collection of ActionResponseResources in the SecurityInsightsAlertRule. </summary>
-        <returns> An object representing collection of ActionResponseResources and their operations over a ActionResponseResource. </returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -278,6 +197,8 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.SecurityInsights</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.SecurityInsights.SecurityInsightsAlertRuleResource&gt;&gt;</ReturnType>
@@ -289,9 +210,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the alert rule.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/workspaces/{workspaceName}/providers/Microsoft.SecurityInsights/alertRules/{ruleId}
-            Operation Id: AlertRules_Get
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/workspaces/{workspaceName}/providers/Microsoft.SecurityInsights/alertRules/{ruleId}</description></item><item><term>Operation Id</term><description>AlertRules_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -306,22 +225,22 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.SecurityInsights</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.SecurityInsights.SecurityInsightsAlertRuleActionResource&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="actionId" Type="System.String" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="1" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="actionId" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
         <param name="actionId"> Action ID. </param>
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the action of alert rule.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/workspaces/{workspaceName}/providers/Microsoft.SecurityInsights/alertRules/{ruleId}/actions/{actionId}
-            Operation Id: Actions_Get
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/workspaces/{workspaceName}/providers/Microsoft.SecurityInsights/alertRules/{ruleId}/actions/{actionId}</description></item><item><term>Operation Id</term><description>Actions_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -340,22 +259,22 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.SecurityInsights</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.SecurityInsights.SecurityInsightsAlertRuleActionResource&gt;&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="actionId" Type="System.String" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="1" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="actionId" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
         <param name="actionId"> Action ID. </param>
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the action of alert rule.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/workspaces/{workspaceName}/providers/Microsoft.SecurityInsights/alertRules/{ruleId}/actions/{actionId}
-            Operation Id: Actions_Get
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/workspaces/{workspaceName}/providers/Microsoft.SecurityInsights/alertRules/{ruleId}/actions/{actionId}</description></item><item><term>Operation Id</term><description>Actions_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -374,6 +293,8 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.SecurityInsights</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.SecurityInsights.SecurityInsightsAlertRuleActionCollection</ReturnType>
@@ -395,6 +316,8 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.SecurityInsights</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -415,6 +338,8 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.SecurityInsights</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceType</ReturnType>
@@ -434,6 +359,8 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.SecurityInsights</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.SecurityInsights.SecurityInsightsAlertRuleResource&gt;</ReturnType>
@@ -450,9 +377,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Creates or updates the alert rule.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/workspaces/{workspaceName}/providers/Microsoft.SecurityInsights/alertRules/{ruleId}
-            Operation Id: AlertRules_CreateOrUpdate
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/workspaces/{workspaceName}/providers/Microsoft.SecurityInsights/alertRules/{ruleId}</description></item><item><term>Operation Id</term><description>AlertRules_CreateOrUpdate</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -469,6 +394,8 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.SecurityInsights</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.SecurityInsights.SecurityInsightsAlertRuleResource&gt;&gt;</ReturnType>
@@ -485,9 +412,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Creates or updates the alert rule.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/workspaces/{workspaceName}/providers/Microsoft.SecurityInsights/alertRules/{ruleId}
-            Operation Id: AlertRules_CreateOrUpdate
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.OperationalInsights/workspaces/{workspaceName}/providers/Microsoft.SecurityInsights/alertRules/{ruleId}</description></item><item><term>Operation Id</term><description>AlertRules_CreateOrUpdate</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">

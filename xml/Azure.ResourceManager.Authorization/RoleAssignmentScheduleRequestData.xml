@@ -7,6 +7,7 @@
   <AssemblyInfo>
     <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <AssemblyVersion>1.1.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Azure.ResourceManager.Models.ResourceData</BaseTypeName>
@@ -26,6 +27,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -43,6 +45,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -63,6 +66,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -83,6 +87,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -103,6 +108,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.DateTimeOffset&gt;</ReturnType>
@@ -123,6 +129,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.TimeSpan&gt;</ReturnType>
@@ -143,6 +150,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.DateTimeOffset&gt;</ReturnType>
@@ -163,6 +171,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Authorization.Models.RoleManagementExpandedProperties</ReturnType>
@@ -183,6 +192,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;Azure.ResourceManager.Authorization.Models.RoleManagementScheduleExpirationType&gt;</ReturnType>
@@ -203,6 +213,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -214,23 +225,19 @@
       </Docs>
     </Member>
     <Member MemberName="LinkedRoleEligibilityScheduleId">
-      <MemberSignature Language="C#" Value="public Azure.Core.ResourceIdentifier LinkedRoleEligibilityScheduleId { get; set; }" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Core.ResourceIdentifier LinkedRoleEligibilityScheduleId" FrameworkAlternate="azure-dotnet" />
+      <MemberSignature Language="C#" Value="public Azure.Core.ResourceIdentifier LinkedRoleEligibilityScheduleId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Core.ResourceIdentifier LinkedRoleEligibilityScheduleId" />
       <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Authorization.RoleAssignmentScheduleRequestData.LinkedRoleEligibilityScheduleId" />
-      <MemberSignature Language="VB.NET" Value="Public Property LinkedRoleEligibilityScheduleId As ResourceIdentifier" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="F#" Value="member this.LinkedRoleEligibilityScheduleId : Azure.Core.ResourceIdentifier with get, set" Usage="Azure.ResourceManager.Authorization.RoleAssignmentScheduleRequestData.LinkedRoleEligibilityScheduleId" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="C#" Value="public Guid? LinkedRoleEligibilityScheduleId { get; set; }" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.Guid&gt; LinkedRoleEligibilityScheduleId" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="VB.NET" Value="Public Property LinkedRoleEligibilityScheduleId As Nullable(Of Guid)" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="F#" Value="member this.LinkedRoleEligibilityScheduleId : Nullable&lt;Guid&gt; with get, set" Usage="Azure.ResourceManager.Authorization.RoleAssignmentScheduleRequestData.LinkedRoleEligibilityScheduleId" FrameworkAlternate="azure-dotnet-preview" />
+      <MemberSignature Language="VB.NET" Value="Public Property LinkedRoleEligibilityScheduleId As ResourceIdentifier" />
+      <MemberSignature Language="F#" Value="member this.LinkedRoleEligibilityScheduleId : Azure.Core.ResourceIdentifier with get, set" Usage="Azure.ResourceManager.Authorization.RoleAssignmentScheduleRequestData.LinkedRoleEligibilityScheduleId" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType FrameworkAlternate="azure-dotnet">Azure.Core.ResourceIdentifier</ReturnType>
-        <ReturnType FrameworkAlternate="azure-dotnet-preview">System.Nullable&lt;System.Guid&gt;</ReturnType>
+        <ReturnType>Azure.Core.ResourceIdentifier</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> The linked role eligibility schedule id - to activate an eligibility. </summary>
@@ -248,6 +255,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.Guid&gt;</ReturnType>
@@ -268,6 +276,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;Azure.ResourceManager.Authorization.Models.RoleManagementPrincipalType&gt;</ReturnType>
@@ -288,6 +297,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.Guid&gt;</ReturnType>
@@ -308,6 +318,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;Azure.ResourceManager.Authorization.Models.RoleManagementScheduleRequestType&gt;</ReturnType>
@@ -328,6 +339,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceIdentifier</ReturnType>
@@ -348,6 +360,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -368,6 +381,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.DateTimeOffset&gt;</ReturnType>
@@ -388,6 +402,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;Azure.ResourceManager.Authorization.Models.RoleManagementScheduleStatus&gt;</ReturnType>
@@ -399,23 +414,19 @@
       </Docs>
     </Member>
     <Member MemberName="TargetRoleAssignmentScheduleId">
-      <MemberSignature Language="C#" Value="public Azure.Core.ResourceIdentifier TargetRoleAssignmentScheduleId { get; set; }" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Core.ResourceIdentifier TargetRoleAssignmentScheduleId" FrameworkAlternate="azure-dotnet" />
+      <MemberSignature Language="C#" Value="public Azure.Core.ResourceIdentifier TargetRoleAssignmentScheduleId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Core.ResourceIdentifier TargetRoleAssignmentScheduleId" />
       <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Authorization.RoleAssignmentScheduleRequestData.TargetRoleAssignmentScheduleId" />
-      <MemberSignature Language="VB.NET" Value="Public Property TargetRoleAssignmentScheduleId As ResourceIdentifier" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="F#" Value="member this.TargetRoleAssignmentScheduleId : Azure.Core.ResourceIdentifier with get, set" Usage="Azure.ResourceManager.Authorization.RoleAssignmentScheduleRequestData.TargetRoleAssignmentScheduleId" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="C#" Value="public Guid? TargetRoleAssignmentScheduleId { get; set; }" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.Guid&gt; TargetRoleAssignmentScheduleId" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="VB.NET" Value="Public Property TargetRoleAssignmentScheduleId As Nullable(Of Guid)" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="F#" Value="member this.TargetRoleAssignmentScheduleId : Nullable&lt;Guid&gt; with get, set" Usage="Azure.ResourceManager.Authorization.RoleAssignmentScheduleRequestData.TargetRoleAssignmentScheduleId" FrameworkAlternate="azure-dotnet-preview" />
+      <MemberSignature Language="VB.NET" Value="Public Property TargetRoleAssignmentScheduleId As ResourceIdentifier" />
+      <MemberSignature Language="F#" Value="member this.TargetRoleAssignmentScheduleId : Azure.Core.ResourceIdentifier with get, set" Usage="Azure.ResourceManager.Authorization.RoleAssignmentScheduleRequestData.TargetRoleAssignmentScheduleId" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType FrameworkAlternate="azure-dotnet">Azure.Core.ResourceIdentifier</ReturnType>
-        <ReturnType FrameworkAlternate="azure-dotnet-preview">System.Nullable&lt;System.Guid&gt;</ReturnType>
+        <ReturnType>Azure.Core.ResourceIdentifier</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> The resultant role assignment schedule id or the role assignment schedule id being updated. </summary>
@@ -424,23 +435,19 @@
       </Docs>
     </Member>
     <Member MemberName="TargetRoleAssignmentScheduleInstanceId">
-      <MemberSignature Language="C#" Value="public Azure.Core.ResourceIdentifier TargetRoleAssignmentScheduleInstanceId { get; set; }" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Core.ResourceIdentifier TargetRoleAssignmentScheduleInstanceId" FrameworkAlternate="azure-dotnet" />
+      <MemberSignature Language="C#" Value="public Azure.Core.ResourceIdentifier TargetRoleAssignmentScheduleInstanceId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Core.ResourceIdentifier TargetRoleAssignmentScheduleInstanceId" />
       <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Authorization.RoleAssignmentScheduleRequestData.TargetRoleAssignmentScheduleInstanceId" />
-      <MemberSignature Language="VB.NET" Value="Public Property TargetRoleAssignmentScheduleInstanceId As ResourceIdentifier" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="F#" Value="member this.TargetRoleAssignmentScheduleInstanceId : Azure.Core.ResourceIdentifier with get, set" Usage="Azure.ResourceManager.Authorization.RoleAssignmentScheduleRequestData.TargetRoleAssignmentScheduleInstanceId" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="C#" Value="public Guid? TargetRoleAssignmentScheduleInstanceId { get; set; }" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.Guid&gt; TargetRoleAssignmentScheduleInstanceId" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="VB.NET" Value="Public Property TargetRoleAssignmentScheduleInstanceId As Nullable(Of Guid)" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="F#" Value="member this.TargetRoleAssignmentScheduleInstanceId : Nullable&lt;Guid&gt; with get, set" Usage="Azure.ResourceManager.Authorization.RoleAssignmentScheduleRequestData.TargetRoleAssignmentScheduleInstanceId" FrameworkAlternate="azure-dotnet-preview" />
+      <MemberSignature Language="VB.NET" Value="Public Property TargetRoleAssignmentScheduleInstanceId As ResourceIdentifier" />
+      <MemberSignature Language="F#" Value="member this.TargetRoleAssignmentScheduleInstanceId : Azure.Core.ResourceIdentifier with get, set" Usage="Azure.ResourceManager.Authorization.RoleAssignmentScheduleRequestData.TargetRoleAssignmentScheduleInstanceId" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType FrameworkAlternate="azure-dotnet">Azure.Core.ResourceIdentifier</ReturnType>
-        <ReturnType FrameworkAlternate="azure-dotnet-preview">System.Nullable&lt;System.Guid&gt;</ReturnType>
+        <ReturnType>Azure.Core.ResourceIdentifier</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> The role assignment schedule instance id being updated. </summary>
@@ -458,6 +465,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Authorization</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Authorization.Models.RoleAssignmentScheduleTicketInfo</ReturnType>

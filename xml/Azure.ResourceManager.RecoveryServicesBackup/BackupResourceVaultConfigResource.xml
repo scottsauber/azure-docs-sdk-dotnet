@@ -7,6 +7,7 @@
   <AssemblyInfo>
     <AssemblyName>Azure.ResourceManager.RecoveryServicesBackup</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <AssemblyVersion>1.1.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Azure.ResourceManager.ArmResource</BaseTypeName>
@@ -14,10 +15,10 @@
   <Interfaces />
   <Docs>
     <summary>
-            A Class representing a BackupResourceVaultConfigResource along with the instance operations that can be performed on it.
+            A Class representing a BackupResourceVaultConfig along with the instance operations that can be performed on it.
             If you have a <see cref="T:Azure.Core.ResourceIdentifier" /> you can construct a <see cref="T:Azure.ResourceManager.RecoveryServicesBackup.BackupResourceVaultConfigResource" />
             from an instance of <see cref="T:Azure.ResourceManager.ArmClient" /> using the GetBackupResourceVaultConfigResource method.
-            Otherwise you can get one from its parent resource <see cref="T:Azure.ResourceManager.Resources.ResourceGroupResource" /> using the GetBackupResourceVaultConfigResource method.
+            Otherwise you can get one from its parent resource <see cref="T:Azure.ResourceManager.Resources.ResourceGroupResource" /> using the GetBackupResourceVaultConfig method.
             </summary>
     <remarks>To be added.</remarks>
   </Docs>
@@ -31,6 +32,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesBackup</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -48,6 +50,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesBackup</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.RecoveryServicesBackup.BackupResourceVaultConfigResource&gt;</ReturnType>
@@ -63,9 +66,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Add a tag to the current resource.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{vaultName}/backupconfig/vaultconfig
-            Operation Id: BackupResourceVaultConfigs_Get
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{vaultName}/backupconfig/vaultconfig</description></item><item><term>Operation Id</term><description>BackupResourceVaultConfigs_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -82,6 +83,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesBackup</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.RecoveryServicesBackup.BackupResourceVaultConfigResource&gt;&gt;</ReturnType>
@@ -97,9 +99,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Add a tag to the current resource.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{vaultName}/backupconfig/vaultconfig
-            Operation Id: BackupResourceVaultConfigs_Get
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{vaultName}/backupconfig/vaultconfig</description></item><item><term>Operation Id</term><description>BackupResourceVaultConfigs_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -116,6 +116,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesBackup</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceIdentifier</ReturnType>
@@ -135,18 +136,19 @@
       </Docs>
     </Member>
     <Member MemberName="Data">
-      <MemberSignature Language="C#" Value="public virtual Azure.ResourceManager.RecoveryServicesBackup.BackupResourceVaultConfigResourceData Data { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance class Azure.ResourceManager.RecoveryServicesBackup.BackupResourceVaultConfigResourceData Data" />
+      <MemberSignature Language="C#" Value="public virtual Azure.ResourceManager.RecoveryServicesBackup.BackupResourceVaultConfigData Data { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.ResourceManager.RecoveryServicesBackup.BackupResourceVaultConfigData Data" />
       <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.RecoveryServicesBackup.BackupResourceVaultConfigResource.Data" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Data As BackupResourceVaultConfigResourceData" />
-      <MemberSignature Language="F#" Value="member this.Data : Azure.ResourceManager.RecoveryServicesBackup.BackupResourceVaultConfigResourceData" Usage="Azure.ResourceManager.RecoveryServicesBackup.BackupResourceVaultConfigResource.Data" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Data As BackupResourceVaultConfigData" />
+      <MemberSignature Language="F#" Value="member this.Data : Azure.ResourceManager.RecoveryServicesBackup.BackupResourceVaultConfigData" Usage="Azure.ResourceManager.RecoveryServicesBackup.BackupResourceVaultConfigResource.Data" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesBackup</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>Azure.ResourceManager.RecoveryServicesBackup.BackupResourceVaultConfigResourceData</ReturnType>
+        <ReturnType>Azure.ResourceManager.RecoveryServicesBackup.BackupResourceVaultConfigData</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> Gets the data representing this Feature. </summary>
@@ -165,6 +167,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesBackup</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.RecoveryServicesBackup.BackupResourceVaultConfigResource&gt;</ReturnType>
@@ -176,9 +179,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Fetches resource vault config.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{vaultName}/backupconfig/vaultconfig
-            Operation Id: BackupResourceVaultConfigs_Get
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{vaultName}/backupconfig/vaultconfig</description></item><item><term>Operation Id</term><description>BackupResourceVaultConfigs_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -193,6 +194,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesBackup</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.RecoveryServicesBackup.BackupResourceVaultConfigResource&gt;&gt;</ReturnType>
@@ -204,9 +206,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Fetches resource vault config.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{vaultName}/backupconfig/vaultconfig
-            Operation Id: BackupResourceVaultConfigs_Get
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{vaultName}/backupconfig/vaultconfig</description></item><item><term>Operation Id</term><description>BackupResourceVaultConfigs_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -221,6 +221,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesBackup</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -241,6 +242,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesBackup</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.RecoveryServicesBackup.BackupResourceVaultConfigResource&gt;</ReturnType>
@@ -254,9 +256,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Removes a tag by key from the resource.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{vaultName}/backupconfig/vaultconfig
-            Operation Id: BackupResourceVaultConfigs_Get
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{vaultName}/backupconfig/vaultconfig</description></item><item><term>Operation Id</term><description>BackupResourceVaultConfigs_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -273,6 +273,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesBackup</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.RecoveryServicesBackup.BackupResourceVaultConfigResource&gt;&gt;</ReturnType>
@@ -286,9 +287,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Removes a tag by key from the resource.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{vaultName}/backupconfig/vaultconfig
-            Operation Id: BackupResourceVaultConfigs_Get
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{vaultName}/backupconfig/vaultconfig</description></item><item><term>Operation Id</term><description>BackupResourceVaultConfigs_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -305,6 +304,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesBackup</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceType</ReturnType>
@@ -324,6 +324,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesBackup</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.RecoveryServicesBackup.BackupResourceVaultConfigResource&gt;</ReturnType>
@@ -337,9 +338,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Replace the tags on the resource with the given set.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{vaultName}/backupconfig/vaultconfig
-            Operation Id: BackupResourceVaultConfigs_Get
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{vaultName}/backupconfig/vaultconfig</description></item><item><term>Operation Id</term><description>BackupResourceVaultConfigs_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -356,6 +355,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesBackup</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.RecoveryServicesBackup.BackupResourceVaultConfigResource&gt;&gt;</ReturnType>
@@ -369,9 +369,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Replace the tags on the resource with the given set.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{vaultName}/backupconfig/vaultconfig
-            Operation Id: BackupResourceVaultConfigs_Get
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{vaultName}/backupconfig/vaultconfig</description></item><item><term>Operation Id</term><description>BackupResourceVaultConfigs_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -379,21 +377,22 @@
       </Docs>
     </Member>
     <Member MemberName="Update">
-      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;Azure.ResourceManager.RecoveryServicesBackup.BackupResourceVaultConfigResource&gt; Update (Azure.ResourceManager.RecoveryServicesBackup.BackupResourceVaultConfigResourceData data, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class Azure.ResourceManager.RecoveryServicesBackup.BackupResourceVaultConfigResource&gt; Update(class Azure.ResourceManager.RecoveryServicesBackup.BackupResourceVaultConfigResourceData data, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.RecoveryServicesBackup.BackupResourceVaultConfigResource.Update(Azure.ResourceManager.RecoveryServicesBackup.BackupResourceVaultConfigResourceData,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function Update (data As BackupResourceVaultConfigResourceData, Optional cancellationToken As CancellationToken = Nothing) As Response(Of BackupResourceVaultConfigResource)" />
-      <MemberSignature Language="F#" Value="abstract member Update : Azure.ResourceManager.RecoveryServicesBackup.BackupResourceVaultConfigResourceData * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.RecoveryServicesBackup.BackupResourceVaultConfigResource&gt;&#xA;override this.Update : Azure.ResourceManager.RecoveryServicesBackup.BackupResourceVaultConfigResourceData * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.RecoveryServicesBackup.BackupResourceVaultConfigResource&gt;" Usage="backupResourceVaultConfigResource.Update (data, cancellationToken)" />
+      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;Azure.ResourceManager.RecoveryServicesBackup.BackupResourceVaultConfigResource&gt; Update (Azure.ResourceManager.RecoveryServicesBackup.BackupResourceVaultConfigData data, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class Azure.ResourceManager.RecoveryServicesBackup.BackupResourceVaultConfigResource&gt; Update(class Azure.ResourceManager.RecoveryServicesBackup.BackupResourceVaultConfigData data, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.RecoveryServicesBackup.BackupResourceVaultConfigResource.Update(Azure.ResourceManager.RecoveryServicesBackup.BackupResourceVaultConfigData,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function Update (data As BackupResourceVaultConfigData, Optional cancellationToken As CancellationToken = Nothing) As Response(Of BackupResourceVaultConfigResource)" />
+      <MemberSignature Language="F#" Value="abstract member Update : Azure.ResourceManager.RecoveryServicesBackup.BackupResourceVaultConfigData * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.RecoveryServicesBackup.BackupResourceVaultConfigResource&gt;&#xA;override this.Update : Azure.ResourceManager.RecoveryServicesBackup.BackupResourceVaultConfigData * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.RecoveryServicesBackup.BackupResourceVaultConfigResource&gt;" Usage="backupResourceVaultConfigResource.Update (data, cancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesBackup</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.RecoveryServicesBackup.BackupResourceVaultConfigResource&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="data" Type="Azure.ResourceManager.RecoveryServicesBackup.BackupResourceVaultConfigResourceData" />
+        <Parameter Name="data" Type="Azure.ResourceManager.RecoveryServicesBackup.BackupResourceVaultConfigData" />
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
@@ -401,9 +400,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Updates vault security config.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{vaultName}/backupconfig/vaultconfig
-            Operation Id: BackupResourceVaultConfigs_Update
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{vaultName}/backupconfig/vaultconfig</description></item><item><term>Operation Id</term><description>BackupResourceVaultConfigs_Update</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -411,21 +408,22 @@
       </Docs>
     </Member>
     <Member MemberName="UpdateAsync">
-      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.RecoveryServicesBackup.BackupResourceVaultConfigResource&gt;&gt; UpdateAsync (Azure.ResourceManager.RecoveryServicesBackup.BackupResourceVaultConfigResourceData data, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.ResourceManager.RecoveryServicesBackup.BackupResourceVaultConfigResource&gt;&gt; UpdateAsync(class Azure.ResourceManager.RecoveryServicesBackup.BackupResourceVaultConfigResourceData data, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.RecoveryServicesBackup.BackupResourceVaultConfigResource.UpdateAsync(Azure.ResourceManager.RecoveryServicesBackup.BackupResourceVaultConfigResourceData,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function UpdateAsync (data As BackupResourceVaultConfigResourceData, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of BackupResourceVaultConfigResource))" />
-      <MemberSignature Language="F#" Value="abstract member UpdateAsync : Azure.ResourceManager.RecoveryServicesBackup.BackupResourceVaultConfigResourceData * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.RecoveryServicesBackup.BackupResourceVaultConfigResource&gt;&gt;&#xA;override this.UpdateAsync : Azure.ResourceManager.RecoveryServicesBackup.BackupResourceVaultConfigResourceData * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.RecoveryServicesBackup.BackupResourceVaultConfigResource&gt;&gt;" Usage="backupResourceVaultConfigResource.UpdateAsync (data, cancellationToken)" />
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.RecoveryServicesBackup.BackupResourceVaultConfigResource&gt;&gt; UpdateAsync (Azure.ResourceManager.RecoveryServicesBackup.BackupResourceVaultConfigData data, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.ResourceManager.RecoveryServicesBackup.BackupResourceVaultConfigResource&gt;&gt; UpdateAsync(class Azure.ResourceManager.RecoveryServicesBackup.BackupResourceVaultConfigData data, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.RecoveryServicesBackup.BackupResourceVaultConfigResource.UpdateAsync(Azure.ResourceManager.RecoveryServicesBackup.BackupResourceVaultConfigData,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function UpdateAsync (data As BackupResourceVaultConfigData, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of BackupResourceVaultConfigResource))" />
+      <MemberSignature Language="F#" Value="abstract member UpdateAsync : Azure.ResourceManager.RecoveryServicesBackup.BackupResourceVaultConfigData * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.RecoveryServicesBackup.BackupResourceVaultConfigResource&gt;&gt;&#xA;override this.UpdateAsync : Azure.ResourceManager.RecoveryServicesBackup.BackupResourceVaultConfigData * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.RecoveryServicesBackup.BackupResourceVaultConfigResource&gt;&gt;" Usage="backupResourceVaultConfigResource.UpdateAsync (data, cancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesBackup</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.RecoveryServicesBackup.BackupResourceVaultConfigResource&gt;&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="data" Type="Azure.ResourceManager.RecoveryServicesBackup.BackupResourceVaultConfigResourceData" />
+        <Parameter Name="data" Type="Azure.ResourceManager.RecoveryServicesBackup.BackupResourceVaultConfigData" />
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
@@ -433,9 +431,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Updates vault security config.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{vaultName}/backupconfig/vaultconfig
-            Operation Id: BackupResourceVaultConfigs_Update
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{vaultName}/backupconfig/vaultconfig</description></item><item><term>Operation Id</term><description>BackupResourceVaultConfigs_Update</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">

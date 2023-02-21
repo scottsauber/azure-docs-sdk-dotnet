@@ -7,6 +7,8 @@
   <AssemblyInfo>
     <AssemblyName>Azure.ResourceManager.Marketplace</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <AssemblyVersion>1.0.1.0</AssemblyVersion>
+    <AssemblyVersion>1.1.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Azure.ResourceManager.ArmResource</BaseTypeName>
@@ -31,6 +33,8 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Marketplace</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -48,6 +52,8 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Marketplace</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceIdentifier</ReturnType>
@@ -74,6 +80,8 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Marketplace</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Marketplace.MarketplaceApprovalRequestData</ReturnType>
@@ -95,6 +103,8 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Marketplace</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Marketplace.MarketplaceApprovalRequestResource&gt;</ReturnType>
@@ -106,9 +116,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get open request approval details
-            Request Path: /providers/Microsoft.Marketplace/privateStores/{privateStoreId}/requestApprovals/{requestApprovalId}
-            Operation Id: PrivateStore_GetRequestApproval
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.Marketplace/privateStores/{privateStoreId}/requestApprovals/{requestApprovalId}</description></item><item><term>Operation Id</term><description>PrivateStore_GetRequestApproval</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -123,6 +131,8 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Marketplace</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Marketplace.MarketplaceApprovalRequestResource&gt;&gt;</ReturnType>
@@ -134,9 +144,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get open request approval details
-            Request Path: /providers/Microsoft.Marketplace/privateStores/{privateStoreId}/requestApprovals/{requestApprovalId}
-            Operation Id: PrivateStore_GetRequestApproval
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.Marketplace/privateStores/{privateStoreId}/requestApprovals/{requestApprovalId}</description></item><item><term>Operation Id</term><description>PrivateStore_GetRequestApproval</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -151,6 +159,8 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Marketplace</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -171,6 +181,8 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Marketplace</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Marketplace.Models.QueryApprovalRequestResult&gt;</ReturnType>
@@ -184,9 +196,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get request statuses foreach plan, this api is used as a complex GET action.
-            Request Path: /providers/Microsoft.Marketplace/privateStores/{privateStoreId}/requestApprovals/{requestApprovalId}/query
-            Operation Id: PrivateStore_QueryRequestApproval
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.Marketplace/privateStores/{privateStoreId}/requestApprovals/{requestApprovalId}/query</description></item><item><term>Operation Id</term><description>PrivateStore_QueryRequestApproval</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -201,6 +211,8 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Marketplace</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Marketplace.Models.QueryApprovalRequestResult&gt;&gt;</ReturnType>
@@ -214,9 +226,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get request statuses foreach plan, this api is used as a complex GET action.
-            Request Path: /providers/Microsoft.Marketplace/privateStores/{privateStoreId}/requestApprovals/{requestApprovalId}/query
-            Operation Id: PrivateStore_QueryRequestApproval
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.Marketplace/privateStores/{privateStoreId}/requestApprovals/{requestApprovalId}/query</description></item><item><term>Operation Id</term><description>PrivateStore_QueryRequestApproval</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -231,6 +241,8 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Marketplace</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceType</ReturnType>
@@ -250,6 +262,8 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Marketplace</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.Marketplace.MarketplaceApprovalRequestResource&gt;</ReturnType>
@@ -266,9 +280,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Create approval request
-            Request Path: /providers/Microsoft.Marketplace/privateStores/{privateStoreId}/requestApprovals/{requestApprovalId}
-            Operation Id: PrivateStore_CreateApprovalRequest
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.Marketplace/privateStores/{privateStoreId}/requestApprovals/{requestApprovalId}</description></item><item><term>Operation Id</term><description>PrivateStore_CreateApprovalRequest</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -285,6 +297,8 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Marketplace</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&lt;Azure.ResourceManager.Marketplace.MarketplaceApprovalRequestResource&gt;&gt;</ReturnType>
@@ -301,9 +315,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Create approval request
-            Request Path: /providers/Microsoft.Marketplace/privateStores/{privateStoreId}/requestApprovals/{requestApprovalId}
-            Operation Id: PrivateStore_CreateApprovalRequest
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.Marketplace/privateStores/{privateStoreId}/requestApprovals/{requestApprovalId}</description></item><item><term>Operation Id</term><description>PrivateStore_CreateApprovalRequest</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -320,6 +332,8 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Marketplace</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response</ReturnType>
@@ -333,9 +347,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Withdraw a user request approval on specific plan
-            Request Path: /providers/Microsoft.Marketplace/privateStores/{privateStoreId}/requestApprovals/{requestApprovalId}/withdrawPlan
-            Operation Id: PrivateStore_WithdrawPlan
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.Marketplace/privateStores/{privateStoreId}/requestApprovals/{requestApprovalId}/withdrawPlan</description></item><item><term>Operation Id</term><description>PrivateStore_WithdrawPlan</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -350,6 +362,8 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Marketplace</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&gt;</ReturnType>
@@ -363,9 +377,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Withdraw a user request approval on specific plan
-            Request Path: /providers/Microsoft.Marketplace/privateStores/{privateStoreId}/requestApprovals/{requestApprovalId}/withdrawPlan
-            Operation Id: PrivateStore_WithdrawPlan
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/providers/Microsoft.Marketplace/privateStores/{privateStoreId}/requestApprovals/{requestApprovalId}/withdrawPlan</description></item><item><term>Operation Id</term><description>PrivateStore_WithdrawPlan</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>

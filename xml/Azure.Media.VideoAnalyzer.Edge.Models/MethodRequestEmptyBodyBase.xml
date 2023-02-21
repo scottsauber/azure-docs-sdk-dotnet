@@ -13,7 +13,11 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary> The MethodRequestEmptyBodyBase. </summary>
+    <summary>
+            The MethodRequestEmptyBodyBase.
+            Please note <see cref="T:Azure.Media.VideoAnalyzer.Edge.Models.MethodRequestEmptyBodyBase" /> is the base class. According to the scenario, a derived class of the base class might need to be assigned here, or this property needs to be casted to one of the possible derived classes.
+            The available derived classes include <see cref="T:Azure.Media.VideoAnalyzer.Edge.Models.LivePipelineActivateRequest" />, <see cref="T:Azure.Media.VideoAnalyzer.Edge.Models.LivePipelineDeactivateRequest" />, <see cref="T:Azure.Media.VideoAnalyzer.Edge.Models.LivePipelineDeleteRequest" />, <see cref="T:Azure.Media.VideoAnalyzer.Edge.Models.LivePipelineGetRequest" />, <see cref="T:Azure.Media.VideoAnalyzer.Edge.Models.PipelineTopologyDeleteRequest" />, <see cref="T:Azure.Media.VideoAnalyzer.Edge.Models.PipelineTopologyGetRequest" />, <see cref="T:Azure.Media.VideoAnalyzer.Edge.Models.RemoteDeviceAdapterDeleteRequest" /> and <see cref="T:Azure.Media.VideoAnalyzer.Edge.Models.RemoteDeviceAdapterGetRequest" />.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

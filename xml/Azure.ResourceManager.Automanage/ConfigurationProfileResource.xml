@@ -63,9 +63,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Add a tag to the current resource.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Automanage/configurationProfiles/{configurationProfileName}
-            Operation Id: ConfigurationProfiles_Get
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Automanage/configurationProfiles/{configurationProfileName}</description></item><item><term>Operation Id</term><description>ConfigurationProfiles_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -97,9 +95,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Add a tag to the current resource.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Automanage/configurationProfiles/{configurationProfileName}
-            Operation Id: ConfigurationProfiles_Get
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Automanage/configurationProfiles/{configurationProfileName}</description></item><item><term>Operation Id</term><description>ConfigurationProfiles_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -179,9 +175,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Delete a configuration profile
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Automanage/configurationProfiles/{configurationProfileName}
-            Operation Id: ConfigurationProfiles_Delete
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Automanage/configurationProfiles/{configurationProfileName}</description></item><item><term>Operation Id</term><description>ConfigurationProfiles_Delete</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -210,9 +204,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Delete a configuration profile
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Automanage/configurationProfiles/{configurationProfileName}
-            Operation Id: ConfigurationProfiles_Delete
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Automanage/configurationProfiles/{configurationProfileName}</description></item><item><term>Operation Id</term><description>ConfigurationProfiles_Delete</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -238,9 +230,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get information about a configuration profile
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Automanage/configurationProfiles/{configurationProfileName}
-            Operation Id: ConfigurationProfiles_Get
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Automanage/configurationProfiles/{configurationProfileName}</description></item><item><term>Operation Id</term><description>ConfigurationProfiles_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -266,10 +256,93 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get information about a configuration profile
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Automanage/configurationProfiles/{configurationProfileName}
-            Operation Id: ConfigurationProfiles_Get
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Automanage/configurationProfiles/{configurationProfileName}</description></item><item><term>Operation Id</term><description>ConfigurationProfiles_Get</description></item></list></summary>
         <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetConfigurationProfileVersion">
+      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;Azure.ResourceManager.Automanage.ConfigurationProfileVersionResource&gt; GetConfigurationProfileVersion (string versionName, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class Azure.ResourceManager.Automanage.ConfigurationProfileVersionResource&gt; GetConfigurationProfileVersion(string versionName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Automanage.ConfigurationProfileResource.GetConfigurationProfileVersion(System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetConfigurationProfileVersion (versionName As String, Optional cancellationToken As CancellationToken = Nothing) As Response(Of ConfigurationProfileVersionResource)" />
+      <MemberSignature Language="F#" Value="abstract member GetConfigurationProfileVersion : string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Automanage.ConfigurationProfileVersionResource&gt;&#xA;override this.GetConfigurationProfileVersion : string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Automanage.ConfigurationProfileVersionResource&gt;" Usage="configurationProfileResource.GetConfigurationProfileVersion (versionName, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Automanage</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Response&lt;Azure.ResourceManager.Automanage.ConfigurationProfileVersionResource&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="versionName" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="versionName"> The configuration profile version name. </param>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary>
+            Get information about a configuration profile version
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Automanage/configurationProfiles/{configurationProfileName}/versions/{versionName}</description></item><item><term>Operation Id</term><description>ConfigurationProfilesVersions_Get</description></item></list></summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="versionName" /> is an empty string, and was expected to be non-empty. </exception>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="versionName" /> is null. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="GetConfigurationProfileVersionAsync">
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Automanage.ConfigurationProfileVersionResource&gt;&gt; GetConfigurationProfileVersionAsync (string versionName, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.ResourceManager.Automanage.ConfigurationProfileVersionResource&gt;&gt; GetConfigurationProfileVersionAsync(string versionName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Automanage.ConfigurationProfileResource.GetConfigurationProfileVersionAsync(System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetConfigurationProfileVersionAsync (versionName As String, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of ConfigurationProfileVersionResource))" />
+      <MemberSignature Language="F#" Value="abstract member GetConfigurationProfileVersionAsync : string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Automanage.ConfigurationProfileVersionResource&gt;&gt;&#xA;override this.GetConfigurationProfileVersionAsync : string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Automanage.ConfigurationProfileVersionResource&gt;&gt;" Usage="configurationProfileResource.GetConfigurationProfileVersionAsync (versionName, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Automanage</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Automanage.ConfigurationProfileVersionResource&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="versionName" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="versionName"> The configuration profile version name. </param>
+        <param name="cancellationToken"> The cancellation token to use. </param>
+        <summary>
+            Get information about a configuration profile version
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Automanage/configurationProfiles/{configurationProfileName}/versions/{versionName}</description></item><item><term>Operation Id</term><description>ConfigurationProfilesVersions_Get</description></item></list></summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentException">
+          <paramref name="versionName" /> is an empty string, and was expected to be non-empty. </exception>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="versionName" /> is null. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="GetConfigurationProfileVersions">
+      <MemberSignature Language="C#" Value="public virtual Azure.ResourceManager.Automanage.ConfigurationProfileVersionCollection GetConfigurationProfileVersions ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.ResourceManager.Automanage.ConfigurationProfileVersionCollection GetConfigurationProfileVersions() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Automanage.ConfigurationProfileResource.GetConfigurationProfileVersions" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetConfigurationProfileVersions () As ConfigurationProfileVersionCollection" />
+      <MemberSignature Language="F#" Value="abstract member GetConfigurationProfileVersions : unit -&gt; Azure.ResourceManager.Automanage.ConfigurationProfileVersionCollection&#xA;override this.GetConfigurationProfileVersions : unit -&gt; Azure.ResourceManager.Automanage.ConfigurationProfileVersionCollection" Usage="configurationProfileResource.GetConfigurationProfileVersions " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Automanage</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.ResourceManager.Automanage.ConfigurationProfileVersionCollection</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary> Gets a collection of ConfigurationProfileVersionResources in the ConfigurationProfile. </summary>
+        <returns> An object representing collection of ConfigurationProfileVersionResources and their operations over a ConfigurationProfileVersionResource. </returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -316,9 +389,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Removes a tag by key from the resource.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Automanage/configurationProfiles/{configurationProfileName}
-            Operation Id: ConfigurationProfiles_Get
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Automanage/configurationProfiles/{configurationProfileName}</description></item><item><term>Operation Id</term><description>ConfigurationProfiles_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -348,9 +419,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Removes a tag by key from the resource.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Automanage/configurationProfiles/{configurationProfileName}
-            Operation Id: ConfigurationProfiles_Get
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Automanage/configurationProfiles/{configurationProfileName}</description></item><item><term>Operation Id</term><description>ConfigurationProfiles_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -399,9 +468,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Replace the tags on the resource with the given set.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Automanage/configurationProfiles/{configurationProfileName}
-            Operation Id: ConfigurationProfiles_Get
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Automanage/configurationProfiles/{configurationProfileName}</description></item><item><term>Operation Id</term><description>ConfigurationProfiles_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -431,9 +498,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Replace the tags on the resource with the given set.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Automanage/configurationProfiles/{configurationProfileName}
-            Operation Id: ConfigurationProfiles_Get
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Automanage/configurationProfiles/{configurationProfileName}</description></item><item><term>Operation Id</term><description>ConfigurationProfiles_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -463,9 +528,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Updates a configuration profile
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Automanage/configurationProfiles/{configurationProfileName}
-            Operation Id: ConfigurationProfiles_Update
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Automanage/configurationProfiles/{configurationProfileName}</description></item><item><term>Operation Id</term><description>ConfigurationProfiles_Update</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -495,9 +558,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Updates a configuration profile
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Automanage/configurationProfiles/{configurationProfileName}
-            Operation Id: ConfigurationProfiles_Update
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Automanage/configurationProfiles/{configurationProfileName}</description></item><item><term>Operation Id</term><description>ConfigurationProfiles_Update</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">

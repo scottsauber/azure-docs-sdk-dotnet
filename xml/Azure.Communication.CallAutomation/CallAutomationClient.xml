@@ -101,6 +101,30 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public CallAutomationClient (Uri pmaEndpoint, string connectionString, Azure.Communication.CallAutomation.CallAutomationClientOptions options = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Uri pmaEndpoint, string connectionString, class Azure.Communication.CallAutomation.CallAutomationClientOptions options) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Communication.CallAutomation.CallAutomationClient.#ctor(System.Uri,System.String,Azure.Communication.CallAutomation.CallAutomationClientOptions)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (pmaEndpoint As Uri, connectionString As String, Optional options As CallAutomationClientOptions = Nothing)" />
+      <MemberSignature Language="F#" Value="new Azure.Communication.CallAutomation.CallAutomationClient : Uri * string * Azure.Communication.CallAutomation.CallAutomationClientOptions -&gt; Azure.Communication.CallAutomation.CallAutomationClient" Usage="new Azure.Communication.CallAutomation.CallAutomationClient (pmaEndpoint, connectionString, options)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.CallAutomation</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="pmaEndpoint" Type="System.Uri" />
+        <Parameter Name="connectionString" Type="System.String" />
+        <Parameter Name="options" Type="Azure.Communication.CallAutomation.CallAutomationClientOptions" />
+      </Parameters>
+      <Docs>
+        <param name="pmaEndpoint">Endpoint for PMA</param>
+        <param name="connectionString">Connection string acquired from the Azure Communication Services resource.</param>
+        <param name="options">Client option exposing <see cref="P:Azure.Core.ClientOptions.Diagnostics" />, <see cref="P:Azure.Core.ClientOptions.Retry" />, <see cref="P:Azure.Core.ClientOptions.Transport" />, etc.</param>
+        <summary> Initializes a new instance of <see cref="T:Azure.Communication.CallAutomation.CallAutomationClient" /> with custom PMA endpoint.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="AnswerCall">
       <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;Azure.Communication.CallAutomation.AnswerCallResult&gt; AnswerCall (Azure.Communication.CallAutomation.AnswerCallOptions options, System.Threading.CancellationToken cancellationToken = default);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class Azure.Communication.CallAutomation.AnswerCallResult&gt; AnswerCall(class Azure.Communication.CallAutomation.AnswerCallOptions options, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
@@ -336,6 +360,27 @@
       <Parameters />
       <Docs>
         <summary> Initializes a new instance of GetCallRecording. <see cref="T:Azure.Communication.CallAutomation.CallRecording" />.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetEventProcessor">
+      <MemberSignature Language="C#" Value="public virtual Azure.Communication.CallAutomation.EventProcessor GetEventProcessor ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Communication.CallAutomation.EventProcessor GetEventProcessor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Communication.CallAutomation.CallAutomationClient.GetEventProcessor" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetEventProcessor () As EventProcessor" />
+      <MemberSignature Language="F#" Value="abstract member GetEventProcessor : unit -&gt; Azure.Communication.CallAutomation.EventProcessor&#xA;override this.GetEventProcessor : unit -&gt; Azure.Communication.CallAutomation.EventProcessor" Usage="callAutomationClient.GetEventProcessor " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.CallAutomation</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Communication.CallAutomation.EventProcessor</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Get CallAtumation's EventProcessor for handling Call Automation's event more easily.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>

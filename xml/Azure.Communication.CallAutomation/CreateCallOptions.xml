@@ -45,6 +45,28 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <Member MemberName="AzureCognitiveServicesEndpointUrl">
+      <MemberSignature Language="C#" Value="public Uri AzureCognitiveServicesEndpointUrl { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Uri AzureCognitiveServicesEndpointUrl" />
+      <MemberSignature Language="DocId" Value="P:Azure.Communication.CallAutomation.CreateCallOptions.AzureCognitiveServicesEndpointUrl" />
+      <MemberSignature Language="VB.NET" Value="Public Property AzureCognitiveServicesEndpointUrl As Uri" />
+      <MemberSignature Language="F#" Value="member this.AzureCognitiveServicesEndpointUrl : Uri with get, set" Usage="Azure.Communication.CallAutomation.CreateCallOptions.AzureCognitiveServicesEndpointUrl" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.CallAutomation</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Uri</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The endpoint URL of the Azure Cognitive Services resource attached
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="CallbackUri">
       <MemberSignature Language="C#" Value="public Uri CallbackUri { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Uri CallbackUri" />
@@ -84,6 +106,28 @@
       <Docs>
         <summary>
             The source of the call.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MediaStreamingOptions">
+      <MemberSignature Language="C#" Value="public Azure.Communication.CallAutomation.MediaStreamingOptions MediaStreamingOptions { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Communication.CallAutomation.MediaStreamingOptions MediaStreamingOptions" />
+      <MemberSignature Language="DocId" Value="P:Azure.Communication.CallAutomation.CreateCallOptions.MediaStreamingOptions" />
+      <MemberSignature Language="VB.NET" Value="Public Property MediaStreamingOptions As MediaStreamingOptions" />
+      <MemberSignature Language="F#" Value="member this.MediaStreamingOptions : Azure.Communication.CallAutomation.MediaStreamingOptions with get, set" Usage="Azure.Communication.CallAutomation.CreateCallOptions.MediaStreamingOptions" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.CallAutomation</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Communication.CallAutomation.MediaStreamingOptions</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Media Streaming Configuration.
             </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>

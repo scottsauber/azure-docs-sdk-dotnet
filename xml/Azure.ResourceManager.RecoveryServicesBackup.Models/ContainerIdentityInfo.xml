@@ -7,6 +7,7 @@
   <AssemblyInfo>
     <AssemblyName>Azure.ResourceManager.RecoveryServicesBackup</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <AssemblyVersion>1.1.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -26,6 +27,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesBackup</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -34,18 +36,19 @@
       </Docs>
     </Member>
     <Member MemberName="AadTenantId">
-      <MemberSignature Language="C#" Value="public string AadTenantId { get; set; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance string AadTenantId" />
+      <MemberSignature Language="C#" Value="public Guid? AadTenantId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.Guid&gt; AadTenantId" />
       <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.RecoveryServicesBackup.Models.ContainerIdentityInfo.AadTenantId" />
-      <MemberSignature Language="VB.NET" Value="Public Property AadTenantId As String" />
-      <MemberSignature Language="F#" Value="member this.AadTenantId : string with get, set" Usage="Azure.ResourceManager.RecoveryServicesBackup.Models.ContainerIdentityInfo.AadTenantId" />
+      <MemberSignature Language="VB.NET" Value="Public Property AadTenantId As Nullable(Of Guid)" />
+      <MemberSignature Language="F#" Value="member this.AadTenantId : Nullable&lt;Guid&gt; with get, set" Usage="Azure.ResourceManager.RecoveryServicesBackup.Models.ContainerIdentityInfo.AadTenantId" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesBackup</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.String</ReturnType>
+        <ReturnType>System.Nullable&lt;System.Guid&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> Protection container identity - AAD Tenant. </summary>
@@ -63,6 +66,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesBackup</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -83,6 +87,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesBackup</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -103,6 +108,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesBackup</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>

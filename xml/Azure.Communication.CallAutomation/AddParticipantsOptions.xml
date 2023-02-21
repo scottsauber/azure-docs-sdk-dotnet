@@ -153,5 +153,51 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <Member MemberName="SourceDisplayName">
+      <MemberSignature Language="C#" Value="public string SourceDisplayName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string SourceDisplayName" />
+      <MemberSignature Language="DocId" Value="P:Azure.Communication.CallAutomation.AddParticipantsOptions.SourceDisplayName" />
+      <MemberSignature Language="VB.NET" Value="Public Property SourceDisplayName As String" />
+      <MemberSignature Language="F#" Value="member this.SourceDisplayName : string with get, set" Usage="Azure.Communication.CallAutomation.AddParticipantsOptions.SourceDisplayName" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.CallAutomation</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            (Optional) The display name of the source that is associated with this invite operation when
+            adding a PSTN participant or teams user.  Note: Will not update the display name in the roster.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SourceIdentifier">
+      <MemberSignature Language="C#" Value="public Azure.Communication.CommunicationIdentifier SourceIdentifier { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Communication.CommunicationIdentifier SourceIdentifier" />
+      <MemberSignature Language="DocId" Value="P:Azure.Communication.CallAutomation.AddParticipantsOptions.SourceIdentifier" />
+      <MemberSignature Language="VB.NET" Value="Public Property SourceIdentifier As CommunicationIdentifier" />
+      <MemberSignature Language="F#" Value="member this.SourceIdentifier : Azure.Communication.CommunicationIdentifier with get, set" Usage="Azure.Communication.CallAutomation.AddParticipantsOptions.SourceIdentifier" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.CallAutomation</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Communication.CommunicationIdentifier</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            (Optional) The identifier of the source of the call for this invite operation. If SourceDisplayName
+            is not set, the display name of the source will be used by default when adding a PSTN participant or teams user.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
   </Members>
 </Type>

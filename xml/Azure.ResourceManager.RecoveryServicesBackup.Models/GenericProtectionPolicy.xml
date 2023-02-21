@@ -1,15 +1,16 @@
 <Type Name="GenericProtectionPolicy" FullName="Azure.ResourceManager.RecoveryServicesBackup.Models.GenericProtectionPolicy">
-  <TypeSignature Language="C#" Value="public class GenericProtectionPolicy : Azure.ResourceManager.RecoveryServicesBackup.Models.ProtectionPolicy" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit GenericProtectionPolicy extends Azure.ResourceManager.RecoveryServicesBackup.Models.ProtectionPolicy" />
+  <TypeSignature Language="C#" Value="public class GenericProtectionPolicy : Azure.ResourceManager.RecoveryServicesBackup.Models.BackupGenericProtectionPolicy" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit GenericProtectionPolicy extends Azure.ResourceManager.RecoveryServicesBackup.Models.BackupGenericProtectionPolicy" />
   <TypeSignature Language="DocId" Value="T:Azure.ResourceManager.RecoveryServicesBackup.Models.GenericProtectionPolicy" />
-  <TypeSignature Language="VB.NET" Value="Public Class GenericProtectionPolicy&#xA;Inherits ProtectionPolicy" />
-  <TypeSignature Language="F#" Value="type GenericProtectionPolicy = class&#xA;    inherit ProtectionPolicy" />
+  <TypeSignature Language="VB.NET" Value="Public Class GenericProtectionPolicy&#xA;Inherits BackupGenericProtectionPolicy" />
+  <TypeSignature Language="F#" Value="type GenericProtectionPolicy = class&#xA;    inherit BackupGenericProtectionPolicy" />
   <AssemblyInfo>
     <AssemblyName>Azure.ResourceManager.RecoveryServicesBackup</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <AssemblyVersion>1.1.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
-    <BaseTypeName>Azure.ResourceManager.RecoveryServicesBackup.Models.ProtectionPolicy</BaseTypeName>
+    <BaseTypeName>Azure.ResourceManager.RecoveryServicesBackup.Models.BackupGenericProtectionPolicy</BaseTypeName>
   </Base>
   <Interfaces />
   <Docs>
@@ -26,6 +27,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesBackup</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -43,6 +45,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesBackup</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -63,6 +66,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesBackup</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IList&lt;Azure.ResourceManager.RecoveryServicesBackup.Models.SubProtectionPolicy&gt;</ReturnType>
@@ -83,6 +87,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServicesBackup</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>

@@ -7,6 +7,8 @@
   <AssemblyInfo>
     <AssemblyName>Azure.ResourceManager.SecurityInsights</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <AssemblyVersion>1.0.1.0</AssemblyVersion>
+    <AssemblyVersion>1.1.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -26,6 +28,8 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.SecurityInsights</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -43,32 +47,14 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.SecurityInsights</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IList&lt;System.String&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> Ids of threat intelligence indicators. </summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="IncludeDisabled">
-      <MemberSignature Language="C#" Value="public bool? IncludeDisabled { get; set; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;bool&gt; IncludeDisabled" />
-      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.SecurityInsights.Models.ThreatIntelligenceFilteringCriteria.IncludeDisabled" />
-      <MemberSignature Language="VB.NET" Value="Public Property IncludeDisabled As Nullable(Of Boolean)" />
-      <MemberSignature Language="F#" Value="member this.IncludeDisabled : Nullable&lt;bool&gt; with get, set" Usage="Azure.ResourceManager.SecurityInsights.Models.ThreatIntelligenceFilteringCriteria.IncludeDisabled" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.SecurityInsights</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary> Parameter to include/exclude disabled indicators. </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -83,6 +69,8 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.SecurityInsights</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
@@ -103,6 +91,8 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.SecurityInsights</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IList&lt;System.String&gt;</ReturnType>
@@ -123,6 +113,8 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.SecurityInsights</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
@@ -134,23 +126,20 @@
       </Docs>
     </Member>
     <Member MemberName="MaxValidUntil">
-      <MemberSignature Language="C#" Value="public DateTimeOffset? MaxValidUntil { get; set; }" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.DateTimeOffset&gt; MaxValidUntil" FrameworkAlternate="azure-dotnet" />
+      <MemberSignature Language="C#" Value="public DateTimeOffset? MaxValidUntil { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.DateTimeOffset&gt; MaxValidUntil" />
       <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.SecurityInsights.Models.ThreatIntelligenceFilteringCriteria.MaxValidUntil" />
-      <MemberSignature Language="VB.NET" Value="Public Property MaxValidUntil As Nullable(Of DateTimeOffset)" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="F#" Value="member this.MaxValidUntil : Nullable&lt;DateTimeOffset&gt; with get, set" Usage="Azure.ResourceManager.SecurityInsights.Models.ThreatIntelligenceFilteringCriteria.MaxValidUntil" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="C#" Value="public string MaxValidUntil { get; set; }" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="ILAsm" Value=".property instance string MaxValidUntil" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="VB.NET" Value="Public Property MaxValidUntil As String" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="F#" Value="member this.MaxValidUntil : string with get, set" Usage="Azure.ResourceManager.SecurityInsights.Models.ThreatIntelligenceFilteringCriteria.MaxValidUntil" FrameworkAlternate="azure-dotnet-preview" />
+      <MemberSignature Language="VB.NET" Value="Public Property MaxValidUntil As Nullable(Of DateTimeOffset)" />
+      <MemberSignature Language="F#" Value="member this.MaxValidUntil : Nullable&lt;DateTimeOffset&gt; with get, set" Usage="Azure.ResourceManager.SecurityInsights.Models.ThreatIntelligenceFilteringCriteria.MaxValidUntil" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.SecurityInsights</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType FrameworkAlternate="azure-dotnet">System.Nullable&lt;System.DateTimeOffset&gt;</ReturnType>
-        <ReturnType FrameworkAlternate="azure-dotnet-preview">System.String</ReturnType>
+        <ReturnType>System.Nullable&lt;System.DateTimeOffset&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> End time for ValidUntil filter. </summary>
@@ -168,6 +157,8 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.SecurityInsights</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
@@ -179,23 +170,20 @@
       </Docs>
     </Member>
     <Member MemberName="MinValidUntil">
-      <MemberSignature Language="C#" Value="public DateTimeOffset? MinValidUntil { get; set; }" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.DateTimeOffset&gt; MinValidUntil" FrameworkAlternate="azure-dotnet" />
+      <MemberSignature Language="C#" Value="public DateTimeOffset? MinValidUntil { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.DateTimeOffset&gt; MinValidUntil" />
       <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.SecurityInsights.Models.ThreatIntelligenceFilteringCriteria.MinValidUntil" />
-      <MemberSignature Language="VB.NET" Value="Public Property MinValidUntil As Nullable(Of DateTimeOffset)" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="F#" Value="member this.MinValidUntil : Nullable&lt;DateTimeOffset&gt; with get, set" Usage="Azure.ResourceManager.SecurityInsights.Models.ThreatIntelligenceFilteringCriteria.MinValidUntil" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="C#" Value="public string MinValidUntil { get; set; }" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="ILAsm" Value=".property instance string MinValidUntil" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="VB.NET" Value="Public Property MinValidUntil As String" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="F#" Value="member this.MinValidUntil : string with get, set" Usage="Azure.ResourceManager.SecurityInsights.Models.ThreatIntelligenceFilteringCriteria.MinValidUntil" FrameworkAlternate="azure-dotnet-preview" />
+      <MemberSignature Language="VB.NET" Value="Public Property MinValidUntil As Nullable(Of DateTimeOffset)" />
+      <MemberSignature Language="F#" Value="member this.MinValidUntil : Nullable&lt;DateTimeOffset&gt; with get, set" Usage="Azure.ResourceManager.SecurityInsights.Models.ThreatIntelligenceFilteringCriteria.MinValidUntil" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.SecurityInsights</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType FrameworkAlternate="azure-dotnet">System.Nullable&lt;System.DateTimeOffset&gt;</ReturnType>
-        <ReturnType FrameworkAlternate="azure-dotnet-preview">System.String</ReturnType>
+        <ReturnType>System.Nullable&lt;System.DateTimeOffset&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> Start time for ValidUntil filter. </summary>
@@ -213,6 +201,8 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.SecurityInsights</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
@@ -233,6 +223,8 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.SecurityInsights</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IList&lt;System.String&gt;</ReturnType>
@@ -253,6 +245,8 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.SecurityInsights</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -273,6 +267,8 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.SecurityInsights</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IList&lt;Azure.ResourceManager.SecurityInsights.Models.ThreatIntelligenceSortingCriteria&gt;</ReturnType>
@@ -293,6 +289,8 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.SecurityInsights</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IList&lt;System.String&gt;</ReturnType>
@@ -313,6 +311,8 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.SecurityInsights</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IList&lt;System.String&gt;</ReturnType>

@@ -20,10 +20,10 @@
   </Docs>
   <Members>
     <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public CallAutomationClientOptions (Azure.Communication.CallAutomation.CallAutomationClientOptions.ServiceVersion version = Azure.Communication.CallAutomation.CallAutomationClientOptions+ServiceVersion.V2022_04_07_Preview);" />
+      <MemberSignature Language="C#" Value="public CallAutomationClientOptions (Azure.Communication.CallAutomation.CallAutomationClientOptions.ServiceVersion version = Azure.Communication.CallAutomation.CallAutomationClientOptions+ServiceVersion.V2023_01_15_Preview);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype Azure.Communication.CallAutomation.CallAutomationClientOptions/ServiceVersion version) cil managed" />
       <MemberSignature Language="DocId" Value="M:Azure.Communication.CallAutomation.CallAutomationClientOptions.#ctor(Azure.Communication.CallAutomation.CallAutomationClientOptions.ServiceVersion)" />
-      <MemberSignature Language="VB.NET" Value="Public Sub New (Optional version As CallAutomationClientOptions.ServiceVersion = Azure.Communication.CallAutomation.CallAutomationClientOptions+ServiceVersion.V2022_04_07_Preview)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (Optional version As CallAutomationClientOptions.ServiceVersion = Azure.Communication.CallAutomation.CallAutomationClientOptions+ServiceVersion.V2023_01_15_Preview)" />
       <MemberSignature Language="F#" Value="new Azure.Communication.CallAutomation.CallAutomationClientOptions : Azure.Communication.CallAutomation.CallAutomationClientOptions.ServiceVersion -&gt; Azure.Communication.CallAutomation.CallAutomationClientOptions" Usage="new Azure.Communication.CallAutomation.CallAutomationClientOptions version" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
@@ -38,6 +38,28 @@
         <summary>
             Initializes a new instance of the <see cref="T:Azure.Communication.CallAutomation.CallAutomationClientOptions" />.
             </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EventProcessorOptions">
+      <MemberSignature Language="C#" Value="public Azure.Communication.CallAutomation.EventProcessorOptions EventProcessorOptions { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Communication.CallAutomation.EventProcessorOptions EventProcessorOptions" />
+      <MemberSignature Language="DocId" Value="P:Azure.Communication.CallAutomation.CallAutomationClientOptions.EventProcessorOptions" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property EventProcessorOptions As EventProcessorOptions" />
+      <MemberSignature Language="F#" Value="member this.EventProcessorOptions : Azure.Communication.CallAutomation.EventProcessorOptions" Usage="Azure.Communication.CallAutomation.CallAutomationClientOptions.EventProcessorOptions" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.CallAutomation</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Communication.CallAutomation.EventProcessorOptions</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Configure options for Call Automation's <see cref="T:Azure.Communication.CallAutomation.EventProcessor" />.
+            </summary>
+        <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

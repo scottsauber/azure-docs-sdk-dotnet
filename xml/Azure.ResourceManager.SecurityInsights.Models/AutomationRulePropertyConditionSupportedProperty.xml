@@ -7,6 +7,8 @@
   <AssemblyInfo>
     <AssemblyName>Azure.ResourceManager.SecurityInsights</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <AssemblyVersion>1.0.1.0</AssemblyVersion>
+    <AssemblyVersion>1.1.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.ValueType</BaseTypeName>
@@ -31,6 +33,8 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.SecurityInsights</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="value" Type="System.String" />
@@ -53,6 +57,8 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.SecurityInsights</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.SecurityInsights.Models.AutomationRulePropertyConditionSupportedProperty</ReturnType>
@@ -73,6 +79,8 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.SecurityInsights</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.SecurityInsights.Models.AutomationRulePropertyConditionSupportedProperty</ReturnType>
@@ -93,6 +101,8 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.SecurityInsights</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.SecurityInsights.Models.AutomationRulePropertyConditionSupportedProperty</ReturnType>
@@ -113,6 +123,8 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.SecurityInsights</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.SecurityInsights.Models.AutomationRulePropertyConditionSupportedProperty</ReturnType>
@@ -133,6 +145,8 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.SecurityInsights</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.SecurityInsights.Models.AutomationRulePropertyConditionSupportedProperty</ReturnType>
@@ -153,6 +167,8 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.SecurityInsights</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.SecurityInsights.Models.AutomationRulePropertyConditionSupportedProperty</ReturnType>
@@ -173,6 +189,8 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.SecurityInsights</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.SecurityInsights.Models.AutomationRulePropertyConditionSupportedProperty</ReturnType>
@@ -193,26 +211,8 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.SecurityInsights</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.ResourceManager.SecurityInsights.Models.AutomationRulePropertyConditionSupportedProperty</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary> The account user principal name suffix. </summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="AccountUPNSuffix">
-      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.SecurityInsights.Models.AutomationRulePropertyConditionSupportedProperty AccountUPNSuffix { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.ResourceManager.SecurityInsights.Models.AutomationRulePropertyConditionSupportedProperty AccountUPNSuffix" />
-      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.SecurityInsights.Models.AutomationRulePropertyConditionSupportedProperty.AccountUPNSuffix" />
-      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property AccountUPNSuffix As AutomationRulePropertyConditionSupportedProperty" />
-      <MemberSignature Language="F#" Value="static member AccountUPNSuffix : Azure.ResourceManager.SecurityInsights.Models.AutomationRulePropertyConditionSupportedProperty" Usage="Azure.ResourceManager.SecurityInsights.Models.AutomationRulePropertyConditionSupportedProperty.AccountUPNSuffix" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.SecurityInsights</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.SecurityInsights.Models.AutomationRulePropertyConditionSupportedProperty</ReturnType>
@@ -233,6 +233,8 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.SecurityInsights</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.SecurityInsights.Models.AutomationRulePropertyConditionSupportedProperty</ReturnType>
@@ -253,6 +255,8 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.SecurityInsights</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.SecurityInsights.Models.AutomationRulePropertyConditionSupportedProperty</ReturnType>
@@ -273,6 +277,8 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.SecurityInsights</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.SecurityInsights.Models.AutomationRulePropertyConditionSupportedProperty</ReturnType>
@@ -293,6 +299,8 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.SecurityInsights</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.SecurityInsights.Models.AutomationRulePropertyConditionSupportedProperty</ReturnType>
@@ -313,6 +321,8 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.SecurityInsights</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.SecurityInsights.Models.AutomationRulePropertyConditionSupportedProperty</ReturnType>
@@ -333,6 +343,8 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.SecurityInsights</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.SecurityInsights.Models.AutomationRulePropertyConditionSupportedProperty</ReturnType>
@@ -353,6 +365,8 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.SecurityInsights</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.SecurityInsights.Models.AutomationRulePropertyConditionSupportedProperty</ReturnType>
@@ -376,6 +390,8 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.SecurityInsights</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -401,6 +417,8 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.SecurityInsights</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -432,6 +450,8 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.SecurityInsights</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.SecurityInsights.Models.AutomationRulePropertyConditionSupportedProperty</ReturnType>
@@ -452,6 +472,8 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.SecurityInsights</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.SecurityInsights.Models.AutomationRulePropertyConditionSupportedProperty</ReturnType>
@@ -472,6 +494,8 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.SecurityInsights</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.SecurityInsights.Models.AutomationRulePropertyConditionSupportedProperty</ReturnType>
@@ -492,6 +516,8 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.SecurityInsights</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -519,6 +545,8 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.SecurityInsights</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.SecurityInsights.Models.AutomationRulePropertyConditionSupportedProperty</ReturnType>
@@ -539,6 +567,8 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.SecurityInsights</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.SecurityInsights.Models.AutomationRulePropertyConditionSupportedProperty</ReturnType>
@@ -559,6 +589,8 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.SecurityInsights</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.SecurityInsights.Models.AutomationRulePropertyConditionSupportedProperty</ReturnType>
@@ -579,6 +611,8 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.SecurityInsights</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.SecurityInsights.Models.AutomationRulePropertyConditionSupportedProperty</ReturnType>
@@ -599,6 +633,8 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.SecurityInsights</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.SecurityInsights.Models.AutomationRulePropertyConditionSupportedProperty</ReturnType>
@@ -619,6 +655,8 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.SecurityInsights</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.SecurityInsights.Models.AutomationRulePropertyConditionSupportedProperty</ReturnType>
@@ -639,6 +677,8 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.SecurityInsights</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.SecurityInsights.Models.AutomationRulePropertyConditionSupportedProperty</ReturnType>
@@ -659,6 +699,8 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.SecurityInsights</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.SecurityInsights.Models.AutomationRulePropertyConditionSupportedProperty</ReturnType>
@@ -679,6 +721,8 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.SecurityInsights</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.SecurityInsights.Models.AutomationRulePropertyConditionSupportedProperty</ReturnType>
@@ -699,6 +743,8 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.SecurityInsights</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.SecurityInsights.Models.AutomationRulePropertyConditionSupportedProperty</ReturnType>
@@ -719,6 +765,8 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.SecurityInsights</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.SecurityInsights.Models.AutomationRulePropertyConditionSupportedProperty</ReturnType>
@@ -739,6 +787,8 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.SecurityInsights</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.SecurityInsights.Models.AutomationRulePropertyConditionSupportedProperty</ReturnType>
@@ -759,6 +809,8 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.SecurityInsights</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.SecurityInsights.Models.AutomationRulePropertyConditionSupportedProperty</ReturnType>
@@ -779,6 +831,8 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.SecurityInsights</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.SecurityInsights.Models.AutomationRulePropertyConditionSupportedProperty</ReturnType>
@@ -799,26 +853,8 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.SecurityInsights</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.ResourceManager.SecurityInsights.Models.AutomationRulePropertyConditionSupportedProperty</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary> "The IoT device id. </summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="IoTDeviceId">
-      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.SecurityInsights.Models.AutomationRulePropertyConditionSupportedProperty IoTDeviceId { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.ResourceManager.SecurityInsights.Models.AutomationRulePropertyConditionSupportedProperty IoTDeviceId" />
-      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.SecurityInsights.Models.AutomationRulePropertyConditionSupportedProperty.IoTDeviceId" />
-      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property IoTDeviceId As AutomationRulePropertyConditionSupportedProperty" />
-      <MemberSignature Language="F#" Value="static member IoTDeviceId : Azure.ResourceManager.SecurityInsights.Models.AutomationRulePropertyConditionSupportedProperty" Usage="Azure.ResourceManager.SecurityInsights.Models.AutomationRulePropertyConditionSupportedProperty.IoTDeviceId" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.SecurityInsights</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.SecurityInsights.Models.AutomationRulePropertyConditionSupportedProperty</ReturnType>
@@ -839,26 +875,8 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.SecurityInsights</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.ResourceManager.SecurityInsights.Models.AutomationRulePropertyConditionSupportedProperty</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary> The IoT device model. </summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="IoTDeviceModel">
-      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.SecurityInsights.Models.AutomationRulePropertyConditionSupportedProperty IoTDeviceModel { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.ResourceManager.SecurityInsights.Models.AutomationRulePropertyConditionSupportedProperty IoTDeviceModel" />
-      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.SecurityInsights.Models.AutomationRulePropertyConditionSupportedProperty.IoTDeviceModel" />
-      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property IoTDeviceModel As AutomationRulePropertyConditionSupportedProperty" />
-      <MemberSignature Language="F#" Value="static member IoTDeviceModel : Azure.ResourceManager.SecurityInsights.Models.AutomationRulePropertyConditionSupportedProperty" Usage="Azure.ResourceManager.SecurityInsights.Models.AutomationRulePropertyConditionSupportedProperty.IoTDeviceModel" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.SecurityInsights</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.SecurityInsights.Models.AutomationRulePropertyConditionSupportedProperty</ReturnType>
@@ -879,26 +897,8 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.SecurityInsights</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.ResourceManager.SecurityInsights.Models.AutomationRulePropertyConditionSupportedProperty</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary> The IoT device name. </summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="IoTDeviceName">
-      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.SecurityInsights.Models.AutomationRulePropertyConditionSupportedProperty IoTDeviceName { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.ResourceManager.SecurityInsights.Models.AutomationRulePropertyConditionSupportedProperty IoTDeviceName" />
-      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.SecurityInsights.Models.AutomationRulePropertyConditionSupportedProperty.IoTDeviceName" />
-      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property IoTDeviceName As AutomationRulePropertyConditionSupportedProperty" />
-      <MemberSignature Language="F#" Value="static member IoTDeviceName : Azure.ResourceManager.SecurityInsights.Models.AutomationRulePropertyConditionSupportedProperty" Usage="Azure.ResourceManager.SecurityInsights.Models.AutomationRulePropertyConditionSupportedProperty.IoTDeviceName" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.SecurityInsights</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.SecurityInsights.Models.AutomationRulePropertyConditionSupportedProperty</ReturnType>
@@ -919,26 +919,8 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.SecurityInsights</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.ResourceManager.SecurityInsights.Models.AutomationRulePropertyConditionSupportedProperty</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary> The IoT device operating system. </summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="IoTDeviceOperatingSystem">
-      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.SecurityInsights.Models.AutomationRulePropertyConditionSupportedProperty IoTDeviceOperatingSystem { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.ResourceManager.SecurityInsights.Models.AutomationRulePropertyConditionSupportedProperty IoTDeviceOperatingSystem" />
-      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.SecurityInsights.Models.AutomationRulePropertyConditionSupportedProperty.IoTDeviceOperatingSystem" />
-      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property IoTDeviceOperatingSystem As AutomationRulePropertyConditionSupportedProperty" />
-      <MemberSignature Language="F#" Value="static member IoTDeviceOperatingSystem : Azure.ResourceManager.SecurityInsights.Models.AutomationRulePropertyConditionSupportedProperty" Usage="Azure.ResourceManager.SecurityInsights.Models.AutomationRulePropertyConditionSupportedProperty.IoTDeviceOperatingSystem" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.SecurityInsights</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.SecurityInsights.Models.AutomationRulePropertyConditionSupportedProperty</ReturnType>
@@ -959,26 +941,8 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.SecurityInsights</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.ResourceManager.SecurityInsights.Models.AutomationRulePropertyConditionSupportedProperty</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary> The IoT device type. </summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="IoTDeviceType">
-      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.SecurityInsights.Models.AutomationRulePropertyConditionSupportedProperty IoTDeviceType { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.ResourceManager.SecurityInsights.Models.AutomationRulePropertyConditionSupportedProperty IoTDeviceType" />
-      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.SecurityInsights.Models.AutomationRulePropertyConditionSupportedProperty.IoTDeviceType" />
-      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property IoTDeviceType As AutomationRulePropertyConditionSupportedProperty" />
-      <MemberSignature Language="F#" Value="static member IoTDeviceType : Azure.ResourceManager.SecurityInsights.Models.AutomationRulePropertyConditionSupportedProperty" Usage="Azure.ResourceManager.SecurityInsights.Models.AutomationRulePropertyConditionSupportedProperty.IoTDeviceType" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.SecurityInsights</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.SecurityInsights.Models.AutomationRulePropertyConditionSupportedProperty</ReturnType>
@@ -999,26 +963,8 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.SecurityInsights</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.ResourceManager.SecurityInsights.Models.AutomationRulePropertyConditionSupportedProperty</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary> The IoT device vendor. </summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="IoTDeviceVendor">
-      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.SecurityInsights.Models.AutomationRulePropertyConditionSupportedProperty IoTDeviceVendor { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.ResourceManager.SecurityInsights.Models.AutomationRulePropertyConditionSupportedProperty IoTDeviceVendor" />
-      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.SecurityInsights.Models.AutomationRulePropertyConditionSupportedProperty.IoTDeviceVendor" />
-      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property IoTDeviceVendor As AutomationRulePropertyConditionSupportedProperty" />
-      <MemberSignature Language="F#" Value="static member IoTDeviceVendor : Azure.ResourceManager.SecurityInsights.Models.AutomationRulePropertyConditionSupportedProperty" Usage="Azure.ResourceManager.SecurityInsights.Models.AutomationRulePropertyConditionSupportedProperty.IoTDeviceVendor" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.SecurityInsights</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.SecurityInsights.Models.AutomationRulePropertyConditionSupportedProperty</ReturnType>
@@ -1039,6 +985,8 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.SecurityInsights</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.SecurityInsights.Models.AutomationRulePropertyConditionSupportedProperty</ReturnType>
@@ -1059,6 +1007,8 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.SecurityInsights</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.SecurityInsights.Models.AutomationRulePropertyConditionSupportedProperty</ReturnType>
@@ -1079,6 +1029,8 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.SecurityInsights</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.SecurityInsights.Models.AutomationRulePropertyConditionSupportedProperty</ReturnType>
@@ -1099,26 +1051,8 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.SecurityInsights</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.ResourceManager.SecurityInsights.Models.AutomationRulePropertyConditionSupportedProperty</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary> The mailbox user principal name. </summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="MailboxUPN">
-      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.SecurityInsights.Models.AutomationRulePropertyConditionSupportedProperty MailboxUPN { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.ResourceManager.SecurityInsights.Models.AutomationRulePropertyConditionSupportedProperty MailboxUPN" />
-      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.SecurityInsights.Models.AutomationRulePropertyConditionSupportedProperty.MailboxUPN" />
-      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property MailboxUPN As AutomationRulePropertyConditionSupportedProperty" />
-      <MemberSignature Language="F#" Value="static member MailboxUPN : Azure.ResourceManager.SecurityInsights.Models.AutomationRulePropertyConditionSupportedProperty" Usage="Azure.ResourceManager.SecurityInsights.Models.AutomationRulePropertyConditionSupportedProperty.MailboxUPN" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.SecurityInsights</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.SecurityInsights.Models.AutomationRulePropertyConditionSupportedProperty</ReturnType>
@@ -1139,6 +1073,8 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.SecurityInsights</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.SecurityInsights.Models.AutomationRulePropertyConditionSupportedProperty</ReturnType>
@@ -1159,6 +1095,8 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.SecurityInsights</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.SecurityInsights.Models.AutomationRulePropertyConditionSupportedProperty</ReturnType>
@@ -1179,6 +1117,8 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.SecurityInsights</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.SecurityInsights.Models.AutomationRulePropertyConditionSupportedProperty</ReturnType>
@@ -1199,6 +1139,8 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.SecurityInsights</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.SecurityInsights.Models.AutomationRulePropertyConditionSupportedProperty</ReturnType>
@@ -1219,6 +1161,8 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.SecurityInsights</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.SecurityInsights.Models.AutomationRulePropertyConditionSupportedProperty</ReturnType>
@@ -1239,6 +1183,8 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.SecurityInsights</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.SecurityInsights.Models.AutomationRulePropertyConditionSupportedProperty</ReturnType>
@@ -1259,6 +1205,8 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.SecurityInsights</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.SecurityInsights.Models.AutomationRulePropertyConditionSupportedProperty</ReturnType>
@@ -1279,6 +1227,8 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.SecurityInsights</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.SecurityInsights.Models.AutomationRulePropertyConditionSupportedProperty</ReturnType>
@@ -1299,6 +1249,8 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.SecurityInsights</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.SecurityInsights.Models.AutomationRulePropertyConditionSupportedProperty</ReturnType>
@@ -1319,6 +1271,8 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.SecurityInsights</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -1345,6 +1299,8 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.SecurityInsights</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.SecurityInsights.Models.AutomationRulePropertyConditionSupportedProperty</ReturnType>
@@ -1369,6 +1325,8 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.SecurityInsights</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -1395,6 +1353,8 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.SecurityInsights</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.SecurityInsights.Models.AutomationRulePropertyConditionSupportedProperty</ReturnType>
@@ -1415,6 +1375,8 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.SecurityInsights</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.SecurityInsights.Models.AutomationRulePropertyConditionSupportedProperty</ReturnType>
@@ -1435,6 +1397,8 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.SecurityInsights</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.SecurityInsights.Models.AutomationRulePropertyConditionSupportedProperty</ReturnType>
@@ -1455,6 +1419,8 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.SecurityInsights</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.SecurityInsights.Models.AutomationRulePropertyConditionSupportedProperty</ReturnType>
@@ -1475,6 +1441,8 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.SecurityInsights</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -1496,26 +1464,8 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.SecurityInsights</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.ResourceManager.SecurityInsights.Models.AutomationRulePropertyConditionSupportedProperty</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary> The url. </summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="Url">
-      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.SecurityInsights.Models.AutomationRulePropertyConditionSupportedProperty Url { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.ResourceManager.SecurityInsights.Models.AutomationRulePropertyConditionSupportedProperty Url" />
-      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.SecurityInsights.Models.AutomationRulePropertyConditionSupportedProperty.Url" />
-      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Url As AutomationRulePropertyConditionSupportedProperty" />
-      <MemberSignature Language="F#" Value="static member Url : Azure.ResourceManager.SecurityInsights.Models.AutomationRulePropertyConditionSupportedProperty" Usage="Azure.ResourceManager.SecurityInsights.Models.AutomationRulePropertyConditionSupportedProperty.Url" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.SecurityInsights</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.SecurityInsights.Models.AutomationRulePropertyConditionSupportedProperty</ReturnType>

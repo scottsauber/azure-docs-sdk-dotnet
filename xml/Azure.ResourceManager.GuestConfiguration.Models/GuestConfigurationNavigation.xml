@@ -7,6 +7,7 @@
   <AssemblyInfo>
     <AssemblyName>Azure.ResourceManager.GuestConfiguration</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <AssemblyVersion>1.1.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -26,6 +27,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.GuestConfiguration</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -43,6 +45,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.GuestConfiguration</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -63,32 +66,13 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.GuestConfiguration</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;Azure.ResourceManager.GuestConfiguration.Models.GuestConfigurationAssignmentType&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> Specifies the assignment type and execution of the configuration. Possible values are Audit, DeployAndAutoCorrect, ApplyAndAutoCorrect and ApplyAndMonitor. </summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="ConfigurationParameter">
-      <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;Azure.ResourceManager.GuestConfiguration.Models.ConfigurationParameter&gt; ConfigurationParameter { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;class Azure.ResourceManager.GuestConfiguration.Models.ConfigurationParameter&gt; ConfigurationParameter" />
-      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.GuestConfiguration.Models.GuestConfigurationNavigation.ConfigurationParameter" />
-      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ConfigurationParameter As IList(Of ConfigurationParameter)" />
-      <MemberSignature Language="F#" Value="member this.ConfigurationParameter : System.Collections.Generic.IList&lt;Azure.ResourceManager.GuestConfiguration.Models.ConfigurationParameter&gt;" Usage="Azure.ResourceManager.GuestConfiguration.Models.GuestConfigurationNavigation.ConfigurationParameter" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.GuestConfiguration</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Collections.Generic.IList&lt;Azure.ResourceManager.GuestConfiguration.Models.ConfigurationParameter&gt;</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary> The configuration parameters for the guest configuration. </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -103,32 +87,13 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.GuestConfiguration</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IList&lt;Azure.ResourceManager.GuestConfiguration.Models.GuestConfigurationParameter&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> The configuration parameters for the guest configuration. </summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="ConfigurationProtectedParameter">
-      <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;Azure.ResourceManager.GuestConfiguration.Models.ConfigurationParameter&gt; ConfigurationProtectedParameter { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;class Azure.ResourceManager.GuestConfiguration.Models.ConfigurationParameter&gt; ConfigurationProtectedParameter" />
-      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.GuestConfiguration.Models.GuestConfigurationNavigation.ConfigurationProtectedParameter" />
-      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ConfigurationProtectedParameter As IList(Of ConfigurationParameter)" />
-      <MemberSignature Language="F#" Value="member this.ConfigurationProtectedParameter : System.Collections.Generic.IList&lt;Azure.ResourceManager.GuestConfiguration.Models.ConfigurationParameter&gt;" Usage="Azure.ResourceManager.GuestConfiguration.Models.GuestConfigurationNavigation.ConfigurationProtectedParameter" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.GuestConfiguration</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Collections.Generic.IList&lt;Azure.ResourceManager.GuestConfiguration.Models.ConfigurationParameter&gt;</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary> The protected configuration parameters for the guest configuration. </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -143,6 +108,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.GuestConfiguration</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IList&lt;Azure.ResourceManager.GuestConfiguration.Models.GuestConfigurationParameter&gt;</ReturnType>
@@ -163,6 +129,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.GuestConfiguration</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.GuestConfiguration.Models.LcmConfigurationSetting</ReturnType>
@@ -183,6 +150,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.GuestConfiguration</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -203,6 +171,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.GuestConfiguration</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -223,6 +192,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.GuestConfiguration</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Uri</ReturnType>
@@ -243,6 +213,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.GuestConfiguration</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;Azure.ResourceManager.GuestConfiguration.Models.GuestConfigurationKind&gt;</ReturnType>
@@ -263,6 +234,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.GuestConfiguration</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -283,6 +255,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.GuestConfiguration</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>

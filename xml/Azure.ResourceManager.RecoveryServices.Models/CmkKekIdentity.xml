@@ -7,6 +7,7 @@
   <AssemblyInfo>
     <AssemblyName>Azure.ResourceManager.RecoveryServices</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <AssemblyVersion>1.1.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -26,6 +27,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServices</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -34,18 +36,19 @@
       </Docs>
     </Member>
     <Member MemberName="UserAssignedIdentity">
-      <MemberSignature Language="C#" Value="public string UserAssignedIdentity { get; set; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance string UserAssignedIdentity" />
+      <MemberSignature Language="C#" Value="public Azure.Core.ResourceIdentifier UserAssignedIdentity { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Core.ResourceIdentifier UserAssignedIdentity" />
       <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.RecoveryServices.Models.CmkKekIdentity.UserAssignedIdentity" />
-      <MemberSignature Language="VB.NET" Value="Public Property UserAssignedIdentity As String" />
-      <MemberSignature Language="F#" Value="member this.UserAssignedIdentity : string with get, set" Usage="Azure.ResourceManager.RecoveryServices.Models.CmkKekIdentity.UserAssignedIdentity" />
+      <MemberSignature Language="VB.NET" Value="Public Property UserAssignedIdentity As ResourceIdentifier" />
+      <MemberSignature Language="F#" Value="member this.UserAssignedIdentity : Azure.Core.ResourceIdentifier with get, set" Usage="Azure.ResourceManager.RecoveryServices.Models.CmkKekIdentity.UserAssignedIdentity" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServices</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.String</ReturnType>
+        <ReturnType>Azure.Core.ResourceIdentifier</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> The user assigned identity to be used to grant permissions in case the type of identity used is UserAssigned. </summary>
@@ -63,6 +66,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.RecoveryServices</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>

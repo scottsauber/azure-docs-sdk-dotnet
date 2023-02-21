@@ -7,6 +7,7 @@
   <AssemblyInfo>
     <AssemblyName>Azure.ResourceManager.AlertsManagement</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <AssemblyVersion>1.1.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.ValueType</BaseTypeName>
@@ -31,6 +32,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AlertsManagement</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="value" Type="System.String" />
@@ -56,6 +58,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AlertsManagement</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -81,6 +84,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AlertsManagement</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -112,6 +116,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AlertsManagement</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -129,26 +134,6 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="OneD">
-      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.AlertsManagement.Models.TimeRangeFilter OneD { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.ResourceManager.AlertsManagement.Models.TimeRangeFilter OneD" />
-      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.AlertsManagement.Models.TimeRangeFilter.OneD" />
-      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property OneD As TimeRangeFilter" />
-      <MemberSignature Language="F#" Value="static member OneD : Azure.ResourceManager.AlertsManagement.Models.TimeRangeFilter" Usage="Azure.ResourceManager.AlertsManagement.Models.TimeRangeFilter.OneD" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.AlertsManagement</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.ResourceManager.AlertsManagement.Models.TimeRangeFilter</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary> 1d. </summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
     <Member MemberName="OneDay">
       <MemberSignature Language="C#" Value="public static Azure.ResourceManager.AlertsManagement.Models.TimeRangeFilter OneDay { get; }" />
       <MemberSignature Language="ILAsm" Value=".property valuetype Azure.ResourceManager.AlertsManagement.Models.TimeRangeFilter OneDay" />
@@ -159,32 +144,13 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AlertsManagement</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.AlertsManagement.Models.TimeRangeFilter</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> 1d. </summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="OneH">
-      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.AlertsManagement.Models.TimeRangeFilter OneH { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.ResourceManager.AlertsManagement.Models.TimeRangeFilter OneH" />
-      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.AlertsManagement.Models.TimeRangeFilter.OneH" />
-      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property OneH As TimeRangeFilter" />
-      <MemberSignature Language="F#" Value="static member OneH : Azure.ResourceManager.AlertsManagement.Models.TimeRangeFilter" Usage="Azure.ResourceManager.AlertsManagement.Models.TimeRangeFilter.OneH" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.AlertsManagement</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.ResourceManager.AlertsManagement.Models.TimeRangeFilter</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary> 1h. </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -199,6 +165,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AlertsManagement</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.AlertsManagement.Models.TimeRangeFilter</ReturnType>
@@ -219,6 +186,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AlertsManagement</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -245,6 +213,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AlertsManagement</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.AlertsManagement.Models.TimeRangeFilter</ReturnType>
@@ -269,6 +238,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AlertsManagement</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -285,26 +255,6 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="SevenD">
-      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.AlertsManagement.Models.TimeRangeFilter SevenD { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.ResourceManager.AlertsManagement.Models.TimeRangeFilter SevenD" />
-      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.AlertsManagement.Models.TimeRangeFilter.SevenD" />
-      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property SevenD As TimeRangeFilter" />
-      <MemberSignature Language="F#" Value="static member SevenD : Azure.ResourceManager.AlertsManagement.Models.TimeRangeFilter" Usage="Azure.ResourceManager.AlertsManagement.Models.TimeRangeFilter.SevenD" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.AlertsManagement</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.ResourceManager.AlertsManagement.Models.TimeRangeFilter</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary> 7d. </summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
     <Member MemberName="SevenDays">
       <MemberSignature Language="C#" Value="public static Azure.ResourceManager.AlertsManagement.Models.TimeRangeFilter SevenDays { get; }" />
       <MemberSignature Language="ILAsm" Value=".property valuetype Azure.ResourceManager.AlertsManagement.Models.TimeRangeFilter SevenDays" />
@@ -315,32 +265,13 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AlertsManagement</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.AlertsManagement.Models.TimeRangeFilter</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> 7d. </summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="ThirtyD">
-      <MemberSignature Language="C#" Value="public static Azure.ResourceManager.AlertsManagement.Models.TimeRangeFilter ThirtyD { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.ResourceManager.AlertsManagement.Models.TimeRangeFilter ThirtyD" />
-      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.AlertsManagement.Models.TimeRangeFilter.ThirtyD" />
-      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ThirtyD As TimeRangeFilter" />
-      <MemberSignature Language="F#" Value="static member ThirtyD : Azure.ResourceManager.AlertsManagement.Models.TimeRangeFilter" Usage="Azure.ResourceManager.AlertsManagement.Models.TimeRangeFilter.ThirtyD" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.AlertsManagement</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.ResourceManager.AlertsManagement.Models.TimeRangeFilter</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary> 30d. </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -355,6 +286,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AlertsManagement</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.AlertsManagement.Models.TimeRangeFilter</ReturnType>
@@ -375,6 +307,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AlertsManagement</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>

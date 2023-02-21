@@ -1,19 +1,19 @@
 <Type Name="AddParticipantsResult" FullName="Azure.Communication.CallAutomation.AddParticipantsResult">
-  <TypeSignature Language="C#" Value="public class AddParticipantsResult" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit AddParticipantsResult extends System.Object" />
+  <TypeSignature Language="C#" Value="public class AddParticipantsResult : Azure.Communication.CallAutomation.ResultWithWaitForEventBase" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit AddParticipantsResult extends Azure.Communication.CallAutomation.ResultWithWaitForEventBase" />
   <TypeSignature Language="DocId" Value="T:Azure.Communication.CallAutomation.AddParticipantsResult" />
-  <TypeSignature Language="VB.NET" Value="Public Class AddParticipantsResult" />
-  <TypeSignature Language="F#" Value="type AddParticipantsResult = class" />
+  <TypeSignature Language="VB.NET" Value="Public Class AddParticipantsResult&#xA;Inherits ResultWithWaitForEventBase" />
+  <TypeSignature Language="F#" Value="type AddParticipantsResult = class&#xA;    inherit ResultWithWaitForEventBase" />
   <AssemblyInfo>
     <AssemblyName>Azure.Communication.CallAutomation</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
-    <BaseTypeName>System.Object</BaseTypeName>
+    <BaseTypeName>Azure.Communication.CallAutomation.ResultWithWaitForEventBase</BaseTypeName>
   </Base>
   <Interfaces />
   <Docs>
-    <summary> AddParticipantsResult Result </summary>
+    <summary>AddParticipantsResult Result.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -32,7 +32,7 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary> The operation context provided by client. </summary>
+        <summary>The operation context provided by client.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -52,8 +52,34 @@
         <ReturnType>System.Collections.Generic.IReadOnlyList&lt;Azure.Communication.CallAutomation.CallParticipant&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary> Gets the participants. </summary>
+        <summary>Gets the participants.</summary>
         <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WaitForEvent">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Azure.Communication.CallAutomation.AddParticipantsEventResult&gt; WaitForEvent (TimeSpan eventTimeout = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task`1&lt;class Azure.Communication.CallAutomation.AddParticipantsEventResult&gt; WaitForEvent(valuetype System.TimeSpan eventTimeout) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Communication.CallAutomation.AddParticipantsResult.WaitForEvent(System.TimeSpan)" />
+      <MemberSignature Language="VB.NET" Value="Public Function WaitForEvent (Optional eventTimeout As TimeSpan = Nothing) As Task(Of AddParticipantsEventResult)" />
+      <MemberSignature Language="F#" Value="member this.WaitForEvent : TimeSpan -&gt; System.Threading.Tasks.Task&lt;Azure.Communication.CallAutomation.AddParticipantsEventResult&gt;" Usage="addParticipantsResult.WaitForEvent eventTimeout" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.CallAutomation</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Communication.CallAutomation.AddParticipantsEventResult&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="eventTimeout" Type="System.TimeSpan" />
+      </Parameters>
+      <Docs>
+        <param name="eventTimeout">To be added.</param>
+        <summary>
+            Wait for <see cref="T:Azure.Communication.CallAutomation.AddParticipantsEventResult" /> using <see cref="T:Azure.Communication.CallAutomation.EventProcessor" />.
+            </summary>
+        <returns>Returns <see cref="T:Azure.Communication.CallAutomation.AddParticipantsEventResult" /> which contains either <see cref="T:Azure.Communication.CallAutomation.AddParticipantsSucceeded" /> event or <see cref="T:Azure.Communication.CallAutomation.AddParticipantsFailed" /> event.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

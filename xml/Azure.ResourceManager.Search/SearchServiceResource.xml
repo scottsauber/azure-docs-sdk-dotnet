@@ -7,6 +7,7 @@
   <AssemblyInfo>
     <AssemblyName>Azure.ResourceManager.Search</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <AssemblyVersion>1.1.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Azure.ResourceManager.ArmResource</BaseTypeName>
@@ -31,6 +32,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Search</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -48,6 +50,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Search</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Search.SearchServiceResource&gt;</ReturnType>
@@ -63,9 +66,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Add a tag to the current resource.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}
-            Operation Id: Services_Get
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}</description></item><item><term>Operation Id</term><description>Services_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -82,6 +83,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Search</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Search.SearchServiceResource&gt;&gt;</ReturnType>
@@ -97,9 +99,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Add a tag to the current resource.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}
-            Operation Id: Services_Get
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}</description></item><item><term>Operation Id</term><description>Services_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -107,23 +107,19 @@
       </Docs>
     </Member>
     <Member MemberName="CreateQueryKey">
-      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;Azure.ResourceManager.Search.Models.SearchServiceQueryKey&gt; CreateQueryKey (string name, Azure.ResourceManager.Search.Models.SearchManagementRequestOptions searchManagementRequestOptions = default, System.Threading.CancellationToken cancellationToken = default);" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class Azure.ResourceManager.Search.Models.SearchServiceQueryKey&gt; CreateQueryKey(string name, class Azure.ResourceManager.Search.Models.SearchManagementRequestOptions searchManagementRequestOptions, valuetype System.Threading.CancellationToken cancellationToken) cil managed" FrameworkAlternate="azure-dotnet" />
+      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;Azure.ResourceManager.Search.Models.SearchServiceQueryKey&gt; CreateQueryKey (string name, Azure.ResourceManager.Search.Models.SearchManagementRequestOptions searchManagementRequestOptions = default, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class Azure.ResourceManager.Search.Models.SearchServiceQueryKey&gt; CreateQueryKey(string name, class Azure.ResourceManager.Search.Models.SearchManagementRequestOptions searchManagementRequestOptions, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
       <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Search.SearchServiceResource.CreateQueryKey(System.String,Azure.ResourceManager.Search.Models.SearchManagementRequestOptions,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function CreateQueryKey (name As String, Optional searchManagementRequestOptions As SearchManagementRequestOptions = Nothing, Optional cancellationToken As CancellationToken = Nothing) As Response(Of SearchServiceQueryKey)" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="F#" Value="abstract member CreateQueryKey : string * Azure.ResourceManager.Search.Models.SearchManagementRequestOptions * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Search.Models.SearchServiceQueryKey&gt;&#xA;override this.CreateQueryKey : string * Azure.ResourceManager.Search.Models.SearchManagementRequestOptions * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Search.Models.SearchServiceQueryKey&gt;" Usage="searchServiceResource.CreateQueryKey (name, searchManagementRequestOptions, cancellationToken)" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;Azure.ResourceManager.Search.Models.QueryKey&gt; CreateQueryKey (string name, Azure.ResourceManager.Search.Models.SearchManagementRequestOptions searchManagementRequestOptions = default, System.Threading.CancellationToken cancellationToken = default);" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class Azure.ResourceManager.Search.Models.QueryKey&gt; CreateQueryKey(string name, class Azure.ResourceManager.Search.Models.SearchManagementRequestOptions searchManagementRequestOptions, valuetype System.Threading.CancellationToken cancellationToken) cil managed" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function CreateQueryKey (name As String, Optional searchManagementRequestOptions As SearchManagementRequestOptions = Nothing, Optional cancellationToken As CancellationToken = Nothing) As Response(Of QueryKey)" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="F#" Value="abstract member CreateQueryKey : string * Azure.ResourceManager.Search.Models.SearchManagementRequestOptions * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Search.Models.QueryKey&gt;&#xA;override this.CreateQueryKey : string * Azure.ResourceManager.Search.Models.SearchManagementRequestOptions * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Search.Models.QueryKey&gt;" Usage="searchServiceResource.CreateQueryKey (name, searchManagementRequestOptions, cancellationToken)" FrameworkAlternate="azure-dotnet-preview" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function CreateQueryKey (name As String, Optional searchManagementRequestOptions As SearchManagementRequestOptions = Nothing, Optional cancellationToken As CancellationToken = Nothing) As Response(Of SearchServiceQueryKey)" />
+      <MemberSignature Language="F#" Value="abstract member CreateQueryKey : string * Azure.ResourceManager.Search.Models.SearchManagementRequestOptions * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Search.Models.SearchServiceQueryKey&gt;&#xA;override this.CreateQueryKey : string * Azure.ResourceManager.Search.Models.SearchManagementRequestOptions * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Search.Models.SearchServiceQueryKey&gt;" Usage="searchServiceResource.CreateQueryKey (name, searchManagementRequestOptions, cancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Search</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType FrameworkAlternate="azure-dotnet">Azure.Response&lt;Azure.ResourceManager.Search.Models.SearchServiceQueryKey&gt;</ReturnType>
-        <ReturnType FrameworkAlternate="azure-dotnet-preview">Azure.Response&lt;Azure.ResourceManager.Search.Models.QueryKey&gt;</ReturnType>
+        <ReturnType>Azure.Response&lt;Azure.ResourceManager.Search.Models.SearchServiceQueryKey&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="name" Type="System.String" />
@@ -136,9 +132,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Generates a new query key for the specified search service. You can create up to 50 query keys per service.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/createQueryKey/{name}
-            Operation Id: QueryKeys_Create
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/createQueryKey/{name}</description></item><item><term>Operation Id</term><description>QueryKeys_Create</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -148,23 +142,19 @@
       </Docs>
     </Member>
     <Member MemberName="CreateQueryKeyAsync">
-      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Search.Models.SearchServiceQueryKey&gt;&gt; CreateQueryKeyAsync (string name, Azure.ResourceManager.Search.Models.SearchManagementRequestOptions searchManagementRequestOptions = default, System.Threading.CancellationToken cancellationToken = default);" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.ResourceManager.Search.Models.SearchServiceQueryKey&gt;&gt; CreateQueryKeyAsync(string name, class Azure.ResourceManager.Search.Models.SearchManagementRequestOptions searchManagementRequestOptions, valuetype System.Threading.CancellationToken cancellationToken) cil managed" FrameworkAlternate="azure-dotnet" />
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Search.Models.SearchServiceQueryKey&gt;&gt; CreateQueryKeyAsync (string name, Azure.ResourceManager.Search.Models.SearchManagementRequestOptions searchManagementRequestOptions = default, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.ResourceManager.Search.Models.SearchServiceQueryKey&gt;&gt; CreateQueryKeyAsync(string name, class Azure.ResourceManager.Search.Models.SearchManagementRequestOptions searchManagementRequestOptions, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
       <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Search.SearchServiceResource.CreateQueryKeyAsync(System.String,Azure.ResourceManager.Search.Models.SearchManagementRequestOptions,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function CreateQueryKeyAsync (name As String, Optional searchManagementRequestOptions As SearchManagementRequestOptions = Nothing, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of SearchServiceQueryKey))" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="F#" Value="abstract member CreateQueryKeyAsync : string * Azure.ResourceManager.Search.Models.SearchManagementRequestOptions * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Search.Models.SearchServiceQueryKey&gt;&gt;&#xA;override this.CreateQueryKeyAsync : string * Azure.ResourceManager.Search.Models.SearchManagementRequestOptions * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Search.Models.SearchServiceQueryKey&gt;&gt;" Usage="searchServiceResource.CreateQueryKeyAsync (name, searchManagementRequestOptions, cancellationToken)" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Search.Models.QueryKey&gt;&gt; CreateQueryKeyAsync (string name, Azure.ResourceManager.Search.Models.SearchManagementRequestOptions searchManagementRequestOptions = default, System.Threading.CancellationToken cancellationToken = default);" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.ResourceManager.Search.Models.QueryKey&gt;&gt; CreateQueryKeyAsync(string name, class Azure.ResourceManager.Search.Models.SearchManagementRequestOptions searchManagementRequestOptions, valuetype System.Threading.CancellationToken cancellationToken) cil managed" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function CreateQueryKeyAsync (name As String, Optional searchManagementRequestOptions As SearchManagementRequestOptions = Nothing, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of QueryKey))" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="F#" Value="abstract member CreateQueryKeyAsync : string * Azure.ResourceManager.Search.Models.SearchManagementRequestOptions * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Search.Models.QueryKey&gt;&gt;&#xA;override this.CreateQueryKeyAsync : string * Azure.ResourceManager.Search.Models.SearchManagementRequestOptions * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Search.Models.QueryKey&gt;&gt;" Usage="searchServiceResource.CreateQueryKeyAsync (name, searchManagementRequestOptions, cancellationToken)" FrameworkAlternate="azure-dotnet-preview" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function CreateQueryKeyAsync (name As String, Optional searchManagementRequestOptions As SearchManagementRequestOptions = Nothing, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of SearchServiceQueryKey))" />
+      <MemberSignature Language="F#" Value="abstract member CreateQueryKeyAsync : string * Azure.ResourceManager.Search.Models.SearchManagementRequestOptions * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Search.Models.SearchServiceQueryKey&gt;&gt;&#xA;override this.CreateQueryKeyAsync : string * Azure.ResourceManager.Search.Models.SearchManagementRequestOptions * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Search.Models.SearchServiceQueryKey&gt;&gt;" Usage="searchServiceResource.CreateQueryKeyAsync (name, searchManagementRequestOptions, cancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Search</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType FrameworkAlternate="azure-dotnet">System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Search.Models.SearchServiceQueryKey&gt;&gt;</ReturnType>
-        <ReturnType FrameworkAlternate="azure-dotnet-preview">System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Search.Models.QueryKey&gt;&gt;</ReturnType>
+        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Search.Models.SearchServiceQueryKey&gt;&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="name" Type="System.String" />
@@ -177,9 +167,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Generates a new query key for the specified search service. You can create up to 50 query keys per service.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/createQueryKey/{name}
-            Operation Id: QueryKeys_Create
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/createQueryKey/{name}</description></item><item><term>Operation Id</term><description>QueryKeys_Create</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -198,6 +186,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Search</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceIdentifier</ReturnType>
@@ -226,6 +215,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Search</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Search.SearchServiceData</ReturnType>
@@ -247,6 +237,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Search</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ArmOperation</ReturnType>
@@ -263,9 +254,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Deletes a search service in the given resource group, along with its associated resources.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}
-            Operation Id: Services_Delete
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}</description></item><item><term>Operation Id</term><description>Services_Delete</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -280,6 +269,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Search</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.ResourceManager.ArmOperation&gt;</ReturnType>
@@ -296,9 +286,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Deletes a search service in the given resource group, along with its associated resources.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}
-            Operation Id: Services_Delete
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}</description></item><item><term>Operation Id</term><description>Services_Delete</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -313,6 +301,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Search</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response</ReturnType>
@@ -328,9 +317,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Deletes the specified query key. Unlike admin keys, query keys are not regenerated. The process for regenerating a query key is to delete and then recreate it.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/deleteQueryKey/{key}
-            Operation Id: QueryKeys_Delete
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/deleteQueryKey/{key}</description></item><item><term>Operation Id</term><description>QueryKeys_Delete</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -349,6 +336,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Search</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&gt;</ReturnType>
@@ -364,9 +352,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Deletes the specified query key. Unlike admin keys, query keys are not regenerated. The process for regenerating a query key is to delete and then recreate it.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/deleteQueryKey/{key}
-            Operation Id: QueryKeys_Delete
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/deleteQueryKey/{key}</description></item><item><term>Operation Id</term><description>QueryKeys_Delete</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -385,6 +371,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Search</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Search.SearchServiceResource&gt;</ReturnType>
@@ -398,31 +385,25 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the search service with the given name in the given resource group.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}
-            Operation Id: Services_Get
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}</description></item><item><term>Operation Id</term><description>Services_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="GetAdminKey">
-      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;Azure.ResourceManager.Search.Models.SearchServiceAdminKeyResult&gt; GetAdminKey (Azure.ResourceManager.Search.Models.SearchManagementRequestOptions searchManagementRequestOptions = default, System.Threading.CancellationToken cancellationToken = default);" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class Azure.ResourceManager.Search.Models.SearchServiceAdminKeyResult&gt; GetAdminKey(class Azure.ResourceManager.Search.Models.SearchManagementRequestOptions searchManagementRequestOptions, valuetype System.Threading.CancellationToken cancellationToken) cil managed" FrameworkAlternate="azure-dotnet" />
+      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;Azure.ResourceManager.Search.Models.SearchServiceAdminKeyResult&gt; GetAdminKey (Azure.ResourceManager.Search.Models.SearchManagementRequestOptions searchManagementRequestOptions = default, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class Azure.ResourceManager.Search.Models.SearchServiceAdminKeyResult&gt; GetAdminKey(class Azure.ResourceManager.Search.Models.SearchManagementRequestOptions searchManagementRequestOptions, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
       <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Search.SearchServiceResource.GetAdminKey(Azure.ResourceManager.Search.Models.SearchManagementRequestOptions,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetAdminKey (Optional searchManagementRequestOptions As SearchManagementRequestOptions = Nothing, Optional cancellationToken As CancellationToken = Nothing) As Response(Of SearchServiceAdminKeyResult)" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="F#" Value="abstract member GetAdminKey : Azure.ResourceManager.Search.Models.SearchManagementRequestOptions * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Search.Models.SearchServiceAdminKeyResult&gt;&#xA;override this.GetAdminKey : Azure.ResourceManager.Search.Models.SearchManagementRequestOptions * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Search.Models.SearchServiceAdminKeyResult&gt;" Usage="searchServiceResource.GetAdminKey (searchManagementRequestOptions, cancellationToken)" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;Azure.ResourceManager.Search.Models.AdminKeyResult&gt; GetAdminKey (Azure.ResourceManager.Search.Models.SearchManagementRequestOptions searchManagementRequestOptions = default, System.Threading.CancellationToken cancellationToken = default);" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class Azure.ResourceManager.Search.Models.AdminKeyResult&gt; GetAdminKey(class Azure.ResourceManager.Search.Models.SearchManagementRequestOptions searchManagementRequestOptions, valuetype System.Threading.CancellationToken cancellationToken) cil managed" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetAdminKey (Optional searchManagementRequestOptions As SearchManagementRequestOptions = Nothing, Optional cancellationToken As CancellationToken = Nothing) As Response(Of AdminKeyResult)" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="F#" Value="abstract member GetAdminKey : Azure.ResourceManager.Search.Models.SearchManagementRequestOptions * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Search.Models.AdminKeyResult&gt;&#xA;override this.GetAdminKey : Azure.ResourceManager.Search.Models.SearchManagementRequestOptions * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Search.Models.AdminKeyResult&gt;" Usage="searchServiceResource.GetAdminKey (searchManagementRequestOptions, cancellationToken)" FrameworkAlternate="azure-dotnet-preview" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetAdminKey (Optional searchManagementRequestOptions As SearchManagementRequestOptions = Nothing, Optional cancellationToken As CancellationToken = Nothing) As Response(Of SearchServiceAdminKeyResult)" />
+      <MemberSignature Language="F#" Value="abstract member GetAdminKey : Azure.ResourceManager.Search.Models.SearchManagementRequestOptions * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Search.Models.SearchServiceAdminKeyResult&gt;&#xA;override this.GetAdminKey : Azure.ResourceManager.Search.Models.SearchManagementRequestOptions * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Search.Models.SearchServiceAdminKeyResult&gt;" Usage="searchServiceResource.GetAdminKey (searchManagementRequestOptions, cancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Search</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType FrameworkAlternate="azure-dotnet">Azure.Response&lt;Azure.ResourceManager.Search.Models.SearchServiceAdminKeyResult&gt;</ReturnType>
-        <ReturnType FrameworkAlternate="azure-dotnet-preview">Azure.Response&lt;Azure.ResourceManager.Search.Models.AdminKeyResult&gt;</ReturnType>
+        <ReturnType>Azure.Response&lt;Azure.ResourceManager.Search.Models.SearchServiceAdminKeyResult&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="searchManagementRequestOptions" Type="Azure.ResourceManager.Search.Models.SearchManagementRequestOptions" />
@@ -433,31 +414,25 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the primary and secondary admin API keys for the specified Azure Cognitive Search service.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/listAdminKeys
-            Operation Id: AdminKeys_Get
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/listAdminKeys</description></item><item><term>Operation Id</term><description>AdminKeys_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="GetAdminKeyAsync">
-      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Search.Models.SearchServiceAdminKeyResult&gt;&gt; GetAdminKeyAsync (Azure.ResourceManager.Search.Models.SearchManagementRequestOptions searchManagementRequestOptions = default, System.Threading.CancellationToken cancellationToken = default);" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.ResourceManager.Search.Models.SearchServiceAdminKeyResult&gt;&gt; GetAdminKeyAsync(class Azure.ResourceManager.Search.Models.SearchManagementRequestOptions searchManagementRequestOptions, valuetype System.Threading.CancellationToken cancellationToken) cil managed" FrameworkAlternate="azure-dotnet" />
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Search.Models.SearchServiceAdminKeyResult&gt;&gt; GetAdminKeyAsync (Azure.ResourceManager.Search.Models.SearchManagementRequestOptions searchManagementRequestOptions = default, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.ResourceManager.Search.Models.SearchServiceAdminKeyResult&gt;&gt; GetAdminKeyAsync(class Azure.ResourceManager.Search.Models.SearchManagementRequestOptions searchManagementRequestOptions, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
       <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Search.SearchServiceResource.GetAdminKeyAsync(Azure.ResourceManager.Search.Models.SearchManagementRequestOptions,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetAdminKeyAsync (Optional searchManagementRequestOptions As SearchManagementRequestOptions = Nothing, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of SearchServiceAdminKeyResult))" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="F#" Value="abstract member GetAdminKeyAsync : Azure.ResourceManager.Search.Models.SearchManagementRequestOptions * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Search.Models.SearchServiceAdminKeyResult&gt;&gt;&#xA;override this.GetAdminKeyAsync : Azure.ResourceManager.Search.Models.SearchManagementRequestOptions * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Search.Models.SearchServiceAdminKeyResult&gt;&gt;" Usage="searchServiceResource.GetAdminKeyAsync (searchManagementRequestOptions, cancellationToken)" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Search.Models.AdminKeyResult&gt;&gt; GetAdminKeyAsync (Azure.ResourceManager.Search.Models.SearchManagementRequestOptions searchManagementRequestOptions = default, System.Threading.CancellationToken cancellationToken = default);" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.ResourceManager.Search.Models.AdminKeyResult&gt;&gt; GetAdminKeyAsync(class Azure.ResourceManager.Search.Models.SearchManagementRequestOptions searchManagementRequestOptions, valuetype System.Threading.CancellationToken cancellationToken) cil managed" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetAdminKeyAsync (Optional searchManagementRequestOptions As SearchManagementRequestOptions = Nothing, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of AdminKeyResult))" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="F#" Value="abstract member GetAdminKeyAsync : Azure.ResourceManager.Search.Models.SearchManagementRequestOptions * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Search.Models.AdminKeyResult&gt;&gt;&#xA;override this.GetAdminKeyAsync : Azure.ResourceManager.Search.Models.SearchManagementRequestOptions * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Search.Models.AdminKeyResult&gt;&gt;" Usage="searchServiceResource.GetAdminKeyAsync (searchManagementRequestOptions, cancellationToken)" FrameworkAlternate="azure-dotnet-preview" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetAdminKeyAsync (Optional searchManagementRequestOptions As SearchManagementRequestOptions = Nothing, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of SearchServiceAdminKeyResult))" />
+      <MemberSignature Language="F#" Value="abstract member GetAdminKeyAsync : Azure.ResourceManager.Search.Models.SearchManagementRequestOptions * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Search.Models.SearchServiceAdminKeyResult&gt;&gt;&#xA;override this.GetAdminKeyAsync : Azure.ResourceManager.Search.Models.SearchManagementRequestOptions * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Search.Models.SearchServiceAdminKeyResult&gt;&gt;" Usage="searchServiceResource.GetAdminKeyAsync (searchManagementRequestOptions, cancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Search</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType FrameworkAlternate="azure-dotnet">System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Search.Models.SearchServiceAdminKeyResult&gt;&gt;</ReturnType>
-        <ReturnType FrameworkAlternate="azure-dotnet-preview">System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Search.Models.AdminKeyResult&gt;&gt;</ReturnType>
+        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Search.Models.SearchServiceAdminKeyResult&gt;&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="searchManagementRequestOptions" Type="Azure.ResourceManager.Search.Models.SearchManagementRequestOptions" />
@@ -468,9 +443,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the primary and secondary admin API keys for the specified Azure Cognitive Search service.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/listAdminKeys
-            Operation Id: AdminKeys_Get
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/listAdminKeys</description></item><item><term>Operation Id</term><description>AdminKeys_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -485,6 +458,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Search</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Search.SearchServiceResource&gt;&gt;</ReturnType>
@@ -498,31 +472,25 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the search service with the given name in the given resource group.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}
-            Operation Id: Services_Get
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}</description></item><item><term>Operation Id</term><description>Services_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="GetQueryKeysBySearchService">
-      <MemberSignature Language="C#" Value="public virtual Azure.Pageable&lt;Azure.ResourceManager.Search.Models.SearchServiceQueryKey&gt; GetQueryKeysBySearchService (Azure.ResourceManager.Search.Models.SearchManagementRequestOptions searchManagementRequestOptions = default, System.Threading.CancellationToken cancellationToken = default);" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Pageable`1&lt;class Azure.ResourceManager.Search.Models.SearchServiceQueryKey&gt; GetQueryKeysBySearchService(class Azure.ResourceManager.Search.Models.SearchManagementRequestOptions searchManagementRequestOptions, valuetype System.Threading.CancellationToken cancellationToken) cil managed" FrameworkAlternate="azure-dotnet" />
+      <MemberSignature Language="C#" Value="public virtual Azure.Pageable&lt;Azure.ResourceManager.Search.Models.SearchServiceQueryKey&gt; GetQueryKeysBySearchService (Azure.ResourceManager.Search.Models.SearchManagementRequestOptions searchManagementRequestOptions = default, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Pageable`1&lt;class Azure.ResourceManager.Search.Models.SearchServiceQueryKey&gt; GetQueryKeysBySearchService(class Azure.ResourceManager.Search.Models.SearchManagementRequestOptions searchManagementRequestOptions, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
       <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Search.SearchServiceResource.GetQueryKeysBySearchService(Azure.ResourceManager.Search.Models.SearchManagementRequestOptions,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetQueryKeysBySearchService (Optional searchManagementRequestOptions As SearchManagementRequestOptions = Nothing, Optional cancellationToken As CancellationToken = Nothing) As Pageable(Of SearchServiceQueryKey)" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="F#" Value="abstract member GetQueryKeysBySearchService : Azure.ResourceManager.Search.Models.SearchManagementRequestOptions * System.Threading.CancellationToken -&gt; Azure.Pageable&lt;Azure.ResourceManager.Search.Models.SearchServiceQueryKey&gt;&#xA;override this.GetQueryKeysBySearchService : Azure.ResourceManager.Search.Models.SearchManagementRequestOptions * System.Threading.CancellationToken -&gt; Azure.Pageable&lt;Azure.ResourceManager.Search.Models.SearchServiceQueryKey&gt;" Usage="searchServiceResource.GetQueryKeysBySearchService (searchManagementRequestOptions, cancellationToken)" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="C#" Value="public virtual Azure.Pageable&lt;Azure.ResourceManager.Search.Models.QueryKey&gt; GetQueryKeysBySearchService (Azure.ResourceManager.Search.Models.SearchManagementRequestOptions searchManagementRequestOptions = default, System.Threading.CancellationToken cancellationToken = default);" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Pageable`1&lt;class Azure.ResourceManager.Search.Models.QueryKey&gt; GetQueryKeysBySearchService(class Azure.ResourceManager.Search.Models.SearchManagementRequestOptions searchManagementRequestOptions, valuetype System.Threading.CancellationToken cancellationToken) cil managed" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetQueryKeysBySearchService (Optional searchManagementRequestOptions As SearchManagementRequestOptions = Nothing, Optional cancellationToken As CancellationToken = Nothing) As Pageable(Of QueryKey)" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="F#" Value="abstract member GetQueryKeysBySearchService : Azure.ResourceManager.Search.Models.SearchManagementRequestOptions * System.Threading.CancellationToken -&gt; Azure.Pageable&lt;Azure.ResourceManager.Search.Models.QueryKey&gt;&#xA;override this.GetQueryKeysBySearchService : Azure.ResourceManager.Search.Models.SearchManagementRequestOptions * System.Threading.CancellationToken -&gt; Azure.Pageable&lt;Azure.ResourceManager.Search.Models.QueryKey&gt;" Usage="searchServiceResource.GetQueryKeysBySearchService (searchManagementRequestOptions, cancellationToken)" FrameworkAlternate="azure-dotnet-preview" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetQueryKeysBySearchService (Optional searchManagementRequestOptions As SearchManagementRequestOptions = Nothing, Optional cancellationToken As CancellationToken = Nothing) As Pageable(Of SearchServiceQueryKey)" />
+      <MemberSignature Language="F#" Value="abstract member GetQueryKeysBySearchService : Azure.ResourceManager.Search.Models.SearchManagementRequestOptions * System.Threading.CancellationToken -&gt; Azure.Pageable&lt;Azure.ResourceManager.Search.Models.SearchServiceQueryKey&gt;&#xA;override this.GetQueryKeysBySearchService : Azure.ResourceManager.Search.Models.SearchManagementRequestOptions * System.Threading.CancellationToken -&gt; Azure.Pageable&lt;Azure.ResourceManager.Search.Models.SearchServiceQueryKey&gt;" Usage="searchServiceResource.GetQueryKeysBySearchService (searchManagementRequestOptions, cancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Search</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType FrameworkAlternate="azure-dotnet">Azure.Pageable&lt;Azure.ResourceManager.Search.Models.SearchServiceQueryKey&gt;</ReturnType>
-        <ReturnType FrameworkAlternate="azure-dotnet-preview">Azure.Pageable&lt;Azure.ResourceManager.Search.Models.QueryKey&gt;</ReturnType>
+        <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.Search.Models.SearchServiceQueryKey&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="searchManagementRequestOptions" Type="Azure.ResourceManager.Search.Models.SearchManagementRequestOptions" />
@@ -533,31 +501,25 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Returns the list of query API keys for the given Azure Cognitive Search service.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/listQueryKeys
-            Operation Id: QueryKeys_ListBySearchService
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/listQueryKeys</description></item><item><term>Operation Id</term><description>QueryKeys_ListBySearchService</description></item></list></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.Search.Models.SearchServiceQueryKey" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="GetQueryKeysBySearchServiceAsync">
-      <MemberSignature Language="C#" Value="public virtual Azure.AsyncPageable&lt;Azure.ResourceManager.Search.Models.SearchServiceQueryKey&gt; GetQueryKeysBySearchServiceAsync (Azure.ResourceManager.Search.Models.SearchManagementRequestOptions searchManagementRequestOptions = default, System.Threading.CancellationToken cancellationToken = default);" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.AsyncPageable`1&lt;class Azure.ResourceManager.Search.Models.SearchServiceQueryKey&gt; GetQueryKeysBySearchServiceAsync(class Azure.ResourceManager.Search.Models.SearchManagementRequestOptions searchManagementRequestOptions, valuetype System.Threading.CancellationToken cancellationToken) cil managed" FrameworkAlternate="azure-dotnet" />
+      <MemberSignature Language="C#" Value="public virtual Azure.AsyncPageable&lt;Azure.ResourceManager.Search.Models.SearchServiceQueryKey&gt; GetQueryKeysBySearchServiceAsync (Azure.ResourceManager.Search.Models.SearchManagementRequestOptions searchManagementRequestOptions = default, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.AsyncPageable`1&lt;class Azure.ResourceManager.Search.Models.SearchServiceQueryKey&gt; GetQueryKeysBySearchServiceAsync(class Azure.ResourceManager.Search.Models.SearchManagementRequestOptions searchManagementRequestOptions, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
       <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Search.SearchServiceResource.GetQueryKeysBySearchServiceAsync(Azure.ResourceManager.Search.Models.SearchManagementRequestOptions,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetQueryKeysBySearchServiceAsync (Optional searchManagementRequestOptions As SearchManagementRequestOptions = Nothing, Optional cancellationToken As CancellationToken = Nothing) As AsyncPageable(Of SearchServiceQueryKey)" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="F#" Value="abstract member GetQueryKeysBySearchServiceAsync : Azure.ResourceManager.Search.Models.SearchManagementRequestOptions * System.Threading.CancellationToken -&gt; Azure.AsyncPageable&lt;Azure.ResourceManager.Search.Models.SearchServiceQueryKey&gt;&#xA;override this.GetQueryKeysBySearchServiceAsync : Azure.ResourceManager.Search.Models.SearchManagementRequestOptions * System.Threading.CancellationToken -&gt; Azure.AsyncPageable&lt;Azure.ResourceManager.Search.Models.SearchServiceQueryKey&gt;" Usage="searchServiceResource.GetQueryKeysBySearchServiceAsync (searchManagementRequestOptions, cancellationToken)" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="C#" Value="public virtual Azure.AsyncPageable&lt;Azure.ResourceManager.Search.Models.QueryKey&gt; GetQueryKeysBySearchServiceAsync (Azure.ResourceManager.Search.Models.SearchManagementRequestOptions searchManagementRequestOptions = default, System.Threading.CancellationToken cancellationToken = default);" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.AsyncPageable`1&lt;class Azure.ResourceManager.Search.Models.QueryKey&gt; GetQueryKeysBySearchServiceAsync(class Azure.ResourceManager.Search.Models.SearchManagementRequestOptions searchManagementRequestOptions, valuetype System.Threading.CancellationToken cancellationToken) cil managed" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetQueryKeysBySearchServiceAsync (Optional searchManagementRequestOptions As SearchManagementRequestOptions = Nothing, Optional cancellationToken As CancellationToken = Nothing) As AsyncPageable(Of QueryKey)" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="F#" Value="abstract member GetQueryKeysBySearchServiceAsync : Azure.ResourceManager.Search.Models.SearchManagementRequestOptions * System.Threading.CancellationToken -&gt; Azure.AsyncPageable&lt;Azure.ResourceManager.Search.Models.QueryKey&gt;&#xA;override this.GetQueryKeysBySearchServiceAsync : Azure.ResourceManager.Search.Models.SearchManagementRequestOptions * System.Threading.CancellationToken -&gt; Azure.AsyncPageable&lt;Azure.ResourceManager.Search.Models.QueryKey&gt;" Usage="searchServiceResource.GetQueryKeysBySearchServiceAsync (searchManagementRequestOptions, cancellationToken)" FrameworkAlternate="azure-dotnet-preview" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetQueryKeysBySearchServiceAsync (Optional searchManagementRequestOptions As SearchManagementRequestOptions = Nothing, Optional cancellationToken As CancellationToken = Nothing) As AsyncPageable(Of SearchServiceQueryKey)" />
+      <MemberSignature Language="F#" Value="abstract member GetQueryKeysBySearchServiceAsync : Azure.ResourceManager.Search.Models.SearchManagementRequestOptions * System.Threading.CancellationToken -&gt; Azure.AsyncPageable&lt;Azure.ResourceManager.Search.Models.SearchServiceQueryKey&gt;&#xA;override this.GetQueryKeysBySearchServiceAsync : Azure.ResourceManager.Search.Models.SearchManagementRequestOptions * System.Threading.CancellationToken -&gt; Azure.AsyncPageable&lt;Azure.ResourceManager.Search.Models.SearchServiceQueryKey&gt;" Usage="searchServiceResource.GetQueryKeysBySearchServiceAsync (searchManagementRequestOptions, cancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Search</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType FrameworkAlternate="azure-dotnet">Azure.AsyncPageable&lt;Azure.ResourceManager.Search.Models.SearchServiceQueryKey&gt;</ReturnType>
-        <ReturnType FrameworkAlternate="azure-dotnet-preview">Azure.AsyncPageable&lt;Azure.ResourceManager.Search.Models.QueryKey&gt;</ReturnType>
+        <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.Search.Models.SearchServiceQueryKey&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="searchManagementRequestOptions" Type="Azure.ResourceManager.Search.Models.SearchManagementRequestOptions" />
@@ -568,9 +530,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Returns the list of query API keys for the given Azure Cognitive Search service.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/listQueryKeys
-            Operation Id: QueryKeys_ListBySearchService
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/listQueryKeys</description></item><item><term>Operation Id</term><description>QueryKeys_ListBySearchService</description></item></list></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.Search.Models.SearchServiceQueryKey" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -585,6 +545,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Search</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Search.SearchPrivateEndpointConnectionResource&gt;</ReturnType>
@@ -600,9 +561,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the details of the private endpoint connection to the search service in the given resource group.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/privateEndpointConnections/{privateEndpointConnectionName}
-            Operation Id: PrivateEndpointConnections_Get
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/privateEndpointConnections/{privateEndpointConnectionName}</description></item><item><term>Operation Id</term><description>PrivateEndpointConnections_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -621,6 +580,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Search</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Search.SearchPrivateEndpointConnectionResource&gt;&gt;</ReturnType>
@@ -636,9 +596,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the details of the private endpoint connection to the search service in the given resource group.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/privateEndpointConnections/{privateEndpointConnectionName}
-            Operation Id: PrivateEndpointConnections_Get
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/privateEndpointConnections/{privateEndpointConnectionName}</description></item><item><term>Operation Id</term><description>PrivateEndpointConnections_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -657,6 +615,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Search</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Search.SearchPrivateEndpointConnectionCollection</ReturnType>
@@ -665,99 +624,6 @@
       <Docs>
         <summary> Gets a collection of SearchPrivateEndpointConnectionResources in the SearchService. </summary>
         <returns> An object representing collection of SearchPrivateEndpointConnectionResources and their operations over a SearchPrivateEndpointConnectionResource. </returns>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="GetSharedPrivateLinkResource">
-      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;Azure.ResourceManager.Search.SharedPrivateLinkResource&gt; GetSharedPrivateLinkResource (string sharedPrivateLinkResourceName, Azure.ResourceManager.Search.Models.SearchManagementRequestOptions searchManagementRequestOptions = default, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class Azure.ResourceManager.Search.SharedPrivateLinkResource&gt; GetSharedPrivateLinkResource(string sharedPrivateLinkResourceName, class Azure.ResourceManager.Search.Models.SearchManagementRequestOptions searchManagementRequestOptions, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Search.SearchServiceResource.GetSharedPrivateLinkResource(System.String,Azure.ResourceManager.Search.Models.SearchManagementRequestOptions,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetSharedPrivateLinkResource (sharedPrivateLinkResourceName As String, Optional searchManagementRequestOptions As SearchManagementRequestOptions = Nothing, Optional cancellationToken As CancellationToken = Nothing) As Response(Of SharedPrivateLinkResource)" />
-      <MemberSignature Language="F#" Value="abstract member GetSharedPrivateLinkResource : string * Azure.ResourceManager.Search.Models.SearchManagementRequestOptions * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Search.SharedPrivateLinkResource&gt;&#xA;override this.GetSharedPrivateLinkResource : string * Azure.ResourceManager.Search.Models.SearchManagementRequestOptions * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Search.SharedPrivateLinkResource&gt;" Usage="searchServiceResource.GetSharedPrivateLinkResource (sharedPrivateLinkResourceName, searchManagementRequestOptions, cancellationToken)" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.Search</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.Response&lt;Azure.ResourceManager.Search.SharedPrivateLinkResource&gt;</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="sharedPrivateLinkResourceName" Type="System.String" Index="0" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="searchManagementRequestOptions" Type="Azure.ResourceManager.Search.Models.SearchManagementRequestOptions" Index="1" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="2" FrameworkAlternate="azure-dotnet-preview" />
-      </Parameters>
-      <Docs>
-        <param name="sharedPrivateLinkResourceName"> The name of the shared private link resource managed by the Azure Cognitive Search service within the specified resource group. </param>
-        <param name="searchManagementRequestOptions"> Parameter group. </param>
-        <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary>
-            Gets the details of the shared private link resource managed by the search service in the given resource group.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/sharedPrivateLinkResources/{sharedPrivateLinkResourceName}
-            Operation Id: SharedPrivateLinkResources_Get
-            </summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="sharedPrivateLinkResourceName" /> is an empty string, and was expected to be non-empty. </exception>
-        <exception cref="T:System.ArgumentNullException">
-          <paramref name="sharedPrivateLinkResourceName" /> is null. </exception>
-      </Docs>
-    </Member>
-    <Member MemberName="GetSharedPrivateLinkResourceAsync">
-      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Search.SharedPrivateLinkResource&gt;&gt; GetSharedPrivateLinkResourceAsync (string sharedPrivateLinkResourceName, Azure.ResourceManager.Search.Models.SearchManagementRequestOptions searchManagementRequestOptions = default, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.ResourceManager.Search.SharedPrivateLinkResource&gt;&gt; GetSharedPrivateLinkResourceAsync(string sharedPrivateLinkResourceName, class Azure.ResourceManager.Search.Models.SearchManagementRequestOptions searchManagementRequestOptions, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Search.SearchServiceResource.GetSharedPrivateLinkResourceAsync(System.String,Azure.ResourceManager.Search.Models.SearchManagementRequestOptions,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetSharedPrivateLinkResourceAsync (sharedPrivateLinkResourceName As String, Optional searchManagementRequestOptions As SearchManagementRequestOptions = Nothing, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of SharedPrivateLinkResource))" />
-      <MemberSignature Language="F#" Value="abstract member GetSharedPrivateLinkResourceAsync : string * Azure.ResourceManager.Search.Models.SearchManagementRequestOptions * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Search.SharedPrivateLinkResource&gt;&gt;&#xA;override this.GetSharedPrivateLinkResourceAsync : string * Azure.ResourceManager.Search.Models.SearchManagementRequestOptions * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Search.SharedPrivateLinkResource&gt;&gt;" Usage="searchServiceResource.GetSharedPrivateLinkResourceAsync (sharedPrivateLinkResourceName, searchManagementRequestOptions, cancellationToken)" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.Search</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Search.SharedPrivateLinkResource&gt;&gt;</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="sharedPrivateLinkResourceName" Type="System.String" Index="0" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="searchManagementRequestOptions" Type="Azure.ResourceManager.Search.Models.SearchManagementRequestOptions" Index="1" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="2" FrameworkAlternate="azure-dotnet-preview" />
-      </Parameters>
-      <Docs>
-        <param name="sharedPrivateLinkResourceName"> The name of the shared private link resource managed by the Azure Cognitive Search service within the specified resource group. </param>
-        <param name="searchManagementRequestOptions"> Parameter group. </param>
-        <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary>
-            Gets the details of the shared private link resource managed by the search service in the given resource group.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/sharedPrivateLinkResources/{sharedPrivateLinkResourceName}
-            Operation Id: SharedPrivateLinkResources_Get
-            </summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
-        <exception cref="T:System.ArgumentException">
-          <paramref name="sharedPrivateLinkResourceName" /> is an empty string, and was expected to be non-empty. </exception>
-        <exception cref="T:System.ArgumentNullException">
-          <paramref name="sharedPrivateLinkResourceName" /> is null. </exception>
-      </Docs>
-    </Member>
-    <Member MemberName="GetSharedPrivateLinkResources">
-      <MemberSignature Language="C#" Value="public virtual Azure.ResourceManager.Search.SharedPrivateLinkResourceCollection GetSharedPrivateLinkResources ();" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.ResourceManager.Search.SharedPrivateLinkResourceCollection GetSharedPrivateLinkResources() cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Search.SearchServiceResource.GetSharedPrivateLinkResources" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetSharedPrivateLinkResources () As SharedPrivateLinkResourceCollection" />
-      <MemberSignature Language="F#" Value="abstract member GetSharedPrivateLinkResources : unit -&gt; Azure.ResourceManager.Search.SharedPrivateLinkResourceCollection&#xA;override this.GetSharedPrivateLinkResources : unit -&gt; Azure.ResourceManager.Search.SharedPrivateLinkResourceCollection" Usage="searchServiceResource.GetSharedPrivateLinkResources " />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.Search</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.ResourceManager.Search.SharedPrivateLinkResourceCollection</ReturnType>
-      </ReturnValue>
-      <Parameters />
-      <Docs>
-        <summary> Gets a collection of SharedPrivateLinkResources in the SearchService. </summary>
-        <returns> An object representing collection of SharedPrivateLinkResources and their operations over a SharedPrivateLinkResource. </returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -771,14 +637,15 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Search</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Search.SharedSearchServicePrivateLinkResource&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="sharedPrivateLinkResourceName" Type="System.String" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="searchManagementRequestOptions" Type="Azure.ResourceManager.Search.Models.SearchManagementRequestOptions" Index="1" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="2" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="sharedPrivateLinkResourceName" Type="System.String" />
+        <Parameter Name="searchManagementRequestOptions" Type="Azure.ResourceManager.Search.Models.SearchManagementRequestOptions" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
         <param name="sharedPrivateLinkResourceName"> The name of the shared private link resource managed by the Azure Cognitive Search service within the specified resource group. </param>
@@ -786,9 +653,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the details of the shared private link resource managed by the search service in the given resource group.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/sharedPrivateLinkResources/{sharedPrivateLinkResourceName}
-            Operation Id: SharedPrivateLinkResources_Get
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/sharedPrivateLinkResources/{sharedPrivateLinkResourceName}</description></item><item><term>Operation Id</term><description>SharedPrivateLinkResources_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -807,14 +672,15 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Search</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Search.SharedSearchServicePrivateLinkResource&gt;&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="sharedPrivateLinkResourceName" Type="System.String" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="searchManagementRequestOptions" Type="Azure.ResourceManager.Search.Models.SearchManagementRequestOptions" Index="1" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="2" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="sharedPrivateLinkResourceName" Type="System.String" />
+        <Parameter Name="searchManagementRequestOptions" Type="Azure.ResourceManager.Search.Models.SearchManagementRequestOptions" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
         <param name="sharedPrivateLinkResourceName"> The name of the shared private link resource managed by the Azure Cognitive Search service within the specified resource group. </param>
@@ -822,9 +688,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets the details of the shared private link resource managed by the search service in the given resource group.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/sharedPrivateLinkResources/{sharedPrivateLinkResourceName}
-            Operation Id: SharedPrivateLinkResources_Get
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/sharedPrivateLinkResources/{sharedPrivateLinkResourceName}</description></item><item><term>Operation Id</term><description>SharedPrivateLinkResources_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -843,6 +707,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Search</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Search.SharedSearchServicePrivateLinkResourceCollection</ReturnType>
@@ -864,6 +729,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Search</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Pageable&lt;Azure.ResourceManager.Search.Models.SearchPrivateLinkResource&gt;</ReturnType>
@@ -877,9 +743,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets a list of all supported private link resource types for the given service.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/privateLinkResources
-            Operation Id: PrivateLinkResources_ListSupported
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/privateLinkResources</description></item><item><term>Operation Id</term><description>PrivateLinkResources_ListSupported</description></item></list></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.Search.Models.SearchPrivateLinkResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -894,6 +758,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Search</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.AsyncPageable&lt;Azure.ResourceManager.Search.Models.SearchPrivateLinkResource&gt;</ReturnType>
@@ -907,9 +772,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Gets a list of all supported private link resource types for the given service.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/privateLinkResources
-            Operation Id: PrivateLinkResources_ListSupported
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/privateLinkResources</description></item><item><term>Operation Id</term><description>PrivateLinkResources_ListSupported</description></item></list></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.Search.Models.SearchPrivateLinkResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -924,6 +787,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Search</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -931,38 +795,6 @@
       <Docs>
         <summary> Gets whether or not the current instance has data. </summary>
         <value>To be added.</value>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="RegenerateAdminKey">
-      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;Azure.ResourceManager.Search.Models.AdminKeyResult&gt; RegenerateAdminKey (Azure.ResourceManager.Search.Models.AdminKeyKind keyKind, Azure.ResourceManager.Search.Models.SearchManagementRequestOptions searchManagementRequestOptions = default, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class Azure.ResourceManager.Search.Models.AdminKeyResult&gt; RegenerateAdminKey(valuetype Azure.ResourceManager.Search.Models.AdminKeyKind keyKind, class Azure.ResourceManager.Search.Models.SearchManagementRequestOptions searchManagementRequestOptions, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Search.SearchServiceResource.RegenerateAdminKey(Azure.ResourceManager.Search.Models.AdminKeyKind,Azure.ResourceManager.Search.Models.SearchManagementRequestOptions,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function RegenerateAdminKey (keyKind As AdminKeyKind, Optional searchManagementRequestOptions As SearchManagementRequestOptions = Nothing, Optional cancellationToken As CancellationToken = Nothing) As Response(Of AdminKeyResult)" />
-      <MemberSignature Language="F#" Value="abstract member RegenerateAdminKey : Azure.ResourceManager.Search.Models.AdminKeyKind * Azure.ResourceManager.Search.Models.SearchManagementRequestOptions * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Search.Models.AdminKeyResult&gt;&#xA;override this.RegenerateAdminKey : Azure.ResourceManager.Search.Models.AdminKeyKind * Azure.ResourceManager.Search.Models.SearchManagementRequestOptions * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.ResourceManager.Search.Models.AdminKeyResult&gt;" Usage="searchServiceResource.RegenerateAdminKey (keyKind, searchManagementRequestOptions, cancellationToken)" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.Search</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.Response&lt;Azure.ResourceManager.Search.Models.AdminKeyResult&gt;</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="keyKind" Type="Azure.ResourceManager.Search.Models.AdminKeyKind" Index="0" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="searchManagementRequestOptions" Type="Azure.ResourceManager.Search.Models.SearchManagementRequestOptions" Index="1" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="2" FrameworkAlternate="azure-dotnet-preview" />
-      </Parameters>
-      <Docs>
-        <param name="keyKind"> Specifies which key to regenerate. Valid values include 'primary' and 'secondary'. </param>
-        <param name="searchManagementRequestOptions"> Parameter group. </param>
-        <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary>
-            Regenerates either the primary or secondary admin API key. You can only regenerate one key at a time.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/regenerateAdminKey/{keyKind}
-            Operation Id: AdminKeys_Regenerate
-            </summary>
-        <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -976,14 +808,15 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Search</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Search.Models.SearchServiceAdminKeyResult&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="keyKind" Type="Azure.ResourceManager.Search.Models.SearchServiceAdminKeyKind" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="searchManagementRequestOptions" Type="Azure.ResourceManager.Search.Models.SearchManagementRequestOptions" Index="1" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="2" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="keyKind" Type="Azure.ResourceManager.Search.Models.SearchServiceAdminKeyKind" />
+        <Parameter Name="searchManagementRequestOptions" Type="Azure.ResourceManager.Search.Models.SearchManagementRequestOptions" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
         <param name="keyKind"> Specifies which key to regenerate. Valid values include 'primary' and 'secondary'. </param>
@@ -991,41 +824,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Regenerates either the primary or secondary admin API key. You can only regenerate one key at a time.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/regenerateAdminKey/{keyKind}
-            Operation Id: AdminKeys_Regenerate
-            </summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="RegenerateAdminKeyAsync">
-      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Search.Models.AdminKeyResult&gt;&gt; RegenerateAdminKeyAsync (Azure.ResourceManager.Search.Models.AdminKeyKind keyKind, Azure.ResourceManager.Search.Models.SearchManagementRequestOptions searchManagementRequestOptions = default, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.ResourceManager.Search.Models.AdminKeyResult&gt;&gt; RegenerateAdminKeyAsync(valuetype Azure.ResourceManager.Search.Models.AdminKeyKind keyKind, class Azure.ResourceManager.Search.Models.SearchManagementRequestOptions searchManagementRequestOptions, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Search.SearchServiceResource.RegenerateAdminKeyAsync(Azure.ResourceManager.Search.Models.AdminKeyKind,Azure.ResourceManager.Search.Models.SearchManagementRequestOptions,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function RegenerateAdminKeyAsync (keyKind As AdminKeyKind, Optional searchManagementRequestOptions As SearchManagementRequestOptions = Nothing, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of AdminKeyResult))" />
-      <MemberSignature Language="F#" Value="abstract member RegenerateAdminKeyAsync : Azure.ResourceManager.Search.Models.AdminKeyKind * Azure.ResourceManager.Search.Models.SearchManagementRequestOptions * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Search.Models.AdminKeyResult&gt;&gt;&#xA;override this.RegenerateAdminKeyAsync : Azure.ResourceManager.Search.Models.AdminKeyKind * Azure.ResourceManager.Search.Models.SearchManagementRequestOptions * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Search.Models.AdminKeyResult&gt;&gt;" Usage="searchServiceResource.RegenerateAdminKeyAsync (keyKind, searchManagementRequestOptions, cancellationToken)" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.Search</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Search.Models.AdminKeyResult&gt;&gt;</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="keyKind" Type="Azure.ResourceManager.Search.Models.AdminKeyKind" Index="0" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="searchManagementRequestOptions" Type="Azure.ResourceManager.Search.Models.SearchManagementRequestOptions" Index="1" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="2" FrameworkAlternate="azure-dotnet-preview" />
-      </Parameters>
-      <Docs>
-        <param name="keyKind"> Specifies which key to regenerate. Valid values include 'primary' and 'secondary'. </param>
-        <param name="searchManagementRequestOptions"> Parameter group. </param>
-        <param name="cancellationToken"> The cancellation token to use. </param>
-        <summary>
-            Regenerates either the primary or secondary admin API key. You can only regenerate one key at a time.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/regenerateAdminKey/{keyKind}
-            Operation Id: AdminKeys_Regenerate
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/regenerateAdminKey/{keyKind}</description></item><item><term>Operation Id</term><description>AdminKeys_Regenerate</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1040,14 +839,15 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Search</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Search.Models.SearchServiceAdminKeyResult&gt;&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="keyKind" Type="Azure.ResourceManager.Search.Models.SearchServiceAdminKeyKind" Index="0" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="searchManagementRequestOptions" Type="Azure.ResourceManager.Search.Models.SearchManagementRequestOptions" Index="1" FrameworkAlternate="azure-dotnet" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="2" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="keyKind" Type="Azure.ResourceManager.Search.Models.SearchServiceAdminKeyKind" />
+        <Parameter Name="searchManagementRequestOptions" Type="Azure.ResourceManager.Search.Models.SearchManagementRequestOptions" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
         <param name="keyKind"> Specifies which key to regenerate. Valid values include 'primary' and 'secondary'. </param>
@@ -1055,9 +855,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Regenerates either the primary or secondary admin API key. You can only regenerate one key at a time.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/regenerateAdminKey/{keyKind}
-            Operation Id: AdminKeys_Regenerate
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}/regenerateAdminKey/{keyKind}</description></item><item><term>Operation Id</term><description>AdminKeys_Regenerate</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -1072,6 +870,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Search</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Search.SearchServiceResource&gt;</ReturnType>
@@ -1085,9 +884,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Removes a tag by key from the resource.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}
-            Operation Id: Services_Get
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}</description></item><item><term>Operation Id</term><description>Services_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1104,6 +901,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Search</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Search.SearchServiceResource&gt;&gt;</ReturnType>
@@ -1117,9 +915,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Removes a tag by key from the resource.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}
-            Operation Id: Services_Get
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}</description></item><item><term>Operation Id</term><description>Services_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1136,6 +932,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Search</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Core.ResourceType</ReturnType>
@@ -1155,6 +952,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Search</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Search.SearchServiceResource&gt;</ReturnType>
@@ -1168,9 +966,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Replace the tags on the resource with the given set.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}
-            Operation Id: Services_Get
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}</description></item><item><term>Operation Id</term><description>Services_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1187,6 +983,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Search</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Search.SearchServiceResource&gt;&gt;</ReturnType>
@@ -1200,9 +997,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Replace the tags on the resource with the given set.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}
-            Operation Id: Services_Get
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}</description></item><item><term>Operation Id</term><description>Services_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1219,6 +1014,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Search</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Response&lt;Azure.ResourceManager.Search.SearchServiceResource&gt;</ReturnType>
@@ -1234,9 +1030,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Updates an existing search service in the given resource group.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}
-            Operation Id: Services_Update
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}</description></item><item><term>Operation Id</term><description>Services_Update</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -1253,6 +1047,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Search</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.ResourceManager.Search.SearchServiceResource&gt;&gt;</ReturnType>
@@ -1268,9 +1063,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Updates an existing search service in the given resource group.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}
-            Operation Id: Services_Update
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Search/searchServices/{searchServiceName}</description></item><item><term>Operation Id</term><description>Services_Update</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">

@@ -129,5 +129,27 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <Member MemberName="UserToUserInformation">
+      <MemberSignature Language="C#" Value="public string UserToUserInformation { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string UserToUserInformation" />
+      <MemberSignature Language="DocId" Value="P:Azure.Communication.CallAutomation.TransferToParticipantOptions.UserToUserInformation" />
+      <MemberSignature Language="VB.NET" Value="Public Property UserToUserInformation As String" />
+      <MemberSignature Language="F#" Value="member this.UserToUserInformation : string with get, set" Usage="Azure.Communication.CallAutomation.TransferToParticipantOptions.UserToUserInformation" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.CallAutomation</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The UserToUserInformation.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
   </Members>
 </Type>

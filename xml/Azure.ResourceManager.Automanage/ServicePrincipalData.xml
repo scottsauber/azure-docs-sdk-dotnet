@@ -1,0 +1,77 @@
+<Type Name="ServicePrincipalData" FullName="Azure.ResourceManager.Automanage.ServicePrincipalData">
+  <TypeSignature Language="C#" Value="public class ServicePrincipalData : Azure.ResourceManager.Models.ResourceData" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ServicePrincipalData extends Azure.ResourceManager.Models.ResourceData" />
+  <TypeSignature Language="DocId" Value="T:Azure.ResourceManager.Automanage.ServicePrincipalData" />
+  <TypeSignature Language="VB.NET" Value="Public Class ServicePrincipalData&#xA;Inherits ResourceData" />
+  <TypeSignature Language="F#" Value="type ServicePrincipalData = class&#xA;    inherit ResourceData" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.ResourceManager.Automanage</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Azure.ResourceManager.Models.ResourceData</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary> A class representing the ServicePrincipal data model. </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ServicePrincipalData ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.ResourceManager.Automanage.ServicePrincipalData.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Automanage</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary> Initializes a new instance of ServicePrincipalData. </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AuthorizationSet">
+      <MemberSignature Language="C#" Value="public bool? AuthorizationSet { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;bool&gt; AuthorizationSet" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Automanage.ServicePrincipalData.AuthorizationSet" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AuthorizationSet As Nullable(Of Boolean)" />
+      <MemberSignature Language="F#" Value="member this.AuthorizationSet : Nullable&lt;bool&gt;" Usage="Azure.ResourceManager.Automanage.ServicePrincipalData.AuthorizationSet" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Automanage</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> Returns the contributor RBAC Role exist or not for the Service Principal Id. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ServicePrincipalId">
+      <MemberSignature Language="C#" Value="public string ServicePrincipalId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ServicePrincipalId" />
+      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Automanage.ServicePrincipalData.ServicePrincipalId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ServicePrincipalId As String" />
+      <MemberSignature Language="F#" Value="member this.ServicePrincipalId : string" Usage="Azure.ResourceManager.Automanage.ServicePrincipalData.ServicePrincipalId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.ResourceManager.Automanage</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> The Service Principal Id for the subscription. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>
