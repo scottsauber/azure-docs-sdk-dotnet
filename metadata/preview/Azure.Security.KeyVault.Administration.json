@@ -11,9 +11,7 @@
   "IsNewSdk": true,
   "ArtifactName": "Azure.Security.KeyVault.Administration",
   "ReleaseStatus": null,
-  "Namespaces": [
-    "Azure.Security.KeyVault.Administration"
-  ],
+  "Namespaces": "Azure.Security.KeyVault.Administration",
   "DocsCiConfigProperties": "tfm=netstandard2.0;isPrerelease=true",
   "MSDocService": "placeholder"
 }

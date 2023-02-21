@@ -324,7 +324,7 @@ azureresourcemanagermarketplace,[tfm=netstandard2.0]Azure.ResourceManager.Market
 azureresourcemanagernetapp,[tfm=netstandard2.0]Azure.ResourceManager.NetApp,1.0.1
 azureresourcemanagersearch,[tfm=netstandard2.0]Azure.ResourceManager.Search,1.0.0
 azureresourcemanagerapimanagement,[tfm=netstandard2.0]Azure.ResourceManager.ApiManagement,1.0.1
-azureresourcemanagerappservice,[tfm=netstandard2.0]Azure.ResourceManager.AppService,1.0.0
+azureresourcemanagerappservice,[tfm=netstandard2.0;customSource=https://pkgs.dev.azure.com/azure-sdk/public/_packaging/azure-sdk-for-net/nuget/v3/index.json]Azure.ResourceManager.AppService,1.0.1
 azureresourcemanagerfrontdoor,[tfm=netstandard2.0]Azure.ResourceManager.FrontDoor,1.1.0
 azureresourcemanagerguestconfiguration,[tfm=netstandard2.0]Azure.ResourceManager.GuestConfiguration,1.0.0
 azureresourcemanagermarketplaceordering,[tfm=netstandard2.0]Azure.ResourceManager.MarketplaceOrdering,1.0.1
@@ -406,3 +406,5 @@ windowsazuremobileservicessqlitestore,[tfm=netstandard2.0]WindowsAzure.MobileSer
 windowsazuremobileservicesbackend,[tfm=netstandard2.0]WindowsAzure.MobileServices.Backend,1.0.478
 microsoftazurefunctionsworkerextensionsdurabletask,[tfm=netstandard2.0]Microsoft.Azure.Functions.Worker.Extensions.DurableTask,1.0.0
 azureresourcemanagerloadtesting,[tfm=netstandard2.0]Azure.ResourceManager.LoadTesting,1.0.1
+azureresourcemanagerrecoveryservicesbackup,[tfm=netstandard2.0;customSource=https://pkgs.dev.azure.com/azure-sdk/public/_packaging/azure-sdk-for-net/nuget/v3/index.json]Azure.ResourceManager.RecoveryServicesBackup,1.0.0
+azureresourcemanagerrecoveryservices,[tfm=netstandard2.0;customSource=https://pkgs.dev.azure.com/azure-sdk/public/_packaging/azure-sdk-for-net/nuget/v3/index.json]Azure.ResourceManager.RecoveryServices,1.0.0
