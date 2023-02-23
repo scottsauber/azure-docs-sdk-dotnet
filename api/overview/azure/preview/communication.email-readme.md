@@ -3,12 +3,12 @@ title: Azure Communication Email client library for .NET
 keywords: Azure, dotnet, SDK, API, Azure.Communication.Email, communication
 author: acsdevx-msft
 ms.author: acsdevx-msft
-ms.date: 05/24/2022
+ms.date: 02/23/2023
 ms.topic: reference
 ms.devlang: dotnet
 ms.service: communication
 ---
-# Azure Communication Email client library for .NET - version 1.0.0-beta.1 
+# Azure Communication Email client library for .NET - version 1.0.0-alpha.20230223.3 
 
 
 This package contains a C# SDK for Azure Communication Services for Email.
@@ -146,7 +146,7 @@ var emailMessage = new EmailMessage(
     emailRecipients);
 
 var filePath = "<path to your file>";
-var attachmentName = "<name of your attachment>"
+var attachmentName = "<name of your attachment>";
 EmailAttachmentType attachmentType = EmailAttachmentType.Txt;
 
 // Convert the file content into a Base64 string
@@ -190,11 +190,11 @@ This project has adopted the [Microsoft Open Source Code of Conduct][coc]. For m
 [communication_resource_create_portal]:  /azure/communication-services/quickstarts/create-communication-resource?tabs=windows&pivots=platform-azp
 [communication_resource_create_power_shell]: /powershell/module/az.communication/new-azcommunicationservice
 [communication_resource_create_net]: /azure/communication-services/quickstarts/create-communication-resource?tabs=windows&pivots=platform-net
-[package]: https://www.nuget.org/packages/Azure.Communication.Common/
+[package]: https://www.nuget.org/packages/Azure.Communication.Email
 [product_docs]: https://aka.ms/acsemail/overview
-[nextsteps]:https://aka.ms/acsemail/qs-sendmail
+[nextsteps]:https://aka.ms/acsemail/qs-sendmail?pivots=programming-language-csharp
 [nuget]: https://www.nuget.org/
-[source]: https://github.com/Azure/azure-sdk-for-net/tree/Azure.Communication.Email_1.0.0-beta.1/sdk/communication
-[email_attachmentTypes]: https://www.bing.com
+[source]: https://github.com/Azure/azure-sdk-for-net/tree/main/sdk/communication/Azure.Communication.Email/src
+[email_attachmentTypes]: https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/communication/Azure.Communication.Email/src/Generated/Models/EmailAttachmentType.cs
 [domain_overview]: https://aka.ms/acsemail/domainsoverview
 
