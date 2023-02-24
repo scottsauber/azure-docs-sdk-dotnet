@@ -75,9 +75,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Register a new Auth Connection for a Bot Service
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.BotService/botServices/{resourceName}/connections/{connectionName}
-            Operation Id: BotConnection_Create
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.BotService/botServices/{resourceName}/connections/{connectionName}</description></item><item><term>Operation Id</term><description>BotConnection_Create</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -114,9 +112,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Register a new Auth Connection for a Bot Service
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.BotService/botServices/{resourceName}/connections/{connectionName}
-            Operation Id: BotConnection_Create
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.BotService/botServices/{resourceName}/connections/{connectionName}</description></item><item><term>Operation Id</term><description>BotConnection_Create</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -148,9 +144,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Checks to see if the resource exists in azure.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.BotService/botServices/{resourceName}/connections/{connectionName}
-            Operation Id: BotConnection_Get
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.BotService/botServices/{resourceName}/connections/{connectionName}</description></item><item><term>Operation Id</term><description>BotConnection_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -182,9 +176,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Checks to see if the resource exists in azure.
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.BotService/botServices/{resourceName}/connections/{connectionName}
-            Operation Id: BotConnection_Get
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.BotService/botServices/{resourceName}/connections/{connectionName}</description></item><item><term>Operation Id</term><description>BotConnection_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -216,9 +208,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get a Connection Setting registration for a Bot Service
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.BotService/botServices/{resourceName}/connections/{connectionName}
-            Operation Id: BotConnection_Get
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.BotService/botServices/{resourceName}/connections/{connectionName}</description></item><item><term>Operation Id</term><description>BotConnection_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">
@@ -248,9 +238,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Returns all the Connection Settings registered to a particular BotService resource
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.BotService/botServices/{resourceName}/connections
-            Operation Id: BotConnection_ListByBotService
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.BotService/botServices/{resourceName}/connections</description></item><item><term>Operation Id</term><description>BotConnection_ListByBotService</description></item></list></summary>
         <returns> A collection of <see cref="T:Azure.ResourceManager.BotService.ConnectionSettingResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -276,9 +264,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Returns all the Connection Settings registered to a particular BotService resource
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.BotService/botServices/{resourceName}/connections
-            Operation Id: BotConnection_ListByBotService
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.BotService/botServices/{resourceName}/connections</description></item><item><term>Operation Id</term><description>BotConnection_ListByBotService</description></item></list></summary>
         <returns> An async collection of <see cref="T:Azure.ResourceManager.BotService.ConnectionSettingResource" /> that may take multiple service requests to iterate over. </returns>
         <remarks>To be added.</remarks>
       </Docs>
@@ -306,9 +292,7 @@
         <param name="cancellationToken"> The cancellation token to use. </param>
         <summary>
             Get a Connection Setting registration for a Bot Service
-            Request Path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.BotService/botServices/{resourceName}/connections/{connectionName}
-            Operation Id: BotConnection_Get
-            </summary>
+            <list type="bullet"><item><term>Request Path</term><description>/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.BotService/botServices/{resourceName}/connections/{connectionName}</description></item><item><term>Operation Id</term><description>BotConnection_Get</description></item></list></summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentException">

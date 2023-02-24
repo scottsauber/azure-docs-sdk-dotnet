@@ -1,8 +1,8 @@
 <Type Name="SinkNodeBase" FullName="Azure.Media.VideoAnalyzer.Edge.Models.SinkNodeBase">
-  <TypeSignature Language="C#" Value="public class SinkNodeBase" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit SinkNodeBase extends System.Object" />
+  <TypeSignature Language="C#" Value="public abstract class SinkNodeBase" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit SinkNodeBase extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Azure.Media.VideoAnalyzer.Edge.Models.SinkNodeBase" />
-  <TypeSignature Language="VB.NET" Value="Public Class SinkNodeBase" />
+  <TypeSignature Language="VB.NET" Value="Public MustInherit Class SinkNodeBase" />
   <TypeSignature Language="F#" Value="type SinkNodeBase = class" />
   <AssemblyInfo>
     <AssemblyName>Azure.Media.VideoAnalyzer.Edge</AssemblyName>
@@ -13,15 +13,19 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary> Base class for topology sink nodes. </summary>
+    <summary>
+            Base class for topology sink nodes.
+            Please note <see cref="T:Azure.Media.VideoAnalyzer.Edge.Models.SinkNodeBase" /> is the base class. According to the scenario, a derived class of the base class might need to be assigned here, or this property needs to be casted to one of the possible derived classes.
+            The available derived classes include <see cref="T:Azure.Media.VideoAnalyzer.Edge.Models.FileSink" />, <see cref="T:Azure.Media.VideoAnalyzer.Edge.Models.IotHubMessageSink" /> and <see cref="T:Azure.Media.VideoAnalyzer.Edge.Models.VideoSink" />.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public SinkNodeBase (string name, System.Collections.Generic.IEnumerable&lt;Azure.Media.VideoAnalyzer.Edge.Models.NodeInput&gt; inputs);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string name, class System.Collections.Generic.IEnumerable`1&lt;class Azure.Media.VideoAnalyzer.Edge.Models.NodeInput&gt; inputs) cil managed" />
+      <MemberSignature Language="C#" Value="protected SinkNodeBase (string name, System.Collections.Generic.IEnumerable&lt;Azure.Media.VideoAnalyzer.Edge.Models.NodeInput&gt; inputs);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig specialname rtspecialname instance void .ctor(string name, class System.Collections.Generic.IEnumerable`1&lt;class Azure.Media.VideoAnalyzer.Edge.Models.NodeInput&gt; inputs) cil managed" />
       <MemberSignature Language="DocId" Value="M:Azure.Media.VideoAnalyzer.Edge.Models.SinkNodeBase.#ctor(System.String,System.Collections.Generic.IEnumerable{Azure.Media.VideoAnalyzer.Edge.Models.NodeInput})" />
-      <MemberSignature Language="VB.NET" Value="Public Sub New (name As String, inputs As IEnumerable(Of NodeInput))" />
+      <MemberSignature Language="VB.NET" Value="Protected Sub New (name As String, inputs As IEnumerable(Of NodeInput))" />
       <MemberSignature Language="F#" Value="new Azure.Media.VideoAnalyzer.Edge.Models.SinkNodeBase : string * seq&lt;Azure.Media.VideoAnalyzer.Edge.Models.NodeInput&gt; -&gt; Azure.Media.VideoAnalyzer.Edge.Models.SinkNodeBase" Usage="new Azure.Media.VideoAnalyzer.Edge.Models.SinkNodeBase (name, inputs)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>

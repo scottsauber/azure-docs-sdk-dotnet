@@ -1,15 +1,15 @@
 <Type Name="CollectTonesResult" FullName="Azure.Communication.CallAutomation.CollectTonesResult">
-  <TypeSignature Language="C#" Value="public class CollectTonesResult" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit CollectTonesResult extends System.Object" />
+  <TypeSignature Language="C#" Value="public class CollectTonesResult : Azure.Communication.CallAutomation.RecognizeResult" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit CollectTonesResult extends Azure.Communication.CallAutomation.RecognizeResult" />
   <TypeSignature Language="DocId" Value="T:Azure.Communication.CallAutomation.CollectTonesResult" />
-  <TypeSignature Language="VB.NET" Value="Public Class CollectTonesResult" />
-  <TypeSignature Language="F#" Value="type CollectTonesResult = class" />
+  <TypeSignature Language="VB.NET" Value="Public Class CollectTonesResult&#xA;Inherits RecognizeResult" />
+  <TypeSignature Language="F#" Value="type CollectTonesResult = class&#xA;    inherit RecognizeResult" />
   <AssemblyInfo>
     <AssemblyName>Azure.Communication.CallAutomation</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
-    <BaseTypeName>System.Object</BaseTypeName>
+    <BaseTypeName>Azure.Communication.CallAutomation.RecognizeResult</BaseTypeName>
   </Base>
   <Interfaces />
   <Docs>

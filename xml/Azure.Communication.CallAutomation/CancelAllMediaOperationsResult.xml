@@ -1,0 +1,47 @@
+<Type Name="CancelAllMediaOperationsResult" FullName="Azure.Communication.CallAutomation.CancelAllMediaOperationsResult">
+  <TypeSignature Language="C#" Value="public class CancelAllMediaOperationsResult : Azure.Communication.CallAutomation.ResultWithWaitForEventBase" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit CancelAllMediaOperationsResult extends Azure.Communication.CallAutomation.ResultWithWaitForEventBase" />
+  <TypeSignature Language="DocId" Value="T:Azure.Communication.CallAutomation.CancelAllMediaOperationsResult" />
+  <TypeSignature Language="VB.NET" Value="Public Class CancelAllMediaOperationsResult&#xA;Inherits ResultWithWaitForEventBase" />
+  <TypeSignature Language="F#" Value="type CancelAllMediaOperationsResult = class&#xA;    inherit ResultWithWaitForEventBase" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Communication.CallAutomation</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Azure.Communication.CallAutomation.ResultWithWaitForEventBase</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>The result from Canceling all media operation.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="WaitForEvent">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Azure.Communication.CallAutomation.CancelAllMediaOperationsEventResult&gt; WaitForEvent (TimeSpan eventTimeout = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task`1&lt;class Azure.Communication.CallAutomation.CancelAllMediaOperationsEventResult&gt; WaitForEvent(valuetype System.TimeSpan eventTimeout) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Communication.CallAutomation.CancelAllMediaOperationsResult.WaitForEvent(System.TimeSpan)" />
+      <MemberSignature Language="VB.NET" Value="Public Function WaitForEvent (Optional eventTimeout As TimeSpan = Nothing) As Task(Of CancelAllMediaOperationsEventResult)" />
+      <MemberSignature Language="F#" Value="member this.WaitForEvent : TimeSpan -&gt; System.Threading.Tasks.Task&lt;Azure.Communication.CallAutomation.CancelAllMediaOperationsEventResult&gt;" Usage="cancelAllMediaOperationsResult.WaitForEvent eventTimeout" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.CallAutomation</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Communication.CallAutomation.CancelAllMediaOperationsEventResult&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="eventTimeout" Type="System.TimeSpan" />
+      </Parameters>
+      <Docs>
+        <param name="eventTimeout">To be added.</param>
+        <summary>
+            Wait for <see cref="T:Azure.Communication.CallAutomation.CancelAllMediaOperationsEventResult" /> using <see cref="T:Azure.Communication.CallAutomation.EventProcessor" />.
+            </summary>
+        <returns>Returns <see cref="T:Azure.Communication.CallAutomation.CancelAllMediaOperationsEventResult" /> which contains either <see cref="T:Azure.Communication.CallAutomation.PlayCanceled" /> or <see cref="T:Azure.Communication.CallAutomation.RecognizeCanceled" /> event.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

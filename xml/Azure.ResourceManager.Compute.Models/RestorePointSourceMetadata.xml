@@ -9,6 +9,7 @@
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
     <AssemblyVersion>1.0.1.0</AssemblyVersion>
     <AssemblyVersion>1.1.0.0</AssemblyVersion>
+    <AssemblyVersion>1.2.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -31,6 +32,7 @@
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Compute.Models.BootDiagnostics</ReturnType>
@@ -42,25 +44,21 @@
       </Docs>
     </Member>
     <Member MemberName="HardwareProfile">
-      <MemberSignature Language="C#" Value="public Azure.ResourceManager.Compute.Models.VirtualMachineHardwareProfile HardwareProfile { get; }" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="ILAsm" Value=".property instance class Azure.ResourceManager.Compute.Models.VirtualMachineHardwareProfile HardwareProfile" FrameworkAlternate="azure-dotnet" />
+      <MemberSignature Language="C#" Value="public Azure.ResourceManager.Compute.Models.VirtualMachineHardwareProfile HardwareProfile { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.ResourceManager.Compute.Models.VirtualMachineHardwareProfile HardwareProfile" />
       <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Compute.Models.RestorePointSourceMetadata.HardwareProfile" />
-      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property HardwareProfile As VirtualMachineHardwareProfile" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="F#" Value="member this.HardwareProfile : Azure.ResourceManager.Compute.Models.VirtualMachineHardwareProfile" Usage="Azure.ResourceManager.Compute.Models.RestorePointSourceMetadata.HardwareProfile" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="C#" Value="public Azure.ResourceManager.Compute.Models.HardwareProfile HardwareProfile { get; }" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="ILAsm" Value=".property instance class Azure.ResourceManager.Compute.Models.HardwareProfile HardwareProfile" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property HardwareProfile As HardwareProfile" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="F#" Value="member this.HardwareProfile : Azure.ResourceManager.Compute.Models.HardwareProfile" Usage="Azure.ResourceManager.Compute.Models.RestorePointSourceMetadata.HardwareProfile" FrameworkAlternate="azure-dotnet-preview" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property HardwareProfile As VirtualMachineHardwareProfile" />
+      <MemberSignature Language="F#" Value="member this.HardwareProfile : Azure.ResourceManager.Compute.Models.VirtualMachineHardwareProfile" Usage="Azure.ResourceManager.Compute.Models.RestorePointSourceMetadata.HardwareProfile" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType FrameworkAlternate="azure-dotnet">Azure.ResourceManager.Compute.Models.VirtualMachineHardwareProfile</ReturnType>
-        <ReturnType FrameworkAlternate="azure-dotnet-preview">Azure.ResourceManager.Compute.Models.HardwareProfile</ReturnType>
+        <ReturnType>Azure.ResourceManager.Compute.Models.VirtualMachineHardwareProfile</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> Gets the hardware profile. </summary>
@@ -80,6 +78,7 @@
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -102,6 +101,7 @@
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;Azure.Core.AzureLocation&gt;</ReturnType>
@@ -113,25 +113,21 @@
       </Docs>
     </Member>
     <Member MemberName="OSProfile">
-      <MemberSignature Language="C#" Value="public Azure.ResourceManager.Compute.Models.VirtualMachineOSProfile OSProfile { get; }" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="ILAsm" Value=".property instance class Azure.ResourceManager.Compute.Models.VirtualMachineOSProfile OSProfile" FrameworkAlternate="azure-dotnet" />
+      <MemberSignature Language="C#" Value="public Azure.ResourceManager.Compute.Models.VirtualMachineOSProfile OSProfile { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.ResourceManager.Compute.Models.VirtualMachineOSProfile OSProfile" />
       <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Compute.Models.RestorePointSourceMetadata.OSProfile" />
-      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property OSProfile As VirtualMachineOSProfile" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="F#" Value="member this.OSProfile : Azure.ResourceManager.Compute.Models.VirtualMachineOSProfile" Usage="Azure.ResourceManager.Compute.Models.RestorePointSourceMetadata.OSProfile" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="C#" Value="public Azure.ResourceManager.Compute.Models.OSProfile OSProfile { get; }" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="ILAsm" Value=".property instance class Azure.ResourceManager.Compute.Models.OSProfile OSProfile" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property OSProfile As OSProfile" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="F#" Value="member this.OSProfile : Azure.ResourceManager.Compute.Models.OSProfile" Usage="Azure.ResourceManager.Compute.Models.RestorePointSourceMetadata.OSProfile" FrameworkAlternate="azure-dotnet-preview" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property OSProfile As VirtualMachineOSProfile" />
+      <MemberSignature Language="F#" Value="member this.OSProfile : Azure.ResourceManager.Compute.Models.VirtualMachineOSProfile" Usage="Azure.ResourceManager.Compute.Models.RestorePointSourceMetadata.OSProfile" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType FrameworkAlternate="azure-dotnet">Azure.ResourceManager.Compute.Models.VirtualMachineOSProfile</ReturnType>
-        <ReturnType FrameworkAlternate="azure-dotnet-preview">Azure.ResourceManager.Compute.Models.OSProfile</ReturnType>
+        <ReturnType>Azure.ResourceManager.Compute.Models.VirtualMachineOSProfile</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> Gets the OS profile. </summary>
@@ -151,6 +147,7 @@
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Compute.Models.SecurityProfile</ReturnType>
@@ -173,6 +170,7 @@
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.Compute.Models.RestorePointSourceVmStorageProfile</ReturnType>
@@ -193,6 +191,7 @@
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Compute</AssemblyName>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -215,6 +214,7 @@
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>

@@ -16,7 +16,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary> Model factory for read-only models. </summary>
+    <summary> Model factory for models. </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -55,7 +55,7 @@
         <param name="endTime"> The end time of the restore operation.</param>
         <param name="errorMessage">The error message generated from the operation, if any.</param>
         <summary>
-            Initializes a new instance of a FullBackupOperation for mocking purposes.
+            Initializes a new instance of a <see cref="T:Azure.Security.KeyVault.Administration.KeyVaultBackupOperation" /> for mocking purposes.
             </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
@@ -88,9 +88,9 @@
         <param name="startTime">The start time of the backup operation.</param>
         <param name="endTime">The end time of the backup operation.</param>
         <summary>
-            Initializes a new instance of a <see cref="M:Azure.Security.KeyVault.Administration.KeyVaultAdministrationModelFactory.BackupResult(System.Uri,System.DateTimeOffset,System.DateTimeOffset)" /> for mocking purposes.
+            Initializes a new instance of a <see cref="T:Azure.Security.KeyVault.Administration.KeyVaultBackupResult" /> for mocking purposes.
             </summary>
-        <returns>A new <see cref="M:Azure.Security.KeyVault.Administration.KeyVaultAdministrationModelFactory.BackupResult(System.Uri,System.DateTimeOffset,System.DateTimeOffset)" /> instance.</returns>
+        <returns>A new <see cref="T:Azure.Security.KeyVault.Administration.KeyVaultBackupResult" /> instance.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -302,7 +302,7 @@
         <param name="endTime"> The end time of the restore operation.</param>
         <param name="errorMessage">The error message generated from the operation, if any.</param>
         <summary>
-            Initializes a new instance of a FullRestoreOperation for mocking purposes.
+            Initializes a new instance of a <see cref="T:Azure.Security.KeyVault.Administration.KeyVaultRestoreOperation" /> for mocking purposes.
             </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
@@ -333,9 +333,9 @@
         <param name="startTime">The start time of the restore operation.</param>
         <param name="endTime">The end time of the restore operation.</param>
         <summary>
-            Initializes a new instance of a <see cref="M:Azure.Security.KeyVault.Administration.KeyVaultAdministrationModelFactory.RestoreResult(System.DateTimeOffset,System.DateTimeOffset)" /> for mocking purposes.
+            Initializes a new instance of a <see cref="T:Azure.Security.KeyVault.Administration.KeyVaultRestoreResult" /> for mocking purposes.
             </summary>
-        <returns>A new <see cref="M:Azure.Security.KeyVault.Administration.KeyVaultAdministrationModelFactory.BackupResult(System.Uri,System.DateTimeOffset,System.DateTimeOffset)" /> instance.</returns>
+        <returns>A new <see cref="T:Azure.Security.KeyVault.Administration.KeyVaultRestoreResult" /> instance.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -442,9 +442,9 @@
         <param name="startTime">The start time of the restore operation.</param>
         <param name="endTime">The end time of the restore operation.</param>
         <summary>
-            Initializes a new instance of a <see cref="M:Azure.Security.KeyVault.Administration.KeyVaultAdministrationModelFactory.SelectiveKeyRestoreResult(System.DateTimeOffset,System.DateTimeOffset)" /> for mocking purposes.
+            Initializes a new instance of a <see cref="T:Azure.Security.KeyVault.Administration.KeyVaultRestoreResult" /> for mocking purposes.
             </summary>
-        <returns>A new <see cref="M:Azure.Security.KeyVault.Administration.KeyVaultAdministrationModelFactory.BackupResult(System.Uri,System.DateTimeOffset,System.DateTimeOffset)" /> instance.</returns>
+        <returns>A new <see cref="T:Azure.Security.KeyVault.Administration.KeyVaultRestoreResult" /> instance.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

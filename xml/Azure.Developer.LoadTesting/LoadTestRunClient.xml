@@ -84,18 +84,18 @@
       </Docs>
     </Member>
     <Member MemberName="BeginTestRun">
-      <MemberSignature Language="C#" Value="public virtual Azure.Developer.LoadTesting.TestRunOperation BeginTestRun (Azure.WaitUntil waitUntil, string testRunId, Azure.Core.RequestContent content, TimeSpan? timeSpan = default, string oldTestRunId = default, Azure.RequestContext context = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Developer.LoadTesting.TestRunOperation BeginTestRun(valuetype Azure.WaitUntil waitUntil, string testRunId, class Azure.Core.RequestContent content, valuetype System.Nullable`1&lt;valuetype System.TimeSpan&gt; timeSpan, string oldTestRunId, class Azure.RequestContext context) cil managed" />
+      <MemberSignature Language="C#" Value="public virtual Azure.Developer.LoadTesting.TestRunResultOperation BeginTestRun (Azure.WaitUntil waitUntil, string testRunId, Azure.Core.RequestContent content, TimeSpan? timeSpan = default, string oldTestRunId = default, Azure.RequestContext context = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Developer.LoadTesting.TestRunResultOperation BeginTestRun(valuetype Azure.WaitUntil waitUntil, string testRunId, class Azure.Core.RequestContent content, valuetype System.Nullable`1&lt;valuetype System.TimeSpan&gt; timeSpan, string oldTestRunId, class Azure.RequestContext context) cil managed" />
       <MemberSignature Language="DocId" Value="M:Azure.Developer.LoadTesting.LoadTestRunClient.BeginTestRun(Azure.WaitUntil,System.String,Azure.Core.RequestContent,System.Nullable{System.TimeSpan},System.String,Azure.RequestContext)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function BeginTestRun (waitUntil As WaitUntil, testRunId As String, content As RequestContent, Optional timeSpan As Nullable(Of TimeSpan) = Nothing, Optional oldTestRunId As String = Nothing, Optional context As RequestContext = Nothing) As TestRunOperation" />
-      <MemberSignature Language="F#" Value="abstract member BeginTestRun : Azure.WaitUntil * string * Azure.Core.RequestContent * Nullable&lt;TimeSpan&gt; * string * Azure.RequestContext -&gt; Azure.Developer.LoadTesting.TestRunOperation&#xA;override this.BeginTestRun : Azure.WaitUntil * string * Azure.Core.RequestContent * Nullable&lt;TimeSpan&gt; * string * Azure.RequestContext -&gt; Azure.Developer.LoadTesting.TestRunOperation" Usage="loadTestRunClient.BeginTestRun (waitUntil, testRunId, content, timeSpan, oldTestRunId, context)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function BeginTestRun (waitUntil As WaitUntil, testRunId As String, content As RequestContent, Optional timeSpan As Nullable(Of TimeSpan) = Nothing, Optional oldTestRunId As String = Nothing, Optional context As RequestContext = Nothing) As TestRunResultOperation" />
+      <MemberSignature Language="F#" Value="abstract member BeginTestRun : Azure.WaitUntil * string * Azure.Core.RequestContent * Nullable&lt;TimeSpan&gt; * string * Azure.RequestContext -&gt; Azure.Developer.LoadTesting.TestRunResultOperation&#xA;override this.BeginTestRun : Azure.WaitUntil * string * Azure.Core.RequestContent * Nullable&lt;TimeSpan&gt; * string * Azure.RequestContext -&gt; Azure.Developer.LoadTesting.TestRunResultOperation" Usage="loadTestRunClient.BeginTestRun (waitUntil, testRunId, content, timeSpan, oldTestRunId, context)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Developer.LoadTesting</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>Azure.Developer.LoadTesting.TestRunOperation</ReturnType>
+        <ReturnType>Azure.Developer.LoadTesting.TestRunResultOperation</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="waitUntil" Type="Azure.WaitUntil" />
@@ -123,18 +123,18 @@
       </Docs>
     </Member>
     <Member MemberName="BeginTestRunAsync">
-      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Developer.LoadTesting.TestRunOperation&gt; BeginTestRunAsync (Azure.WaitUntil waitUntil, string testRunId, Azure.Core.RequestContent content, TimeSpan? timeSpan = default, string oldTestRunId = default, Azure.RequestContext context = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Developer.LoadTesting.TestRunOperation&gt; BeginTestRunAsync(valuetype Azure.WaitUntil waitUntil, string testRunId, class Azure.Core.RequestContent content, valuetype System.Nullable`1&lt;valuetype System.TimeSpan&gt; timeSpan, string oldTestRunId, class Azure.RequestContext context) cil managed" />
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Developer.LoadTesting.TestRunResultOperation&gt; BeginTestRunAsync (Azure.WaitUntil waitUntil, string testRunId, Azure.Core.RequestContent content, TimeSpan? timeSpan = default, string oldTestRunId = default, Azure.RequestContext context = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Developer.LoadTesting.TestRunResultOperation&gt; BeginTestRunAsync(valuetype Azure.WaitUntil waitUntil, string testRunId, class Azure.Core.RequestContent content, valuetype System.Nullable`1&lt;valuetype System.TimeSpan&gt; timeSpan, string oldTestRunId, class Azure.RequestContext context) cil managed" />
       <MemberSignature Language="DocId" Value="M:Azure.Developer.LoadTesting.LoadTestRunClient.BeginTestRunAsync(Azure.WaitUntil,System.String,Azure.Core.RequestContent,System.Nullable{System.TimeSpan},System.String,Azure.RequestContext)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function BeginTestRunAsync (waitUntil As WaitUntil, testRunId As String, content As RequestContent, Optional timeSpan As Nullable(Of TimeSpan) = Nothing, Optional oldTestRunId As String = Nothing, Optional context As RequestContext = Nothing) As Task(Of TestRunOperation)" />
-      <MemberSignature Language="F#" Value="abstract member BeginTestRunAsync : Azure.WaitUntil * string * Azure.Core.RequestContent * Nullable&lt;TimeSpan&gt; * string * Azure.RequestContext -&gt; System.Threading.Tasks.Task&lt;Azure.Developer.LoadTesting.TestRunOperation&gt;&#xA;override this.BeginTestRunAsync : Azure.WaitUntil * string * Azure.Core.RequestContent * Nullable&lt;TimeSpan&gt; * string * Azure.RequestContext -&gt; System.Threading.Tasks.Task&lt;Azure.Developer.LoadTesting.TestRunOperation&gt;" Usage="loadTestRunClient.BeginTestRunAsync (waitUntil, testRunId, content, timeSpan, oldTestRunId, context)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function BeginTestRunAsync (waitUntil As WaitUntil, testRunId As String, content As RequestContent, Optional timeSpan As Nullable(Of TimeSpan) = Nothing, Optional oldTestRunId As String = Nothing, Optional context As RequestContext = Nothing) As Task(Of TestRunResultOperation)" />
+      <MemberSignature Language="F#" Value="abstract member BeginTestRunAsync : Azure.WaitUntil * string * Azure.Core.RequestContent * Nullable&lt;TimeSpan&gt; * string * Azure.RequestContext -&gt; System.Threading.Tasks.Task&lt;Azure.Developer.LoadTesting.TestRunResultOperation&gt;&#xA;override this.BeginTestRunAsync : Azure.WaitUntil * string * Azure.Core.RequestContent * Nullable&lt;TimeSpan&gt; * string * Azure.RequestContext -&gt; System.Threading.Tasks.Task&lt;Azure.Developer.LoadTesting.TestRunResultOperation&gt;" Usage="loadTestRunClient.BeginTestRunAsync (waitUntil, testRunId, content, timeSpan, oldTestRunId, context)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Developer.LoadTesting</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Developer.LoadTesting.TestRunOperation&gt;</ReturnType>
+        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Developer.LoadTesting.TestRunResultOperation&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="waitUntil" Type="Azure.WaitUntil" />
@@ -1634,11 +1634,11 @@ Console.WriteLine(result.GetProperty("value")[0].GetProperty("metricAvailabiliti
       </Docs>
     </Member>
     <Member MemberName="GetMetricDimensionValues">
-      <MemberSignature Language="C#" Value="public virtual Azure.Pageable&lt;BinaryData&gt; GetMetricDimensionValues (string testRunId, string name, string metricname, string metricNamespace, string timespan, string interval = default, Azure.RequestContext context = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Pageable`1&lt;class System.BinaryData&gt; GetMetricDimensionValues(string testRunId, string name, string metricname, string metricNamespace, string timespan, string interval, class Azure.RequestContext context) cil managed" />
+      <MemberSignature Language="C#" Value="public virtual Azure.Pageable&lt;BinaryData&gt; GetMetricDimensionValues (string testRunId, string name, string metricName, string metricNamespace, string timeInterval, string interval = default, Azure.RequestContext context = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Pageable`1&lt;class System.BinaryData&gt; GetMetricDimensionValues(string testRunId, string name, string metricName, string metricNamespace, string timeInterval, string interval, class Azure.RequestContext context) cil managed" />
       <MemberSignature Language="DocId" Value="M:Azure.Developer.LoadTesting.LoadTestRunClient.GetMetricDimensionValues(System.String,System.String,System.String,System.String,System.String,System.String,Azure.RequestContext)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetMetricDimensionValues (testRunId As String, name As String, metricname As String, metricNamespace As String, timespan As String, Optional interval As String = Nothing, Optional context As RequestContext = Nothing) As Pageable(Of BinaryData)" />
-      <MemberSignature Language="F#" Value="abstract member GetMetricDimensionValues : string * string * string * string * string * string * Azure.RequestContext -&gt; Azure.Pageable&lt;BinaryData&gt;&#xA;override this.GetMetricDimensionValues : string * string * string * string * string * string * Azure.RequestContext -&gt; Azure.Pageable&lt;BinaryData&gt;" Usage="loadTestRunClient.GetMetricDimensionValues (testRunId, name, metricname, metricNamespace, timespan, interval, context)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetMetricDimensionValues (testRunId As String, name As String, metricName As String, metricNamespace As String, timeInterval As String, Optional interval As String = Nothing, Optional context As RequestContext = Nothing) As Pageable(Of BinaryData)" />
+      <MemberSignature Language="F#" Value="abstract member GetMetricDimensionValues : string * string * string * string * string * string * Azure.RequestContext -&gt; Azure.Pageable&lt;BinaryData&gt;&#xA;override this.GetMetricDimensionValues : string * string * string * string * string * string * Azure.RequestContext -&gt; Azure.Pageable&lt;BinaryData&gt;" Usage="loadTestRunClient.GetMetricDimensionValues (testRunId, name, metricName, metricNamespace, timeInterval, interval, context)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Developer.LoadTesting</AssemblyName>
@@ -1650,25 +1650,25 @@ Console.WriteLine(result.GetProperty("value")[0].GetProperty("metricAvailabiliti
       <Parameters>
         <Parameter Name="testRunId" Type="System.String" />
         <Parameter Name="name" Type="System.String" />
-        <Parameter Name="metricname" Type="System.String" />
+        <Parameter Name="metricName" Type="System.String" />
         <Parameter Name="metricNamespace" Type="System.String" />
-        <Parameter Name="timespan" Type="System.String" />
+        <Parameter Name="timeInterval" Type="System.String" />
         <Parameter Name="interval" Type="System.String" />
         <Parameter Name="context" Type="Azure.RequestContext" />
       </Parameters>
       <Docs>
         <param name="testRunId"> Unique name for the load test run, must contain only lower-case alphabetic, numeric, underscore or hyphen characters. </param>
         <param name="name"> Dimension name. </param>
-        <param name="metricname"> Metric name. </param>
+        <param name="metricName"> Metric name. </param>
         <param name="metricNamespace"> Metric namespace to query metric definitions for. </param>
-        <param name="timespan"> The timespan of the query. It is a string with the following format 'startDateTime_ISO/endDateTime_ISO'. </param>
+        <param name="timeInterval"> The timespan of the query. It is a string with the following format 'startDateTime_ISO/endDateTime_ISO'. </param>
         <param name="interval"> The interval (i.e. timegrain) of the query. Allowed values: "PT5S" | "PT10S" | "PT1M" | "PT5M" | "PT1H". </param>
         <param name="context"> The request context, which can override default behaviors of the client pipeline on a per-call basis. </param>
         <summary> List the dimension values for the given metric dimension name. </summary>
         <returns> The <see cref="T:Azure.Pageable`1" /> from the service containing a list of <see cref="T:System.BinaryData" /> objects. Details of the body schema for each item in the collection are in the Remarks section below. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
-          <paramref name="testRunId" />, <paramref name="name" />, <paramref name="metricname" />, <paramref name="metricNamespace" /> or <paramref name="timespan" /> is null. </exception>
+          <paramref name="testRunId" />, <paramref name="name" />, <paramref name="metricName" />, <paramref name="metricNamespace" /> or <paramref name="timeInterval" /> is null. </exception>
         <exception cref="T:System.ArgumentException">
           <paramref name="testRunId" /> or <paramref name="name" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:Azure.RequestFailedException"> Service returned a non-success status code. </exception>
@@ -1679,7 +1679,7 @@ var credential = new DefaultAzureCredential();
 var endpoint = new Uri("<https://my-service.azure.com>");
 var client = new LoadTestRunClient(endpoint, credential);
 
-foreach (var data in client.GetMetricDimensionValues("<testRunId>", "<name>", "<metricname>", "<metricNamespace>", "<timespan>"))
+foreach (var data in client.GetMetricDimensionValues("<testRunId>", "<name>", "<metricName>", "<metricNamespace>", "<timeInterval>"))
 {
     JsonElement result = JsonDocument.Parse(data.ToStream()).RootElement;
     Console.WriteLine(result.ToString());
@@ -1691,7 +1691,7 @@ var credential = new DefaultAzureCredential();
 var endpoint = new Uri("<https://my-service.azure.com>");
 var client = new LoadTestRunClient(endpoint, credential);
 
-foreach (var data in client.GetMetricDimensionValues("<testRunId>", "<name>", "<metricname>", "<metricNamespace>", "<timespan>", "<interval>"))
+foreach (var data in client.GetMetricDimensionValues("<testRunId>", "<name>", "<metricName>", "<metricNamespace>", "<timeInterval>", "<interval>"))
 {
     JsonElement result = JsonDocument.Parse(data.ToStream()).RootElement;
     Console.WriteLine(result.ToString());
@@ -1700,11 +1700,11 @@ foreach (var data in client.GetMetricDimensionValues("<testRunId>", "<name>", "<
       </Docs>
     </Member>
     <Member MemberName="GetMetricDimensionValuesAsync">
-      <MemberSignature Language="C#" Value="public virtual Azure.AsyncPageable&lt;BinaryData&gt; GetMetricDimensionValuesAsync (string testRunId, string name, string metricname, string metricNamespace, string timespan, string interval = default, Azure.RequestContext context = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.AsyncPageable`1&lt;class System.BinaryData&gt; GetMetricDimensionValuesAsync(string testRunId, string name, string metricname, string metricNamespace, string timespan, string interval, class Azure.RequestContext context) cil managed" />
+      <MemberSignature Language="C#" Value="public virtual Azure.AsyncPageable&lt;BinaryData&gt; GetMetricDimensionValuesAsync (string testRunId, string name, string metricName, string metricNamespace, string timeInterval, string interval = default, Azure.RequestContext context = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.AsyncPageable`1&lt;class System.BinaryData&gt; GetMetricDimensionValuesAsync(string testRunId, string name, string metricName, string metricNamespace, string timeInterval, string interval, class Azure.RequestContext context) cil managed" />
       <MemberSignature Language="DocId" Value="M:Azure.Developer.LoadTesting.LoadTestRunClient.GetMetricDimensionValuesAsync(System.String,System.String,System.String,System.String,System.String,System.String,Azure.RequestContext)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetMetricDimensionValuesAsync (testRunId As String, name As String, metricname As String, metricNamespace As String, timespan As String, Optional interval As String = Nothing, Optional context As RequestContext = Nothing) As AsyncPageable(Of BinaryData)" />
-      <MemberSignature Language="F#" Value="abstract member GetMetricDimensionValuesAsync : string * string * string * string * string * string * Azure.RequestContext -&gt; Azure.AsyncPageable&lt;BinaryData&gt;&#xA;override this.GetMetricDimensionValuesAsync : string * string * string * string * string * string * Azure.RequestContext -&gt; Azure.AsyncPageable&lt;BinaryData&gt;" Usage="loadTestRunClient.GetMetricDimensionValuesAsync (testRunId, name, metricname, metricNamespace, timespan, interval, context)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetMetricDimensionValuesAsync (testRunId As String, name As String, metricName As String, metricNamespace As String, timeInterval As String, Optional interval As String = Nothing, Optional context As RequestContext = Nothing) As AsyncPageable(Of BinaryData)" />
+      <MemberSignature Language="F#" Value="abstract member GetMetricDimensionValuesAsync : string * string * string * string * string * string * Azure.RequestContext -&gt; Azure.AsyncPageable&lt;BinaryData&gt;&#xA;override this.GetMetricDimensionValuesAsync : string * string * string * string * string * string * Azure.RequestContext -&gt; Azure.AsyncPageable&lt;BinaryData&gt;" Usage="loadTestRunClient.GetMetricDimensionValuesAsync (testRunId, name, metricName, metricNamespace, timeInterval, interval, context)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Developer.LoadTesting</AssemblyName>
@@ -1716,25 +1716,25 @@ foreach (var data in client.GetMetricDimensionValues("<testRunId>", "<name>", "<
       <Parameters>
         <Parameter Name="testRunId" Type="System.String" />
         <Parameter Name="name" Type="System.String" />
-        <Parameter Name="metricname" Type="System.String" />
+        <Parameter Name="metricName" Type="System.String" />
         <Parameter Name="metricNamespace" Type="System.String" />
-        <Parameter Name="timespan" Type="System.String" />
+        <Parameter Name="timeInterval" Type="System.String" />
         <Parameter Name="interval" Type="System.String" />
         <Parameter Name="context" Type="Azure.RequestContext" />
       </Parameters>
       <Docs>
         <param name="testRunId"> Unique name for the load test run, must contain only lower-case alphabetic, numeric, underscore or hyphen characters. </param>
         <param name="name"> Dimension name. </param>
-        <param name="metricname"> Metric name. </param>
+        <param name="metricName"> Metric name. </param>
         <param name="metricNamespace"> Metric namespace to query metric definitions for. </param>
-        <param name="timespan"> The timespan of the query. It is a string with the following format 'startDateTime_ISO/endDateTime_ISO'. </param>
+        <param name="timeInterval"> The timespan of the query. It is a string with the following format 'startDateTime_ISO/endDateTime_ISO'. </param>
         <param name="interval"> The interval (i.e. timegrain) of the query. Allowed values: "PT5S" | "PT10S" | "PT1M" | "PT5M" | "PT1H". </param>
         <param name="context"> The request context, which can override default behaviors of the client pipeline on a per-call basis. </param>
         <summary> List the dimension values for the given metric dimension name. </summary>
         <returns> The <see cref="T:Azure.AsyncPageable`1" /> from the service containing a list of <see cref="T:System.BinaryData" /> objects. Details of the body schema for each item in the collection are in the Remarks section below. </returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
-          <paramref name="testRunId" />, <paramref name="name" />, <paramref name="metricname" />, <paramref name="metricNamespace" /> or <paramref name="timespan" /> is null. </exception>
+          <paramref name="testRunId" />, <paramref name="name" />, <paramref name="metricName" />, <paramref name="metricNamespace" /> or <paramref name="timeInterval" /> is null. </exception>
         <exception cref="T:System.ArgumentException">
           <paramref name="testRunId" /> or <paramref name="name" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:Azure.RequestFailedException"> Service returned a non-success status code. </exception>
@@ -1745,7 +1745,7 @@ var credential = new DefaultAzureCredential();
 var endpoint = new Uri("<https://my-service.azure.com>");
 var client = new LoadTestRunClient(endpoint, credential);
 
-await foreach (var data in client.GetMetricDimensionValuesAsync("<testRunId>", "<name>", "<metricname>", "<metricNamespace>", "<timespan>"))
+await foreach (var data in client.GetMetricDimensionValuesAsync("<testRunId>", "<name>", "<metricName>", "<metricNamespace>", "<timeInterval>"))
 {
     JsonElement result = JsonDocument.Parse(data.ToStream()).RootElement;
     Console.WriteLine(result.ToString());
@@ -1757,7 +1757,7 @@ var credential = new DefaultAzureCredential();
 var endpoint = new Uri("<https://my-service.azure.com>");
 var client = new LoadTestRunClient(endpoint, credential);
 
-await foreach (var data in client.GetMetricDimensionValuesAsync("<testRunId>", "<name>", "<metricname>", "<metricNamespace>", "<timespan>", "<interval>"))
+await foreach (var data in client.GetMetricDimensionValuesAsync("<testRunId>", "<name>", "<metricName>", "<metricNamespace>", "<timeInterval>", "<interval>"))
 {
     JsonElement result = JsonDocument.Parse(data.ToStream()).RootElement;
     Console.WriteLine(result.ToString());
@@ -1882,11 +1882,11 @@ Console.WriteLine(result.GetProperty("value")[0].GetProperty("name").ToString())
       </Docs>
     </Member>
     <Member MemberName="GetMetrics">
-      <MemberSignature Language="C#" Value="public virtual Azure.Pageable&lt;BinaryData&gt; GetMetrics (string testRunId, string metricname, string metricNamespace, string timespan, Azure.Core.RequestContent content, string aggregation = default, string interval = default, Azure.RequestContext context = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Pageable`1&lt;class System.BinaryData&gt; GetMetrics(string testRunId, string metricname, string metricNamespace, string timespan, class Azure.Core.RequestContent content, string aggregation, string interval, class Azure.RequestContext context) cil managed" />
+      <MemberSignature Language="C#" Value="public virtual Azure.Pageable&lt;BinaryData&gt; GetMetrics (string testRunId, string metricName, string metricNamespace, string timespan, Azure.Core.RequestContent content = default, string aggregation = default, string interval = default, Azure.RequestContext context = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Pageable`1&lt;class System.BinaryData&gt; GetMetrics(string testRunId, string metricName, string metricNamespace, string timespan, class Azure.Core.RequestContent content, string aggregation, string interval, class Azure.RequestContext context) cil managed" />
       <MemberSignature Language="DocId" Value="M:Azure.Developer.LoadTesting.LoadTestRunClient.GetMetrics(System.String,System.String,System.String,System.String,Azure.Core.RequestContent,System.String,System.String,Azure.RequestContext)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetMetrics (testRunId As String, metricname As String, metricNamespace As String, timespan As String, content As RequestContent, Optional aggregation As String = Nothing, Optional interval As String = Nothing, Optional context As RequestContext = Nothing) As Pageable(Of BinaryData)" />
-      <MemberSignature Language="F#" Value="abstract member GetMetrics : string * string * string * string * Azure.Core.RequestContent * string * string * Azure.RequestContext -&gt; Azure.Pageable&lt;BinaryData&gt;&#xA;override this.GetMetrics : string * string * string * string * Azure.Core.RequestContent * string * string * Azure.RequestContext -&gt; Azure.Pageable&lt;BinaryData&gt;" Usage="loadTestRunClient.GetMetrics (testRunId, metricname, metricNamespace, timespan, content, aggregation, interval, context)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetMetrics (testRunId As String, metricName As String, metricNamespace As String, timespan As String, Optional content As RequestContent = Nothing, Optional aggregation As String = Nothing, Optional interval As String = Nothing, Optional context As RequestContext = Nothing) As Pageable(Of BinaryData)" />
+      <MemberSignature Language="F#" Value="abstract member GetMetrics : string * string * string * string * Azure.Core.RequestContent * string * string * Azure.RequestContext -&gt; Azure.Pageable&lt;BinaryData&gt;&#xA;override this.GetMetrics : string * string * string * string * Azure.Core.RequestContent * string * string * Azure.RequestContext -&gt; Azure.Pageable&lt;BinaryData&gt;" Usage="loadTestRunClient.GetMetrics (testRunId, metricName, metricNamespace, timespan, content, aggregation, interval, context)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Developer.LoadTesting</AssemblyName>
@@ -1897,7 +1897,7 @@ Console.WriteLine(result.GetProperty("value")[0].GetProperty("name").ToString())
       </ReturnValue>
       <Parameters>
         <Parameter Name="testRunId" Type="System.String" />
-        <Parameter Name="metricname" Type="System.String" />
+        <Parameter Name="metricName" Type="System.String" />
         <Parameter Name="metricNamespace" Type="System.String" />
         <Parameter Name="timespan" Type="System.String" />
         <Parameter Name="content" Type="Azure.Core.RequestContent" />
@@ -1907,14 +1907,14 @@ Console.WriteLine(result.GetProperty("value")[0].GetProperty("name").ToString())
       </Parameters>
       <Docs>
         <param name="testRunId"> Unique name for the load test run, must contain only lower-case alphabetic, numeric, underscore or hyphen characters. </param>
-        <param name="metricname"> Metric name. </param>
+        <param name="metricName"> Metric name. </param>
         <param name="metricNamespace"> Metric namespace to query metric definitions for. </param>
         <param name="timespan"> The timespan of the query. It is a string with the following format 'startDateTime_ISO/endDateTime_ISO'. </param>
         <param name="content"> The content to send as the body of the request. Details of the request body schema are in the Remarks section below. </param>
         <param name="aggregation"> The aggregation. </param>
         <param name="interval"> The interval (i.e. timegrain) of the query. Allowed values: "PT5S" | "PT10S" | "PT1M" | "PT5M" | "PT1H". </param>
         <param name="context"> The request context, which can override default behaviors of the client pipeline on a per-call basis. </param>
-        <summary> List the metric values for a load test run. </summary>
+        <summary> List the metric values for a load     test run. </summary>
         <returns> The <see cref="T:Azure.Pageable`1" /> from the service containing a list of <see cref="T:System.BinaryData" /> objects. Details of the body schema for each item in the collection are in the Remarks section below. </returns>
         <remarks>
 Below is the JSON schema for the request payload and one item in the pageable response.
@@ -1951,7 +1951,7 @@ Schema for <c>MetricsValue</c>:
 }
 </code></remarks>
         <exception cref="T:System.ArgumentNullException">
-          <paramref name="testRunId" />, <paramref name="metricname" />, <paramref name="metricNamespace" /> or <paramref name="timespan" /> is null. </exception>
+          <paramref name="testRunId" />, <paramref name="metricName" />, <paramref name="metricNamespace" /> or <paramref name="timespan" /> is null. </exception>
         <exception cref="T:System.ArgumentException">
           <paramref name="testRunId" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:Azure.RequestFailedException"> Service returned a non-success status code. </exception>
@@ -1999,11 +1999,11 @@ foreach (var data in client.GetMetrics("<testRunId>", "<metricname>", "<metricNa
       </Docs>
     </Member>
     <Member MemberName="GetMetricsAsync">
-      <MemberSignature Language="C#" Value="public virtual Azure.AsyncPageable&lt;BinaryData&gt; GetMetricsAsync (string testRunId, string metricname, string metricNamespace, string timespan, Azure.Core.RequestContent content, string aggregation = default, string interval = default, Azure.RequestContext context = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.AsyncPageable`1&lt;class System.BinaryData&gt; GetMetricsAsync(string testRunId, string metricname, string metricNamespace, string timespan, class Azure.Core.RequestContent content, string aggregation, string interval, class Azure.RequestContext context) cil managed" />
+      <MemberSignature Language="C#" Value="public virtual Azure.AsyncPageable&lt;BinaryData&gt; GetMetricsAsync (string testRunId, string metricName, string metricNamespace, string timespan, Azure.Core.RequestContent content = default, string aggregation = default, string interval = default, Azure.RequestContext context = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.AsyncPageable`1&lt;class System.BinaryData&gt; GetMetricsAsync(string testRunId, string metricName, string metricNamespace, string timespan, class Azure.Core.RequestContent content, string aggregation, string interval, class Azure.RequestContext context) cil managed" />
       <MemberSignature Language="DocId" Value="M:Azure.Developer.LoadTesting.LoadTestRunClient.GetMetricsAsync(System.String,System.String,System.String,System.String,Azure.Core.RequestContent,System.String,System.String,Azure.RequestContext)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetMetricsAsync (testRunId As String, metricname As String, metricNamespace As String, timespan As String, content As RequestContent, Optional aggregation As String = Nothing, Optional interval As String = Nothing, Optional context As RequestContext = Nothing) As AsyncPageable(Of BinaryData)" />
-      <MemberSignature Language="F#" Value="abstract member GetMetricsAsync : string * string * string * string * Azure.Core.RequestContent * string * string * Azure.RequestContext -&gt; Azure.AsyncPageable&lt;BinaryData&gt;&#xA;override this.GetMetricsAsync : string * string * string * string * Azure.Core.RequestContent * string * string * Azure.RequestContext -&gt; Azure.AsyncPageable&lt;BinaryData&gt;" Usage="loadTestRunClient.GetMetricsAsync (testRunId, metricname, metricNamespace, timespan, content, aggregation, interval, context)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetMetricsAsync (testRunId As String, metricName As String, metricNamespace As String, timespan As String, Optional content As RequestContent = Nothing, Optional aggregation As String = Nothing, Optional interval As String = Nothing, Optional context As RequestContext = Nothing) As AsyncPageable(Of BinaryData)" />
+      <MemberSignature Language="F#" Value="abstract member GetMetricsAsync : string * string * string * string * Azure.Core.RequestContent * string * string * Azure.RequestContext -&gt; Azure.AsyncPageable&lt;BinaryData&gt;&#xA;override this.GetMetricsAsync : string * string * string * string * Azure.Core.RequestContent * string * string * Azure.RequestContext -&gt; Azure.AsyncPageable&lt;BinaryData&gt;" Usage="loadTestRunClient.GetMetricsAsync (testRunId, metricName, metricNamespace, timespan, content, aggregation, interval, context)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Developer.LoadTesting</AssemblyName>
@@ -2014,7 +2014,7 @@ foreach (var data in client.GetMetrics("<testRunId>", "<metricname>", "<metricNa
       </ReturnValue>
       <Parameters>
         <Parameter Name="testRunId" Type="System.String" />
-        <Parameter Name="metricname" Type="System.String" />
+        <Parameter Name="metricName" Type="System.String" />
         <Parameter Name="metricNamespace" Type="System.String" />
         <Parameter Name="timespan" Type="System.String" />
         <Parameter Name="content" Type="Azure.Core.RequestContent" />
@@ -2024,7 +2024,7 @@ foreach (var data in client.GetMetrics("<testRunId>", "<metricname>", "<metricNa
       </Parameters>
       <Docs>
         <param name="testRunId"> Unique name for the load test run, must contain only lower-case alphabetic, numeric, underscore or hyphen characters. </param>
-        <param name="metricname"> Metric name. </param>
+        <param name="metricName"> Metric name. </param>
         <param name="metricNamespace"> Metric namespace to query metric definitions for. </param>
         <param name="timespan"> The timespan of the query. It is a string with the following format 'startDateTime_ISO/endDateTime_ISO'. </param>
         <param name="content"> The content to send as the body of the request. Details of the request body schema are in the Remarks section below. </param>
@@ -2068,7 +2068,7 @@ Schema for <c>MetricsValue</c>:
 }
 </code></remarks>
         <exception cref="T:System.ArgumentNullException">
-          <paramref name="testRunId" />, <paramref name="metricname" />, <paramref name="metricNamespace" /> or <paramref name="timespan" /> is null. </exception>
+          <paramref name="testRunId" />, <paramref name="metricName" />, <paramref name="metricNamespace" /> or <paramref name="timespan" /> is null. </exception>
         <exception cref="T:System.ArgumentException">
           <paramref name="testRunId" /> is an empty string, and was expected to be non-empty. </exception>
         <exception cref="T:Azure.RequestFailedException"> Service returned a non-success status code. </exception>
@@ -2800,11 +2800,11 @@ Console.WriteLine(result.GetProperty("validationFailureDetails").ToString());
       </Docs>
     </Member>
     <Member MemberName="GetTestRuns">
-      <MemberSignature Language="C#" Value="public virtual Azure.Pageable&lt;BinaryData&gt; GetTestRuns (string orderby = default, string search = default, string testId = default, DateTimeOffset? executionFrom = default, DateTimeOffset? executionTo = default, string status = default, int? maxpagesize = default, Azure.RequestContext context = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Pageable`1&lt;class System.BinaryData&gt; GetTestRuns(string orderby, string search, string testId, valuetype System.Nullable`1&lt;valuetype System.DateTimeOffset&gt; executionFrom, valuetype System.Nullable`1&lt;valuetype System.DateTimeOffset&gt; executionTo, string status, valuetype System.Nullable`1&lt;int32&gt; maxpagesize, class Azure.RequestContext context) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.Developer.LoadTesting.LoadTestRunClient.GetTestRuns(System.String,System.String,System.String,System.Nullable{System.DateTimeOffset},System.Nullable{System.DateTimeOffset},System.String,System.Nullable{System.Int32},Azure.RequestContext)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetTestRuns (Optional orderby As String = Nothing, Optional search As String = Nothing, Optional testId As String = Nothing, Optional executionFrom As Nullable(Of DateTimeOffset) = Nothing, Optional executionTo As Nullable(Of DateTimeOffset) = Nothing, Optional status As String = Nothing, Optional maxpagesize As Nullable(Of Integer) = Nothing, Optional context As RequestContext = Nothing) As Pageable(Of BinaryData)" />
-      <MemberSignature Language="F#" Value="abstract member GetTestRuns : string * string * string * Nullable&lt;DateTimeOffset&gt; * Nullable&lt;DateTimeOffset&gt; * string * Nullable&lt;int&gt; * Azure.RequestContext -&gt; Azure.Pageable&lt;BinaryData&gt;&#xA;override this.GetTestRuns : string * string * string * Nullable&lt;DateTimeOffset&gt; * Nullable&lt;DateTimeOffset&gt; * string * Nullable&lt;int&gt; * Azure.RequestContext -&gt; Azure.Pageable&lt;BinaryData&gt;" Usage="loadTestRunClient.GetTestRuns (orderby, search, testId, executionFrom, executionTo, status, maxpagesize, context)" />
+      <MemberSignature Language="C#" Value="public virtual Azure.Pageable&lt;BinaryData&gt; GetTestRuns (string orderby = default, string search = default, string testId = default, DateTimeOffset? executionFrom = default, DateTimeOffset? executionTo = default, string status = default, Azure.RequestContext context = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Pageable`1&lt;class System.BinaryData&gt; GetTestRuns(string orderby, string search, string testId, valuetype System.Nullable`1&lt;valuetype System.DateTimeOffset&gt; executionFrom, valuetype System.Nullable`1&lt;valuetype System.DateTimeOffset&gt; executionTo, string status, class Azure.RequestContext context) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Developer.LoadTesting.LoadTestRunClient.GetTestRuns(System.String,System.String,System.String,System.Nullable{System.DateTimeOffset},System.Nullable{System.DateTimeOffset},System.String,Azure.RequestContext)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetTestRuns (Optional orderby As String = Nothing, Optional search As String = Nothing, Optional testId As String = Nothing, Optional executionFrom As Nullable(Of DateTimeOffset) = Nothing, Optional executionTo As Nullable(Of DateTimeOffset) = Nothing, Optional status As String = Nothing, Optional context As RequestContext = Nothing) As Pageable(Of BinaryData)" />
+      <MemberSignature Language="F#" Value="abstract member GetTestRuns : string * string * string * Nullable&lt;DateTimeOffset&gt; * Nullable&lt;DateTimeOffset&gt; * string * Azure.RequestContext -&gt; Azure.Pageable&lt;BinaryData&gt;&#xA;override this.GetTestRuns : string * string * string * Nullable&lt;DateTimeOffset&gt; * Nullable&lt;DateTimeOffset&gt; * string * Azure.RequestContext -&gt; Azure.Pageable&lt;BinaryData&gt;" Usage="loadTestRunClient.GetTestRuns (orderby, search, testId, executionFrom, executionTo, status, context)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Developer.LoadTesting</AssemblyName>
@@ -2820,7 +2820,6 @@ Console.WriteLine(result.GetProperty("validationFailureDetails").ToString());
         <Parameter Name="executionFrom" Type="System.Nullable&lt;System.DateTimeOffset&gt;" />
         <Parameter Name="executionTo" Type="System.Nullable&lt;System.DateTimeOffset&gt;" />
         <Parameter Name="status" Type="System.String" />
-        <Parameter Name="maxpagesize" Type="System.Nullable&lt;System.Int32&gt;" />
         <Parameter Name="context" Type="Azure.RequestContext" />
       </Parameters>
       <Docs>
@@ -2830,211 +2829,19 @@ Console.WriteLine(result.GetProperty("validationFailureDetails").ToString());
         <param name="executionFrom"> Start DateTime(ISO 8601 literal format) of test-run execution time filter range. </param>
         <param name="executionTo"> End DateTime(ISO 8601 literal format) of test-run execution time filter range. </param>
         <param name="status"> Comma separated list of test run status. </param>
-        <param name="maxpagesize"> Number of results in response. </param>
         <param name="context"> The request context, which can override default behaviors of the client pipeline on a per-call basis. </param>
         <summary> Get all test runs with given filters. </summary>
         <returns> The <see cref="T:Azure.Pageable`1" /> from the service containing a list of <see cref="T:System.BinaryData" /> objects. Details of the body schema for each item in the collection are in the Remarks section below. </returns>
-        <remarks>
-Below is the JSON schema for one item in the pageable response.
-
-Response Body:
-
-Schema for <c>TestRunsListValue</c>:
-<code>{
-  passFailCriteria: {
-    passFailMetrics: Dictionary&lt;string, PassFailMetric&gt;, # Optional. Map of id and pass fail metrics { id  : pass fail metrics }.
-  }, # Optional. Pass fail criteria for a test.
-  secrets: Dictionary&lt;string, Secret&gt;, # Optional. Secrets can be stored in an Azure Key Vault or any other secret store. If the secret is stored in an Azure Key Vault, the value should be the secret identifier and the type should be AKV_SECRET_URI. If the secret is stored elsewhere, the secret value should be provided directly and the type should be SECRET_VALUE.
-  certificate: {
-    value: string, # Optional. The value of the certificate for respective type
-    type: "AKV_CERT_URI", # Optional. Type of certificate
-    name: string, # Optional. Name of the certificate.
-  }, # Optional. Certificates metadata
-  environmentVariables: Dictionary&lt;string, string&gt;, # Optional. Environment variables which are defined as a set of &lt;name,value&gt; pairs.
-  errorDetails: [
-    {
-      message: string, # Optional. Error details in case test run was not successfully run.
-    }
-  ], # Optional. Error details if there is any failure in load test run
-  testRunStatistics: Dictionary&lt;string, TestRunStatistics&gt;, # Optional. Test run statistics.
-  loadTestConfiguration: {
-    engineInstances: number, # Optional. The number of engine instances to execute load test. Supported values are in range of 1-45. Required for creating a new test.
-    splitAllCSVs: boolean, # Optional. If false, Azure Load Testing copies and processes your input files unmodified across all test engine instances. If true, Azure Load Testing splits the CSV input data evenly across all engine instances. If you provide multiple CSV files, each file will be split evenly.
-    quickStartTest: boolean, # Optional. If true, optionalLoadTestConfig is required and JMX script for the load test is not required to upload.
-    optionalLoadTestConfig: {
-      endpointUrl: string, # Optional. Test URL. Provide the complete HTTP URL. For example, http://contoso-app.azurewebsites.net/login
-      virtualUsers: number, # Optional. No of concurrent virtual users
-      rampUpTime: number, # Optional. Ramp up time
-      duration: number, # Optional. Test run duration
-    }, # Optional. Optional load test config
-  }, # Optional. The load test configuration.
-  testArtifacts: {
-    inputArtifacts: {
-      configFileInfo: {
-        url: string, # Optional. File URL.
-        fileName: string, # Optional. Name of the file.
-        fileType: "JMX_FILE" | "USER_PROPERTIES" | "ADDITIONAL_ARTIFACTS", # Optional. File type
-        expireDateTime: string (ISO 8601 Format), # Optional. Expiry time of the file (ISO 8601 literal format)
-        validationStatus: "NOT_VALIDATED" | "VALIDATION_SUCCESS" | "VALIDATION_FAILURE" | "VALIDATION_INITIATED" | "VALIDATION_NOT_REQUIRED", # Optional. Validation status of the file
-        validationFailureDetails: string, # Optional. Validation failure error details
-      }, # Optional. File info
-      testScriptFileInfo: FileInfo, # Optional. File info
-      userPropFileInfo: FileInfo, # Optional. File info
-      inputArtifactsZipFileInfo: FileInfo, # Optional. File info
-      additionalFileInfo: [FileInfo], # Optional. Additional supported files for the test run
-    }, # Optional. The input artifacts for the test run.
-    outputArtifacts: {
-      resultFileInfo: FileInfo, # Optional. File info
-      logsFileInfo: FileInfo, # Optional. File info
-    }, # Optional. The output artifacts for the test run.
-  }, # Optional. Collection of test run artifacts
-  testResult: "PASSED" | "NOT_APPLICABLE" | "FAILED", # Optional. Test result for pass/Fail criteria used during the test run.
-  virtualUsers: number, # Optional. Number of virtual users, for which test has been run.
-  testRunId: string, # Optional. Unique test run name as identifier
-  displayName: string, # Optional. Display name of a testRun.
-  testId: string, # Optional. Associated test Id.
-  description: string, # Optional. The test run description.
-  status: "ACCEPTED" | "NOTSTARTED" | "PROVISIONING" | "PROVISIONED" | "CONFIGURING" | "CONFIGURED" | "EXECUTING" | "EXECUTED" | "DEPROVISIONING" | "DEPROVISIONED" | "DONE" | "CANCELLING" | "CANCELLED" | "FAILED" | "VALIDATION_SUCCESS" | "VALIDATION_FAILURE", # Optional. The test run status.
-  startDateTime: string (ISO 8601 Format), # Optional. The test run start DateTime(ISO 8601 literal format).
-  endDateTime: string (ISO 8601 Format), # Optional. The test run end DateTime(ISO 8601 literal format).
-  executedDateTime: string (ISO 8601 Format), # Optional. Test run initiated time.
-  portalUrl: string, # Optional. Portal url.
-  duration: number, # Optional. Test run duration in milliseconds.
-  subnetId: string, # Optional. Subnet ID on which the load test instances should run.
-  createdDateTime: string (ISO 8601 Format), # Optional. The creation datetime(ISO 8601 literal format).
-  createdBy: string, # Optional. The user that created.
-  lastModifiedDateTime: string (ISO 8601 Format), # Optional. The last Modified datetime(ISO 8601 literal format).
-  lastModifiedBy: string, # Optional. The user that last modified.
-}
-</code></remarks>
+        <remarks>To be added.</remarks>
         <exception cref="T:Azure.RequestFailedException"> Service returned a non-success status code. </exception>
-        <example>
-This sample shows how to call GetTestRuns and parse the result.
-<code><![CDATA[
-var credential = new DefaultAzureCredential();
-var endpoint = new Uri("<https://my-service.azure.com>");
-var client = new LoadTestRunClient(endpoint, credential);
-
-foreach (var data in client.GetTestRuns())
-{
-    JsonElement result = JsonDocument.Parse(data.ToStream()).RootElement;
-    Console.WriteLine(result.ToString());
-}
-]]></code>
-This sample shows how to call GetTestRuns with all parameters, and how to parse the result.
-<code><![CDATA[
-var credential = new DefaultAzureCredential();
-var endpoint = new Uri("<https://my-service.azure.com>");
-var client = new LoadTestRunClient(endpoint, credential);
-
-foreach (var data in client.GetTestRuns("<orderby>", "<search>", "<testId>", DateTimeOffset.UtcNow, DateTimeOffset.UtcNow, "<status>", 1234))
-{
-    JsonElement result = JsonDocument.Parse(data.ToStream()).RootElement;
-    Console.WriteLine(result.GetProperty("passFailCriteria").GetProperty("passFailMetrics").GetProperty("<test>").GetProperty("clientMetric").ToString());
-    Console.WriteLine(result.GetProperty("passFailCriteria").GetProperty("passFailMetrics").GetProperty("<test>").GetProperty("aggregate").ToString());
-    Console.WriteLine(result.GetProperty("passFailCriteria").GetProperty("passFailMetrics").GetProperty("<test>").GetProperty("condition").ToString());
-    Console.WriteLine(result.GetProperty("passFailCriteria").GetProperty("passFailMetrics").GetProperty("<test>").GetProperty("requestName").ToString());
-    Console.WriteLine(result.GetProperty("passFailCriteria").GetProperty("passFailMetrics").GetProperty("<test>").GetProperty("value").ToString());
-    Console.WriteLine(result.GetProperty("passFailCriteria").GetProperty("passFailMetrics").GetProperty("<test>").GetProperty("action").ToString());
-    Console.WriteLine(result.GetProperty("passFailCriteria").GetProperty("passFailMetrics").GetProperty("<test>").GetProperty("actualValue").ToString());
-    Console.WriteLine(result.GetProperty("passFailCriteria").GetProperty("passFailMetrics").GetProperty("<test>").GetProperty("result").ToString());
-    Console.WriteLine(result.GetProperty("secrets").GetProperty("<test>").GetProperty("value").ToString());
-    Console.WriteLine(result.GetProperty("secrets").GetProperty("<test>").GetProperty("type").ToString());
-    Console.WriteLine(result.GetProperty("certificate").GetProperty("value").ToString());
-    Console.WriteLine(result.GetProperty("certificate").GetProperty("type").ToString());
-    Console.WriteLine(result.GetProperty("certificate").GetProperty("name").ToString());
-    Console.WriteLine(result.GetProperty("environmentVariables").GetProperty("<test>").ToString());
-    Console.WriteLine(result.GetProperty("errorDetails")[0].GetProperty("message").ToString());
-    Console.WriteLine(result.GetProperty("testRunStatistics").GetProperty("<test>").GetProperty("transaction").ToString());
-    Console.WriteLine(result.GetProperty("testRunStatistics").GetProperty("<test>").GetProperty("sampleCount").ToString());
-    Console.WriteLine(result.GetProperty("testRunStatistics").GetProperty("<test>").GetProperty("errorCount").ToString());
-    Console.WriteLine(result.GetProperty("testRunStatistics").GetProperty("<test>").GetProperty("errorPct").ToString());
-    Console.WriteLine(result.GetProperty("testRunStatistics").GetProperty("<test>").GetProperty("meanResTime").ToString());
-    Console.WriteLine(result.GetProperty("testRunStatistics").GetProperty("<test>").GetProperty("medianResTime").ToString());
-    Console.WriteLine(result.GetProperty("testRunStatistics").GetProperty("<test>").GetProperty("maxResTime").ToString());
-    Console.WriteLine(result.GetProperty("testRunStatistics").GetProperty("<test>").GetProperty("minResTime").ToString());
-    Console.WriteLine(result.GetProperty("testRunStatistics").GetProperty("<test>").GetProperty("pct1ResTime").ToString());
-    Console.WriteLine(result.GetProperty("testRunStatistics").GetProperty("<test>").GetProperty("pct2ResTime").ToString());
-    Console.WriteLine(result.GetProperty("testRunStatistics").GetProperty("<test>").GetProperty("pct3ResTime").ToString());
-    Console.WriteLine(result.GetProperty("testRunStatistics").GetProperty("<test>").GetProperty("throughput").ToString());
-    Console.WriteLine(result.GetProperty("testRunStatistics").GetProperty("<test>").GetProperty("receivedKBytesPerSec").ToString());
-    Console.WriteLine(result.GetProperty("testRunStatistics").GetProperty("<test>").GetProperty("sentKBytesPerSec").ToString());
-    Console.WriteLine(result.GetProperty("loadTestConfiguration").GetProperty("engineInstances").ToString());
-    Console.WriteLine(result.GetProperty("loadTestConfiguration").GetProperty("splitAllCSVs").ToString());
-    Console.WriteLine(result.GetProperty("loadTestConfiguration").GetProperty("quickStartTest").ToString());
-    Console.WriteLine(result.GetProperty("loadTestConfiguration").GetProperty("optionalLoadTestConfig").GetProperty("endpointUrl").ToString());
-    Console.WriteLine(result.GetProperty("loadTestConfiguration").GetProperty("optionalLoadTestConfig").GetProperty("virtualUsers").ToString());
-    Console.WriteLine(result.GetProperty("loadTestConfiguration").GetProperty("optionalLoadTestConfig").GetProperty("rampUpTime").ToString());
-    Console.WriteLine(result.GetProperty("loadTestConfiguration").GetProperty("optionalLoadTestConfig").GetProperty("duration").ToString());
-    Console.WriteLine(result.GetProperty("testArtifacts").GetProperty("inputArtifacts").GetProperty("configFileInfo").GetProperty("url").ToString());
-    Console.WriteLine(result.GetProperty("testArtifacts").GetProperty("inputArtifacts").GetProperty("configFileInfo").GetProperty("fileName").ToString());
-    Console.WriteLine(result.GetProperty("testArtifacts").GetProperty("inputArtifacts").GetProperty("configFileInfo").GetProperty("fileType").ToString());
-    Console.WriteLine(result.GetProperty("testArtifacts").GetProperty("inputArtifacts").GetProperty("configFileInfo").GetProperty("expireDateTime").ToString());
-    Console.WriteLine(result.GetProperty("testArtifacts").GetProperty("inputArtifacts").GetProperty("configFileInfo").GetProperty("validationStatus").ToString());
-    Console.WriteLine(result.GetProperty("testArtifacts").GetProperty("inputArtifacts").GetProperty("configFileInfo").GetProperty("validationFailureDetails").ToString());
-    Console.WriteLine(result.GetProperty("testArtifacts").GetProperty("inputArtifacts").GetProperty("testScriptFileInfo").GetProperty("url").ToString());
-    Console.WriteLine(result.GetProperty("testArtifacts").GetProperty("inputArtifacts").GetProperty("testScriptFileInfo").GetProperty("fileName").ToString());
-    Console.WriteLine(result.GetProperty("testArtifacts").GetProperty("inputArtifacts").GetProperty("testScriptFileInfo").GetProperty("fileType").ToString());
-    Console.WriteLine(result.GetProperty("testArtifacts").GetProperty("inputArtifacts").GetProperty("testScriptFileInfo").GetProperty("expireDateTime").ToString());
-    Console.WriteLine(result.GetProperty("testArtifacts").GetProperty("inputArtifacts").GetProperty("testScriptFileInfo").GetProperty("validationStatus").ToString());
-    Console.WriteLine(result.GetProperty("testArtifacts").GetProperty("inputArtifacts").GetProperty("testScriptFileInfo").GetProperty("validationFailureDetails").ToString());
-    Console.WriteLine(result.GetProperty("testArtifacts").GetProperty("inputArtifacts").GetProperty("userPropFileInfo").GetProperty("url").ToString());
-    Console.WriteLine(result.GetProperty("testArtifacts").GetProperty("inputArtifacts").GetProperty("userPropFileInfo").GetProperty("fileName").ToString());
-    Console.WriteLine(result.GetProperty("testArtifacts").GetProperty("inputArtifacts").GetProperty("userPropFileInfo").GetProperty("fileType").ToString());
-    Console.WriteLine(result.GetProperty("testArtifacts").GetProperty("inputArtifacts").GetProperty("userPropFileInfo").GetProperty("expireDateTime").ToString());
-    Console.WriteLine(result.GetProperty("testArtifacts").GetProperty("inputArtifacts").GetProperty("userPropFileInfo").GetProperty("validationStatus").ToString());
-    Console.WriteLine(result.GetProperty("testArtifacts").GetProperty("inputArtifacts").GetProperty("userPropFileInfo").GetProperty("validationFailureDetails").ToString());
-    Console.WriteLine(result.GetProperty("testArtifacts").GetProperty("inputArtifacts").GetProperty("inputArtifactsZipFileInfo").GetProperty("url").ToString());
-    Console.WriteLine(result.GetProperty("testArtifacts").GetProperty("inputArtifacts").GetProperty("inputArtifactsZipFileInfo").GetProperty("fileName").ToString());
-    Console.WriteLine(result.GetProperty("testArtifacts").GetProperty("inputArtifacts").GetProperty("inputArtifactsZipFileInfo").GetProperty("fileType").ToString());
-    Console.WriteLine(result.GetProperty("testArtifacts").GetProperty("inputArtifacts").GetProperty("inputArtifactsZipFileInfo").GetProperty("expireDateTime").ToString());
-    Console.WriteLine(result.GetProperty("testArtifacts").GetProperty("inputArtifacts").GetProperty("inputArtifactsZipFileInfo").GetProperty("validationStatus").ToString());
-    Console.WriteLine(result.GetProperty("testArtifacts").GetProperty("inputArtifacts").GetProperty("inputArtifactsZipFileInfo").GetProperty("validationFailureDetails").ToString());
-    Console.WriteLine(result.GetProperty("testArtifacts").GetProperty("inputArtifacts").GetProperty("additionalFileInfo")[0].GetProperty("url").ToString());
-    Console.WriteLine(result.GetProperty("testArtifacts").GetProperty("inputArtifacts").GetProperty("additionalFileInfo")[0].GetProperty("fileName").ToString());
-    Console.WriteLine(result.GetProperty("testArtifacts").GetProperty("inputArtifacts").GetProperty("additionalFileInfo")[0].GetProperty("fileType").ToString());
-    Console.WriteLine(result.GetProperty("testArtifacts").GetProperty("inputArtifacts").GetProperty("additionalFileInfo")[0].GetProperty("expireDateTime").ToString());
-    Console.WriteLine(result.GetProperty("testArtifacts").GetProperty("inputArtifacts").GetProperty("additionalFileInfo")[0].GetProperty("validationStatus").ToString());
-    Console.WriteLine(result.GetProperty("testArtifacts").GetProperty("inputArtifacts").GetProperty("additionalFileInfo")[0].GetProperty("validationFailureDetails").ToString());
-    Console.WriteLine(result.GetProperty("testArtifacts").GetProperty("outputArtifacts").GetProperty("resultFileInfo").GetProperty("url").ToString());
-    Console.WriteLine(result.GetProperty("testArtifacts").GetProperty("outputArtifacts").GetProperty("resultFileInfo").GetProperty("fileName").ToString());
-    Console.WriteLine(result.GetProperty("testArtifacts").GetProperty("outputArtifacts").GetProperty("resultFileInfo").GetProperty("fileType").ToString());
-    Console.WriteLine(result.GetProperty("testArtifacts").GetProperty("outputArtifacts").GetProperty("resultFileInfo").GetProperty("expireDateTime").ToString());
-    Console.WriteLine(result.GetProperty("testArtifacts").GetProperty("outputArtifacts").GetProperty("resultFileInfo").GetProperty("validationStatus").ToString());
-    Console.WriteLine(result.GetProperty("testArtifacts").GetProperty("outputArtifacts").GetProperty("resultFileInfo").GetProperty("validationFailureDetails").ToString());
-    Console.WriteLine(result.GetProperty("testArtifacts").GetProperty("outputArtifacts").GetProperty("logsFileInfo").GetProperty("url").ToString());
-    Console.WriteLine(result.GetProperty("testArtifacts").GetProperty("outputArtifacts").GetProperty("logsFileInfo").GetProperty("fileName").ToString());
-    Console.WriteLine(result.GetProperty("testArtifacts").GetProperty("outputArtifacts").GetProperty("logsFileInfo").GetProperty("fileType").ToString());
-    Console.WriteLine(result.GetProperty("testArtifacts").GetProperty("outputArtifacts").GetProperty("logsFileInfo").GetProperty("expireDateTime").ToString());
-    Console.WriteLine(result.GetProperty("testArtifacts").GetProperty("outputArtifacts").GetProperty("logsFileInfo").GetProperty("validationStatus").ToString());
-    Console.WriteLine(result.GetProperty("testArtifacts").GetProperty("outputArtifacts").GetProperty("logsFileInfo").GetProperty("validationFailureDetails").ToString());
-    Console.WriteLine(result.GetProperty("testResult").ToString());
-    Console.WriteLine(result.GetProperty("virtualUsers").ToString());
-    Console.WriteLine(result.GetProperty("testRunId").ToString());
-    Console.WriteLine(result.GetProperty("displayName").ToString());
-    Console.WriteLine(result.GetProperty("testId").ToString());
-    Console.WriteLine(result.GetProperty("description").ToString());
-    Console.WriteLine(result.GetProperty("status").ToString());
-    Console.WriteLine(result.GetProperty("startDateTime").ToString());
-    Console.WriteLine(result.GetProperty("endDateTime").ToString());
-    Console.WriteLine(result.GetProperty("executedDateTime").ToString());
-    Console.WriteLine(result.GetProperty("portalUrl").ToString());
-    Console.WriteLine(result.GetProperty("duration").ToString());
-    Console.WriteLine(result.GetProperty("subnetId").ToString());
-    Console.WriteLine(result.GetProperty("createdDateTime").ToString());
-    Console.WriteLine(result.GetProperty("createdBy").ToString());
-    Console.WriteLine(result.GetProperty("lastModifiedDateTime").ToString());
-    Console.WriteLine(result.GetProperty("lastModifiedBy").ToString());
-}
-]]></code></example>
       </Docs>
     </Member>
     <Member MemberName="GetTestRunsAsync">
-      <MemberSignature Language="C#" Value="public virtual Azure.AsyncPageable&lt;BinaryData&gt; GetTestRunsAsync (string orderby = default, string search = default, string testId = default, DateTimeOffset? executionFrom = default, DateTimeOffset? executionTo = default, string status = default, int? maxpagesize = default, Azure.RequestContext context = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.AsyncPageable`1&lt;class System.BinaryData&gt; GetTestRunsAsync(string orderby, string search, string testId, valuetype System.Nullable`1&lt;valuetype System.DateTimeOffset&gt; executionFrom, valuetype System.Nullable`1&lt;valuetype System.DateTimeOffset&gt; executionTo, string status, valuetype System.Nullable`1&lt;int32&gt; maxpagesize, class Azure.RequestContext context) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.Developer.LoadTesting.LoadTestRunClient.GetTestRunsAsync(System.String,System.String,System.String,System.Nullable{System.DateTimeOffset},System.Nullable{System.DateTimeOffset},System.String,System.Nullable{System.Int32},Azure.RequestContext)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetTestRunsAsync (Optional orderby As String = Nothing, Optional search As String = Nothing, Optional testId As String = Nothing, Optional executionFrom As Nullable(Of DateTimeOffset) = Nothing, Optional executionTo As Nullable(Of DateTimeOffset) = Nothing, Optional status As String = Nothing, Optional maxpagesize As Nullable(Of Integer) = Nothing, Optional context As RequestContext = Nothing) As AsyncPageable(Of BinaryData)" />
-      <MemberSignature Language="F#" Value="abstract member GetTestRunsAsync : string * string * string * Nullable&lt;DateTimeOffset&gt; * Nullable&lt;DateTimeOffset&gt; * string * Nullable&lt;int&gt; * Azure.RequestContext -&gt; Azure.AsyncPageable&lt;BinaryData&gt;&#xA;override this.GetTestRunsAsync : string * string * string * Nullable&lt;DateTimeOffset&gt; * Nullable&lt;DateTimeOffset&gt; * string * Nullable&lt;int&gt; * Azure.RequestContext -&gt; Azure.AsyncPageable&lt;BinaryData&gt;" Usage="loadTestRunClient.GetTestRunsAsync (orderby, search, testId, executionFrom, executionTo, status, maxpagesize, context)" />
+      <MemberSignature Language="C#" Value="public virtual Azure.AsyncPageable&lt;BinaryData&gt; GetTestRunsAsync (string orderby = default, string search = default, string testId = default, DateTimeOffset? executionFrom = default, DateTimeOffset? executionTo = default, string status = default, Azure.RequestContext context = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.AsyncPageable`1&lt;class System.BinaryData&gt; GetTestRunsAsync(string orderby, string search, string testId, valuetype System.Nullable`1&lt;valuetype System.DateTimeOffset&gt; executionFrom, valuetype System.Nullable`1&lt;valuetype System.DateTimeOffset&gt; executionTo, string status, class Azure.RequestContext context) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Developer.LoadTesting.LoadTestRunClient.GetTestRunsAsync(System.String,System.String,System.String,System.Nullable{System.DateTimeOffset},System.Nullable{System.DateTimeOffset},System.String,Azure.RequestContext)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetTestRunsAsync (Optional orderby As String = Nothing, Optional search As String = Nothing, Optional testId As String = Nothing, Optional executionFrom As Nullable(Of DateTimeOffset) = Nothing, Optional executionTo As Nullable(Of DateTimeOffset) = Nothing, Optional status As String = Nothing, Optional context As RequestContext = Nothing) As AsyncPageable(Of BinaryData)" />
+      <MemberSignature Language="F#" Value="abstract member GetTestRunsAsync : string * string * string * Nullable&lt;DateTimeOffset&gt; * Nullable&lt;DateTimeOffset&gt; * string * Azure.RequestContext -&gt; Azure.AsyncPageable&lt;BinaryData&gt;&#xA;override this.GetTestRunsAsync : string * string * string * Nullable&lt;DateTimeOffset&gt; * Nullable&lt;DateTimeOffset&gt; * string * Azure.RequestContext -&gt; Azure.AsyncPageable&lt;BinaryData&gt;" Usage="loadTestRunClient.GetTestRunsAsync (orderby, search, testId, executionFrom, executionTo, status, context)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Developer.LoadTesting</AssemblyName>
@@ -3050,7 +2857,6 @@ foreach (var data in client.GetTestRuns("<orderby>", "<search>", "<testId>", Dat
         <Parameter Name="executionFrom" Type="System.Nullable&lt;System.DateTimeOffset&gt;" />
         <Parameter Name="executionTo" Type="System.Nullable&lt;System.DateTimeOffset&gt;" />
         <Parameter Name="status" Type="System.String" />
-        <Parameter Name="maxpagesize" Type="System.Nullable&lt;System.Int32&gt;" />
         <Parameter Name="context" Type="Azure.RequestContext" />
       </Parameters>
       <Docs>
@@ -3060,203 +2866,11 @@ foreach (var data in client.GetTestRuns("<orderby>", "<search>", "<testId>", Dat
         <param name="executionFrom"> Start DateTime(ISO 8601 literal format) of test-run execution time filter range. </param>
         <param name="executionTo"> End DateTime(ISO 8601 literal format) of test-run execution time filter range. </param>
         <param name="status"> Comma separated list of test run status. </param>
-        <param name="maxpagesize"> Number of results in response. </param>
         <param name="context"> The request context, which can override default behaviors of the client pipeline on a per-call basis. </param>
         <summary> Get all test runs with given filters. </summary>
         <returns> The <see cref="T:Azure.AsyncPageable`1" /> from the service containing a list of <see cref="T:System.BinaryData" /> objects. Details of the body schema for each item in the collection are in the Remarks section below. </returns>
-        <remarks>
-Below is the JSON schema for one item in the pageable response.
-
-Response Body:
-
-Schema for <c>TestRunsListValue</c>:
-<code>{
-  passFailCriteria: {
-    passFailMetrics: Dictionary&lt;string, PassFailMetric&gt;, # Optional. Map of id and pass fail metrics { id  : pass fail metrics }.
-  }, # Optional. Pass fail criteria for a test.
-  secrets: Dictionary&lt;string, Secret&gt;, # Optional. Secrets can be stored in an Azure Key Vault or any other secret store. If the secret is stored in an Azure Key Vault, the value should be the secret identifier and the type should be AKV_SECRET_URI. If the secret is stored elsewhere, the secret value should be provided directly and the type should be SECRET_VALUE.
-  certificate: {
-    value: string, # Optional. The value of the certificate for respective type
-    type: "AKV_CERT_URI", # Optional. Type of certificate
-    name: string, # Optional. Name of the certificate.
-  }, # Optional. Certificates metadata
-  environmentVariables: Dictionary&lt;string, string&gt;, # Optional. Environment variables which are defined as a set of &lt;name,value&gt; pairs.
-  errorDetails: [
-    {
-      message: string, # Optional. Error details in case test run was not successfully run.
-    }
-  ], # Optional. Error details if there is any failure in load test run
-  testRunStatistics: Dictionary&lt;string, TestRunStatistics&gt;, # Optional. Test run statistics.
-  loadTestConfiguration: {
-    engineInstances: number, # Optional. The number of engine instances to execute load test. Supported values are in range of 1-45. Required for creating a new test.
-    splitAllCSVs: boolean, # Optional. If false, Azure Load Testing copies and processes your input files unmodified across all test engine instances. If true, Azure Load Testing splits the CSV input data evenly across all engine instances. If you provide multiple CSV files, each file will be split evenly.
-    quickStartTest: boolean, # Optional. If true, optionalLoadTestConfig is required and JMX script for the load test is not required to upload.
-    optionalLoadTestConfig: {
-      endpointUrl: string, # Optional. Test URL. Provide the complete HTTP URL. For example, http://contoso-app.azurewebsites.net/login
-      virtualUsers: number, # Optional. No of concurrent virtual users
-      rampUpTime: number, # Optional. Ramp up time
-      duration: number, # Optional. Test run duration
-    }, # Optional. Optional load test config
-  }, # Optional. The load test configuration.
-  testArtifacts: {
-    inputArtifacts: {
-      configFileInfo: {
-        url: string, # Optional. File URL.
-        fileName: string, # Optional. Name of the file.
-        fileType: "JMX_FILE" | "USER_PROPERTIES" | "ADDITIONAL_ARTIFACTS", # Optional. File type
-        expireDateTime: string (ISO 8601 Format), # Optional. Expiry time of the file (ISO 8601 literal format)
-        validationStatus: "NOT_VALIDATED" | "VALIDATION_SUCCESS" | "VALIDATION_FAILURE" | "VALIDATION_INITIATED" | "VALIDATION_NOT_REQUIRED", # Optional. Validation status of the file
-        validationFailureDetails: string, # Optional. Validation failure error details
-      }, # Optional. File info
-      testScriptFileInfo: FileInfo, # Optional. File info
-      userPropFileInfo: FileInfo, # Optional. File info
-      inputArtifactsZipFileInfo: FileInfo, # Optional. File info
-      additionalFileInfo: [FileInfo], # Optional. Additional supported files for the test run
-    }, # Optional. The input artifacts for the test run.
-    outputArtifacts: {
-      resultFileInfo: FileInfo, # Optional. File info
-      logsFileInfo: FileInfo, # Optional. File info
-    }, # Optional. The output artifacts for the test run.
-  }, # Optional. Collection of test run artifacts
-  testResult: "PASSED" | "NOT_APPLICABLE" | "FAILED", # Optional. Test result for pass/Fail criteria used during the test run.
-  virtualUsers: number, # Optional. Number of virtual users, for which test has been run.
-  testRunId: string, # Optional. Unique test run name as identifier
-  displayName: string, # Optional. Display name of a testRun.
-  testId: string, # Optional. Associated test Id.
-  description: string, # Optional. The test run description.
-  status: "ACCEPTED" | "NOTSTARTED" | "PROVISIONING" | "PROVISIONED" | "CONFIGURING" | "CONFIGURED" | "EXECUTING" | "EXECUTED" | "DEPROVISIONING" | "DEPROVISIONED" | "DONE" | "CANCELLING" | "CANCELLED" | "FAILED" | "VALIDATION_SUCCESS" | "VALIDATION_FAILURE", # Optional. The test run status.
-  startDateTime: string (ISO 8601 Format), # Optional. The test run start DateTime(ISO 8601 literal format).
-  endDateTime: string (ISO 8601 Format), # Optional. The test run end DateTime(ISO 8601 literal format).
-  executedDateTime: string (ISO 8601 Format), # Optional. Test run initiated time.
-  portalUrl: string, # Optional. Portal url.
-  duration: number, # Optional. Test run duration in milliseconds.
-  subnetId: string, # Optional. Subnet ID on which the load test instances should run.
-  createdDateTime: string (ISO 8601 Format), # Optional. The creation datetime(ISO 8601 literal format).
-  createdBy: string, # Optional. The user that created.
-  lastModifiedDateTime: string (ISO 8601 Format), # Optional. The last Modified datetime(ISO 8601 literal format).
-  lastModifiedBy: string, # Optional. The user that last modified.
-}
-</code></remarks>
+        <remarks>To be added.</remarks>
         <exception cref="T:Azure.RequestFailedException"> Service returned a non-success status code. </exception>
-        <example>
-This sample shows how to call GetTestRunsAsync and parse the result.
-<code><![CDATA[
-var credential = new DefaultAzureCredential();
-var endpoint = new Uri("<https://my-service.azure.com>");
-var client = new LoadTestRunClient(endpoint, credential);
-
-await foreach (var data in client.GetTestRunsAsync())
-{
-    JsonElement result = JsonDocument.Parse(data.ToStream()).RootElement;
-    Console.WriteLine(result.ToString());
-}
-]]></code>
-This sample shows how to call GetTestRunsAsync with all parameters, and how to parse the result.
-<code><![CDATA[
-var credential = new DefaultAzureCredential();
-var endpoint = new Uri("<https://my-service.azure.com>");
-var client = new LoadTestRunClient(endpoint, credential);
-
-await foreach (var data in client.GetTestRunsAsync("<orderby>", "<search>", "<testId>", DateTimeOffset.UtcNow, DateTimeOffset.UtcNow, "<status>", 1234))
-{
-    JsonElement result = JsonDocument.Parse(data.ToStream()).RootElement;
-    Console.WriteLine(result.GetProperty("passFailCriteria").GetProperty("passFailMetrics").GetProperty("<test>").GetProperty("clientMetric").ToString());
-    Console.WriteLine(result.GetProperty("passFailCriteria").GetProperty("passFailMetrics").GetProperty("<test>").GetProperty("aggregate").ToString());
-    Console.WriteLine(result.GetProperty("passFailCriteria").GetProperty("passFailMetrics").GetProperty("<test>").GetProperty("condition").ToString());
-    Console.WriteLine(result.GetProperty("passFailCriteria").GetProperty("passFailMetrics").GetProperty("<test>").GetProperty("requestName").ToString());
-    Console.WriteLine(result.GetProperty("passFailCriteria").GetProperty("passFailMetrics").GetProperty("<test>").GetProperty("value").ToString());
-    Console.WriteLine(result.GetProperty("passFailCriteria").GetProperty("passFailMetrics").GetProperty("<test>").GetProperty("action").ToString());
-    Console.WriteLine(result.GetProperty("passFailCriteria").GetProperty("passFailMetrics").GetProperty("<test>").GetProperty("actualValue").ToString());
-    Console.WriteLine(result.GetProperty("passFailCriteria").GetProperty("passFailMetrics").GetProperty("<test>").GetProperty("result").ToString());
-    Console.WriteLine(result.GetProperty("secrets").GetProperty("<test>").GetProperty("value").ToString());
-    Console.WriteLine(result.GetProperty("secrets").GetProperty("<test>").GetProperty("type").ToString());
-    Console.WriteLine(result.GetProperty("certificate").GetProperty("value").ToString());
-    Console.WriteLine(result.GetProperty("certificate").GetProperty("type").ToString());
-    Console.WriteLine(result.GetProperty("certificate").GetProperty("name").ToString());
-    Console.WriteLine(result.GetProperty("environmentVariables").GetProperty("<test>").ToString());
-    Console.WriteLine(result.GetProperty("errorDetails")[0].GetProperty("message").ToString());
-    Console.WriteLine(result.GetProperty("testRunStatistics").GetProperty("<test>").GetProperty("transaction").ToString());
-    Console.WriteLine(result.GetProperty("testRunStatistics").GetProperty("<test>").GetProperty("sampleCount").ToString());
-    Console.WriteLine(result.GetProperty("testRunStatistics").GetProperty("<test>").GetProperty("errorCount").ToString());
-    Console.WriteLine(result.GetProperty("testRunStatistics").GetProperty("<test>").GetProperty("errorPct").ToString());
-    Console.WriteLine(result.GetProperty("testRunStatistics").GetProperty("<test>").GetProperty("meanResTime").ToString());
-    Console.WriteLine(result.GetProperty("testRunStatistics").GetProperty("<test>").GetProperty("medianResTime").ToString());
-    Console.WriteLine(result.GetProperty("testRunStatistics").GetProperty("<test>").GetProperty("maxResTime").ToString());
-    Console.WriteLine(result.GetProperty("testRunStatistics").GetProperty("<test>").GetProperty("minResTime").ToString());
-    Console.WriteLine(result.GetProperty("testRunStatistics").GetProperty("<test>").GetProperty("pct1ResTime").ToString());
-    Console.WriteLine(result.GetProperty("testRunStatistics").GetProperty("<test>").GetProperty("pct2ResTime").ToString());
-    Console.WriteLine(result.GetProperty("testRunStatistics").GetProperty("<test>").GetProperty("pct3ResTime").ToString());
-    Console.WriteLine(result.GetProperty("testRunStatistics").GetProperty("<test>").GetProperty("throughput").ToString());
-    Console.WriteLine(result.GetProperty("testRunStatistics").GetProperty("<test>").GetProperty("receivedKBytesPerSec").ToString());
-    Console.WriteLine(result.GetProperty("testRunStatistics").GetProperty("<test>").GetProperty("sentKBytesPerSec").ToString());
-    Console.WriteLine(result.GetProperty("loadTestConfiguration").GetProperty("engineInstances").ToString());
-    Console.WriteLine(result.GetProperty("loadTestConfiguration").GetProperty("splitAllCSVs").ToString());
-    Console.WriteLine(result.GetProperty("loadTestConfiguration").GetProperty("quickStartTest").ToString());
-    Console.WriteLine(result.GetProperty("loadTestConfiguration").GetProperty("optionalLoadTestConfig").GetProperty("endpointUrl").ToString());
-    Console.WriteLine(result.GetProperty("loadTestConfiguration").GetProperty("optionalLoadTestConfig").GetProperty("virtualUsers").ToString());
-    Console.WriteLine(result.GetProperty("loadTestConfiguration").GetProperty("optionalLoadTestConfig").GetProperty("rampUpTime").ToString());
-    Console.WriteLine(result.GetProperty("loadTestConfiguration").GetProperty("optionalLoadTestConfig").GetProperty("duration").ToString());
-    Console.WriteLine(result.GetProperty("testArtifacts").GetProperty("inputArtifacts").GetProperty("configFileInfo").GetProperty("url").ToString());
-    Console.WriteLine(result.GetProperty("testArtifacts").GetProperty("inputArtifacts").GetProperty("configFileInfo").GetProperty("fileName").ToString());
-    Console.WriteLine(result.GetProperty("testArtifacts").GetProperty("inputArtifacts").GetProperty("configFileInfo").GetProperty("fileType").ToString());
-    Console.WriteLine(result.GetProperty("testArtifacts").GetProperty("inputArtifacts").GetProperty("configFileInfo").GetProperty("expireDateTime").ToString());
-    Console.WriteLine(result.GetProperty("testArtifacts").GetProperty("inputArtifacts").GetProperty("configFileInfo").GetProperty("validationStatus").ToString());
-    Console.WriteLine(result.GetProperty("testArtifacts").GetProperty("inputArtifacts").GetProperty("configFileInfo").GetProperty("validationFailureDetails").ToString());
-    Console.WriteLine(result.GetProperty("testArtifacts").GetProperty("inputArtifacts").GetProperty("testScriptFileInfo").GetProperty("url").ToString());
-    Console.WriteLine(result.GetProperty("testArtifacts").GetProperty("inputArtifacts").GetProperty("testScriptFileInfo").GetProperty("fileName").ToString());
-    Console.WriteLine(result.GetProperty("testArtifacts").GetProperty("inputArtifacts").GetProperty("testScriptFileInfo").GetProperty("fileType").ToString());
-    Console.WriteLine(result.GetProperty("testArtifacts").GetProperty("inputArtifacts").GetProperty("testScriptFileInfo").GetProperty("expireDateTime").ToString());
-    Console.WriteLine(result.GetProperty("testArtifacts").GetProperty("inputArtifacts").GetProperty("testScriptFileInfo").GetProperty("validationStatus").ToString());
-    Console.WriteLine(result.GetProperty("testArtifacts").GetProperty("inputArtifacts").GetProperty("testScriptFileInfo").GetProperty("validationFailureDetails").ToString());
-    Console.WriteLine(result.GetProperty("testArtifacts").GetProperty("inputArtifacts").GetProperty("userPropFileInfo").GetProperty("url").ToString());
-    Console.WriteLine(result.GetProperty("testArtifacts").GetProperty("inputArtifacts").GetProperty("userPropFileInfo").GetProperty("fileName").ToString());
-    Console.WriteLine(result.GetProperty("testArtifacts").GetProperty("inputArtifacts").GetProperty("userPropFileInfo").GetProperty("fileType").ToString());
-    Console.WriteLine(result.GetProperty("testArtifacts").GetProperty("inputArtifacts").GetProperty("userPropFileInfo").GetProperty("expireDateTime").ToString());
-    Console.WriteLine(result.GetProperty("testArtifacts").GetProperty("inputArtifacts").GetProperty("userPropFileInfo").GetProperty("validationStatus").ToString());
-    Console.WriteLine(result.GetProperty("testArtifacts").GetProperty("inputArtifacts").GetProperty("userPropFileInfo").GetProperty("validationFailureDetails").ToString());
-    Console.WriteLine(result.GetProperty("testArtifacts").GetProperty("inputArtifacts").GetProperty("inputArtifactsZipFileInfo").GetProperty("url").ToString());
-    Console.WriteLine(result.GetProperty("testArtifacts").GetProperty("inputArtifacts").GetProperty("inputArtifactsZipFileInfo").GetProperty("fileName").ToString());
-    Console.WriteLine(result.GetProperty("testArtifacts").GetProperty("inputArtifacts").GetProperty("inputArtifactsZipFileInfo").GetProperty("fileType").ToString());
-    Console.WriteLine(result.GetProperty("testArtifacts").GetProperty("inputArtifacts").GetProperty("inputArtifactsZipFileInfo").GetProperty("expireDateTime").ToString());
-    Console.WriteLine(result.GetProperty("testArtifacts").GetProperty("inputArtifacts").GetProperty("inputArtifactsZipFileInfo").GetProperty("validationStatus").ToString());
-    Console.WriteLine(result.GetProperty("testArtifacts").GetProperty("inputArtifacts").GetProperty("inputArtifactsZipFileInfo").GetProperty("validationFailureDetails").ToString());
-    Console.WriteLine(result.GetProperty("testArtifacts").GetProperty("inputArtifacts").GetProperty("additionalFileInfo")[0].GetProperty("url").ToString());
-    Console.WriteLine(result.GetProperty("testArtifacts").GetProperty("inputArtifacts").GetProperty("additionalFileInfo")[0].GetProperty("fileName").ToString());
-    Console.WriteLine(result.GetProperty("testArtifacts").GetProperty("inputArtifacts").GetProperty("additionalFileInfo")[0].GetProperty("fileType").ToString());
-    Console.WriteLine(result.GetProperty("testArtifacts").GetProperty("inputArtifacts").GetProperty("additionalFileInfo")[0].GetProperty("expireDateTime").ToString());
-    Console.WriteLine(result.GetProperty("testArtifacts").GetProperty("inputArtifacts").GetProperty("additionalFileInfo")[0].GetProperty("validationStatus").ToString());
-    Console.WriteLine(result.GetProperty("testArtifacts").GetProperty("inputArtifacts").GetProperty("additionalFileInfo")[0].GetProperty("validationFailureDetails").ToString());
-    Console.WriteLine(result.GetProperty("testArtifacts").GetProperty("outputArtifacts").GetProperty("resultFileInfo").GetProperty("url").ToString());
-    Console.WriteLine(result.GetProperty("testArtifacts").GetProperty("outputArtifacts").GetProperty("resultFileInfo").GetProperty("fileName").ToString());
-    Console.WriteLine(result.GetProperty("testArtifacts").GetProperty("outputArtifacts").GetProperty("resultFileInfo").GetProperty("fileType").ToString());
-    Console.WriteLine(result.GetProperty("testArtifacts").GetProperty("outputArtifacts").GetProperty("resultFileInfo").GetProperty("expireDateTime").ToString());
-    Console.WriteLine(result.GetProperty("testArtifacts").GetProperty("outputArtifacts").GetProperty("resultFileInfo").GetProperty("validationStatus").ToString());
-    Console.WriteLine(result.GetProperty("testArtifacts").GetProperty("outputArtifacts").GetProperty("resultFileInfo").GetProperty("validationFailureDetails").ToString());
-    Console.WriteLine(result.GetProperty("testArtifacts").GetProperty("outputArtifacts").GetProperty("logsFileInfo").GetProperty("url").ToString());
-    Console.WriteLine(result.GetProperty("testArtifacts").GetProperty("outputArtifacts").GetProperty("logsFileInfo").GetProperty("fileName").ToString());
-    Console.WriteLine(result.GetProperty("testArtifacts").GetProperty("outputArtifacts").GetProperty("logsFileInfo").GetProperty("fileType").ToString());
-    Console.WriteLine(result.GetProperty("testArtifacts").GetProperty("outputArtifacts").GetProperty("logsFileInfo").GetProperty("expireDateTime").ToString());
-    Console.WriteLine(result.GetProperty("testArtifacts").GetProperty("outputArtifacts").GetProperty("logsFileInfo").GetProperty("validationStatus").ToString());
-    Console.WriteLine(result.GetProperty("testArtifacts").GetProperty("outputArtifacts").GetProperty("logsFileInfo").GetProperty("validationFailureDetails").ToString());
-    Console.WriteLine(result.GetProperty("testResult").ToString());
-    Console.WriteLine(result.GetProperty("virtualUsers").ToString());
-    Console.WriteLine(result.GetProperty("testRunId").ToString());
-    Console.WriteLine(result.GetProperty("displayName").ToString());
-    Console.WriteLine(result.GetProperty("testId").ToString());
-    Console.WriteLine(result.GetProperty("description").ToString());
-    Console.WriteLine(result.GetProperty("status").ToString());
-    Console.WriteLine(result.GetProperty("startDateTime").ToString());
-    Console.WriteLine(result.GetProperty("endDateTime").ToString());
-    Console.WriteLine(result.GetProperty("executedDateTime").ToString());
-    Console.WriteLine(result.GetProperty("portalUrl").ToString());
-    Console.WriteLine(result.GetProperty("duration").ToString());
-    Console.WriteLine(result.GetProperty("subnetId").ToString());
-    Console.WriteLine(result.GetProperty("createdDateTime").ToString());
-    Console.WriteLine(result.GetProperty("createdBy").ToString());
-    Console.WriteLine(result.GetProperty("lastModifiedDateTime").ToString());
-    Console.WriteLine(result.GetProperty("lastModifiedBy").ToString());
-}
-]]></code></example>
       </Docs>
     </Member>
     <Member MemberName="Pipeline">

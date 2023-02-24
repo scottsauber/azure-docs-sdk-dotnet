@@ -66,6 +66,26 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <Member MemberName="ExternalStorageLocation">
+      <MemberSignature Language="C#" Value="public Uri ExternalStorageLocation { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Uri ExternalStorageLocation" />
+      <MemberSignature Language="DocId" Value="P:Azure.Communication.CallAutomation.StartRecordingOptions.ExternalStorageLocation" />
+      <MemberSignature Language="VB.NET" Value="Public Property ExternalStorageLocation As Uri" />
+      <MemberSignature Language="F#" Value="member this.ExternalStorageLocation : Uri with get, set" Usage="Azure.Communication.CallAutomation.StartRecordingOptions.ExternalStorageLocation" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.CallAutomation</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Uri</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> The location where recording is stored, when RecordingStorageType is set to BlobStorage. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="RecordingChannel">
       <MemberSignature Language="C#" Value="public Azure.Communication.CallAutomation.RecordingChannel RecordingChannel { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Azure.Communication.CallAutomation.RecordingChannel RecordingChannel" />
@@ -154,24 +174,22 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="RepeatabilityHeaders">
-      <MemberSignature Language="C#" Value="public Azure.Communication.CallAutomation.RepeatabilityHeaders RepeatabilityHeaders { get; set; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Communication.CallAutomation.RepeatabilityHeaders RepeatabilityHeaders" />
-      <MemberSignature Language="DocId" Value="P:Azure.Communication.CallAutomation.StartRecordingOptions.RepeatabilityHeaders" />
-      <MemberSignature Language="VB.NET" Value="Public Property RepeatabilityHeaders As RepeatabilityHeaders" />
-      <MemberSignature Language="F#" Value="member this.RepeatabilityHeaders : Azure.Communication.CallAutomation.RepeatabilityHeaders with get, set" Usage="Azure.Communication.CallAutomation.StartRecordingOptions.RepeatabilityHeaders" />
+    <Member MemberName="RecordingStorageType">
+      <MemberSignature Language="C#" Value="public Azure.Communication.CallAutomation.RecordingStorageType? RecordingStorageType { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Azure.Communication.CallAutomation.RecordingStorageType&gt; RecordingStorageType" />
+      <MemberSignature Language="DocId" Value="P:Azure.Communication.CallAutomation.StartRecordingOptions.RecordingStorageType" />
+      <MemberSignature Language="VB.NET" Value="Public Property RecordingStorageType As Nullable(Of RecordingStorageType)" />
+      <MemberSignature Language="F#" Value="member this.RecordingStorageType : Nullable&lt;Azure.Communication.CallAutomation.RecordingStorageType&gt; with get, set" Usage="Azure.Communication.CallAutomation.StartRecordingOptions.RecordingStorageType" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Communication.CallAutomation</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>Azure.Communication.CallAutomation.RepeatabilityHeaders</ReturnType>
+        <ReturnType>System.Nullable&lt;Azure.Communication.CallAutomation.RecordingStorageType&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-            Repeatability Headers.
-            </summary>
+        <summary> Recording storage mode. `External` enables bring your own storage. </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>

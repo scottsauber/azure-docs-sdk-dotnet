@@ -32,7 +32,11 @@
         <Parameter Name="zone" Type="Azure.Media.VideoAnalyzer.Edge.Models.NamedPolygonBase" />
       </Parameters>
       <Docs>
-        <param name="zone"> The named zone. </param>
+        <param name="zone">
+            The named zone.
+            Please note <see cref="T:Azure.Media.VideoAnalyzer.Edge.Models.NamedPolygonBase" /> is the base class. According to the scenario, a derived class of the base class might need to be assigned here, or this property needs to be casted to one of the possible derived classes.
+            The available derived classes include <see cref="T:Azure.Media.VideoAnalyzer.Edge.Models.NamedPolygonString" />.
+            </param>
         <summary> Initializes a new instance of SpatialAnalysisPersonCountZoneEvents. </summary>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -74,7 +78,11 @@
         <ReturnType>Azure.Media.VideoAnalyzer.Edge.Models.NamedPolygonBase</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary> The named zone. </summary>
+        <summary>
+            The named zone.
+            Please note <see cref="T:Azure.Media.VideoAnalyzer.Edge.Models.NamedPolygonBase" /> is the base class. According to the scenario, a derived class of the base class might need to be assigned here, or this property needs to be casted to one of the possible derived classes.
+            The available derived classes include <see cref="T:Azure.Media.VideoAnalyzer.Edge.Models.NamedPolygonString" />.
+            </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>

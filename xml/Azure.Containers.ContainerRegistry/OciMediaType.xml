@@ -1,0 +1,310 @@
+<Type Name="OciMediaType" FullName="Azure.Containers.ContainerRegistry.OciMediaType">
+  <TypeSignature Language="C#" Value="public readonly struct OciMediaType : IEquatable&lt;Azure.Containers.ContainerRegistry.OciMediaType&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public sequential ansi sealed beforefieldinit OciMediaType extends System.ValueType implements class System.IEquatable`1&lt;valuetype Azure.Containers.ContainerRegistry.OciMediaType&gt;" />
+  <TypeSignature Language="DocId" Value="T:Azure.Containers.ContainerRegistry.OciMediaType" />
+  <TypeSignature Language="VB.NET" Value="Public Structure OciMediaType&#xA;Implements IEquatable(Of OciMediaType)" />
+  <TypeSignature Language="F#" Value="type OciMediaType = struct" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Containers.ContainerRegistry</AssemblyName>
+    <AssemblyVersion>1.1.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.ValueType</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>System.IEquatable&lt;Azure.Containers.ContainerRegistry.OciMediaType&gt;</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary> The OciMediaType. </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public OciMediaType (string value);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Containers.ContainerRegistry.OciMediaType.#ctor(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (value As String)" />
+      <MemberSignature Language="F#" Value="new Azure.Containers.ContainerRegistry.OciMediaType : string -&gt; Azure.Containers.ContainerRegistry.OciMediaType" Usage="new Azure.Containers.ContainerRegistry.OciMediaType value" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Containers.ContainerRegistry</AssemblyName>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="value" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="value">To be added.</param>
+        <summary> Initializes a new instance of <see cref="T:Azure.Containers.ContainerRegistry.OciMediaType" />. </summary>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="value" /> is null. </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="ContentDescriptor">
+      <MemberSignature Language="C#" Value="public static Azure.Containers.ContainerRegistry.OciMediaType ContentDescriptor { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.Containers.ContainerRegistry.OciMediaType ContentDescriptor" />
+      <MemberSignature Language="DocId" Value="P:Azure.Containers.ContainerRegistry.OciMediaType.ContentDescriptor" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ContentDescriptor As OciMediaType" />
+      <MemberSignature Language="F#" Value="static member ContentDescriptor : Azure.Containers.ContainerRegistry.OciMediaType" Usage="Azure.Containers.ContainerRegistry.OciMediaType.ContentDescriptor" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Containers.ContainerRegistry</AssemblyName>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Containers.ContainerRegistry.OciMediaType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> application/vnd.oci.descriptor.v1+json. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Equals">
+      <MemberSignature Language="C#" Value="public bool Equals (Azure.Containers.ContainerRegistry.OciMediaType other);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool Equals(valuetype Azure.Containers.ContainerRegistry.OciMediaType other) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Containers.ContainerRegistry.OciMediaType.Equals(Azure.Containers.ContainerRegistry.OciMediaType)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Equals (other As OciMediaType) As Boolean" />
+      <MemberSignature Language="F#" Value="override this.Equals : Azure.Containers.ContainerRegistry.OciMediaType -&gt; bool" Usage="ociMediaType.Equals other" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.IEquatable`1.Equals(`0)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Containers.ContainerRegistry</AssemblyName>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="other" Type="Azure.Containers.ContainerRegistry.OciMediaType" />
+      </Parameters>
+      <Docs>
+        <param name="other">An object to compare with this object.</param>
+        <summary>Indicates whether the current object is equal to another object of the same type.</summary>
+        <returns>
+          <see langword="true" /> if the current object is equal to the <paramref name="other" /> parameter; otherwise, <see langword="false" />.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Equals">
+      <MemberSignature Language="C#" Value="public override bool Equals (object obj);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance bool Equals(object obj) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Containers.ContainerRegistry.OciMediaType.Equals(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function Equals (obj As Object) As Boolean" />
+      <MemberSignature Language="F#" Value="override this.Equals : obj -&gt; bool" Usage="ociMediaType.Equals obj" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Containers.ContainerRegistry</AssemblyName>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="obj" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="obj">The object to compare with the current instance.</param>
+        <summary>Indicates whether this instance and a specified object are equal.</summary>
+        <returns>
+          <see langword="true" /> if <paramref name="obj" /> and this instance are the same type and represent the same value; otherwise, <see langword="false" />.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetHashCode">
+      <MemberSignature Language="C#" Value="public override int GetHashCode ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance int32 GetHashCode() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Containers.ContainerRegistry.OciMediaType.GetHashCode" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function GetHashCode () As Integer" />
+      <MemberSignature Language="F#" Value="override this.GetHashCode : unit -&gt; int" Usage="ociMediaType.GetHashCode " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Containers.ContainerRegistry</AssemblyName>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Returns the hash code for this instance.</summary>
+        <returns>A 32-bit signed integer that is the hash code for this instance.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ImageConfig">
+      <MemberSignature Language="C#" Value="public static Azure.Containers.ContainerRegistry.OciMediaType ImageConfig { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.Containers.ContainerRegistry.OciMediaType ImageConfig" />
+      <MemberSignature Language="DocId" Value="P:Azure.Containers.ContainerRegistry.OciMediaType.ImageConfig" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ImageConfig As OciMediaType" />
+      <MemberSignature Language="F#" Value="static member ImageConfig : Azure.Containers.ContainerRegistry.OciMediaType" Usage="Azure.Containers.ContainerRegistry.OciMediaType.ImageConfig" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Containers.ContainerRegistry</AssemblyName>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Containers.ContainerRegistry.OciMediaType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> application/vnd.oci.image.config.v1+json. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ImageLayer">
+      <MemberSignature Language="C#" Value="public static Azure.Containers.ContainerRegistry.OciMediaType ImageLayer { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.Containers.ContainerRegistry.OciMediaType ImageLayer" />
+      <MemberSignature Language="DocId" Value="P:Azure.Containers.ContainerRegistry.OciMediaType.ImageLayer" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ImageLayer As OciMediaType" />
+      <MemberSignature Language="F#" Value="static member ImageLayer : Azure.Containers.ContainerRegistry.OciMediaType" Usage="Azure.Containers.ContainerRegistry.OciMediaType.ImageLayer" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Containers.ContainerRegistry</AssemblyName>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Containers.ContainerRegistry.OciMediaType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> application/vnd.oci.image.layer.v1.tar. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ImageManifest">
+      <MemberSignature Language="C#" Value="public static Azure.Containers.ContainerRegistry.OciMediaType ImageManifest { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype Azure.Containers.ContainerRegistry.OciMediaType ImageManifest" />
+      <MemberSignature Language="DocId" Value="P:Azure.Containers.ContainerRegistry.OciMediaType.ImageManifest" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ImageManifest As OciMediaType" />
+      <MemberSignature Language="F#" Value="static member ImageManifest : Azure.Containers.ContainerRegistry.OciMediaType" Usage="Azure.Containers.ContainerRegistry.OciMediaType.ImageManifest" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Containers.ContainerRegistry</AssemblyName>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Containers.ContainerRegistry.OciMediaType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary> application/vnd.oci.image.manifest.v1+json. </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_Equality">
+      <MemberSignature Language="C#" Value="public static bool operator == (Azure.Containers.ContainerRegistry.OciMediaType left, Azure.Containers.ContainerRegistry.OciMediaType right);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname bool op_Equality(valuetype Azure.Containers.ContainerRegistry.OciMediaType left, valuetype Azure.Containers.ContainerRegistry.OciMediaType right) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Containers.ContainerRegistry.OciMediaType.op_Equality(Azure.Containers.ContainerRegistry.OciMediaType,Azure.Containers.ContainerRegistry.OciMediaType)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Operator == (left As OciMediaType, right As OciMediaType) As Boolean" />
+      <MemberSignature Language="F#" Value="static member ( = ) : Azure.Containers.ContainerRegistry.OciMediaType * Azure.Containers.ContainerRegistry.OciMediaType -&gt; bool" Usage="left = right" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Containers.ContainerRegistry</AssemblyName>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="left" Type="Azure.Containers.ContainerRegistry.OciMediaType" />
+        <Parameter Name="right" Type="Azure.Containers.ContainerRegistry.OciMediaType" />
+      </Parameters>
+      <Docs>
+        <param name="left">To be added.</param>
+        <param name="right">To be added.</param>
+        <summary> Determines if two <see cref="T:Azure.Containers.ContainerRegistry.OciMediaType" /> values are the same. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_Implicit">
+      <MemberSignature Language="C#" Value="public static implicit operator Azure.Containers.ContainerRegistry.OciMediaType (string value);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname valuetype Azure.Containers.ContainerRegistry.OciMediaType op_Implicit(string value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Containers.ContainerRegistry.OciMediaType.op_Implicit(System.String)~Azure.Containers.ContainerRegistry.OciMediaType" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Widening Operator CType (value As String) As OciMediaType" />
+      <MemberSignature Language="F#" Value="static member op_Implicit : string -&gt; Azure.Containers.ContainerRegistry.OciMediaType" Usage="Azure.Containers.ContainerRegistry.OciMediaType.op_Implicit value" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Containers.ContainerRegistry</AssemblyName>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Containers.ContainerRegistry.OciMediaType</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="value" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="value">To be added.</param>
+        <summary> Converts a string to a <see cref="T:Azure.Containers.ContainerRegistry.OciMediaType" />. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_Inequality">
+      <MemberSignature Language="C#" Value="public static bool operator != (Azure.Containers.ContainerRegistry.OciMediaType left, Azure.Containers.ContainerRegistry.OciMediaType right);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname bool op_Inequality(valuetype Azure.Containers.ContainerRegistry.OciMediaType left, valuetype Azure.Containers.ContainerRegistry.OciMediaType right) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Containers.ContainerRegistry.OciMediaType.op_Inequality(Azure.Containers.ContainerRegistry.OciMediaType,Azure.Containers.ContainerRegistry.OciMediaType)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Operator != (left As OciMediaType, right As OciMediaType) As Boolean" />
+      <MemberSignature Language="F#" Value="static member op_Inequality : Azure.Containers.ContainerRegistry.OciMediaType * Azure.Containers.ContainerRegistry.OciMediaType -&gt; bool" Usage="Azure.Containers.ContainerRegistry.OciMediaType.op_Inequality (left, right)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Containers.ContainerRegistry</AssemblyName>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="left" Type="Azure.Containers.ContainerRegistry.OciMediaType" />
+        <Parameter Name="right" Type="Azure.Containers.ContainerRegistry.OciMediaType" />
+      </Parameters>
+      <Docs>
+        <param name="left">To be added.</param>
+        <param name="right">To be added.</param>
+        <summary> Determines if two <see cref="T:Azure.Containers.ContainerRegistry.OciMediaType" /> values are not the same. </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ToString">
+      <MemberSignature Language="C#" Value="public override string ToString ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance string ToString() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Containers.ContainerRegistry.OciMediaType.ToString" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function ToString () As String" />
+      <MemberSignature Language="F#" Value="override this.ToString : unit -&gt; string" Usage="ociMediaType.ToString " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Containers.ContainerRegistry</AssemblyName>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Returns the fully qualified type name of this instance.</summary>
+        <returns>The fully qualified type name.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>
