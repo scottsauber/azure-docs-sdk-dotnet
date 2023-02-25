@@ -10,6 +10,7 @@
     <AssemblyVersion>1.0.1.0</AssemblyVersion>
     <AssemblyVersion>1.0.2.0</AssemblyVersion>
     <AssemblyVersion>1.1.0.0</AssemblyVersion>
+    <AssemblyVersion>1.2.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Azure.ResourceManager.Models.ResourceData</BaseTypeName>
@@ -32,6 +33,7 @@
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.0.2.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -52,6 +54,7 @@
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.0.2.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
@@ -75,6 +78,7 @@
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.0.2.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -98,6 +102,7 @@
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.0.2.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.DateTimeOffset&gt;</ReturnType>
@@ -121,6 +126,7 @@
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.0.2.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IList&lt;System.String&gt;</ReturnType>
@@ -144,6 +150,7 @@
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.0.2.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.DateTimeOffset&gt;</ReturnType>
@@ -167,6 +174,7 @@
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.0.2.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ContainerRegistry.Models.ContainerRegistryImageUpdateTrigger</ReturnType>
@@ -190,6 +198,7 @@
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.0.2.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
@@ -213,6 +222,7 @@
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.0.2.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.DateTimeOffset&gt;</ReturnType>
@@ -236,6 +246,7 @@
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.0.2.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ContainerRegistry.Models.ContainerRegistryImageDescriptor</ReturnType>
@@ -259,6 +270,7 @@
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.0.2.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IList&lt;Azure.ResourceManager.ContainerRegistry.Models.ContainerRegistryImageDescriptor&gt;</ReturnType>
@@ -282,6 +294,7 @@
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.0.2.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ContainerRegistry.Models.ContainerRegistryPlatformProperties</ReturnType>
@@ -305,6 +318,7 @@
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.0.2.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;Azure.ResourceManager.ContainerRegistry.Models.ContainerRegistryProvisioningState&gt;</ReturnType>
@@ -328,6 +342,7 @@
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.0.2.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -351,6 +366,7 @@
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.0.2.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -374,6 +390,7 @@
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.0.2.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;Azure.ResourceManager.ContainerRegistry.Models.ContainerRegistryRunType&gt;</ReturnType>
@@ -397,6 +414,7 @@
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.0.2.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -420,6 +438,7 @@
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.0.2.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ContainerRegistry.Models.ContainerRegistrySourceTriggerDescriptor</ReturnType>
@@ -443,6 +462,7 @@
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.0.2.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.DateTimeOffset&gt;</ReturnType>
@@ -466,6 +486,7 @@
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.0.2.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;Azure.ResourceManager.ContainerRegistry.Models.ContainerRegistryRunStatus&gt;</ReturnType>
@@ -489,6 +510,7 @@
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.0.2.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -512,6 +534,7 @@
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.0.2.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.ResourceManager.ContainerRegistry.Models.ContainerRegistryTimerTriggerDescriptor</ReturnType>
@@ -535,6 +558,7 @@
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.0.2.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>

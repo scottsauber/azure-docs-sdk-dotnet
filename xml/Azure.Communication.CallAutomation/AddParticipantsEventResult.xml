@@ -1,0 +1,66 @@
+<Type Name="AddParticipantsEventResult" FullName="Azure.Communication.CallAutomation.AddParticipantsEventResult">
+  <TypeSignature Language="C#" Value="public class AddParticipantsEventResult : Azure.Communication.CallAutomation.EventResultBase" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit AddParticipantsEventResult extends Azure.Communication.CallAutomation.EventResultBase" />
+  <TypeSignature Language="DocId" Value="T:Azure.Communication.CallAutomation.AddParticipantsEventResult" />
+  <TypeSignature Language="VB.NET" Value="Public Class AddParticipantsEventResult&#xA;Inherits EventResultBase" />
+  <TypeSignature Language="F#" Value="type AddParticipantsEventResult = class&#xA;    inherit EventResultBase" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Communication.CallAutomation</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Azure.Communication.CallAutomation.EventResultBase</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+      <see cref="T:Azure.Communication.CallAutomation.AddParticipantsEventResult" /> is returned from WaitForEvent of <see cref="T:Azure.Communication.CallAutomation.AddParticipantResult" />.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="FailureEvent">
+      <MemberSignature Language="C#" Value="public Azure.Communication.CallAutomation.AddParticipantFailed FailureEvent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Communication.CallAutomation.AddParticipantFailed FailureEvent" />
+      <MemberSignature Language="DocId" Value="P:Azure.Communication.CallAutomation.AddParticipantsEventResult.FailureEvent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FailureEvent As AddParticipantFailed" />
+      <MemberSignature Language="F#" Value="member this.FailureEvent : Azure.Communication.CallAutomation.AddParticipantFailed" Usage="Azure.Communication.CallAutomation.AddParticipantsEventResult.FailureEvent" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.CallAutomation</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Communication.CallAutomation.AddParticipantFailed</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <see cref="T:Azure.Communication.CallAutomation.AddParticipantFailed" /> event will be returned when the participant did not join the call.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SuccessEvent">
+      <MemberSignature Language="C#" Value="public Azure.Communication.CallAutomation.AddParticipantSucceeded SuccessEvent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Communication.CallAutomation.AddParticipantSucceeded SuccessEvent" />
+      <MemberSignature Language="DocId" Value="P:Azure.Communication.CallAutomation.AddParticipantsEventResult.SuccessEvent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SuccessEvent As AddParticipantSucceeded" />
+      <MemberSignature Language="F#" Value="member this.SuccessEvent : Azure.Communication.CallAutomation.AddParticipantSucceeded" Usage="Azure.Communication.CallAutomation.AddParticipantsEventResult.SuccessEvent" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.CallAutomation</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Azure.Communication.CallAutomation.AddParticipantSucceeded</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <see cref="T:Azure.Communication.CallAutomation.AddParticipantSucceeded" /> event will be returned when the participant joined the call successfully.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

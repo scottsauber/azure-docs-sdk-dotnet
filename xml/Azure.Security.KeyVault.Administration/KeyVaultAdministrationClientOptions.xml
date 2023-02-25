@@ -48,7 +48,6 @@
             </param>
         <summary>
             Initializes a new instance of the <see cref="T:Azure.Security.KeyVault.Administration.KeyVaultAdministrationClientOptions" /> class.
-            class.
             </summary>
         <remarks>To be added.</remarks>
       </Docs>

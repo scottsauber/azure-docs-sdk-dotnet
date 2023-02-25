@@ -1,8 +1,8 @@
 <Type Name="MethodRequest" FullName="Azure.Media.VideoAnalyzer.Edge.Models.MethodRequest">
-  <TypeSignature Language="C#" Value="public class MethodRequest" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit MethodRequest extends System.Object" />
+  <TypeSignature Language="C#" Value="public abstract class MethodRequest" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit MethodRequest extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Azure.Media.VideoAnalyzer.Edge.Models.MethodRequest" />
-  <TypeSignature Language="VB.NET" Value="Public Class MethodRequest" />
+  <TypeSignature Language="VB.NET" Value="Public MustInherit Class MethodRequest" />
   <TypeSignature Language="F#" Value="type MethodRequest = class" />
   <AssemblyInfo>
     <AssemblyName>Azure.Media.VideoAnalyzer.Edge</AssemblyName>
@@ -13,15 +13,19 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary> Base class for direct method calls. </summary>
+    <summary>
+            Base class for direct method calls.
+            Please note <see cref="T:Azure.Media.VideoAnalyzer.Edge.Models.MethodRequest" /> is the base class. According to the scenario, a derived class of the base class might need to be assigned here, or this property needs to be casted to one of the possible derived classes.
+            The available derived classes include <see cref="T:Azure.Media.VideoAnalyzer.Edge.Models.MethodRequestEmptyBodyBase" />, <see cref="T:Azure.Media.VideoAnalyzer.Edge.Models.PipelineTopologySetRequestBody" />, <see cref="T:Azure.Media.VideoAnalyzer.Edge.Models.RemoteDeviceAdapterSetRequestBody" />, <see cref="T:Azure.Media.VideoAnalyzer.Edge.Models.LivePipelineActivateRequest" />, <see cref="T:Azure.Media.VideoAnalyzer.Edge.Models.LivePipelineDeactivateRequest" />, <see cref="T:Azure.Media.VideoAnalyzer.Edge.Models.LivePipelineDeleteRequest" />, <see cref="T:Azure.Media.VideoAnalyzer.Edge.Models.LivePipelineGetRequest" />, <see cref="T:Azure.Media.VideoAnalyzer.Edge.Models.LivePipelineListRequest" />, <see cref="T:Azure.Media.VideoAnalyzer.Edge.Models.LivePipelineSetRequest" />, <see cref="T:Azure.Media.VideoAnalyzer.Edge.Models.OnvifDeviceDiscoverRequest" />, <see cref="T:Azure.Media.VideoAnalyzer.Edge.Models.OnvifDeviceGetRequest" />, <see cref="T:Azure.Media.VideoAnalyzer.Edge.Models.PipelineTopologyDeleteRequest" />, <see cref="T:Azure.Media.VideoAnalyzer.Edge.Models.PipelineTopologyGetRequest" />, <see cref="T:Azure.Media.VideoAnalyzer.Edge.Models.PipelineTopologyListRequest" />, <see cref="T:Azure.Media.VideoAnalyzer.Edge.Models.PipelineTopologySetRequest" />, <see cref="T:Azure.Media.VideoAnalyzer.Edge.Models.RemoteDeviceAdapterDeleteRequest" />, <see cref="T:Azure.Media.VideoAnalyzer.Edge.Models.RemoteDeviceAdapterGetRequest" />, <see cref="T:Azure.Media.VideoAnalyzer.Edge.Models.RemoteDeviceAdapterListRequest" />, <see cref="T:Azure.Media.VideoAnalyzer.Edge.Models.RemoteDeviceAdapterSetRequest" /> and <see cref="T:Azure.Media.VideoAnalyzer.Edge.Models.LivePipelineSetRequestBody" />.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public MethodRequest ();" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="C#" Value="protected MethodRequest ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig specialname rtspecialname instance void .ctor() cil managed" />
       <MemberSignature Language="DocId" Value="M:Azure.Media.VideoAnalyzer.Edge.Models.MethodRequest.#ctor" />
-      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="VB.NET" Value="Protected Sub New ()" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Media.VideoAnalyzer.Edge</AssemblyName>

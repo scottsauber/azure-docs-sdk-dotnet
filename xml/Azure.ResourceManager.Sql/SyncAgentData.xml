@@ -9,6 +9,7 @@
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
     <AssemblyVersion>1.1.0.0</AssemblyVersion>
     <AssemblyVersion>1.2.0.0</AssemblyVersion>
+    <AssemblyVersion>1.3.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Azure.ResourceManager.Models.ResourceData</BaseTypeName>
@@ -30,6 +31,7 @@
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -49,26 +51,7 @@
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Nullable&lt;System.DateTimeOffset&gt;</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary> Expiration time of the sync agent version. </summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="ExpiryOn">
-      <MemberSignature Language="C#" Value="public DateTimeOffset? ExpiryOn { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.DateTimeOffset&gt; ExpiryOn" />
-      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Sql.SyncAgentData.ExpiryOn" />
-      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ExpiryOn As Nullable(Of DateTimeOffset)" />
-      <MemberSignature Language="F#" Value="member this.ExpiryOn : Nullable&lt;DateTimeOffset&gt;" Usage="Azure.ResourceManager.Sql.SyncAgentData.ExpiryOn" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.Sql</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.DateTimeOffset&gt;</ReturnType>
@@ -91,6 +74,7 @@
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
@@ -113,32 +97,13 @@
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.DateTimeOffset&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> Last alive time of the sync agent. </summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="NamePropertiesName">
-      <MemberSignature Language="C#" Value="public string NamePropertiesName { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance string NamePropertiesName" />
-      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Sql.SyncAgentData.NamePropertiesName" />
-      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property NamePropertiesName As String" />
-      <MemberSignature Language="F#" Value="member this.NamePropertiesName : string" Usage="Azure.ResourceManager.Sql.SyncAgentData.NamePropertiesName" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.Sql</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.String</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary> Name of the sync agent. </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -155,6 +120,7 @@
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;Azure.ResourceManager.Sql.Models.SyncAgentState&gt;</ReturnType>
@@ -166,25 +132,21 @@
       </Docs>
     </Member>
     <Member MemberName="SyncDatabaseId">
-      <MemberSignature Language="C#" Value="public Azure.Core.ResourceIdentifier SyncDatabaseId { get; set; }" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Core.ResourceIdentifier SyncDatabaseId" FrameworkAlternate="azure-dotnet" />
+      <MemberSignature Language="C#" Value="public Azure.Core.ResourceIdentifier SyncDatabaseId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.Core.ResourceIdentifier SyncDatabaseId" />
       <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Sql.SyncAgentData.SyncDatabaseId" />
-      <MemberSignature Language="VB.NET" Value="Public Property SyncDatabaseId As ResourceIdentifier" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="F#" Value="member this.SyncDatabaseId : Azure.Core.ResourceIdentifier with get, set" Usage="Azure.ResourceManager.Sql.SyncAgentData.SyncDatabaseId" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="C#" Value="public string SyncDatabaseId { get; set; }" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="ILAsm" Value=".property instance string SyncDatabaseId" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="VB.NET" Value="Public Property SyncDatabaseId As String" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="F#" Value="member this.SyncDatabaseId : string with get, set" Usage="Azure.ResourceManager.Sql.SyncAgentData.SyncDatabaseId" FrameworkAlternate="azure-dotnet-preview" />
+      <MemberSignature Language="VB.NET" Value="Public Property SyncDatabaseId As ResourceIdentifier" />
+      <MemberSignature Language="F#" Value="member this.SyncDatabaseId : Azure.Core.ResourceIdentifier with get, set" Usage="Azure.ResourceManager.Sql.SyncAgentData.SyncDatabaseId" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Sql</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType FrameworkAlternate="azure-dotnet">Azure.Core.ResourceIdentifier</ReturnType>
-        <ReturnType FrameworkAlternate="azure-dotnet-preview">System.String</ReturnType>
+        <ReturnType>Azure.Core.ResourceIdentifier</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> ARM resource id of the sync database in the sync agent. </summary>
@@ -204,6 +166,7 @@
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
         <AssemblyVersion>1.2.0.0</AssemblyVersion>
+        <AssemblyVersion>1.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>

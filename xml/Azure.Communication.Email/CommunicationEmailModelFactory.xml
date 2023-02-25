@@ -65,6 +65,8 @@
         <summary> Initializes a new instance of SendStatusResult. </summary>
         <returns> A new <see cref="T:Azure.Communication.Email.Models.SendStatusResult" /> instance for mocking. </returns>
         <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+          <paramref name="messageId" /> is null. </exception>
       </Docs>
     </Member>
   </Members>

@@ -1,19 +1,19 @@
 <Type Name="CreateCallResult" FullName="Azure.Communication.CallAutomation.CreateCallResult">
-  <TypeSignature Language="C#" Value="public class CreateCallResult" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit CreateCallResult extends System.Object" />
+  <TypeSignature Language="C#" Value="public class CreateCallResult : Azure.Communication.CallAutomation.ResultWithWaitForEventBase" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit CreateCallResult extends Azure.Communication.CallAutomation.ResultWithWaitForEventBase" />
   <TypeSignature Language="DocId" Value="T:Azure.Communication.CallAutomation.CreateCallResult" />
-  <TypeSignature Language="VB.NET" Value="Public Class CreateCallResult" />
-  <TypeSignature Language="F#" Value="type CreateCallResult = class" />
+  <TypeSignature Language="VB.NET" Value="Public Class CreateCallResult&#xA;Inherits ResultWithWaitForEventBase" />
+  <TypeSignature Language="F#" Value="type CreateCallResult = class&#xA;    inherit ResultWithWaitForEventBase" />
   <AssemblyInfo>
     <AssemblyName>Azure.Communication.CallAutomation</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
-    <BaseTypeName>System.Object</BaseTypeName>
+    <BaseTypeName>Azure.Communication.CallAutomation.ResultWithWaitForEventBase</BaseTypeName>
   </Base>
   <Interfaces />
   <Docs>
-    <summary> The result from creating a call. </summary>
+    <summary>The result from creating a call.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -32,7 +32,7 @@
         <ReturnType>Azure.Communication.CallAutomation.CallConnection</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary> CallConnection instance. </summary>
+        <summary>CallConnection instance.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -52,8 +52,34 @@
         <ReturnType>Azure.Communication.CallAutomation.CallConnectionProperties</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary> Properties of the call. </summary>
+        <summary>Properties of the call.</summary>
         <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WaitForEvent">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Azure.Communication.CallAutomation.CreateCallEventResult&gt; WaitForEvent (TimeSpan eventTimeout = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task`1&lt;class Azure.Communication.CallAutomation.CreateCallEventResult&gt; WaitForEvent(valuetype System.TimeSpan eventTimeout) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Communication.CallAutomation.CreateCallResult.WaitForEvent(System.TimeSpan)" />
+      <MemberSignature Language="VB.NET" Value="Public Function WaitForEvent (Optional eventTimeout As TimeSpan = Nothing) As Task(Of CreateCallEventResult)" />
+      <MemberSignature Language="F#" Value="member this.WaitForEvent : TimeSpan -&gt; System.Threading.Tasks.Task&lt;Azure.Communication.CallAutomation.CreateCallEventResult&gt;" Usage="createCallResult.WaitForEvent eventTimeout" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.CallAutomation</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Communication.CallAutomation.CreateCallEventResult&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="eventTimeout" Type="System.TimeSpan" />
+      </Parameters>
+      <Docs>
+        <param name="eventTimeout">To be added.</param>
+        <summary>
+            Wait for <see cref="T:Azure.Communication.CallAutomation.CreateCallEventResult" /> using <see cref="T:Azure.Communication.CallAutomation.EventProcessor" />.
+            </summary>
+        <returns>Returns <see cref="T:Azure.Communication.CallAutomation.CreateCallEventResult" /> which contains <see cref="T:Azure.Communication.CallAutomation.CallConnected" /> event.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

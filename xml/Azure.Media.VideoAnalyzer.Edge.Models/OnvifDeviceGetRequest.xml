@@ -32,7 +32,11 @@
         <Parameter Name="endpoint" Type="Azure.Media.VideoAnalyzer.Edge.Models.EndpointBase" />
       </Parameters>
       <Docs>
-        <param name="endpoint"> Base class for endpoints. </param>
+        <param name="endpoint">
+            Base class for endpoints.
+            Please note <see cref="T:Azure.Media.VideoAnalyzer.Edge.Models.EndpointBase" /> is the base class. According to the scenario, a derived class of the base class might need to be assigned here, or this property needs to be casted to one of the possible derived classes.
+            The available derived classes include <see cref="T:Azure.Media.VideoAnalyzer.Edge.Models.TlsEndpoint" /> and <see cref="T:Azure.Media.VideoAnalyzer.Edge.Models.UnsecuredEndpoint" />.
+            </param>
         <summary> Initializes a new instance of OnvifDeviceGetRequest. </summary>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -54,7 +58,11 @@
         <ReturnType>Azure.Media.VideoAnalyzer.Edge.Models.EndpointBase</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary> Base class for endpoints. </summary>
+        <summary>
+            Base class for endpoints.
+            Please note <see cref="T:Azure.Media.VideoAnalyzer.Edge.Models.EndpointBase" /> is the base class. According to the scenario, a derived class of the base class might need to be assigned here, or this property needs to be casted to one of the possible derived classes.
+            The available derived classes include <see cref="T:Azure.Media.VideoAnalyzer.Edge.Models.TlsEndpoint" /> and <see cref="T:Azure.Media.VideoAnalyzer.Edge.Models.UnsecuredEndpoint" />.
+            </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>

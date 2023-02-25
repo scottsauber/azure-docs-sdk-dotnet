@@ -1094,11 +1094,11 @@
       </Docs>
     </Member>
     <Member MemberName="DynamicClassify">
-      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;Azure.AI.TextAnalytics.ClassificationCategoryCollection&gt; DynamicClassify (string document, System.Collections.Generic.IEnumerable&lt;string&gt; categories, string language = default, Azure.AI.TextAnalytics.DynamicClassifyOptions options = default, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class Azure.AI.TextAnalytics.ClassificationCategoryCollection&gt; DynamicClassify(string document, class System.Collections.Generic.IEnumerable`1&lt;string&gt; categories, string language, class Azure.AI.TextAnalytics.DynamicClassifyOptions options, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.AI.TextAnalytics.TextAnalyticsClient.DynamicClassify(System.String,System.Collections.Generic.IEnumerable{System.String},System.String,Azure.AI.TextAnalytics.DynamicClassifyOptions,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function DynamicClassify (document As String, categories As IEnumerable(Of String), Optional language As String = Nothing, Optional options As DynamicClassifyOptions = Nothing, Optional cancellationToken As CancellationToken = Nothing) As Response(Of ClassificationCategoryCollection)" />
-      <MemberSignature Language="F#" Value="abstract member DynamicClassify : string * seq&lt;string&gt; * string * Azure.AI.TextAnalytics.DynamicClassifyOptions * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.AI.TextAnalytics.ClassificationCategoryCollection&gt;&#xA;override this.DynamicClassify : string * seq&lt;string&gt; * string * Azure.AI.TextAnalytics.DynamicClassifyOptions * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.AI.TextAnalytics.ClassificationCategoryCollection&gt;" Usage="textAnalyticsClient.DynamicClassify (document, categories, language, options, cancellationToken)" />
+      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;Azure.AI.TextAnalytics.ClassificationCategoryCollection&gt; DynamicClassify (string document, System.Collections.Generic.IEnumerable&lt;string&gt; categories, Azure.AI.TextAnalytics.ClassificationType? classificationType = default, string language = default, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class Azure.AI.TextAnalytics.ClassificationCategoryCollection&gt; DynamicClassify(string document, class System.Collections.Generic.IEnumerable`1&lt;string&gt; categories, valuetype System.Nullable`1&lt;valuetype Azure.AI.TextAnalytics.ClassificationType&gt; classificationType, string language, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.AI.TextAnalytics.TextAnalyticsClient.DynamicClassify(System.String,System.Collections.Generic.IEnumerable{System.String},System.Nullable{Azure.AI.TextAnalytics.ClassificationType},System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function DynamicClassify (document As String, categories As IEnumerable(Of String), Optional classificationType As Nullable(Of ClassificationType) = Nothing, Optional language As String = Nothing, Optional cancellationToken As CancellationToken = Nothing) As Response(Of ClassificationCategoryCollection)" />
+      <MemberSignature Language="F#" Value="abstract member DynamicClassify : string * seq&lt;string&gt; * Nullable&lt;Azure.AI.TextAnalytics.ClassificationType&gt; * string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.AI.TextAnalytics.ClassificationCategoryCollection&gt;&#xA;override this.DynamicClassify : string * seq&lt;string&gt; * Nullable&lt;Azure.AI.TextAnalytics.ClassificationType&gt; * string * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.AI.TextAnalytics.ClassificationCategoryCollection&gt;" Usage="textAnalyticsClient.DynamicClassify (document, categories, classificationType, language, cancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.AI.TextAnalytics</AssemblyName>
@@ -1110,15 +1110,15 @@
       <Parameters>
         <Parameter Name="document" Type="System.String" Index="0" FrameworkAlternate="azure-dotnet-preview" />
         <Parameter Name="categories" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" Index="1" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="language" Type="System.String" Index="2" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="options" Type="Azure.AI.TextAnalytics.DynamicClassifyOptions" Index="3" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="classificationType" Type="System.Nullable&lt;Azure.AI.TextAnalytics.ClassificationType&gt;" Index="2" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="language" Type="System.String" Index="3" FrameworkAlternate="azure-dotnet-preview" />
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="4" FrameworkAlternate="azure-dotnet-preview" />
       </Parameters>
       <Docs>
         <param name="document">The document to analyze.</param>
         <param name="categories">The categories that the documents can be classified with.</param>
+        <param name="classificationType">The type of classification to perform.</param>
         <param name="language">The language that the documents are written in.</param>
-        <param name="options">The additional <see cref="T:Azure.AI.TextAnalytics.DynamicClassifyOptions" /> used to configure the operation.</param>
         <param name="cancellationToken">The <see cref="T:System.Threading.CancellationToken" /> controlling the lifetime of the request.</param>
         <summary>
             Performs dynamic classification on the given document.
@@ -1140,11 +1140,11 @@
       </Docs>
     </Member>
     <Member MemberName="DynamicClassifyAsync">
-      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.AI.TextAnalytics.ClassificationCategoryCollection&gt;&gt; DynamicClassifyAsync (string document, System.Collections.Generic.IEnumerable&lt;string&gt; categories, string language = default, Azure.AI.TextAnalytics.DynamicClassifyOptions options = default, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.AI.TextAnalytics.ClassificationCategoryCollection&gt;&gt; DynamicClassifyAsync(string document, class System.Collections.Generic.IEnumerable`1&lt;string&gt; categories, string language, class Azure.AI.TextAnalytics.DynamicClassifyOptions options, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.AI.TextAnalytics.TextAnalyticsClient.DynamicClassifyAsync(System.String,System.Collections.Generic.IEnumerable{System.String},System.String,Azure.AI.TextAnalytics.DynamicClassifyOptions,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function DynamicClassifyAsync (document As String, categories As IEnumerable(Of String), Optional language As String = Nothing, Optional options As DynamicClassifyOptions = Nothing, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of ClassificationCategoryCollection))" />
-      <MemberSignature Language="F#" Value="abstract member DynamicClassifyAsync : string * seq&lt;string&gt; * string * Azure.AI.TextAnalytics.DynamicClassifyOptions * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.AI.TextAnalytics.ClassificationCategoryCollection&gt;&gt;&#xA;override this.DynamicClassifyAsync : string * seq&lt;string&gt; * string * Azure.AI.TextAnalytics.DynamicClassifyOptions * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.AI.TextAnalytics.ClassificationCategoryCollection&gt;&gt;" Usage="textAnalyticsClient.DynamicClassifyAsync (document, categories, language, options, cancellationToken)" />
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.AI.TextAnalytics.ClassificationCategoryCollection&gt;&gt; DynamicClassifyAsync (string document, System.Collections.Generic.IEnumerable&lt;string&gt; categories, Azure.AI.TextAnalytics.ClassificationType? classificationType = default, string language = default, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.AI.TextAnalytics.ClassificationCategoryCollection&gt;&gt; DynamicClassifyAsync(string document, class System.Collections.Generic.IEnumerable`1&lt;string&gt; categories, valuetype System.Nullable`1&lt;valuetype Azure.AI.TextAnalytics.ClassificationType&gt; classificationType, string language, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.AI.TextAnalytics.TextAnalyticsClient.DynamicClassifyAsync(System.String,System.Collections.Generic.IEnumerable{System.String},System.Nullable{Azure.AI.TextAnalytics.ClassificationType},System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function DynamicClassifyAsync (document As String, categories As IEnumerable(Of String), Optional classificationType As Nullable(Of ClassificationType) = Nothing, Optional language As String = Nothing, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of ClassificationCategoryCollection))" />
+      <MemberSignature Language="F#" Value="abstract member DynamicClassifyAsync : string * seq&lt;string&gt; * Nullable&lt;Azure.AI.TextAnalytics.ClassificationType&gt; * string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.AI.TextAnalytics.ClassificationCategoryCollection&gt;&gt;&#xA;override this.DynamicClassifyAsync : string * seq&lt;string&gt; * Nullable&lt;Azure.AI.TextAnalytics.ClassificationType&gt; * string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.AI.TextAnalytics.ClassificationCategoryCollection&gt;&gt;" Usage="textAnalyticsClient.DynamicClassifyAsync (document, categories, classificationType, language, cancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.AI.TextAnalytics</AssemblyName>
@@ -1156,15 +1156,15 @@
       <Parameters>
         <Parameter Name="document" Type="System.String" Index="0" FrameworkAlternate="azure-dotnet-preview" />
         <Parameter Name="categories" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" Index="1" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="language" Type="System.String" Index="2" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="options" Type="Azure.AI.TextAnalytics.DynamicClassifyOptions" Index="3" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="classificationType" Type="System.Nullable&lt;Azure.AI.TextAnalytics.ClassificationType&gt;" Index="2" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="language" Type="System.String" Index="3" FrameworkAlternate="azure-dotnet-preview" />
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="4" FrameworkAlternate="azure-dotnet-preview" />
       </Parameters>
       <Docs>
         <param name="document">The document to analyze.</param>
         <param name="categories">The categories that the documents can be classified with.</param>
+        <param name="classificationType">The type of classification to perform.</param>
         <param name="language">The language that the documents are written in.</param>
-        <param name="options">The additional <see cref="T:Azure.AI.TextAnalytics.DynamicClassifyOptions" /> used to configure the operation.</param>
         <param name="cancellationToken">The <see cref="T:System.Threading.CancellationToken" /> controlling the lifetime of the request.</param>
         <summary>
             Performs dynamic classification on the given document.
@@ -1186,11 +1186,11 @@
       </Docs>
     </Member>
     <Member MemberName="DynamicClassifyBatch">
-      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;Azure.AI.TextAnalytics.DynamicClassifyDocumentResultCollection&gt; DynamicClassifyBatch (System.Collections.Generic.IEnumerable&lt;Azure.AI.TextAnalytics.TextDocumentInput&gt; documents, System.Collections.Generic.IEnumerable&lt;string&gt; categories, Azure.AI.TextAnalytics.DynamicClassifyOptions options = default, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class Azure.AI.TextAnalytics.DynamicClassifyDocumentResultCollection&gt; DynamicClassifyBatch(class System.Collections.Generic.IEnumerable`1&lt;class Azure.AI.TextAnalytics.TextDocumentInput&gt; documents, class System.Collections.Generic.IEnumerable`1&lt;string&gt; categories, class Azure.AI.TextAnalytics.DynamicClassifyOptions options, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.AI.TextAnalytics.TextAnalyticsClient.DynamicClassifyBatch(System.Collections.Generic.IEnumerable{Azure.AI.TextAnalytics.TextDocumentInput},System.Collections.Generic.IEnumerable{System.String},Azure.AI.TextAnalytics.DynamicClassifyOptions,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function DynamicClassifyBatch (documents As IEnumerable(Of TextDocumentInput), categories As IEnumerable(Of String), Optional options As DynamicClassifyOptions = Nothing, Optional cancellationToken As CancellationToken = Nothing) As Response(Of DynamicClassifyDocumentResultCollection)" />
-      <MemberSignature Language="F#" Value="abstract member DynamicClassifyBatch : seq&lt;Azure.AI.TextAnalytics.TextDocumentInput&gt; * seq&lt;string&gt; * Azure.AI.TextAnalytics.DynamicClassifyOptions * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.AI.TextAnalytics.DynamicClassifyDocumentResultCollection&gt;&#xA;override this.DynamicClassifyBatch : seq&lt;Azure.AI.TextAnalytics.TextDocumentInput&gt; * seq&lt;string&gt; * Azure.AI.TextAnalytics.DynamicClassifyOptions * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.AI.TextAnalytics.DynamicClassifyDocumentResultCollection&gt;" Usage="textAnalyticsClient.DynamicClassifyBatch (documents, categories, options, cancellationToken)" />
+      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;Azure.AI.TextAnalytics.DynamicClassifyDocumentResultCollection&gt; DynamicClassifyBatch (System.Collections.Generic.IEnumerable&lt;Azure.AI.TextAnalytics.TextDocumentInput&gt; documents, System.Collections.Generic.IEnumerable&lt;string&gt; categories, Azure.AI.TextAnalytics.ClassificationType? classificationType = default, Azure.AI.TextAnalytics.TextAnalyticsRequestOptions options = default, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class Azure.AI.TextAnalytics.DynamicClassifyDocumentResultCollection&gt; DynamicClassifyBatch(class System.Collections.Generic.IEnumerable`1&lt;class Azure.AI.TextAnalytics.TextDocumentInput&gt; documents, class System.Collections.Generic.IEnumerable`1&lt;string&gt; categories, valuetype System.Nullable`1&lt;valuetype Azure.AI.TextAnalytics.ClassificationType&gt; classificationType, class Azure.AI.TextAnalytics.TextAnalyticsRequestOptions options, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.AI.TextAnalytics.TextAnalyticsClient.DynamicClassifyBatch(System.Collections.Generic.IEnumerable{Azure.AI.TextAnalytics.TextDocumentInput},System.Collections.Generic.IEnumerable{System.String},System.Nullable{Azure.AI.TextAnalytics.ClassificationType},Azure.AI.TextAnalytics.TextAnalyticsRequestOptions,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function DynamicClassifyBatch (documents As IEnumerable(Of TextDocumentInput), categories As IEnumerable(Of String), Optional classificationType As Nullable(Of ClassificationType) = Nothing, Optional options As TextAnalyticsRequestOptions = Nothing, Optional cancellationToken As CancellationToken = Nothing) As Response(Of DynamicClassifyDocumentResultCollection)" />
+      <MemberSignature Language="F#" Value="abstract member DynamicClassifyBatch : seq&lt;Azure.AI.TextAnalytics.TextDocumentInput&gt; * seq&lt;string&gt; * Nullable&lt;Azure.AI.TextAnalytics.ClassificationType&gt; * Azure.AI.TextAnalytics.TextAnalyticsRequestOptions * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.AI.TextAnalytics.DynamicClassifyDocumentResultCollection&gt;&#xA;override this.DynamicClassifyBatch : seq&lt;Azure.AI.TextAnalytics.TextDocumentInput&gt; * seq&lt;string&gt; * Nullable&lt;Azure.AI.TextAnalytics.ClassificationType&gt; * Azure.AI.TextAnalytics.TextAnalyticsRequestOptions * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.AI.TextAnalytics.DynamicClassifyDocumentResultCollection&gt;" Usage="textAnalyticsClient.DynamicClassifyBatch (documents, categories, classificationType, options, cancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.AI.TextAnalytics</AssemblyName>
@@ -1202,13 +1202,15 @@
       <Parameters>
         <Parameter Name="documents" Type="System.Collections.Generic.IEnumerable&lt;Azure.AI.TextAnalytics.TextDocumentInput&gt;" Index="0" FrameworkAlternate="azure-dotnet-preview" />
         <Parameter Name="categories" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" Index="1" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="options" Type="Azure.AI.TextAnalytics.DynamicClassifyOptions" Index="2" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="3" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="classificationType" Type="System.Nullable&lt;Azure.AI.TextAnalytics.ClassificationType&gt;" Index="2" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="options" Type="Azure.AI.TextAnalytics.TextAnalyticsRequestOptions" Index="3" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="4" FrameworkAlternate="azure-dotnet-preview" />
       </Parameters>
       <Docs>
         <param name="documents">The documents to analyze.</param>
         <param name="categories">The categories that the documents can be classified with.</param>
-        <param name="options">The additional <see cref="T:Azure.AI.TextAnalytics.DynamicClassifyOptions" /> used to configure the operation.</param>
+        <param name="classificationType">The type of classification to perform.</param>
+        <param name="options">The additional <see cref="T:Azure.AI.TextAnalytics.TextAnalyticsRequestOptions" /> used to configure the operation.</param>
         <param name="cancellationToken">The <see cref="T:System.Threading.CancellationToken" /> controlling the lifetime of the request.</param>
         <summary>
             Performs dynamic classification on the given documents.
@@ -1230,11 +1232,11 @@
       </Docs>
     </Member>
     <Member MemberName="DynamicClassifyBatch">
-      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;Azure.AI.TextAnalytics.DynamicClassifyDocumentResultCollection&gt; DynamicClassifyBatch (System.Collections.Generic.IEnumerable&lt;string&gt; documents, System.Collections.Generic.IEnumerable&lt;string&gt; categories, string language = default, Azure.AI.TextAnalytics.DynamicClassifyOptions options = default, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class Azure.AI.TextAnalytics.DynamicClassifyDocumentResultCollection&gt; DynamicClassifyBatch(class System.Collections.Generic.IEnumerable`1&lt;string&gt; documents, class System.Collections.Generic.IEnumerable`1&lt;string&gt; categories, string language, class Azure.AI.TextAnalytics.DynamicClassifyOptions options, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.AI.TextAnalytics.TextAnalyticsClient.DynamicClassifyBatch(System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{System.String},System.String,Azure.AI.TextAnalytics.DynamicClassifyOptions,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function DynamicClassifyBatch (documents As IEnumerable(Of String), categories As IEnumerable(Of String), Optional language As String = Nothing, Optional options As DynamicClassifyOptions = Nothing, Optional cancellationToken As CancellationToken = Nothing) As Response(Of DynamicClassifyDocumentResultCollection)" />
-      <MemberSignature Language="F#" Value="abstract member DynamicClassifyBatch : seq&lt;string&gt; * seq&lt;string&gt; * string * Azure.AI.TextAnalytics.DynamicClassifyOptions * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.AI.TextAnalytics.DynamicClassifyDocumentResultCollection&gt;&#xA;override this.DynamicClassifyBatch : seq&lt;string&gt; * seq&lt;string&gt; * string * Azure.AI.TextAnalytics.DynamicClassifyOptions * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.AI.TextAnalytics.DynamicClassifyDocumentResultCollection&gt;" Usage="textAnalyticsClient.DynamicClassifyBatch (documents, categories, language, options, cancellationToken)" />
+      <MemberSignature Language="C#" Value="public virtual Azure.Response&lt;Azure.AI.TextAnalytics.DynamicClassifyDocumentResultCollection&gt; DynamicClassifyBatch (System.Collections.Generic.IEnumerable&lt;string&gt; documents, System.Collections.Generic.IEnumerable&lt;string&gt; categories, Azure.AI.TextAnalytics.ClassificationType? classificationType = default, string language = default, Azure.AI.TextAnalytics.TextAnalyticsRequestOptions options = default, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Response`1&lt;class Azure.AI.TextAnalytics.DynamicClassifyDocumentResultCollection&gt; DynamicClassifyBatch(class System.Collections.Generic.IEnumerable`1&lt;string&gt; documents, class System.Collections.Generic.IEnumerable`1&lt;string&gt; categories, valuetype System.Nullable`1&lt;valuetype Azure.AI.TextAnalytics.ClassificationType&gt; classificationType, string language, class Azure.AI.TextAnalytics.TextAnalyticsRequestOptions options, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.AI.TextAnalytics.TextAnalyticsClient.DynamicClassifyBatch(System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{System.String},System.Nullable{Azure.AI.TextAnalytics.ClassificationType},System.String,Azure.AI.TextAnalytics.TextAnalyticsRequestOptions,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function DynamicClassifyBatch (documents As IEnumerable(Of String), categories As IEnumerable(Of String), Optional classificationType As Nullable(Of ClassificationType) = Nothing, Optional language As String = Nothing, Optional options As TextAnalyticsRequestOptions = Nothing, Optional cancellationToken As CancellationToken = Nothing) As Response(Of DynamicClassifyDocumentResultCollection)" />
+      <MemberSignature Language="F#" Value="abstract member DynamicClassifyBatch : seq&lt;string&gt; * seq&lt;string&gt; * Nullable&lt;Azure.AI.TextAnalytics.ClassificationType&gt; * string * Azure.AI.TextAnalytics.TextAnalyticsRequestOptions * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.AI.TextAnalytics.DynamicClassifyDocumentResultCollection&gt;&#xA;override this.DynamicClassifyBatch : seq&lt;string&gt; * seq&lt;string&gt; * Nullable&lt;Azure.AI.TextAnalytics.ClassificationType&gt; * string * Azure.AI.TextAnalytics.TextAnalyticsRequestOptions * System.Threading.CancellationToken -&gt; Azure.Response&lt;Azure.AI.TextAnalytics.DynamicClassifyDocumentResultCollection&gt;" Usage="textAnalyticsClient.DynamicClassifyBatch (documents, categories, classificationType, language, options, cancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.AI.TextAnalytics</AssemblyName>
@@ -1246,15 +1248,17 @@
       <Parameters>
         <Parameter Name="documents" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" Index="0" FrameworkAlternate="azure-dotnet-preview" />
         <Parameter Name="categories" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" Index="1" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="language" Type="System.String" Index="2" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="options" Type="Azure.AI.TextAnalytics.DynamicClassifyOptions" Index="3" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="4" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="classificationType" Type="System.Nullable&lt;Azure.AI.TextAnalytics.ClassificationType&gt;" Index="2" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="language" Type="System.String" Index="3" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="options" Type="Azure.AI.TextAnalytics.TextAnalyticsRequestOptions" Index="4" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="5" FrameworkAlternate="azure-dotnet-preview" />
       </Parameters>
       <Docs>
         <param name="documents">The documents to analyze.</param>
         <param name="categories">The categories that the documents can be classified with.</param>
+        <param name="classificationType">The type of classification to perform.</param>
         <param name="language">The language that the documents are written in.</param>
-        <param name="options">The additional <see cref="T:Azure.AI.TextAnalytics.DynamicClassifyOptions" /> used to configure the operation.</param>
+        <param name="options">The additional <see cref="T:Azure.AI.TextAnalytics.TextAnalyticsRequestOptions" /> used to configure the operation.</param>
         <param name="cancellationToken">The <see cref="T:System.Threading.CancellationToken" /> controlling the lifetime of the request.</param>
         <summary>
             Performs dynamic classification on the given documents.
@@ -1276,11 +1280,11 @@
       </Docs>
     </Member>
     <Member MemberName="DynamicClassifyBatchAsync">
-      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.AI.TextAnalytics.DynamicClassifyDocumentResultCollection&gt;&gt; DynamicClassifyBatchAsync (System.Collections.Generic.IEnumerable&lt;Azure.AI.TextAnalytics.TextDocumentInput&gt; documents, System.Collections.Generic.IEnumerable&lt;string&gt; categories, Azure.AI.TextAnalytics.DynamicClassifyOptions options = default, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.AI.TextAnalytics.DynamicClassifyDocumentResultCollection&gt;&gt; DynamicClassifyBatchAsync(class System.Collections.Generic.IEnumerable`1&lt;class Azure.AI.TextAnalytics.TextDocumentInput&gt; documents, class System.Collections.Generic.IEnumerable`1&lt;string&gt; categories, class Azure.AI.TextAnalytics.DynamicClassifyOptions options, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.AI.TextAnalytics.TextAnalyticsClient.DynamicClassifyBatchAsync(System.Collections.Generic.IEnumerable{Azure.AI.TextAnalytics.TextDocumentInput},System.Collections.Generic.IEnumerable{System.String},Azure.AI.TextAnalytics.DynamicClassifyOptions,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function DynamicClassifyBatchAsync (documents As IEnumerable(Of TextDocumentInput), categories As IEnumerable(Of String), Optional options As DynamicClassifyOptions = Nothing, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of DynamicClassifyDocumentResultCollection))" />
-      <MemberSignature Language="F#" Value="abstract member DynamicClassifyBatchAsync : seq&lt;Azure.AI.TextAnalytics.TextDocumentInput&gt; * seq&lt;string&gt; * Azure.AI.TextAnalytics.DynamicClassifyOptions * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.AI.TextAnalytics.DynamicClassifyDocumentResultCollection&gt;&gt;&#xA;override this.DynamicClassifyBatchAsync : seq&lt;Azure.AI.TextAnalytics.TextDocumentInput&gt; * seq&lt;string&gt; * Azure.AI.TextAnalytics.DynamicClassifyOptions * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.AI.TextAnalytics.DynamicClassifyDocumentResultCollection&gt;&gt;" Usage="textAnalyticsClient.DynamicClassifyBatchAsync (documents, categories, options, cancellationToken)" />
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.AI.TextAnalytics.DynamicClassifyDocumentResultCollection&gt;&gt; DynamicClassifyBatchAsync (System.Collections.Generic.IEnumerable&lt;Azure.AI.TextAnalytics.TextDocumentInput&gt; documents, System.Collections.Generic.IEnumerable&lt;string&gt; categories, Azure.AI.TextAnalytics.ClassificationType? classificationType = default, Azure.AI.TextAnalytics.TextAnalyticsRequestOptions options = default, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.AI.TextAnalytics.DynamicClassifyDocumentResultCollection&gt;&gt; DynamicClassifyBatchAsync(class System.Collections.Generic.IEnumerable`1&lt;class Azure.AI.TextAnalytics.TextDocumentInput&gt; documents, class System.Collections.Generic.IEnumerable`1&lt;string&gt; categories, valuetype System.Nullable`1&lt;valuetype Azure.AI.TextAnalytics.ClassificationType&gt; classificationType, class Azure.AI.TextAnalytics.TextAnalyticsRequestOptions options, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.AI.TextAnalytics.TextAnalyticsClient.DynamicClassifyBatchAsync(System.Collections.Generic.IEnumerable{Azure.AI.TextAnalytics.TextDocumentInput},System.Collections.Generic.IEnumerable{System.String},System.Nullable{Azure.AI.TextAnalytics.ClassificationType},Azure.AI.TextAnalytics.TextAnalyticsRequestOptions,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function DynamicClassifyBatchAsync (documents As IEnumerable(Of TextDocumentInput), categories As IEnumerable(Of String), Optional classificationType As Nullable(Of ClassificationType) = Nothing, Optional options As TextAnalyticsRequestOptions = Nothing, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of DynamicClassifyDocumentResultCollection))" />
+      <MemberSignature Language="F#" Value="abstract member DynamicClassifyBatchAsync : seq&lt;Azure.AI.TextAnalytics.TextDocumentInput&gt; * seq&lt;string&gt; * Nullable&lt;Azure.AI.TextAnalytics.ClassificationType&gt; * Azure.AI.TextAnalytics.TextAnalyticsRequestOptions * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.AI.TextAnalytics.DynamicClassifyDocumentResultCollection&gt;&gt;&#xA;override this.DynamicClassifyBatchAsync : seq&lt;Azure.AI.TextAnalytics.TextDocumentInput&gt; * seq&lt;string&gt; * Nullable&lt;Azure.AI.TextAnalytics.ClassificationType&gt; * Azure.AI.TextAnalytics.TextAnalyticsRequestOptions * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.AI.TextAnalytics.DynamicClassifyDocumentResultCollection&gt;&gt;" Usage="textAnalyticsClient.DynamicClassifyBatchAsync (documents, categories, classificationType, options, cancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.AI.TextAnalytics</AssemblyName>
@@ -1292,13 +1296,15 @@
       <Parameters>
         <Parameter Name="documents" Type="System.Collections.Generic.IEnumerable&lt;Azure.AI.TextAnalytics.TextDocumentInput&gt;" Index="0" FrameworkAlternate="azure-dotnet-preview" />
         <Parameter Name="categories" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" Index="1" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="options" Type="Azure.AI.TextAnalytics.DynamicClassifyOptions" Index="2" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="3" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="classificationType" Type="System.Nullable&lt;Azure.AI.TextAnalytics.ClassificationType&gt;" Index="2" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="options" Type="Azure.AI.TextAnalytics.TextAnalyticsRequestOptions" Index="3" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="4" FrameworkAlternate="azure-dotnet-preview" />
       </Parameters>
       <Docs>
         <param name="documents">The documents to analyze.</param>
         <param name="categories">The categories that the documents can be classified with.</param>
-        <param name="options">The additional <see cref="T:Azure.AI.TextAnalytics.DynamicClassifyOptions" /> used to configure the operation.</param>
+        <param name="classificationType">The type of classification to perform.</param>
+        <param name="options">The additional <see cref="T:Azure.AI.TextAnalytics.TextAnalyticsRequestOptions" /> used to configure the operation.</param>
         <param name="cancellationToken">The <see cref="T:System.Threading.CancellationToken" /> controlling the lifetime of the request.</param>
         <summary>
             Performs dynamic classification on the given documents.
@@ -1320,11 +1326,11 @@
       </Docs>
     </Member>
     <Member MemberName="DynamicClassifyBatchAsync">
-      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.AI.TextAnalytics.DynamicClassifyDocumentResultCollection&gt;&gt; DynamicClassifyBatchAsync (System.Collections.Generic.IEnumerable&lt;string&gt; documents, System.Collections.Generic.IEnumerable&lt;string&gt; categories, string language = default, Azure.AI.TextAnalytics.DynamicClassifyOptions options = default, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.AI.TextAnalytics.DynamicClassifyDocumentResultCollection&gt;&gt; DynamicClassifyBatchAsync(class System.Collections.Generic.IEnumerable`1&lt;string&gt; documents, class System.Collections.Generic.IEnumerable`1&lt;string&gt; categories, string language, class Azure.AI.TextAnalytics.DynamicClassifyOptions options, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.AI.TextAnalytics.TextAnalyticsClient.DynamicClassifyBatchAsync(System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{System.String},System.String,Azure.AI.TextAnalytics.DynamicClassifyOptions,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function DynamicClassifyBatchAsync (documents As IEnumerable(Of String), categories As IEnumerable(Of String), Optional language As String = Nothing, Optional options As DynamicClassifyOptions = Nothing, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of DynamicClassifyDocumentResultCollection))" />
-      <MemberSignature Language="F#" Value="abstract member DynamicClassifyBatchAsync : seq&lt;string&gt; * seq&lt;string&gt; * string * Azure.AI.TextAnalytics.DynamicClassifyOptions * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.AI.TextAnalytics.DynamicClassifyDocumentResultCollection&gt;&gt;&#xA;override this.DynamicClassifyBatchAsync : seq&lt;string&gt; * seq&lt;string&gt; * string * Azure.AI.TextAnalytics.DynamicClassifyOptions * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.AI.TextAnalytics.DynamicClassifyDocumentResultCollection&gt;&gt;" Usage="textAnalyticsClient.DynamicClassifyBatchAsync (documents, categories, language, options, cancellationToken)" />
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.AI.TextAnalytics.DynamicClassifyDocumentResultCollection&gt;&gt; DynamicClassifyBatchAsync (System.Collections.Generic.IEnumerable&lt;string&gt; documents, System.Collections.Generic.IEnumerable&lt;string&gt; categories, Azure.AI.TextAnalytics.ClassificationType? classificationType = default, string language = default, Azure.AI.TextAnalytics.TextAnalyticsRequestOptions options = default, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Response`1&lt;class Azure.AI.TextAnalytics.DynamicClassifyDocumentResultCollection&gt;&gt; DynamicClassifyBatchAsync(class System.Collections.Generic.IEnumerable`1&lt;string&gt; documents, class System.Collections.Generic.IEnumerable`1&lt;string&gt; categories, valuetype System.Nullable`1&lt;valuetype Azure.AI.TextAnalytics.ClassificationType&gt; classificationType, string language, class Azure.AI.TextAnalytics.TextAnalyticsRequestOptions options, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.AI.TextAnalytics.TextAnalyticsClient.DynamicClassifyBatchAsync(System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{System.String},System.Nullable{Azure.AI.TextAnalytics.ClassificationType},System.String,Azure.AI.TextAnalytics.TextAnalyticsRequestOptions,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function DynamicClassifyBatchAsync (documents As IEnumerable(Of String), categories As IEnumerable(Of String), Optional classificationType As Nullable(Of ClassificationType) = Nothing, Optional language As String = Nothing, Optional options As TextAnalyticsRequestOptions = Nothing, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Response(Of DynamicClassifyDocumentResultCollection))" />
+      <MemberSignature Language="F#" Value="abstract member DynamicClassifyBatchAsync : seq&lt;string&gt; * seq&lt;string&gt; * Nullable&lt;Azure.AI.TextAnalytics.ClassificationType&gt; * string * Azure.AI.TextAnalytics.TextAnalyticsRequestOptions * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.AI.TextAnalytics.DynamicClassifyDocumentResultCollection&gt;&gt;&#xA;override this.DynamicClassifyBatchAsync : seq&lt;string&gt; * seq&lt;string&gt; * Nullable&lt;Azure.AI.TextAnalytics.ClassificationType&gt; * string * Azure.AI.TextAnalytics.TextAnalyticsRequestOptions * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.Response&lt;Azure.AI.TextAnalytics.DynamicClassifyDocumentResultCollection&gt;&gt;" Usage="textAnalyticsClient.DynamicClassifyBatchAsync (documents, categories, classificationType, language, options, cancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.AI.TextAnalytics</AssemblyName>
@@ -1336,15 +1342,17 @@
       <Parameters>
         <Parameter Name="documents" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" Index="0" FrameworkAlternate="azure-dotnet-preview" />
         <Parameter Name="categories" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" Index="1" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="language" Type="System.String" Index="2" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="options" Type="Azure.AI.TextAnalytics.DynamicClassifyOptions" Index="3" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="4" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="classificationType" Type="System.Nullable&lt;Azure.AI.TextAnalytics.ClassificationType&gt;" Index="2" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="language" Type="System.String" Index="3" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="options" Type="Azure.AI.TextAnalytics.TextAnalyticsRequestOptions" Index="4" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="5" FrameworkAlternate="azure-dotnet-preview" />
       </Parameters>
       <Docs>
         <param name="documents">The documents to analyze.</param>
         <param name="categories">The categories that the documents can be classified with.</param>
+        <param name="classificationType">The type of classification to perform.</param>
         <param name="language">The language that the documents are written in.</param>
-        <param name="options">The additional <see cref="T:Azure.AI.TextAnalytics.DynamicClassifyOptions" /> used to configure the operation.</param>
+        <param name="options">The additional <see cref="T:Azure.AI.TextAnalytics.TextAnalyticsRequestOptions" /> used to configure the operation.</param>
         <param name="cancellationToken">The <see cref="T:System.Threading.CancellationToken" /> controlling the lifetime of the request.</param>
         <summary>
             Performs dynamic classification on the given documents.
@@ -2646,28 +2654,28 @@
             status code.</exception>
       </Docs>
     </Member>
-    <Member MemberName="StartAbstractSummary">
-      <MemberSignature Language="C#" Value="public virtual Azure.AI.TextAnalytics.AbstractSummaryOperation StartAbstractSummary (System.Collections.Generic.IEnumerable&lt;Azure.AI.TextAnalytics.TextDocumentInput&gt; documents, Azure.AI.TextAnalytics.AbstractSummaryOptions options = default, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.AI.TextAnalytics.AbstractSummaryOperation StartAbstractSummary(class System.Collections.Generic.IEnumerable`1&lt;class Azure.AI.TextAnalytics.TextDocumentInput&gt; documents, class Azure.AI.TextAnalytics.AbstractSummaryOptions options, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.AI.TextAnalytics.TextAnalyticsClient.StartAbstractSummary(System.Collections.Generic.IEnumerable{Azure.AI.TextAnalytics.TextDocumentInput},Azure.AI.TextAnalytics.AbstractSummaryOptions,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function StartAbstractSummary (documents As IEnumerable(Of TextDocumentInput), Optional options As AbstractSummaryOptions = Nothing, Optional cancellationToken As CancellationToken = Nothing) As AbstractSummaryOperation" />
-      <MemberSignature Language="F#" Value="abstract member StartAbstractSummary : seq&lt;Azure.AI.TextAnalytics.TextDocumentInput&gt; * Azure.AI.TextAnalytics.AbstractSummaryOptions * System.Threading.CancellationToken -&gt; Azure.AI.TextAnalytics.AbstractSummaryOperation&#xA;override this.StartAbstractSummary : seq&lt;Azure.AI.TextAnalytics.TextDocumentInput&gt; * Azure.AI.TextAnalytics.AbstractSummaryOptions * System.Threading.CancellationToken -&gt; Azure.AI.TextAnalytics.AbstractSummaryOperation" Usage="textAnalyticsClient.StartAbstractSummary (documents, options, cancellationToken)" />
+    <Member MemberName="StartAbstractiveSummarize">
+      <MemberSignature Language="C#" Value="public virtual Azure.AI.TextAnalytics.AbstractiveSummarizeOperation StartAbstractiveSummarize (System.Collections.Generic.IEnumerable&lt;Azure.AI.TextAnalytics.TextDocumentInput&gt; documents, Azure.AI.TextAnalytics.AbstractiveSummarizeOptions options = default, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.AI.TextAnalytics.AbstractiveSummarizeOperation StartAbstractiveSummarize(class System.Collections.Generic.IEnumerable`1&lt;class Azure.AI.TextAnalytics.TextDocumentInput&gt; documents, class Azure.AI.TextAnalytics.AbstractiveSummarizeOptions options, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.AI.TextAnalytics.TextAnalyticsClient.StartAbstractiveSummarize(System.Collections.Generic.IEnumerable{Azure.AI.TextAnalytics.TextDocumentInput},Azure.AI.TextAnalytics.AbstractiveSummarizeOptions,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function StartAbstractiveSummarize (documents As IEnumerable(Of TextDocumentInput), Optional options As AbstractiveSummarizeOptions = Nothing, Optional cancellationToken As CancellationToken = Nothing) As AbstractiveSummarizeOperation" />
+      <MemberSignature Language="F#" Value="abstract member StartAbstractiveSummarize : seq&lt;Azure.AI.TextAnalytics.TextDocumentInput&gt; * Azure.AI.TextAnalytics.AbstractiveSummarizeOptions * System.Threading.CancellationToken -&gt; Azure.AI.TextAnalytics.AbstractiveSummarizeOperation&#xA;override this.StartAbstractiveSummarize : seq&lt;Azure.AI.TextAnalytics.TextDocumentInput&gt; * Azure.AI.TextAnalytics.AbstractiveSummarizeOptions * System.Threading.CancellationToken -&gt; Azure.AI.TextAnalytics.AbstractiveSummarizeOperation" Usage="textAnalyticsClient.StartAbstractiveSummarize (documents, options, cancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.AI.TextAnalytics</AssemblyName>
         <AssemblyVersion>5.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>Azure.AI.TextAnalytics.AbstractSummaryOperation</ReturnType>
+        <ReturnType>Azure.AI.TextAnalytics.AbstractiveSummarizeOperation</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="documents" Type="System.Collections.Generic.IEnumerable&lt;Azure.AI.TextAnalytics.TextDocumentInput&gt;" Index="0" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="options" Type="Azure.AI.TextAnalytics.AbstractSummaryOptions" Index="1" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="options" Type="Azure.AI.TextAnalytics.AbstractiveSummarizeOptions" Index="1" FrameworkAlternate="azure-dotnet-preview" />
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="2" FrameworkAlternate="azure-dotnet-preview" />
       </Parameters>
       <Docs>
         <param name="documents">The documents to analyze.</param>
-        <param name="options">The additional <see cref="T:Azure.AI.TextAnalytics.AbstractSummaryOptions" /> used to configure the operation.</param>
+        <param name="options">The additional <see cref="T:Azure.AI.TextAnalytics.AbstractiveSummarizeOptions" /> used to configure the operation.</param>
         <param name="cancellationToken">The <see cref="T:System.Threading.CancellationToken" /> controlling the lifetime of the request.</param>
         <summary>
             Performs abstractive summarization on a given set of documents, which consists of generating a summary with
@@ -2678,7 +2686,7 @@
             <see href="https://aka.ms/azsdk/textanalytics/data-limits" />.
             </summary>
         <returns>
-            An <see cref="T:Azure.AI.TextAnalytics.AbstractSummaryOperation" /> that can be used to monitor the status of the abstractive
+            An <see cref="T:Azure.AI.TextAnalytics.AbstractiveSummarizeOperation" /> that can be used to monitor the status of the abstractive
             summarization. Upon completion, the operation will contain the collections of summaries that were generated
             for each document that was successfully analyzed.
             </returns>
@@ -2693,30 +2701,30 @@
           <paramref name="documents" /> is null.</exception>
       </Docs>
     </Member>
-    <Member MemberName="StartAbstractSummary">
-      <MemberSignature Language="C#" Value="public virtual Azure.AI.TextAnalytics.AbstractSummaryOperation StartAbstractSummary (System.Collections.Generic.IEnumerable&lt;string&gt; documents, string language = default, Azure.AI.TextAnalytics.AbstractSummaryOptions options = default, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.AI.TextAnalytics.AbstractSummaryOperation StartAbstractSummary(class System.Collections.Generic.IEnumerable`1&lt;string&gt; documents, string language, class Azure.AI.TextAnalytics.AbstractSummaryOptions options, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.AI.TextAnalytics.TextAnalyticsClient.StartAbstractSummary(System.Collections.Generic.IEnumerable{System.String},System.String,Azure.AI.TextAnalytics.AbstractSummaryOptions,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function StartAbstractSummary (documents As IEnumerable(Of String), Optional language As String = Nothing, Optional options As AbstractSummaryOptions = Nothing, Optional cancellationToken As CancellationToken = Nothing) As AbstractSummaryOperation" />
-      <MemberSignature Language="F#" Value="abstract member StartAbstractSummary : seq&lt;string&gt; * string * Azure.AI.TextAnalytics.AbstractSummaryOptions * System.Threading.CancellationToken -&gt; Azure.AI.TextAnalytics.AbstractSummaryOperation&#xA;override this.StartAbstractSummary : seq&lt;string&gt; * string * Azure.AI.TextAnalytics.AbstractSummaryOptions * System.Threading.CancellationToken -&gt; Azure.AI.TextAnalytics.AbstractSummaryOperation" Usage="textAnalyticsClient.StartAbstractSummary (documents, language, options, cancellationToken)" />
+    <Member MemberName="StartAbstractiveSummarize">
+      <MemberSignature Language="C#" Value="public virtual Azure.AI.TextAnalytics.AbstractiveSummarizeOperation StartAbstractiveSummarize (System.Collections.Generic.IEnumerable&lt;string&gt; documents, string language = default, Azure.AI.TextAnalytics.AbstractiveSummarizeOptions options = default, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.AI.TextAnalytics.AbstractiveSummarizeOperation StartAbstractiveSummarize(class System.Collections.Generic.IEnumerable`1&lt;string&gt; documents, string language, class Azure.AI.TextAnalytics.AbstractiveSummarizeOptions options, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.AI.TextAnalytics.TextAnalyticsClient.StartAbstractiveSummarize(System.Collections.Generic.IEnumerable{System.String},System.String,Azure.AI.TextAnalytics.AbstractiveSummarizeOptions,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function StartAbstractiveSummarize (documents As IEnumerable(Of String), Optional language As String = Nothing, Optional options As AbstractiveSummarizeOptions = Nothing, Optional cancellationToken As CancellationToken = Nothing) As AbstractiveSummarizeOperation" />
+      <MemberSignature Language="F#" Value="abstract member StartAbstractiveSummarize : seq&lt;string&gt; * string * Azure.AI.TextAnalytics.AbstractiveSummarizeOptions * System.Threading.CancellationToken -&gt; Azure.AI.TextAnalytics.AbstractiveSummarizeOperation&#xA;override this.StartAbstractiveSummarize : seq&lt;string&gt; * string * Azure.AI.TextAnalytics.AbstractiveSummarizeOptions * System.Threading.CancellationToken -&gt; Azure.AI.TextAnalytics.AbstractiveSummarizeOperation" Usage="textAnalyticsClient.StartAbstractiveSummarize (documents, language, options, cancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.AI.TextAnalytics</AssemblyName>
         <AssemblyVersion>5.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>Azure.AI.TextAnalytics.AbstractSummaryOperation</ReturnType>
+        <ReturnType>Azure.AI.TextAnalytics.AbstractiveSummarizeOperation</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="documents" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" Index="0" FrameworkAlternate="azure-dotnet-preview" />
         <Parameter Name="language" Type="System.String" Index="1" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="options" Type="Azure.AI.TextAnalytics.AbstractSummaryOptions" Index="2" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="options" Type="Azure.AI.TextAnalytics.AbstractiveSummarizeOptions" Index="2" FrameworkAlternate="azure-dotnet-preview" />
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="3" FrameworkAlternate="azure-dotnet-preview" />
       </Parameters>
       <Docs>
         <param name="documents">The documents to analyze.</param>
         <param name="language">The language that the documents are written in.</param>
-        <param name="options">The additional <see cref="T:Azure.AI.TextAnalytics.AbstractSummaryOptions" /> used to configure the operation.</param>
+        <param name="options">The additional <see cref="T:Azure.AI.TextAnalytics.AbstractiveSummarizeOptions" /> used to configure the operation.</param>
         <param name="cancellationToken">The <see cref="T:System.Threading.CancellationToken" /> controlling the lifetime of the request.</param>
         <summary>
             Performs abstractive summarization on a given set of documents, which consists of generating a summary with
@@ -2727,7 +2735,7 @@
             <see href="https://aka.ms/azsdk/textanalytics/data-limits" />.
             </summary>
         <returns>
-            An <see cref="T:Azure.AI.TextAnalytics.AbstractSummaryOperation" /> that can be used to monitor the status of the abstractive
+            An <see cref="T:Azure.AI.TextAnalytics.AbstractiveSummarizeOperation" /> that can be used to monitor the status of the abstractive
             summarization. Upon completion, the operation will contain the collections of summaries that were generated
             for each document that was successfully analyzed.
             </returns>
@@ -2742,28 +2750,28 @@
           <paramref name="documents" /> is null.</exception>
       </Docs>
     </Member>
-    <Member MemberName="StartAbstractSummaryAsync">
-      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.AI.TextAnalytics.AbstractSummaryOperation&gt; StartAbstractSummaryAsync (System.Collections.Generic.IEnumerable&lt;Azure.AI.TextAnalytics.TextDocumentInput&gt; documents, Azure.AI.TextAnalytics.AbstractSummaryOptions options = default, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.AI.TextAnalytics.AbstractSummaryOperation&gt; StartAbstractSummaryAsync(class System.Collections.Generic.IEnumerable`1&lt;class Azure.AI.TextAnalytics.TextDocumentInput&gt; documents, class Azure.AI.TextAnalytics.AbstractSummaryOptions options, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.AI.TextAnalytics.TextAnalyticsClient.StartAbstractSummaryAsync(System.Collections.Generic.IEnumerable{Azure.AI.TextAnalytics.TextDocumentInput},Azure.AI.TextAnalytics.AbstractSummaryOptions,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function StartAbstractSummaryAsync (documents As IEnumerable(Of TextDocumentInput), Optional options As AbstractSummaryOptions = Nothing, Optional cancellationToken As CancellationToken = Nothing) As Task(Of AbstractSummaryOperation)" />
-      <MemberSignature Language="F#" Value="abstract member StartAbstractSummaryAsync : seq&lt;Azure.AI.TextAnalytics.TextDocumentInput&gt; * Azure.AI.TextAnalytics.AbstractSummaryOptions * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.AI.TextAnalytics.AbstractSummaryOperation&gt;&#xA;override this.StartAbstractSummaryAsync : seq&lt;Azure.AI.TextAnalytics.TextDocumentInput&gt; * Azure.AI.TextAnalytics.AbstractSummaryOptions * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.AI.TextAnalytics.AbstractSummaryOperation&gt;" Usage="textAnalyticsClient.StartAbstractSummaryAsync (documents, options, cancellationToken)" />
+    <Member MemberName="StartAbstractiveSummarizeAsync">
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.AI.TextAnalytics.AbstractiveSummarizeOperation&gt; StartAbstractiveSummarizeAsync (System.Collections.Generic.IEnumerable&lt;Azure.AI.TextAnalytics.TextDocumentInput&gt; documents, Azure.AI.TextAnalytics.AbstractiveSummarizeOptions options = default, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.AI.TextAnalytics.AbstractiveSummarizeOperation&gt; StartAbstractiveSummarizeAsync(class System.Collections.Generic.IEnumerable`1&lt;class Azure.AI.TextAnalytics.TextDocumentInput&gt; documents, class Azure.AI.TextAnalytics.AbstractiveSummarizeOptions options, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.AI.TextAnalytics.TextAnalyticsClient.StartAbstractiveSummarizeAsync(System.Collections.Generic.IEnumerable{Azure.AI.TextAnalytics.TextDocumentInput},Azure.AI.TextAnalytics.AbstractiveSummarizeOptions,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function StartAbstractiveSummarizeAsync (documents As IEnumerable(Of TextDocumentInput), Optional options As AbstractiveSummarizeOptions = Nothing, Optional cancellationToken As CancellationToken = Nothing) As Task(Of AbstractiveSummarizeOperation)" />
+      <MemberSignature Language="F#" Value="abstract member StartAbstractiveSummarizeAsync : seq&lt;Azure.AI.TextAnalytics.TextDocumentInput&gt; * Azure.AI.TextAnalytics.AbstractiveSummarizeOptions * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.AI.TextAnalytics.AbstractiveSummarizeOperation&gt;&#xA;override this.StartAbstractiveSummarizeAsync : seq&lt;Azure.AI.TextAnalytics.TextDocumentInput&gt; * Azure.AI.TextAnalytics.AbstractiveSummarizeOptions * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.AI.TextAnalytics.AbstractiveSummarizeOperation&gt;" Usage="textAnalyticsClient.StartAbstractiveSummarizeAsync (documents, options, cancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.AI.TextAnalytics</AssemblyName>
         <AssemblyVersion>5.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Threading.Tasks.Task&lt;Azure.AI.TextAnalytics.AbstractSummaryOperation&gt;</ReturnType>
+        <ReturnType>System.Threading.Tasks.Task&lt;Azure.AI.TextAnalytics.AbstractiveSummarizeOperation&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="documents" Type="System.Collections.Generic.IEnumerable&lt;Azure.AI.TextAnalytics.TextDocumentInput&gt;" Index="0" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="options" Type="Azure.AI.TextAnalytics.AbstractSummaryOptions" Index="1" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="options" Type="Azure.AI.TextAnalytics.AbstractiveSummarizeOptions" Index="1" FrameworkAlternate="azure-dotnet-preview" />
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="2" FrameworkAlternate="azure-dotnet-preview" />
       </Parameters>
       <Docs>
         <param name="documents">The documents to analyze.</param>
-        <param name="options">The additional <see cref="T:Azure.AI.TextAnalytics.AbstractSummaryOptions" /> used to configure the operation.</param>
+        <param name="options">The additional <see cref="T:Azure.AI.TextAnalytics.AbstractiveSummarizeOptions" /> used to configure the operation.</param>
         <param name="cancellationToken">The <see cref="T:System.Threading.CancellationToken" /> controlling the lifetime of the request.</param>
         <summary>
             Performs abstractive summarization on a given set of documents, which consists of generating a summary with
@@ -2789,30 +2797,30 @@
           <paramref name="documents" /> is null.</exception>
       </Docs>
     </Member>
-    <Member MemberName="StartAbstractSummaryAsync">
-      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.AI.TextAnalytics.AbstractSummaryOperation&gt; StartAbstractSummaryAsync (System.Collections.Generic.IEnumerable&lt;string&gt; documents, string language = default, Azure.AI.TextAnalytics.AbstractSummaryOptions options = default, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.AI.TextAnalytics.AbstractSummaryOperation&gt; StartAbstractSummaryAsync(class System.Collections.Generic.IEnumerable`1&lt;string&gt; documents, string language, class Azure.AI.TextAnalytics.AbstractSummaryOptions options, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.AI.TextAnalytics.TextAnalyticsClient.StartAbstractSummaryAsync(System.Collections.Generic.IEnumerable{System.String},System.String,Azure.AI.TextAnalytics.AbstractSummaryOptions,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function StartAbstractSummaryAsync (documents As IEnumerable(Of String), Optional language As String = Nothing, Optional options As AbstractSummaryOptions = Nothing, Optional cancellationToken As CancellationToken = Nothing) As Task(Of AbstractSummaryOperation)" />
-      <MemberSignature Language="F#" Value="abstract member StartAbstractSummaryAsync : seq&lt;string&gt; * string * Azure.AI.TextAnalytics.AbstractSummaryOptions * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.AI.TextAnalytics.AbstractSummaryOperation&gt;&#xA;override this.StartAbstractSummaryAsync : seq&lt;string&gt; * string * Azure.AI.TextAnalytics.AbstractSummaryOptions * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.AI.TextAnalytics.AbstractSummaryOperation&gt;" Usage="textAnalyticsClient.StartAbstractSummaryAsync (documents, language, options, cancellationToken)" />
+    <Member MemberName="StartAbstractiveSummarizeAsync">
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.AI.TextAnalytics.AbstractiveSummarizeOperation&gt; StartAbstractiveSummarizeAsync (System.Collections.Generic.IEnumerable&lt;string&gt; documents, string language = default, Azure.AI.TextAnalytics.AbstractiveSummarizeOptions options = default, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.AI.TextAnalytics.AbstractiveSummarizeOperation&gt; StartAbstractiveSummarizeAsync(class System.Collections.Generic.IEnumerable`1&lt;string&gt; documents, string language, class Azure.AI.TextAnalytics.AbstractiveSummarizeOptions options, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.AI.TextAnalytics.TextAnalyticsClient.StartAbstractiveSummarizeAsync(System.Collections.Generic.IEnumerable{System.String},System.String,Azure.AI.TextAnalytics.AbstractiveSummarizeOptions,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function StartAbstractiveSummarizeAsync (documents As IEnumerable(Of String), Optional language As String = Nothing, Optional options As AbstractiveSummarizeOptions = Nothing, Optional cancellationToken As CancellationToken = Nothing) As Task(Of AbstractiveSummarizeOperation)" />
+      <MemberSignature Language="F#" Value="abstract member StartAbstractiveSummarizeAsync : seq&lt;string&gt; * string * Azure.AI.TextAnalytics.AbstractiveSummarizeOptions * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.AI.TextAnalytics.AbstractiveSummarizeOperation&gt;&#xA;override this.StartAbstractiveSummarizeAsync : seq&lt;string&gt; * string * Azure.AI.TextAnalytics.AbstractiveSummarizeOptions * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.AI.TextAnalytics.AbstractiveSummarizeOperation&gt;" Usage="textAnalyticsClient.StartAbstractiveSummarizeAsync (documents, language, options, cancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.AI.TextAnalytics</AssemblyName>
         <AssemblyVersion>5.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Threading.Tasks.Task&lt;Azure.AI.TextAnalytics.AbstractSummaryOperation&gt;</ReturnType>
+        <ReturnType>System.Threading.Tasks.Task&lt;Azure.AI.TextAnalytics.AbstractiveSummarizeOperation&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="documents" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" Index="0" FrameworkAlternate="azure-dotnet-preview" />
         <Parameter Name="language" Type="System.String" Index="1" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="options" Type="Azure.AI.TextAnalytics.AbstractSummaryOptions" Index="2" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="options" Type="Azure.AI.TextAnalytics.AbstractiveSummarizeOptions" Index="2" FrameworkAlternate="azure-dotnet-preview" />
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="3" FrameworkAlternate="azure-dotnet-preview" />
       </Parameters>
       <Docs>
         <param name="documents">The documents to analyze.</param>
         <param name="language">The language that the documents are written in.</param>
-        <param name="options">The additional <see cref="T:Azure.AI.TextAnalytics.AbstractSummaryOptions" /> used to configure the operation.</param>
+        <param name="options">The additional <see cref="T:Azure.AI.TextAnalytics.AbstractiveSummarizeOptions" /> used to configure the operation.</param>
         <param name="cancellationToken">The <see cref="T:System.Threading.CancellationToken" /> controlling the lifetime of the request.</param>
         <summary>
             Performs abstractive summarization on a given set of documents, which consists of generating a summary with
@@ -2882,8 +2890,8 @@
             This method is only supported in service API version v3.1 and newer. The
             <see cref="T:Azure.AI.TextAnalytics.AnalyzeHealthcareEntitiesAction" />, <see cref="T:Azure.AI.TextAnalytics.MultiLabelClassifyAction" />,
             <see cref="T:Azure.AI.TextAnalytics.RecognizeCustomEntitiesAction" />, and <see cref="T:Azure.AI.TextAnalytics.SingleLabelClassifyAction" /> are only supported
-            in service API version 2022-05-01 and newer. The <see cref="T:Azure.AI.TextAnalytics.ExtractSummaryAction" /> and
-            <see cref="T:Azure.AI.TextAnalytics.AbstractSummaryAction" /> are only supported in service API version 2022-10-01-preview and newer.
+            in service API version 2022-05-01 and newer. The <see cref="T:Azure.AI.TextAnalytics.ExtractiveSummarizeAction" /> and
+            <see cref="T:Azure.AI.TextAnalytics.AbstractiveSummarizeAction" /> are only supported in service API version 2022-10-01-preview and newer.
             </exception>
         <exception cref="T:Azure.RequestFailedException">
             Service returned a non-success status code.
@@ -2936,8 +2944,8 @@
             This method is only supported in service API version v3.1 and newer. The
             <see cref="T:Azure.AI.TextAnalytics.AnalyzeHealthcareEntitiesAction" />, <see cref="T:Azure.AI.TextAnalytics.MultiLabelClassifyAction" />,
             <see cref="T:Azure.AI.TextAnalytics.RecognizeCustomEntitiesAction" />, and <see cref="T:Azure.AI.TextAnalytics.SingleLabelClassifyAction" /> are only supported
-            in service API version 2022-05-01 and newer. The <see cref="T:Azure.AI.TextAnalytics.ExtractSummaryAction" /> and
-            <see cref="T:Azure.AI.TextAnalytics.AbstractSummaryAction" /> are only supported in service API version 2022-10-01-preview and newer.
+            in service API version 2022-05-01 and newer. The <see cref="T:Azure.AI.TextAnalytics.ExtractiveSummarizeAction" /> and
+            <see cref="T:Azure.AI.TextAnalytics.AbstractiveSummarizeAction" /> are only supported in service API version 2022-10-01-preview and newer.
             </exception>
         <exception cref="T:Azure.RequestFailedException">
             Service returned a non-success status code.
@@ -2988,8 +2996,8 @@
             This method is only supported in service API version v3.1 and newer. The
             <see cref="T:Azure.AI.TextAnalytics.AnalyzeHealthcareEntitiesAction" />, <see cref="T:Azure.AI.TextAnalytics.MultiLabelClassifyAction" />,
             <see cref="T:Azure.AI.TextAnalytics.RecognizeCustomEntitiesAction" />, and <see cref="T:Azure.AI.TextAnalytics.SingleLabelClassifyAction" /> are only supported
-            in service API version 2022-05-01 and newer. The <see cref="T:Azure.AI.TextAnalytics.ExtractSummaryAction" /> and
-            <see cref="T:Azure.AI.TextAnalytics.AbstractSummaryAction" /> are only supported in service API version 2022-10-01-preview and newer.
+            in service API version 2022-05-01 and newer. The <see cref="T:Azure.AI.TextAnalytics.ExtractiveSummarizeAction" /> and
+            <see cref="T:Azure.AI.TextAnalytics.AbstractiveSummarizeAction" /> are only supported in service API version 2022-10-01-preview and newer.
             </exception>
         <exception cref="T:Azure.RequestFailedException">
             Service returned a non-success status code.
@@ -3042,8 +3050,8 @@
             This method is only supported in service API version v3.1 and newer. The
             <see cref="T:Azure.AI.TextAnalytics.AnalyzeHealthcareEntitiesAction" />, <see cref="T:Azure.AI.TextAnalytics.MultiLabelClassifyAction" />,
             <see cref="T:Azure.AI.TextAnalytics.RecognizeCustomEntitiesAction" />, and <see cref="T:Azure.AI.TextAnalytics.SingleLabelClassifyAction" /> are only supported
-            in service API version 2022-05-01 and newer. The <see cref="T:Azure.AI.TextAnalytics.ExtractSummaryAction" /> and
-            <see cref="T:Azure.AI.TextAnalytics.AbstractSummaryAction" /> are only supported in service API version 2022-10-01-preview and newer.
+            in service API version 2022-05-01 and newer. The <see cref="T:Azure.AI.TextAnalytics.ExtractiveSummarizeAction" /> and
+            <see cref="T:Azure.AI.TextAnalytics.AbstractiveSummarizeAction" /> are only supported in service API version 2022-10-01-preview and newer.
             </exception>
         <exception cref="T:Azure.RequestFailedException">
             Service returned a non-success status code.
@@ -3240,28 +3248,28 @@
             status code.</exception>
       </Docs>
     </Member>
-    <Member MemberName="StartExtractSummary">
-      <MemberSignature Language="C#" Value="public virtual Azure.AI.TextAnalytics.ExtractSummaryOperation StartExtractSummary (System.Collections.Generic.IEnumerable&lt;Azure.AI.TextAnalytics.TextDocumentInput&gt; documents, Azure.AI.TextAnalytics.ExtractSummaryOptions options = default, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.AI.TextAnalytics.ExtractSummaryOperation StartExtractSummary(class System.Collections.Generic.IEnumerable`1&lt;class Azure.AI.TextAnalytics.TextDocumentInput&gt; documents, class Azure.AI.TextAnalytics.ExtractSummaryOptions options, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.AI.TextAnalytics.TextAnalyticsClient.StartExtractSummary(System.Collections.Generic.IEnumerable{Azure.AI.TextAnalytics.TextDocumentInput},Azure.AI.TextAnalytics.ExtractSummaryOptions,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function StartExtractSummary (documents As IEnumerable(Of TextDocumentInput), Optional options As ExtractSummaryOptions = Nothing, Optional cancellationToken As CancellationToken = Nothing) As ExtractSummaryOperation" />
-      <MemberSignature Language="F#" Value="abstract member StartExtractSummary : seq&lt;Azure.AI.TextAnalytics.TextDocumentInput&gt; * Azure.AI.TextAnalytics.ExtractSummaryOptions * System.Threading.CancellationToken -&gt; Azure.AI.TextAnalytics.ExtractSummaryOperation&#xA;override this.StartExtractSummary : seq&lt;Azure.AI.TextAnalytics.TextDocumentInput&gt; * Azure.AI.TextAnalytics.ExtractSummaryOptions * System.Threading.CancellationToken -&gt; Azure.AI.TextAnalytics.ExtractSummaryOperation" Usage="textAnalyticsClient.StartExtractSummary (documents, options, cancellationToken)" />
+    <Member MemberName="StartExtractiveSummarize">
+      <MemberSignature Language="C#" Value="public virtual Azure.AI.TextAnalytics.ExtractiveSummarizeOperation StartExtractiveSummarize (System.Collections.Generic.IEnumerable&lt;Azure.AI.TextAnalytics.TextDocumentInput&gt; documents, Azure.AI.TextAnalytics.ExtractiveSummarizeOptions options = default, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.AI.TextAnalytics.ExtractiveSummarizeOperation StartExtractiveSummarize(class System.Collections.Generic.IEnumerable`1&lt;class Azure.AI.TextAnalytics.TextDocumentInput&gt; documents, class Azure.AI.TextAnalytics.ExtractiveSummarizeOptions options, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.AI.TextAnalytics.TextAnalyticsClient.StartExtractiveSummarize(System.Collections.Generic.IEnumerable{Azure.AI.TextAnalytics.TextDocumentInput},Azure.AI.TextAnalytics.ExtractiveSummarizeOptions,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function StartExtractiveSummarize (documents As IEnumerable(Of TextDocumentInput), Optional options As ExtractiveSummarizeOptions = Nothing, Optional cancellationToken As CancellationToken = Nothing) As ExtractiveSummarizeOperation" />
+      <MemberSignature Language="F#" Value="abstract member StartExtractiveSummarize : seq&lt;Azure.AI.TextAnalytics.TextDocumentInput&gt; * Azure.AI.TextAnalytics.ExtractiveSummarizeOptions * System.Threading.CancellationToken -&gt; Azure.AI.TextAnalytics.ExtractiveSummarizeOperation&#xA;override this.StartExtractiveSummarize : seq&lt;Azure.AI.TextAnalytics.TextDocumentInput&gt; * Azure.AI.TextAnalytics.ExtractiveSummarizeOptions * System.Threading.CancellationToken -&gt; Azure.AI.TextAnalytics.ExtractiveSummarizeOperation" Usage="textAnalyticsClient.StartExtractiveSummarize (documents, options, cancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.AI.TextAnalytics</AssemblyName>
         <AssemblyVersion>5.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>Azure.AI.TextAnalytics.ExtractSummaryOperation</ReturnType>
+        <ReturnType>Azure.AI.TextAnalytics.ExtractiveSummarizeOperation</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="documents" Type="System.Collections.Generic.IEnumerable&lt;Azure.AI.TextAnalytics.TextDocumentInput&gt;" Index="0" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="options" Type="Azure.AI.TextAnalytics.ExtractSummaryOptions" Index="1" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="options" Type="Azure.AI.TextAnalytics.ExtractiveSummarizeOptions" Index="1" FrameworkAlternate="azure-dotnet-preview" />
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="2" FrameworkAlternate="azure-dotnet-preview" />
       </Parameters>
       <Docs>
         <param name="documents">The documents to analyze.</param>
-        <param name="options">The additional <see cref="T:Azure.AI.TextAnalytics.ExtractSummaryOptions" /> used to configure the operation.</param>
+        <param name="options">The additional <see cref="T:Azure.AI.TextAnalytics.ExtractiveSummarizeOptions" /> used to configure the operation.</param>
         <param name="cancellationToken">The <see cref="T:System.Threading.CancellationToken" /> controlling the lifetime of the request.</param>
         <summary>
             Performs extractive summarization on the given documents, which consists of extracting sentences that
@@ -3272,7 +3280,7 @@
             <see href="https://aka.ms/azsdk/textanalytics/data-limits" />.
             </summary>
         <returns>
-            An <see cref="T:Azure.AI.TextAnalytics.ExtractSummaryOperation" /> that can be used to monitor the status of extractive
+            An <see cref="T:Azure.AI.TextAnalytics.ExtractiveSummarizeOperation" /> that can be used to monitor the status of extractive
             summarization. Upon completion, the operation will contain the collections of extracted summary sentences
             for each document that was successfully analyzed.
             </returns>
@@ -3287,30 +3295,30 @@
           <paramref name="documents" /> is null.</exception>
       </Docs>
     </Member>
-    <Member MemberName="StartExtractSummary">
-      <MemberSignature Language="C#" Value="public virtual Azure.AI.TextAnalytics.ExtractSummaryOperation StartExtractSummary (System.Collections.Generic.IEnumerable&lt;string&gt; documents, string language = default, Azure.AI.TextAnalytics.ExtractSummaryOptions options = default, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.AI.TextAnalytics.ExtractSummaryOperation StartExtractSummary(class System.Collections.Generic.IEnumerable`1&lt;string&gt; documents, string language, class Azure.AI.TextAnalytics.ExtractSummaryOptions options, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.AI.TextAnalytics.TextAnalyticsClient.StartExtractSummary(System.Collections.Generic.IEnumerable{System.String},System.String,Azure.AI.TextAnalytics.ExtractSummaryOptions,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function StartExtractSummary (documents As IEnumerable(Of String), Optional language As String = Nothing, Optional options As ExtractSummaryOptions = Nothing, Optional cancellationToken As CancellationToken = Nothing) As ExtractSummaryOperation" />
-      <MemberSignature Language="F#" Value="abstract member StartExtractSummary : seq&lt;string&gt; * string * Azure.AI.TextAnalytics.ExtractSummaryOptions * System.Threading.CancellationToken -&gt; Azure.AI.TextAnalytics.ExtractSummaryOperation&#xA;override this.StartExtractSummary : seq&lt;string&gt; * string * Azure.AI.TextAnalytics.ExtractSummaryOptions * System.Threading.CancellationToken -&gt; Azure.AI.TextAnalytics.ExtractSummaryOperation" Usage="textAnalyticsClient.StartExtractSummary (documents, language, options, cancellationToken)" />
+    <Member MemberName="StartExtractiveSummarize">
+      <MemberSignature Language="C#" Value="public virtual Azure.AI.TextAnalytics.ExtractiveSummarizeOperation StartExtractiveSummarize (System.Collections.Generic.IEnumerable&lt;string&gt; documents, string language = default, Azure.AI.TextAnalytics.ExtractiveSummarizeOptions options = default, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.AI.TextAnalytics.ExtractiveSummarizeOperation StartExtractiveSummarize(class System.Collections.Generic.IEnumerable`1&lt;string&gt; documents, string language, class Azure.AI.TextAnalytics.ExtractiveSummarizeOptions options, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.AI.TextAnalytics.TextAnalyticsClient.StartExtractiveSummarize(System.Collections.Generic.IEnumerable{System.String},System.String,Azure.AI.TextAnalytics.ExtractiveSummarizeOptions,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function StartExtractiveSummarize (documents As IEnumerable(Of String), Optional language As String = Nothing, Optional options As ExtractiveSummarizeOptions = Nothing, Optional cancellationToken As CancellationToken = Nothing) As ExtractiveSummarizeOperation" />
+      <MemberSignature Language="F#" Value="abstract member StartExtractiveSummarize : seq&lt;string&gt; * string * Azure.AI.TextAnalytics.ExtractiveSummarizeOptions * System.Threading.CancellationToken -&gt; Azure.AI.TextAnalytics.ExtractiveSummarizeOperation&#xA;override this.StartExtractiveSummarize : seq&lt;string&gt; * string * Azure.AI.TextAnalytics.ExtractiveSummarizeOptions * System.Threading.CancellationToken -&gt; Azure.AI.TextAnalytics.ExtractiveSummarizeOperation" Usage="textAnalyticsClient.StartExtractiveSummarize (documents, language, options, cancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.AI.TextAnalytics</AssemblyName>
         <AssemblyVersion>5.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>Azure.AI.TextAnalytics.ExtractSummaryOperation</ReturnType>
+        <ReturnType>Azure.AI.TextAnalytics.ExtractiveSummarizeOperation</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="documents" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" Index="0" FrameworkAlternate="azure-dotnet-preview" />
         <Parameter Name="language" Type="System.String" Index="1" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="options" Type="Azure.AI.TextAnalytics.ExtractSummaryOptions" Index="2" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="options" Type="Azure.AI.TextAnalytics.ExtractiveSummarizeOptions" Index="2" FrameworkAlternate="azure-dotnet-preview" />
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="3" FrameworkAlternate="azure-dotnet-preview" />
       </Parameters>
       <Docs>
         <param name="documents">The documents to analyze.</param>
         <param name="language">The language that the documents are written in.</param>
-        <param name="options">The additional <see cref="T:Azure.AI.TextAnalytics.ExtractSummaryOptions" /> used to configure the operation.</param>
+        <param name="options">The additional <see cref="T:Azure.AI.TextAnalytics.ExtractiveSummarizeOptions" /> used to configure the operation.</param>
         <param name="cancellationToken">The <see cref="T:System.Threading.CancellationToken" /> controlling the lifetime of the request.</param>
         <summary>
             Performs extractive summarization on the given documents, which consists of extracting sentences that
@@ -3321,7 +3329,7 @@
             <see href="https://aka.ms/azsdk/textanalytics/data-limits" />.
             </summary>
         <returns>
-            An <see cref="T:Azure.AI.TextAnalytics.ExtractSummaryOperation" /> that can be used to monitor the status of extractive
+            An <see cref="T:Azure.AI.TextAnalytics.ExtractiveSummarizeOperation" /> that can be used to monitor the status of extractive
             summarization. Upon completion, the operation will contain the collections of extracted summary sentences
             for each document that was successfully analyzed.
             </returns>
@@ -3336,28 +3344,28 @@
           <paramref name="documents" /> is null.</exception>
       </Docs>
     </Member>
-    <Member MemberName="StartExtractSummaryAsync">
-      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.AI.TextAnalytics.ExtractSummaryOperation&gt; StartExtractSummaryAsync (System.Collections.Generic.IEnumerable&lt;Azure.AI.TextAnalytics.TextDocumentInput&gt; documents, Azure.AI.TextAnalytics.ExtractSummaryOptions options = default, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.AI.TextAnalytics.ExtractSummaryOperation&gt; StartExtractSummaryAsync(class System.Collections.Generic.IEnumerable`1&lt;class Azure.AI.TextAnalytics.TextDocumentInput&gt; documents, class Azure.AI.TextAnalytics.ExtractSummaryOptions options, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.AI.TextAnalytics.TextAnalyticsClient.StartExtractSummaryAsync(System.Collections.Generic.IEnumerable{Azure.AI.TextAnalytics.TextDocumentInput},Azure.AI.TextAnalytics.ExtractSummaryOptions,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function StartExtractSummaryAsync (documents As IEnumerable(Of TextDocumentInput), Optional options As ExtractSummaryOptions = Nothing, Optional cancellationToken As CancellationToken = Nothing) As Task(Of ExtractSummaryOperation)" />
-      <MemberSignature Language="F#" Value="abstract member StartExtractSummaryAsync : seq&lt;Azure.AI.TextAnalytics.TextDocumentInput&gt; * Azure.AI.TextAnalytics.ExtractSummaryOptions * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.AI.TextAnalytics.ExtractSummaryOperation&gt;&#xA;override this.StartExtractSummaryAsync : seq&lt;Azure.AI.TextAnalytics.TextDocumentInput&gt; * Azure.AI.TextAnalytics.ExtractSummaryOptions * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.AI.TextAnalytics.ExtractSummaryOperation&gt;" Usage="textAnalyticsClient.StartExtractSummaryAsync (documents, options, cancellationToken)" />
+    <Member MemberName="StartExtractiveSummarizeAsync">
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.AI.TextAnalytics.ExtractiveSummarizeOperation&gt; StartExtractiveSummarizeAsync (System.Collections.Generic.IEnumerable&lt;Azure.AI.TextAnalytics.TextDocumentInput&gt; documents, Azure.AI.TextAnalytics.ExtractiveSummarizeOptions options = default, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.AI.TextAnalytics.ExtractiveSummarizeOperation&gt; StartExtractiveSummarizeAsync(class System.Collections.Generic.IEnumerable`1&lt;class Azure.AI.TextAnalytics.TextDocumentInput&gt; documents, class Azure.AI.TextAnalytics.ExtractiveSummarizeOptions options, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.AI.TextAnalytics.TextAnalyticsClient.StartExtractiveSummarizeAsync(System.Collections.Generic.IEnumerable{Azure.AI.TextAnalytics.TextDocumentInput},Azure.AI.TextAnalytics.ExtractiveSummarizeOptions,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function StartExtractiveSummarizeAsync (documents As IEnumerable(Of TextDocumentInput), Optional options As ExtractiveSummarizeOptions = Nothing, Optional cancellationToken As CancellationToken = Nothing) As Task(Of ExtractiveSummarizeOperation)" />
+      <MemberSignature Language="F#" Value="abstract member StartExtractiveSummarizeAsync : seq&lt;Azure.AI.TextAnalytics.TextDocumentInput&gt; * Azure.AI.TextAnalytics.ExtractiveSummarizeOptions * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.AI.TextAnalytics.ExtractiveSummarizeOperation&gt;&#xA;override this.StartExtractiveSummarizeAsync : seq&lt;Azure.AI.TextAnalytics.TextDocumentInput&gt; * Azure.AI.TextAnalytics.ExtractiveSummarizeOptions * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.AI.TextAnalytics.ExtractiveSummarizeOperation&gt;" Usage="textAnalyticsClient.StartExtractiveSummarizeAsync (documents, options, cancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.AI.TextAnalytics</AssemblyName>
         <AssemblyVersion>5.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Threading.Tasks.Task&lt;Azure.AI.TextAnalytics.ExtractSummaryOperation&gt;</ReturnType>
+        <ReturnType>System.Threading.Tasks.Task&lt;Azure.AI.TextAnalytics.ExtractiveSummarizeOperation&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="documents" Type="System.Collections.Generic.IEnumerable&lt;Azure.AI.TextAnalytics.TextDocumentInput&gt;" Index="0" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="options" Type="Azure.AI.TextAnalytics.ExtractSummaryOptions" Index="1" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="options" Type="Azure.AI.TextAnalytics.ExtractiveSummarizeOptions" Index="1" FrameworkAlternate="azure-dotnet-preview" />
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="2" FrameworkAlternate="azure-dotnet-preview" />
       </Parameters>
       <Docs>
         <param name="documents">The documents to analyze.</param>
-        <param name="options">The additional <see cref="T:Azure.AI.TextAnalytics.ExtractSummaryOptions" /> used to configure the operation.</param>
+        <param name="options">The additional <see cref="T:Azure.AI.TextAnalytics.ExtractiveSummarizeOptions" /> used to configure the operation.</param>
         <param name="cancellationToken">The <see cref="T:System.Threading.CancellationToken" /> controlling the lifetime of the request.</param>
         <summary>
             Performs extractive summarization on the given documents, which consists of extracting sentences that
@@ -3383,30 +3391,30 @@
           <paramref name="documents" /> is null.</exception>
       </Docs>
     </Member>
-    <Member MemberName="StartExtractSummaryAsync">
-      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.AI.TextAnalytics.ExtractSummaryOperation&gt; StartExtractSummaryAsync (System.Collections.Generic.IEnumerable&lt;string&gt; documents, string language = default, Azure.AI.TextAnalytics.ExtractSummaryOptions options = default, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.AI.TextAnalytics.ExtractSummaryOperation&gt; StartExtractSummaryAsync(class System.Collections.Generic.IEnumerable`1&lt;string&gt; documents, string language, class Azure.AI.TextAnalytics.ExtractSummaryOptions options, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.AI.TextAnalytics.TextAnalyticsClient.StartExtractSummaryAsync(System.Collections.Generic.IEnumerable{System.String},System.String,Azure.AI.TextAnalytics.ExtractSummaryOptions,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function StartExtractSummaryAsync (documents As IEnumerable(Of String), Optional language As String = Nothing, Optional options As ExtractSummaryOptions = Nothing, Optional cancellationToken As CancellationToken = Nothing) As Task(Of ExtractSummaryOperation)" />
-      <MemberSignature Language="F#" Value="abstract member StartExtractSummaryAsync : seq&lt;string&gt; * string * Azure.AI.TextAnalytics.ExtractSummaryOptions * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.AI.TextAnalytics.ExtractSummaryOperation&gt;&#xA;override this.StartExtractSummaryAsync : seq&lt;string&gt; * string * Azure.AI.TextAnalytics.ExtractSummaryOptions * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.AI.TextAnalytics.ExtractSummaryOperation&gt;" Usage="textAnalyticsClient.StartExtractSummaryAsync (documents, language, options, cancellationToken)" />
+    <Member MemberName="StartExtractiveSummarizeAsync">
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.AI.TextAnalytics.ExtractiveSummarizeOperation&gt; StartExtractiveSummarizeAsync (System.Collections.Generic.IEnumerable&lt;string&gt; documents, string language = default, Azure.AI.TextAnalytics.ExtractiveSummarizeOptions options = default, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.AI.TextAnalytics.ExtractiveSummarizeOperation&gt; StartExtractiveSummarizeAsync(class System.Collections.Generic.IEnumerable`1&lt;string&gt; documents, string language, class Azure.AI.TextAnalytics.ExtractiveSummarizeOptions options, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.AI.TextAnalytics.TextAnalyticsClient.StartExtractiveSummarizeAsync(System.Collections.Generic.IEnumerable{System.String},System.String,Azure.AI.TextAnalytics.ExtractiveSummarizeOptions,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function StartExtractiveSummarizeAsync (documents As IEnumerable(Of String), Optional language As String = Nothing, Optional options As ExtractiveSummarizeOptions = Nothing, Optional cancellationToken As CancellationToken = Nothing) As Task(Of ExtractiveSummarizeOperation)" />
+      <MemberSignature Language="F#" Value="abstract member StartExtractiveSummarizeAsync : seq&lt;string&gt; * string * Azure.AI.TextAnalytics.ExtractiveSummarizeOptions * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.AI.TextAnalytics.ExtractiveSummarizeOperation&gt;&#xA;override this.StartExtractiveSummarizeAsync : seq&lt;string&gt; * string * Azure.AI.TextAnalytics.ExtractiveSummarizeOptions * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Azure.AI.TextAnalytics.ExtractiveSummarizeOperation&gt;" Usage="textAnalyticsClient.StartExtractiveSummarizeAsync (documents, language, options, cancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.AI.TextAnalytics</AssemblyName>
         <AssemblyVersion>5.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Threading.Tasks.Task&lt;Azure.AI.TextAnalytics.ExtractSummaryOperation&gt;</ReturnType>
+        <ReturnType>System.Threading.Tasks.Task&lt;Azure.AI.TextAnalytics.ExtractiveSummarizeOperation&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="documents" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" Index="0" FrameworkAlternate="azure-dotnet-preview" />
         <Parameter Name="language" Type="System.String" Index="1" FrameworkAlternate="azure-dotnet-preview" />
-        <Parameter Name="options" Type="Azure.AI.TextAnalytics.ExtractSummaryOptions" Index="2" FrameworkAlternate="azure-dotnet-preview" />
+        <Parameter Name="options" Type="Azure.AI.TextAnalytics.ExtractiveSummarizeOptions" Index="2" FrameworkAlternate="azure-dotnet-preview" />
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="3" FrameworkAlternate="azure-dotnet-preview" />
       </Parameters>
       <Docs>
         <param name="documents">The documents to analyze.</param>
         <param name="language">The language that the documents are written in.</param>
-        <param name="options">The additional <see cref="T:Azure.AI.TextAnalytics.ExtractSummaryOptions" /> used to configure the operation.</param>
+        <param name="options">The additional <see cref="T:Azure.AI.TextAnalytics.ExtractiveSummarizeOptions" /> used to configure the operation.</param>
         <param name="cancellationToken">The <see cref="T:System.Threading.CancellationToken" /> controlling the lifetime of the request.</param>
         <summary>
             Performs extractive summarization on the given documents, which consists of extracting sentences that
