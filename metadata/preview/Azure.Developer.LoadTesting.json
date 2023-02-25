@@ -11,10 +11,7 @@
   "IsNewSdk": true,
   "ArtifactName": "Azure.Developer.LoadTesting",
   "ReleaseStatus": null,
-  "Namespaces": [
-    "Azure.Developer.LoadTesting",
-    "Microsoft.Extensions.Azure"
-  ],
+  "Namespaces": "Azure.Developer.LoadTesting",
   "DocsCiConfigProperties": "tfm=netstandard2.0;isPrerelease=true",
   "MSDocService": "placeholder"
 }
