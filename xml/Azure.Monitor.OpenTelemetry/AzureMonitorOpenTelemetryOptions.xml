@@ -1,0 +1,173 @@
+<Type Name="AzureMonitorOpenTelemetryOptions" FullName="Azure.Monitor.OpenTelemetry.AzureMonitorOpenTelemetryOptions">
+  <TypeSignature Language="C#" Value="public class AzureMonitorOpenTelemetryOptions" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit AzureMonitorOpenTelemetryOptions extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Azure.Monitor.OpenTelemetry.AzureMonitorOpenTelemetryOptions" />
+  <TypeSignature Language="VB.NET" Value="Public Class AzureMonitorOpenTelemetryOptions" />
+  <TypeSignature Language="F#" Value="type AzureMonitorOpenTelemetryOptions = class" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Monitor.OpenTelemetry</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Options that allow users to configure the Azure Monitor OpenTelemetry.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public AzureMonitorOpenTelemetryOptions ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Monitor.OpenTelemetry.AzureMonitorOpenTelemetryOptions.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Monitor.OpenTelemetry</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ConnectionString">
+      <MemberSignature Language="C#" Value="public string ConnectionString { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ConnectionString" />
+      <MemberSignature Language="DocId" Value="P:Azure.Monitor.OpenTelemetry.AzureMonitorOpenTelemetryOptions.ConnectionString" />
+      <MemberSignature Language="VB.NET" Value="Public Property ConnectionString As String" />
+      <MemberSignature Language="F#" Value="member this.ConnectionString : string with get, set" Usage="Azure.Monitor.OpenTelemetry.AzureMonitorOpenTelemetryOptions.ConnectionString" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Monitor.OpenTelemetry</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The Connection String provides users with a single configuration setting to identify the Azure Monitor resource and endpoint.
+            </summary>
+        <value>To be added.</value>
+        <remarks>
+            (https://docs.microsoft.com/azure/azure-monitor/app/sdk-connection-string).
+            </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DisableOfflineStorage">
+      <MemberSignature Language="C#" Value="public bool DisableOfflineStorage { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool DisableOfflineStorage" />
+      <MemberSignature Language="DocId" Value="P:Azure.Monitor.OpenTelemetry.AzureMonitorOpenTelemetryOptions.DisableOfflineStorage" />
+      <MemberSignature Language="VB.NET" Value="Public Property DisableOfflineStorage As Boolean" />
+      <MemberSignature Language="F#" Value="member this.DisableOfflineStorage : bool with get, set" Usage="Azure.Monitor.OpenTelemetry.AzureMonitorOpenTelemetryOptions.DisableOfflineStorage" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Monitor.OpenTelemetry</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Disable offline storage.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EnableLogs">
+      <MemberSignature Language="C#" Value="public bool EnableLogs { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool EnableLogs" />
+      <MemberSignature Language="DocId" Value="P:Azure.Monitor.OpenTelemetry.AzureMonitorOpenTelemetryOptions.EnableLogs" />
+      <MemberSignature Language="VB.NET" Value="Public Property EnableLogs As Boolean" />
+      <MemberSignature Language="F#" Value="member this.EnableLogs : bool with get, set" Usage="Azure.Monitor.OpenTelemetry.AzureMonitorOpenTelemetryOptions.EnableLogs" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Monitor.OpenTelemetry</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets a value indicating whether Logs should be enabled.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EnableMetrics">
+      <MemberSignature Language="C#" Value="public bool EnableMetrics { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool EnableMetrics" />
+      <MemberSignature Language="DocId" Value="P:Azure.Monitor.OpenTelemetry.AzureMonitorOpenTelemetryOptions.EnableMetrics" />
+      <MemberSignature Language="VB.NET" Value="Public Property EnableMetrics As Boolean" />
+      <MemberSignature Language="F#" Value="member this.EnableMetrics : bool with get, set" Usage="Azure.Monitor.OpenTelemetry.AzureMonitorOpenTelemetryOptions.EnableMetrics" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Monitor.OpenTelemetry</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets a value indicating whether Metrics should be enabled.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EnableTraces">
+      <MemberSignature Language="C#" Value="public bool EnableTraces { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool EnableTraces" />
+      <MemberSignature Language="DocId" Value="P:Azure.Monitor.OpenTelemetry.AzureMonitorOpenTelemetryOptions.EnableTraces" />
+      <MemberSignature Language="VB.NET" Value="Public Property EnableTraces As Boolean" />
+      <MemberSignature Language="F#" Value="member this.EnableTraces : bool with get, set" Usage="Azure.Monitor.OpenTelemetry.AzureMonitorOpenTelemetryOptions.EnableTraces" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Monitor.OpenTelemetry</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets a value indicating whether Traces should be enabled.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StorageDirectory">
+      <MemberSignature Language="C#" Value="public string StorageDirectory { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string StorageDirectory" />
+      <MemberSignature Language="DocId" Value="P:Azure.Monitor.OpenTelemetry.AzureMonitorOpenTelemetryOptions.StorageDirectory" />
+      <MemberSignature Language="VB.NET" Value="Public Property StorageDirectory As String" />
+      <MemberSignature Language="F#" Value="member this.StorageDirectory : string with get, set" Usage="Azure.Monitor.OpenTelemetry.AzureMonitorOpenTelemetryOptions.StorageDirectory" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Monitor.OpenTelemetry</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Override the default directory for offline storage.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

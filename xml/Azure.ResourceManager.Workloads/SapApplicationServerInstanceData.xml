@@ -13,7 +13,10 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary> A class representing the SapApplicationServerInstance data model. </summary>
+    <summary>
+            A class representing the SapApplicationServerInstance data model.
+            Define the SAP Application Server Instance.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

@@ -48,7 +48,11 @@
         <ReturnType>Azure.Media.VideoAnalyzer.Edge.Models.ImageFormatProperties</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary> Base class for image formatting properties. </summary>
+        <summary>
+            Base class for image formatting properties.
+            Please note <see cref="T:Azure.Media.VideoAnalyzer.Edge.Models.ImageFormatProperties" /> is the base class. According to the scenario, a derived class of the base class might need to be assigned here, or this property needs to be casted to one of the possible derived classes.
+            The available derived classes include <see cref="T:Azure.Media.VideoAnalyzer.Edge.Models.ImageFormatBmp" />, <see cref="T:Azure.Media.VideoAnalyzer.Edge.Models.ImageFormatJpeg" />, <see cref="T:Azure.Media.VideoAnalyzer.Edge.Models.ImageFormatPng" /> and <see cref="T:Azure.Media.VideoAnalyzer.Edge.Models.ImageFormatRaw" />.
+            </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>

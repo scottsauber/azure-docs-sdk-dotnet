@@ -1,8 +1,8 @@
 <Type Name="ProcessorNodeBase" FullName="Azure.Media.VideoAnalyzer.Edge.Models.ProcessorNodeBase">
-  <TypeSignature Language="C#" Value="public class ProcessorNodeBase" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ProcessorNodeBase extends System.Object" />
+  <TypeSignature Language="C#" Value="public abstract class ProcessorNodeBase" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit ProcessorNodeBase extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Azure.Media.VideoAnalyzer.Edge.Models.ProcessorNodeBase" />
-  <TypeSignature Language="VB.NET" Value="Public Class ProcessorNodeBase" />
+  <TypeSignature Language="VB.NET" Value="Public MustInherit Class ProcessorNodeBase" />
   <TypeSignature Language="F#" Value="type ProcessorNodeBase = class" />
   <AssemblyInfo>
     <AssemblyName>Azure.Media.VideoAnalyzer.Edge</AssemblyName>
@@ -13,15 +13,19 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary> Base class for topology processor nodes. </summary>
+    <summary>
+            Base class for topology processor nodes.
+            Please note <see cref="T:Azure.Media.VideoAnalyzer.Edge.Models.ProcessorNodeBase" /> is the base class. According to the scenario, a derived class of the base class might need to be assigned here, or this property needs to be casted to one of the possible derived classes.
+            The available derived classes include <see cref="T:Azure.Media.VideoAnalyzer.Edge.Models.CognitiveServicesVisionProcessor" />, <see cref="T:Azure.Media.VideoAnalyzer.Edge.Models.ExtensionProcessorBase" />, <see cref="T:Azure.Media.VideoAnalyzer.Edge.Models.GrpcExtension" />, <see cref="T:Azure.Media.VideoAnalyzer.Edge.Models.HttpExtension" />, <see cref="T:Azure.Media.VideoAnalyzer.Edge.Models.LineCrossingProcessor" />, <see cref="T:Azure.Media.VideoAnalyzer.Edge.Models.MotionDetectionProcessor" />, <see cref="T:Azure.Media.VideoAnalyzer.Edge.Models.ObjectTrackingProcessor" /> and <see cref="T:Azure.Media.VideoAnalyzer.Edge.Models.SignalGateProcessor" />.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public ProcessorNodeBase (string name, System.Collections.Generic.IEnumerable&lt;Azure.Media.VideoAnalyzer.Edge.Models.NodeInput&gt; inputs);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string name, class System.Collections.Generic.IEnumerable`1&lt;class Azure.Media.VideoAnalyzer.Edge.Models.NodeInput&gt; inputs) cil managed" />
+      <MemberSignature Language="C#" Value="protected ProcessorNodeBase (string name, System.Collections.Generic.IEnumerable&lt;Azure.Media.VideoAnalyzer.Edge.Models.NodeInput&gt; inputs);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig specialname rtspecialname instance void .ctor(string name, class System.Collections.Generic.IEnumerable`1&lt;class Azure.Media.VideoAnalyzer.Edge.Models.NodeInput&gt; inputs) cil managed" />
       <MemberSignature Language="DocId" Value="M:Azure.Media.VideoAnalyzer.Edge.Models.ProcessorNodeBase.#ctor(System.String,System.Collections.Generic.IEnumerable{Azure.Media.VideoAnalyzer.Edge.Models.NodeInput})" />
-      <MemberSignature Language="VB.NET" Value="Public Sub New (name As String, inputs As IEnumerable(Of NodeInput))" />
+      <MemberSignature Language="VB.NET" Value="Protected Sub New (name As String, inputs As IEnumerable(Of NodeInput))" />
       <MemberSignature Language="F#" Value="new Azure.Media.VideoAnalyzer.Edge.Models.ProcessorNodeBase : string * seq&lt;Azure.Media.VideoAnalyzer.Edge.Models.NodeInput&gt; -&gt; Azure.Media.VideoAnalyzer.Edge.Models.ProcessorNodeBase" Usage="new Azure.Media.VideoAnalyzer.Edge.Models.ProcessorNodeBase (name, inputs)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>

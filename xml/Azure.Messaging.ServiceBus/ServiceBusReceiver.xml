@@ -22,6 +22,7 @@
     <AssemblyVersion>7.11.0.0</AssemblyVersion>
     <AssemblyVersion>7.11.1.0</AssemblyVersion>
     <AssemblyVersion>7.12.0.0</AssemblyVersion>
+    <AssemblyVersion>7.13.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -72,6 +73,7 @@
         <AssemblyVersion>7.11.0.0</AssemblyVersion>
         <AssemblyVersion>7.11.1.0</AssemblyVersion>
         <AssemblyVersion>7.12.0.0</AssemblyVersion>
+        <AssemblyVersion>7.13.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -103,6 +105,7 @@
         <AssemblyVersion>7.11.0.0</AssemblyVersion>
         <AssemblyVersion>7.11.1.0</AssemblyVersion>
         <AssemblyVersion>7.12.0.0</AssemblyVersion>
+        <AssemblyVersion>7.13.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="client" Type="Azure.Messaging.ServiceBus.ServiceBusClient" />
@@ -141,6 +144,7 @@
         <AssemblyVersion>7.11.0.0</AssemblyVersion>
         <AssemblyVersion>7.11.1.0</AssemblyVersion>
         <AssemblyVersion>7.12.0.0</AssemblyVersion>
+        <AssemblyVersion>7.13.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="client" Type="Azure.Messaging.ServiceBus.ServiceBusClient" />
@@ -184,6 +188,7 @@
         <AssemblyVersion>7.11.0.0</AssemblyVersion>
         <AssemblyVersion>7.11.1.0</AssemblyVersion>
         <AssemblyVersion>7.12.0.0</AssemblyVersion>
+        <AssemblyVersion>7.13.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -249,6 +254,7 @@
         <AssemblyVersion>7.11.0.0</AssemblyVersion>
         <AssemblyVersion>7.11.1.0</AssemblyVersion>
         <AssemblyVersion>7.12.0.0</AssemblyVersion>
+        <AssemblyVersion>7.13.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -291,6 +297,7 @@
         <AssemblyVersion>7.11.0.0</AssemblyVersion>
         <AssemblyVersion>7.11.1.0</AssemblyVersion>
         <AssemblyVersion>7.12.0.0</AssemblyVersion>
+        <AssemblyVersion>7.13.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -353,6 +360,7 @@
         <AssemblyVersion>7.11.0.0</AssemblyVersion>
         <AssemblyVersion>7.11.1.0</AssemblyVersion>
         <AssemblyVersion>7.12.0.0</AssemblyVersion>
+        <AssemblyVersion>7.13.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -421,6 +429,7 @@
         <AssemblyVersion>7.11.0.0</AssemblyVersion>
         <AssemblyVersion>7.11.1.0</AssemblyVersion>
         <AssemblyVersion>7.12.0.0</AssemblyVersion>
+        <AssemblyVersion>7.13.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -487,6 +496,7 @@
         <AssemblyVersion>7.11.0.0</AssemblyVersion>
         <AssemblyVersion>7.11.1.0</AssemblyVersion>
         <AssemblyVersion>7.12.0.0</AssemblyVersion>
+        <AssemblyVersion>7.13.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -500,9 +510,9 @@
       </Parameters>
       <Docs>
         <param name="message">The <see cref="T:Azure.Messaging.ServiceBus.ServiceBusReceivedMessage" /> to dead-letter.</param>
-        <param name="propertiesToModify">The properties of the message to modify while moving to subqueue.</param>
         <param name="deadLetterReason">The reason for dead-lettering the message.</param>
         <param name="deadLetterErrorDescription">The error description for dead-lettering the message.</param>
+        <param name="propertiesToModify">The properties of the message to modify while moving to subqueue.</param>
         <param name="cancellationToken">An optional <see cref="T:System.Threading.CancellationToken" /> instance to signal the request to cancel the operation.</param>
         <summary>
              Moves a message to the dead-letter subqueue.
@@ -579,6 +589,7 @@
         <AssemblyVersion>7.11.0.0</AssemblyVersion>
         <AssemblyVersion>7.11.1.0</AssemblyVersion>
         <AssemblyVersion>7.12.0.0</AssemblyVersion>
+        <AssemblyVersion>7.13.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -647,6 +658,7 @@
         <AssemblyVersion>7.11.0.0</AssemblyVersion>
         <AssemblyVersion>7.11.1.0</AssemblyVersion>
         <AssemblyVersion>7.12.0.0</AssemblyVersion>
+        <AssemblyVersion>7.13.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.ValueTask</ReturnType>
@@ -686,6 +698,7 @@
         <AssemblyVersion>7.11.0.0</AssemblyVersion>
         <AssemblyVersion>7.11.1.0</AssemblyVersion>
         <AssemblyVersion>7.12.0.0</AssemblyVersion>
+        <AssemblyVersion>7.13.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -724,6 +737,7 @@
         <AssemblyVersion>7.11.0.0</AssemblyVersion>
         <AssemblyVersion>7.11.1.0</AssemblyVersion>
         <AssemblyVersion>7.12.0.0</AssemblyVersion>
+        <AssemblyVersion>7.13.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -772,6 +786,7 @@
         <AssemblyVersion>7.11.0.0</AssemblyVersion>
         <AssemblyVersion>7.11.1.0</AssemblyVersion>
         <AssemblyVersion>7.12.0.0</AssemblyVersion>
+        <AssemblyVersion>7.13.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -810,6 +825,7 @@
         <AssemblyVersion>7.11.0.0</AssemblyVersion>
         <AssemblyVersion>7.11.1.0</AssemblyVersion>
         <AssemblyVersion>7.12.0.0</AssemblyVersion>
+        <AssemblyVersion>7.13.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -842,6 +858,7 @@
         <AssemblyVersion>7.11.0.0</AssemblyVersion>
         <AssemblyVersion>7.11.1.0</AssemblyVersion>
         <AssemblyVersion>7.12.0.0</AssemblyVersion>
+        <AssemblyVersion>7.13.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -879,6 +896,7 @@
         <AssemblyVersion>7.11.0.0</AssemblyVersion>
         <AssemblyVersion>7.11.1.0</AssemblyVersion>
         <AssemblyVersion>7.12.0.0</AssemblyVersion>
+        <AssemblyVersion>7.13.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -918,6 +936,7 @@
         <AssemblyVersion>7.11.0.0</AssemblyVersion>
         <AssemblyVersion>7.11.1.0</AssemblyVersion>
         <AssemblyVersion>7.12.0.0</AssemblyVersion>
+        <AssemblyVersion>7.13.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Messaging.ServiceBus.ServiceBusReceivedMessage&gt;</ReturnType>
@@ -967,6 +986,7 @@
         <AssemblyVersion>7.11.0.0</AssemblyVersion>
         <AssemblyVersion>7.11.1.0</AssemblyVersion>
         <AssemblyVersion>7.12.0.0</AssemblyVersion>
+        <AssemblyVersion>7.13.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;System.Collections.Generic.IReadOnlyList&lt;Azure.Messaging.ServiceBus.ServiceBusReceivedMessage&gt;&gt;</ReturnType>
@@ -1016,6 +1036,7 @@
         <AssemblyVersion>7.11.0.0</AssemblyVersion>
         <AssemblyVersion>7.11.1.0</AssemblyVersion>
         <AssemblyVersion>7.12.0.0</AssemblyVersion>
+        <AssemblyVersion>7.13.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -1058,6 +1079,7 @@
         <AssemblyVersion>7.11.0.0</AssemblyVersion>
         <AssemblyVersion>7.11.1.0</AssemblyVersion>
         <AssemblyVersion>7.12.0.0</AssemblyVersion>
+        <AssemblyVersion>7.13.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Messaging.ServiceBus.ServiceBusReceivedMessage&gt;</ReturnType>
@@ -1108,6 +1130,7 @@
         <AssemblyVersion>7.11.0.0</AssemblyVersion>
         <AssemblyVersion>7.11.1.0</AssemblyVersion>
         <AssemblyVersion>7.12.0.0</AssemblyVersion>
+        <AssemblyVersion>7.13.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;System.Collections.Generic.IReadOnlyList&lt;Azure.Messaging.ServiceBus.ServiceBusReceivedMessage&gt;&gt;</ReturnType>
@@ -1117,8 +1140,8 @@
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
-        <param name="sequenceNumbers">An <see cref="T:System.Collections.Generic.IEnumerable`1" /> containing the sequence numbers to receive.</param>
         <param name="cancellationToken">An optional <see cref="T:System.Threading.CancellationToken" /> instance to signal the request to cancel the operation.</param>
+        <param name="sequenceNumbers">An <see cref="T:System.Collections.Generic.IEnumerable`1" /> containing the sequence numbers to receive.</param>
         <summary>
              Receives a list of deferred messages identified by <paramref name="sequenceNumbers" />.
              </summary>
@@ -1157,6 +1180,7 @@
         <AssemblyVersion>7.11.0.0</AssemblyVersion>
         <AssemblyVersion>7.11.1.0</AssemblyVersion>
         <AssemblyVersion>7.12.0.0</AssemblyVersion>
+        <AssemblyVersion>7.13.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Azure.Messaging.ServiceBus.ServiceBusReceivedMessage&gt;</ReturnType>
@@ -1204,6 +1228,7 @@
         <AssemblyVersion>7.11.0.0</AssemblyVersion>
         <AssemblyVersion>7.11.1.0</AssemblyVersion>
         <AssemblyVersion>7.12.0.0</AssemblyVersion>
+        <AssemblyVersion>7.13.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -1262,6 +1287,7 @@
         <AssemblyVersion>7.11.0.0</AssemblyVersion>
         <AssemblyVersion>7.11.1.0</AssemblyVersion>
         <AssemblyVersion>7.12.0.0</AssemblyVersion>
+        <AssemblyVersion>7.13.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;System.Collections.Generic.IReadOnlyList&lt;Azure.Messaging.ServiceBus.ServiceBusReceivedMessage&gt;&gt;</ReturnType>
@@ -1311,6 +1337,7 @@
         <AssemblyVersion>7.11.0.0</AssemblyVersion>
         <AssemblyVersion>7.11.1.0</AssemblyVersion>
         <AssemblyVersion>7.12.0.0</AssemblyVersion>
+        <AssemblyVersion>7.13.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.ServiceBus.ServiceBusReceiveMode</ReturnType>
@@ -1352,6 +1379,7 @@
         <AssemblyVersion>7.11.0.0</AssemblyVersion>
         <AssemblyVersion>7.11.1.0</AssemblyVersion>
         <AssemblyVersion>7.12.0.0</AssemblyVersion>
+        <AssemblyVersion>7.13.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -1404,6 +1432,7 @@
         <AssemblyVersion>7.11.0.0</AssemblyVersion>
         <AssemblyVersion>7.11.1.0</AssemblyVersion>
         <AssemblyVersion>7.12.0.0</AssemblyVersion>
+        <AssemblyVersion>7.13.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>

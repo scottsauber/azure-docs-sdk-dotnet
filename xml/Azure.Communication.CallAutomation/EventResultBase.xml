@@ -1,0 +1,59 @@
+<Type Name="EventResultBase" FullName="Azure.Communication.CallAutomation.EventResultBase">
+  <TypeSignature Language="C#" Value="public abstract class EventResultBase" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit EventResultBase extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Azure.Communication.CallAutomation.EventResultBase" />
+  <TypeSignature Language="VB.NET" Value="Public MustInherit Class EventResultBase" />
+  <TypeSignature Language="F#" Value="type EventResultBase = class" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Communication.CallAutomation</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Base class that supports WaitForEvent method.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="protected EventResultBase ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Communication.CallAutomation.EventResultBase.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Protected Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.CallAutomation</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsSuccessEvent">
+      <MemberSignature Language="C#" Value="public bool IsSuccessEvent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsSuccessEvent" />
+      <MemberSignature Language="DocId" Value="P:Azure.Communication.CallAutomation.EventResultBase.IsSuccessEvent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsSuccessEvent As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsSuccessEvent : bool" Usage="Azure.Communication.CallAutomation.EventResultBase.IsSuccessEvent" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.CallAutomation</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Indicates whether the returned event is considered successful or not.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

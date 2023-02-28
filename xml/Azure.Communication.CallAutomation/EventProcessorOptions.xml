@@ -1,0 +1,61 @@
+<Type Name="EventProcessorOptions" FullName="Azure.Communication.CallAutomation.EventProcessorOptions">
+  <TypeSignature Language="C#" Value="public class EventProcessorOptions" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit EventProcessorOptions extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Azure.Communication.CallAutomation.EventProcessorOptions" />
+  <TypeSignature Language="VB.NET" Value="Public Class EventProcessorOptions" />
+  <TypeSignature Language="F#" Value="type EventProcessorOptions = class" />
+  <AssemblyInfo>
+    <AssemblyName>Azure.Communication.CallAutomation</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Options for Call Automtion's <see cref="T:Azure.Communication.CallAutomation.EventProcessor" />.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public EventProcessorOptions ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Communication.CallAutomation.EventProcessorOptions.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.CallAutomation</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EventTimeout">
+      <MemberSignature Language="C#" Value="public TimeSpan EventTimeout { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.TimeSpan EventTimeout" />
+      <MemberSignature Language="DocId" Value="P:Azure.Communication.CallAutomation.EventProcessorOptions.EventTimeout" />
+      <MemberSignature Language="VB.NET" Value="Public Property EventTimeout As TimeSpan" />
+      <MemberSignature Language="F#" Value="member this.EventTimeout : TimeSpan with get, set" Usage="Azure.Communication.CallAutomation.EventProcessorOptions.EventTimeout" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Communication.CallAutomation</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.TimeSpan</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            EventTimeout for WaitForEvent method. Throws Timeout exception when no matching event arrives after timespan.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

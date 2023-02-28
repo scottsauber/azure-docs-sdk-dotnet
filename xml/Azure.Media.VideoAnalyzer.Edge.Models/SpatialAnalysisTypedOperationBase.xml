@@ -13,7 +13,11 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary> Base class for Azure Cognitive Services Spatial Analysis typed operations. </summary>
+    <summary>
+            Base class for Azure Cognitive Services Spatial Analysis typed operations.
+            Please note <see cref="T:Azure.Media.VideoAnalyzer.Edge.Models.SpatialAnalysisTypedOperationBase" /> is the base class. According to the scenario, a derived class of the base class might need to be assigned here, or this property needs to be casted to one of the possible derived classes.
+            The available derived classes include <see cref="T:Azure.Media.VideoAnalyzer.Edge.Models.SpatialAnalysisPersonCountOperation" />, <see cref="T:Azure.Media.VideoAnalyzer.Edge.Models.SpatialAnalysisPersonDistanceOperation" />, <see cref="T:Azure.Media.VideoAnalyzer.Edge.Models.SpatialAnalysisPersonLineCrossingOperation" /> and <see cref="T:Azure.Media.VideoAnalyzer.Edge.Models.SpatialAnalysisPersonZoneCrossingOperation" />.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

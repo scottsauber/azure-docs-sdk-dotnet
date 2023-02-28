@@ -13,7 +13,10 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary> A class representing the SapMonitor data model. </summary>
+    <summary>
+            A class representing the SapMonitor data model.
+            SAP monitor info on Azure (ARM properties and SAP monitor properties)
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

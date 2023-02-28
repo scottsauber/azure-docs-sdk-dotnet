@@ -13,7 +13,11 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary> Base class for pipeline extension processors. Pipeline extensions allow for custom media analysis and processing to be plugged into the Video Analyzer pipeline. </summary>
+    <summary>
+            Base class for pipeline extension processors. Pipeline extensions allow for custom media analysis and processing to be plugged into the Video Analyzer pipeline.
+            Please note <see cref="T:Azure.Media.VideoAnalyzer.Edge.Models.ExtensionProcessorBase" /> is the base class. According to the scenario, a derived class of the base class might need to be assigned here, or this property needs to be casted to one of the possible derived classes.
+            The available derived classes include <see cref="T:Azure.Media.VideoAnalyzer.Edge.Models.GrpcExtension" /> and <see cref="T:Azure.Media.VideoAnalyzer.Edge.Models.HttpExtension" />.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -37,7 +41,11 @@
       <Docs>
         <param name="name"> Node name. Must be unique within the topology. </param>
         <param name="inputs"> An array of upstream node references within the topology to be used as inputs for this node. </param>
-        <param name="endpoint"> Endpoint details of the pipeline extension plugin. </param>
+        <param name="endpoint">
+            Endpoint details of the pipeline extension plugin.
+            Please note <see cref="T:Azure.Media.VideoAnalyzer.Edge.Models.EndpointBase" /> is the base class. According to the scenario, a derived class of the base class might need to be assigned here, or this property needs to be casted to one of the possible derived classes.
+            The available derived classes include <see cref="T:Azure.Media.VideoAnalyzer.Edge.Models.TlsEndpoint" /> and <see cref="T:Azure.Media.VideoAnalyzer.Edge.Models.UnsecuredEndpoint" />.
+            </param>
         <param name="image"> Image transformations and formatting options to be applied to the video frame(s) prior submission to the pipeline extension plugin. </param>
         <summary> Initializes a new instance of ExtensionProcessorBase. </summary>
         <remarks>To be added.</remarks>
@@ -60,7 +68,11 @@
         <ReturnType>Azure.Media.VideoAnalyzer.Edge.Models.EndpointBase</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary> Endpoint details of the pipeline extension plugin. </summary>
+        <summary>
+            Endpoint details of the pipeline extension plugin.
+            Please note <see cref="T:Azure.Media.VideoAnalyzer.Edge.Models.EndpointBase" /> is the base class. According to the scenario, a derived class of the base class might need to be assigned here, or this property needs to be casted to one of the possible derived classes.
+            The available derived classes include <see cref="T:Azure.Media.VideoAnalyzer.Edge.Models.TlsEndpoint" /> and <see cref="T:Azure.Media.VideoAnalyzer.Edge.Models.UnsecuredEndpoint" />.
+            </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>

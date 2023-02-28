@@ -13,7 +13,10 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary> A class representing the PhpWorkloadResource data model. </summary>
+    <summary>
+            A class representing the PhpWorkloadResource data model.
+            Php workload resource
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
