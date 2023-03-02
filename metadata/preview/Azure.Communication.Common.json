@@ -1,0 +1,17 @@
+{
+  "Name": "Azure.Communication.Common",
+  "Version": "1.3.0-alpha.20230302.1",
+  "DevVersion": "1.3.0-alpha.20230302.1",
+  "DirectoryPath": "sdk/communication/Azure.Communication.Common",
+  "ServiceDirectory": "communication",
+  "ReadMePath": "sdk/communication/Azure.Communication.Common/README.md",
+  "ChangeLogPath": "sdk/communication/Azure.Communication.Common/CHANGELOG.md",
+  "Group": null,
+  "SdkType": "client",
+  "IsNewSdk": true,
+  "ArtifactName": "Azure.Communication.Common",
+  "ReleaseStatus": null,
+  "Namespaces": [
+    "Azure.Communication"
+  ]
+}
