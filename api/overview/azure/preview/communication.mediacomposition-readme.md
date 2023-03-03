@@ -8,7 +8,7 @@ ms.topic: reference
 ms.devlang: dotnet
 ms.service: communication
 ---
-# Azure Communication Media Composition client library for .NET - version 1.0.0-alpha.20230302.3 
+# Azure Communication Media Composition client library for .NET - version 1.0.0-alpha.20230303.1 
 
 
 Azure Communication Media Composition allows developers to compose media streams using various layouts.
