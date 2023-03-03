@@ -36,7 +36,11 @@
       <Docs>
         <param name="name"> Node name. Must be unique within the topology. </param>
         <param name="inputs"> An array of upstream node references within the topology to be used as inputs for this node. </param>
-        <param name="lines"> An array of lines used to compute line crossing events. </param>
+        <param name="lines">
+            An array of lines used to compute line crossing events.
+            Please note <see cref="T:Azure.Media.VideoAnalyzer.Edge.Models.NamedLineBase" /> is the base class. According to the scenario, a derived class of the base class might need to be assigned here, or this property needs to be casted to one of the possible derived classes.
+            The available derived classes include <see cref="T:Azure.Media.VideoAnalyzer.Edge.Models.NamedLineString" />.
+            </param>
         <summary> Initializes a new instance of LineCrossingProcessor. </summary>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">
@@ -58,7 +62,11 @@
         <ReturnType>System.Collections.Generic.IList&lt;Azure.Media.VideoAnalyzer.Edge.Models.NamedLineBase&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary> An array of lines used to compute line crossing events. </summary>
+        <summary>
+            An array of lines used to compute line crossing events.
+            Please note <see cref="T:Azure.Media.VideoAnalyzer.Edge.Models.NamedLineBase" /> is the base class. According to the scenario, a derived class of the base class might need to be assigned here, or this property needs to be casted to one of the possible derived classes.
+            The available derived classes include <see cref="T:Azure.Media.VideoAnalyzer.Edge.Models.NamedLineString" />.
+            </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>

@@ -1,8 +1,8 @@
 <Type Name="CertificateSource" FullName="Azure.Media.VideoAnalyzer.Edge.Models.CertificateSource">
-  <TypeSignature Language="C#" Value="public class CertificateSource" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit CertificateSource extends System.Object" />
+  <TypeSignature Language="C#" Value="public abstract class CertificateSource" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit CertificateSource extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Azure.Media.VideoAnalyzer.Edge.Models.CertificateSource" />
-  <TypeSignature Language="VB.NET" Value="Public Class CertificateSource" />
+  <TypeSignature Language="VB.NET" Value="Public MustInherit Class CertificateSource" />
   <TypeSignature Language="F#" Value="type CertificateSource = class" />
   <AssemblyInfo>
     <AssemblyName>Azure.Media.VideoAnalyzer.Edge</AssemblyName>
@@ -13,15 +13,19 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary> Base class for certificate sources. </summary>
+    <summary>
+            Base class for certificate sources.
+            Please note <see cref="T:Azure.Media.VideoAnalyzer.Edge.Models.CertificateSource" /> is the base class. According to the scenario, a derived class of the base class might need to be assigned here, or this property needs to be casted to one of the possible derived classes.
+            The available derived classes include <see cref="T:Azure.Media.VideoAnalyzer.Edge.Models.PemCertificateList" />.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public CertificateSource ();" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="C#" Value="protected CertificateSource ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig specialname rtspecialname instance void .ctor() cil managed" />
       <MemberSignature Language="DocId" Value="M:Azure.Media.VideoAnalyzer.Edge.Models.CertificateSource.#ctor" />
-      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="VB.NET" Value="Protected Sub New ()" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Media.VideoAnalyzer.Edge</AssemblyName>

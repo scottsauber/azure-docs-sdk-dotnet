@@ -13,7 +13,10 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary> A class representing the SapProviderInstance data model. </summary>
+    <summary>
+            A class representing the SapProviderInstance data model.
+            A provider instance associated with SAP monitor.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

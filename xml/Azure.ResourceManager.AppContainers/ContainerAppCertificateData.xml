@@ -9,13 +9,17 @@
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
     <AssemblyVersion>1.0.1.0</AssemblyVersion>
     <AssemblyVersion>1.0.2.0</AssemblyVersion>
+    <AssemblyVersion>1.1.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Azure.ResourceManager.Models.TrackedResourceData</BaseTypeName>
   </Base>
   <Interfaces />
   <Docs>
-    <summary> A class representing the ContainerAppCertificate data model. </summary>
+    <summary>
+            A class representing the ContainerAppCertificate data model.
+            Certificate used for Custom Domain bindings of Container Apps in a Managed Environment
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -31,6 +35,7 @@
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.0.2.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="location" Type="Azure.Core.AzureLocation" />
@@ -42,25 +47,21 @@
       </Docs>
     </Member>
     <Member MemberName="Properties">
-      <MemberSignature Language="C#" Value="public Azure.ResourceManager.AppContainers.Models.ContainerAppCertificateProperties Properties { get; set; }" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="ILAsm" Value=".property instance class Azure.ResourceManager.AppContainers.Models.ContainerAppCertificateProperties Properties" FrameworkAlternate="azure-dotnet" />
+      <MemberSignature Language="C#" Value="public Azure.ResourceManager.AppContainers.Models.ContainerAppCertificateProperties Properties { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Azure.ResourceManager.AppContainers.Models.ContainerAppCertificateProperties Properties" />
       <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.AppContainers.ContainerAppCertificateData.Properties" />
-      <MemberSignature Language="VB.NET" Value="Public Property Properties As ContainerAppCertificateProperties" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="F#" Value="member this.Properties : Azure.ResourceManager.AppContainers.Models.ContainerAppCertificateProperties with get, set" Usage="Azure.ResourceManager.AppContainers.ContainerAppCertificateData.Properties" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="C#" Value="public Azure.ResourceManager.AppContainers.Models.CertificateProperties Properties { get; set; }" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="ILAsm" Value=".property instance class Azure.ResourceManager.AppContainers.Models.CertificateProperties Properties" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="VB.NET" Value="Public Property Properties As CertificateProperties" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="F#" Value="member this.Properties : Azure.ResourceManager.AppContainers.Models.CertificateProperties with get, set" Usage="Azure.ResourceManager.AppContainers.ContainerAppCertificateData.Properties" FrameworkAlternate="azure-dotnet-preview" />
+      <MemberSignature Language="VB.NET" Value="Public Property Properties As ContainerAppCertificateProperties" />
+      <MemberSignature Language="F#" Value="member this.Properties : Azure.ResourceManager.AppContainers.Models.ContainerAppCertificateProperties with get, set" Usage="Azure.ResourceManager.AppContainers.ContainerAppCertificateData.Properties" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.AppContainers</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
         <AssemblyVersion>1.0.2.0</AssemblyVersion>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType FrameworkAlternate="azure-dotnet">Azure.ResourceManager.AppContainers.Models.ContainerAppCertificateProperties</ReturnType>
-        <ReturnType FrameworkAlternate="azure-dotnet-preview">Azure.ResourceManager.AppContainers.Models.CertificateProperties</ReturnType>
+        <ReturnType>Azure.ResourceManager.AppContainers.Models.ContainerAppCertificateProperties</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> Certificate resource specific properties. </summary>

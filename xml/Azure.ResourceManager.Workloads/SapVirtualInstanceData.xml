@@ -13,7 +13,10 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary> A class representing the SapVirtualInstance data model. </summary>
+    <summary>
+            A class representing the SapVirtualInstance data model.
+            Define the Virtual Instance for SAP.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

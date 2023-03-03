@@ -2038,11 +2038,11 @@ await foreach (var data in client.GetTestFilesAsync("<testId>"))
       </Docs>
     </Member>
     <Member MemberName="GetTests">
-      <MemberSignature Language="C#" Value="public virtual Azure.Pageable&lt;BinaryData&gt; GetTests (string orderby = default, string search = default, DateTimeOffset? lastModifiedStartTime = default, DateTimeOffset? lastModifiedEndTime = default, int? maxpagesize = default, Azure.RequestContext context = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Pageable`1&lt;class System.BinaryData&gt; GetTests(string orderby, string search, valuetype System.Nullable`1&lt;valuetype System.DateTimeOffset&gt; lastModifiedStartTime, valuetype System.Nullable`1&lt;valuetype System.DateTimeOffset&gt; lastModifiedEndTime, valuetype System.Nullable`1&lt;int32&gt; maxpagesize, class Azure.RequestContext context) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.Developer.LoadTesting.LoadTestAdministrationClient.GetTests(System.String,System.String,System.Nullable{System.DateTimeOffset},System.Nullable{System.DateTimeOffset},System.Nullable{System.Int32},Azure.RequestContext)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetTests (Optional orderby As String = Nothing, Optional search As String = Nothing, Optional lastModifiedStartTime As Nullable(Of DateTimeOffset) = Nothing, Optional lastModifiedEndTime As Nullable(Of DateTimeOffset) = Nothing, Optional maxpagesize As Nullable(Of Integer) = Nothing, Optional context As RequestContext = Nothing) As Pageable(Of BinaryData)" />
-      <MemberSignature Language="F#" Value="abstract member GetTests : string * string * Nullable&lt;DateTimeOffset&gt; * Nullable&lt;DateTimeOffset&gt; * Nullable&lt;int&gt; * Azure.RequestContext -&gt; Azure.Pageable&lt;BinaryData&gt;&#xA;override this.GetTests : string * string * Nullable&lt;DateTimeOffset&gt; * Nullable&lt;DateTimeOffset&gt; * Nullable&lt;int&gt; * Azure.RequestContext -&gt; Azure.Pageable&lt;BinaryData&gt;" Usage="loadTestAdministrationClient.GetTests (orderby, search, lastModifiedStartTime, lastModifiedEndTime, maxpagesize, context)" />
+      <MemberSignature Language="C#" Value="public virtual Azure.Pageable&lt;BinaryData&gt; GetTests (string orderby = default, string search = default, DateTimeOffset? lastModifiedStartTime = default, DateTimeOffset? lastModifiedEndTime = default, Azure.RequestContext context = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Pageable`1&lt;class System.BinaryData&gt; GetTests(string orderby, string search, valuetype System.Nullable`1&lt;valuetype System.DateTimeOffset&gt; lastModifiedStartTime, valuetype System.Nullable`1&lt;valuetype System.DateTimeOffset&gt; lastModifiedEndTime, class Azure.RequestContext context) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Developer.LoadTesting.LoadTestAdministrationClient.GetTests(System.String,System.String,System.Nullable{System.DateTimeOffset},System.Nullable{System.DateTimeOffset},Azure.RequestContext)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetTests (Optional orderby As String = Nothing, Optional search As String = Nothing, Optional lastModifiedStartTime As Nullable(Of DateTimeOffset) = Nothing, Optional lastModifiedEndTime As Nullable(Of DateTimeOffset) = Nothing, Optional context As RequestContext = Nothing) As Pageable(Of BinaryData)" />
+      <MemberSignature Language="F#" Value="abstract member GetTests : string * string * Nullable&lt;DateTimeOffset&gt; * Nullable&lt;DateTimeOffset&gt; * Azure.RequestContext -&gt; Azure.Pageable&lt;BinaryData&gt;&#xA;override this.GetTests : string * string * Nullable&lt;DateTimeOffset&gt; * Nullable&lt;DateTimeOffset&gt; * Azure.RequestContext -&gt; Azure.Pageable&lt;BinaryData&gt;" Usage="loadTestAdministrationClient.GetTests (orderby, search, lastModifiedStartTime, lastModifiedEndTime, context)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Developer.LoadTesting</AssemblyName>
@@ -2056,7 +2056,6 @@ await foreach (var data in client.GetTestFilesAsync("<testId>"))
         <Parameter Name="search" Type="System.String" />
         <Parameter Name="lastModifiedStartTime" Type="System.Nullable&lt;System.DateTimeOffset&gt;" />
         <Parameter Name="lastModifiedEndTime" Type="System.Nullable&lt;System.DateTimeOffset&gt;" />
-        <Parameter Name="maxpagesize" Type="System.Nullable&lt;System.Int32&gt;" />
         <Parameter Name="context" Type="Azure.RequestContext" />
       </Parameters>
       <Docs>
@@ -2064,7 +2063,6 @@ await foreach (var data in client.GetTestFilesAsync("<testId>"))
         <param name="search"> Prefix based, case sensitive search on searchable fields - displayName, createdBy. For example, to search for a test, with display name is Login Test, the search parameter can be Login. </param>
         <param name="lastModifiedStartTime"> Start DateTime(ISO 8601 literal format) of the last updated time range to filter tests. </param>
         <param name="lastModifiedEndTime"> End DateTime(ISO 8601 literal format) of the last updated time range to filter tests. </param>
-        <param name="maxpagesize"> Number of results in response. </param>
         <param name="context"> The request context, which can override default behaviors of the client pipeline on a per-call basis. </param>
         <summary> Get all load tests by the fully qualified resource Id e.g subscriptions/{subId}/resourceGroups/{rg}/providers/Microsoft.LoadTestService/loadtests/{resName}. </summary>
         <returns> The <see cref="T:Azure.Pageable`1" /> from the service containing a list of <see cref="T:System.BinaryData" /> objects. Details of the body schema for each item in the collection are in the Remarks section below. </returns>
@@ -2211,11 +2209,11 @@ foreach (var data in client.GetTests("<orderby>", "<search>", DateTimeOffset.Utc
       </Docs>
     </Member>
     <Member MemberName="GetTestsAsync">
-      <MemberSignature Language="C#" Value="public virtual Azure.AsyncPageable&lt;BinaryData&gt; GetTestsAsync (string orderby = default, string search = default, DateTimeOffset? lastModifiedStartTime = default, DateTimeOffset? lastModifiedEndTime = default, int? maxpagesize = default, Azure.RequestContext context = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.AsyncPageable`1&lt;class System.BinaryData&gt; GetTestsAsync(string orderby, string search, valuetype System.Nullable`1&lt;valuetype System.DateTimeOffset&gt; lastModifiedStartTime, valuetype System.Nullable`1&lt;valuetype System.DateTimeOffset&gt; lastModifiedEndTime, valuetype System.Nullable`1&lt;int32&gt; maxpagesize, class Azure.RequestContext context) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.Developer.LoadTesting.LoadTestAdministrationClient.GetTestsAsync(System.String,System.String,System.Nullable{System.DateTimeOffset},System.Nullable{System.DateTimeOffset},System.Nullable{System.Int32},Azure.RequestContext)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetTestsAsync (Optional orderby As String = Nothing, Optional search As String = Nothing, Optional lastModifiedStartTime As Nullable(Of DateTimeOffset) = Nothing, Optional lastModifiedEndTime As Nullable(Of DateTimeOffset) = Nothing, Optional maxpagesize As Nullable(Of Integer) = Nothing, Optional context As RequestContext = Nothing) As AsyncPageable(Of BinaryData)" />
-      <MemberSignature Language="F#" Value="abstract member GetTestsAsync : string * string * Nullable&lt;DateTimeOffset&gt; * Nullable&lt;DateTimeOffset&gt; * Nullable&lt;int&gt; * Azure.RequestContext -&gt; Azure.AsyncPageable&lt;BinaryData&gt;&#xA;override this.GetTestsAsync : string * string * Nullable&lt;DateTimeOffset&gt; * Nullable&lt;DateTimeOffset&gt; * Nullable&lt;int&gt; * Azure.RequestContext -&gt; Azure.AsyncPageable&lt;BinaryData&gt;" Usage="loadTestAdministrationClient.GetTestsAsync (orderby, search, lastModifiedStartTime, lastModifiedEndTime, maxpagesize, context)" />
+      <MemberSignature Language="C#" Value="public virtual Azure.AsyncPageable&lt;BinaryData&gt; GetTestsAsync (string orderby = default, string search = default, DateTimeOffset? lastModifiedStartTime = default, DateTimeOffset? lastModifiedEndTime = default, Azure.RequestContext context = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.AsyncPageable`1&lt;class System.BinaryData&gt; GetTestsAsync(string orderby, string search, valuetype System.Nullable`1&lt;valuetype System.DateTimeOffset&gt; lastModifiedStartTime, valuetype System.Nullable`1&lt;valuetype System.DateTimeOffset&gt; lastModifiedEndTime, class Azure.RequestContext context) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Azure.Developer.LoadTesting.LoadTestAdministrationClient.GetTestsAsync(System.String,System.String,System.Nullable{System.DateTimeOffset},System.Nullable{System.DateTimeOffset},Azure.RequestContext)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetTestsAsync (Optional orderby As String = Nothing, Optional search As String = Nothing, Optional lastModifiedStartTime As Nullable(Of DateTimeOffset) = Nothing, Optional lastModifiedEndTime As Nullable(Of DateTimeOffset) = Nothing, Optional context As RequestContext = Nothing) As AsyncPageable(Of BinaryData)" />
+      <MemberSignature Language="F#" Value="abstract member GetTestsAsync : string * string * Nullable&lt;DateTimeOffset&gt; * Nullable&lt;DateTimeOffset&gt; * Azure.RequestContext -&gt; Azure.AsyncPageable&lt;BinaryData&gt;&#xA;override this.GetTestsAsync : string * string * Nullable&lt;DateTimeOffset&gt; * Nullable&lt;DateTimeOffset&gt; * Azure.RequestContext -&gt; Azure.AsyncPageable&lt;BinaryData&gt;" Usage="loadTestAdministrationClient.GetTestsAsync (orderby, search, lastModifiedStartTime, lastModifiedEndTime, context)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Developer.LoadTesting</AssemblyName>
@@ -2229,7 +2227,6 @@ foreach (var data in client.GetTests("<orderby>", "<search>", DateTimeOffset.Utc
         <Parameter Name="search" Type="System.String" />
         <Parameter Name="lastModifiedStartTime" Type="System.Nullable&lt;System.DateTimeOffset&gt;" />
         <Parameter Name="lastModifiedEndTime" Type="System.Nullable&lt;System.DateTimeOffset&gt;" />
-        <Parameter Name="maxpagesize" Type="System.Nullable&lt;System.Int32&gt;" />
         <Parameter Name="context" Type="Azure.RequestContext" />
       </Parameters>
       <Docs>
@@ -2237,7 +2234,6 @@ foreach (var data in client.GetTests("<orderby>", "<search>", DateTimeOffset.Utc
         <param name="search"> Prefix based, case sensitive search on searchable fields - displayName, createdBy. For example, to search for a test, with display name is Login Test, the search parameter can be Login. </param>
         <param name="lastModifiedStartTime"> Start DateTime(ISO 8601 literal format) of the last updated time range to filter tests. </param>
         <param name="lastModifiedEndTime"> End DateTime(ISO 8601 literal format) of the last updated time range to filter tests. </param>
-        <param name="maxpagesize"> Number of results in response. </param>
         <param name="context"> The request context, which can override default behaviors of the client pipeline on a per-call basis. </param>
         <summary> Get all load tests by the fully qualified resource Id e.g subscriptions/{subId}/resourceGroups/{rg}/providers/Microsoft.LoadTestService/loadtests/{resName}. </summary>
         <returns> The <see cref="T:Azure.AsyncPageable`1" /> from the service containing a list of <see cref="T:System.BinaryData" /> objects. Details of the body schema for each item in the collection are in the Remarks section below. </returns>
@@ -2487,18 +2483,18 @@ Console.WriteLine(result.GetProperty("validationFailureDetails").ToString());
       </Docs>
     </Member>
     <Member MemberName="UploadTestFile">
-      <MemberSignature Language="C#" Value="public virtual Azure.Developer.LoadTesting.FileUploadOperation UploadTestFile (Azure.WaitUntil waitUntil, string testId, string fileName, Azure.Core.RequestContent content, TimeSpan? timeSpan = default, string fileType = default, Azure.RequestContext context = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Developer.LoadTesting.FileUploadOperation UploadTestFile(valuetype Azure.WaitUntil waitUntil, string testId, string fileName, class Azure.Core.RequestContent content, valuetype System.Nullable`1&lt;valuetype System.TimeSpan&gt; timeSpan, string fileType, class Azure.RequestContext context) cil managed" />
+      <MemberSignature Language="C#" Value="public virtual Azure.Developer.LoadTesting.FileUploadResultOperation UploadTestFile (Azure.WaitUntil waitUntil, string testId, string fileName, Azure.Core.RequestContent content, TimeSpan? timeSpan = default, string fileType = default, Azure.RequestContext context = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Azure.Developer.LoadTesting.FileUploadResultOperation UploadTestFile(valuetype Azure.WaitUntil waitUntil, string testId, string fileName, class Azure.Core.RequestContent content, valuetype System.Nullable`1&lt;valuetype System.TimeSpan&gt; timeSpan, string fileType, class Azure.RequestContext context) cil managed" />
       <MemberSignature Language="DocId" Value="M:Azure.Developer.LoadTesting.LoadTestAdministrationClient.UploadTestFile(Azure.WaitUntil,System.String,System.String,Azure.Core.RequestContent,System.Nullable{System.TimeSpan},System.String,Azure.RequestContext)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function UploadTestFile (waitUntil As WaitUntil, testId As String, fileName As String, content As RequestContent, Optional timeSpan As Nullable(Of TimeSpan) = Nothing, Optional fileType As String = Nothing, Optional context As RequestContext = Nothing) As FileUploadOperation" />
-      <MemberSignature Language="F#" Value="abstract member UploadTestFile : Azure.WaitUntil * string * string * Azure.Core.RequestContent * Nullable&lt;TimeSpan&gt; * string * Azure.RequestContext -&gt; Azure.Developer.LoadTesting.FileUploadOperation&#xA;override this.UploadTestFile : Azure.WaitUntil * string * string * Azure.Core.RequestContent * Nullable&lt;TimeSpan&gt; * string * Azure.RequestContext -&gt; Azure.Developer.LoadTesting.FileUploadOperation" Usage="loadTestAdministrationClient.UploadTestFile (waitUntil, testId, fileName, content, timeSpan, fileType, context)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function UploadTestFile (waitUntil As WaitUntil, testId As String, fileName As String, content As RequestContent, Optional timeSpan As Nullable(Of TimeSpan) = Nothing, Optional fileType As String = Nothing, Optional context As RequestContext = Nothing) As FileUploadResultOperation" />
+      <MemberSignature Language="F#" Value="abstract member UploadTestFile : Azure.WaitUntil * string * string * Azure.Core.RequestContent * Nullable&lt;TimeSpan&gt; * string * Azure.RequestContext -&gt; Azure.Developer.LoadTesting.FileUploadResultOperation&#xA;override this.UploadTestFile : Azure.WaitUntil * string * string * Azure.Core.RequestContent * Nullable&lt;TimeSpan&gt; * string * Azure.RequestContext -&gt; Azure.Developer.LoadTesting.FileUploadResultOperation" Usage="loadTestAdministrationClient.UploadTestFile (waitUntil, testId, fileName, content, timeSpan, fileType, context)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Developer.LoadTesting</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>Azure.Developer.LoadTesting.FileUploadOperation</ReturnType>
+        <ReturnType>Azure.Developer.LoadTesting.FileUploadResultOperation</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="waitUntil" Type="Azure.WaitUntil" />
@@ -2611,18 +2607,18 @@ Console.WriteLine(result.GetProperty("validationFailureDetails").ToString());
       </Docs>
     </Member>
     <Member MemberName="UploadTestFileAsync">
-      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Developer.LoadTesting.FileUploadOperation&gt; UploadTestFileAsync (Azure.WaitUntil waitUntil, string testId, string fileName, Azure.Core.RequestContent content, TimeSpan? timeSpan = default, string fileType = default, Azure.RequestContext context = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Developer.LoadTesting.FileUploadOperation&gt; UploadTestFileAsync(valuetype Azure.WaitUntil waitUntil, string testId, string fileName, class Azure.Core.RequestContent content, valuetype System.Nullable`1&lt;valuetype System.TimeSpan&gt; timeSpan, string fileType, class Azure.RequestContext context) cil managed" />
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.Task&lt;Azure.Developer.LoadTesting.FileUploadResultOperation&gt; UploadTestFileAsync (Azure.WaitUntil waitUntil, string testId, string fileName, Azure.Core.RequestContent content, TimeSpan? timeSpan = default, string fileType = default, Azure.RequestContext context = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Azure.Developer.LoadTesting.FileUploadResultOperation&gt; UploadTestFileAsync(valuetype Azure.WaitUntil waitUntil, string testId, string fileName, class Azure.Core.RequestContent content, valuetype System.Nullable`1&lt;valuetype System.TimeSpan&gt; timeSpan, string fileType, class Azure.RequestContext context) cil managed" />
       <MemberSignature Language="DocId" Value="M:Azure.Developer.LoadTesting.LoadTestAdministrationClient.UploadTestFileAsync(Azure.WaitUntil,System.String,System.String,Azure.Core.RequestContent,System.Nullable{System.TimeSpan},System.String,Azure.RequestContext)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function UploadTestFileAsync (waitUntil As WaitUntil, testId As String, fileName As String, content As RequestContent, Optional timeSpan As Nullable(Of TimeSpan) = Nothing, Optional fileType As String = Nothing, Optional context As RequestContext = Nothing) As Task(Of FileUploadOperation)" />
-      <MemberSignature Language="F#" Value="abstract member UploadTestFileAsync : Azure.WaitUntil * string * string * Azure.Core.RequestContent * Nullable&lt;TimeSpan&gt; * string * Azure.RequestContext -&gt; System.Threading.Tasks.Task&lt;Azure.Developer.LoadTesting.FileUploadOperation&gt;&#xA;override this.UploadTestFileAsync : Azure.WaitUntil * string * string * Azure.Core.RequestContent * Nullable&lt;TimeSpan&gt; * string * Azure.RequestContext -&gt; System.Threading.Tasks.Task&lt;Azure.Developer.LoadTesting.FileUploadOperation&gt;" Usage="loadTestAdministrationClient.UploadTestFileAsync (waitUntil, testId, fileName, content, timeSpan, fileType, context)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function UploadTestFileAsync (waitUntil As WaitUntil, testId As String, fileName As String, content As RequestContent, Optional timeSpan As Nullable(Of TimeSpan) = Nothing, Optional fileType As String = Nothing, Optional context As RequestContext = Nothing) As Task(Of FileUploadResultOperation)" />
+      <MemberSignature Language="F#" Value="abstract member UploadTestFileAsync : Azure.WaitUntil * string * string * Azure.Core.RequestContent * Nullable&lt;TimeSpan&gt; * string * Azure.RequestContext -&gt; System.Threading.Tasks.Task&lt;Azure.Developer.LoadTesting.FileUploadResultOperation&gt;&#xA;override this.UploadTestFileAsync : Azure.WaitUntil * string * string * Azure.Core.RequestContent * Nullable&lt;TimeSpan&gt; * string * Azure.RequestContext -&gt; System.Threading.Tasks.Task&lt;Azure.Developer.LoadTesting.FileUploadResultOperation&gt;" Usage="loadTestAdministrationClient.UploadTestFileAsync (waitUntil, testId, fileName, content, timeSpan, fileType, context)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Developer.LoadTesting</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Developer.LoadTesting.FileUploadOperation&gt;</ReturnType>
+        <ReturnType>System.Threading.Tasks.Task&lt;Azure.Developer.LoadTesting.FileUploadResultOperation&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="waitUntil" Type="Azure.WaitUntil" />

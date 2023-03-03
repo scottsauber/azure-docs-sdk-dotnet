@@ -12,6 +12,7 @@
     <AssemblyVersion>5.1.1.0</AssemblyVersion>
     <AssemblyVersion>5.1.2.0</AssemblyVersion>
     <AssemblyVersion>5.2.0.0</AssemblyVersion>
+    <AssemblyVersion>5.3.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -40,6 +41,7 @@
         <AssemblyVersion>5.1.1.0</AssemblyVersion>
         <AssemblyVersion>5.1.2.0</AssemblyVersion>
         <AssemblyVersion>5.2.0.0</AssemblyVersion>
+        <AssemblyVersion>5.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -62,6 +64,7 @@
         <AssemblyVersion>5.1.1.0</AssemblyVersion>
         <AssemblyVersion>5.1.2.0</AssemblyVersion>
         <AssemblyVersion>5.2.0.0</AssemblyVersion>
+        <AssemblyVersion>5.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -89,6 +92,7 @@
         <AssemblyVersion>5.1.1.0</AssemblyVersion>
         <AssemblyVersion>5.1.2.0</AssemblyVersion>
         <AssemblyVersion>5.2.0.0</AssemblyVersion>
+        <AssemblyVersion>5.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventHubs.EventHubsRetryOptions</ReturnType>
@@ -118,6 +122,7 @@
         <AssemblyVersion>5.1.1.0</AssemblyVersion>
         <AssemblyVersion>5.1.2.0</AssemblyVersion>
         <AssemblyVersion>5.2.0.0</AssemblyVersion>
+        <AssemblyVersion>5.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Uri</ReturnType>
@@ -150,6 +155,7 @@
         <AssemblyVersion>5.1.1.0</AssemblyVersion>
         <AssemblyVersion>5.1.2.0</AssemblyVersion>
         <AssemblyVersion>5.2.0.0</AssemblyVersion>
+        <AssemblyVersion>5.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.WebJobs.EventHubs.InitialOffsetOptions</ReturnType>
@@ -178,6 +184,7 @@
         <AssemblyVersion>5.1.1.0</AssemblyVersion>
         <AssemblyVersion>5.1.2.0</AssemblyVersion>
         <AssemblyVersion>5.2.0.0</AssemblyVersion>
+        <AssemblyVersion>5.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.TimeSpan</ReturnType>
@@ -210,6 +217,7 @@
         <AssemblyVersion>5.1.1.0</AssemblyVersion>
         <AssemblyVersion>5.1.2.0</AssemblyVersion>
         <AssemblyVersion>5.2.0.0</AssemblyVersion>
+        <AssemblyVersion>5.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -231,7 +239,7 @@
       <MemberSignature Language="F#" Value="abstract member Microsoft.Azure.WebJobs.Hosting.IOptionsFormatter.Format : unit -&gt; string&#xA;override this.Microsoft.Azure.WebJobs.Hosting.IOptionsFormatter.Format : unit -&gt; string" Usage="eventHubOptions.Microsoft.Azure.WebJobs.Hosting.IOptionsFormatter.Format " />
       <MemberType>Method</MemberType>
       <Implements>
-        <InterfaceMember>M:Microsoft.Azure.WebJobs.Hosting.IOptionsFormatter.Format</InterfaceMember>
+        <InterfaceMember FrameworkAlternate="azure-dotnet">M:Microsoft.Azure.WebJobs.Hosting.IOptionsFormatter.Format</InterfaceMember>
       </Implements>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.WebJobs.Extensions.EventHubs</AssemblyName>
@@ -241,6 +249,7 @@
         <AssemblyVersion>5.1.1.0</AssemblyVersion>
         <AssemblyVersion>5.1.2.0</AssemblyVersion>
         <AssemblyVersion>5.2.0.0</AssemblyVersion>
+        <AssemblyVersion>5.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -270,6 +279,7 @@
         <AssemblyVersion>5.1.1.0</AssemblyVersion>
         <AssemblyVersion>5.1.2.0</AssemblyVersion>
         <AssemblyVersion>5.2.0.0</AssemblyVersion>
+        <AssemblyVersion>5.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.TimeSpan</ReturnType>
@@ -305,6 +315,7 @@
         <AssemblyVersion>5.1.1.0</AssemblyVersion>
         <AssemblyVersion>5.1.2.0</AssemblyVersion>
         <AssemblyVersion>5.2.0.0</AssemblyVersion>
+        <AssemblyVersion>5.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -352,6 +363,7 @@
         <AssemblyVersion>5.1.1.0</AssemblyVersion>
         <AssemblyVersion>5.1.2.0</AssemblyVersion>
         <AssemblyVersion>5.2.0.0</AssemblyVersion>
+        <AssemblyVersion>5.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.Int64&gt;</ReturnType>
@@ -386,6 +398,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.WebJobs.Extensions.EventHubs</AssemblyName>
         <AssemblyVersion>5.2.0.0</AssemblyVersion>
+        <AssemblyVersion>5.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
@@ -415,6 +428,7 @@
         <AssemblyVersion>5.1.1.0</AssemblyVersion>
         <AssemblyVersion>5.1.2.0</AssemblyVersion>
         <AssemblyVersion>5.2.0.0</AssemblyVersion>
+        <AssemblyVersion>5.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -449,6 +463,7 @@
         <AssemblyVersion>5.1.1.0</AssemblyVersion>
         <AssemblyVersion>5.1.2.0</AssemblyVersion>
         <AssemblyVersion>5.2.0.0</AssemblyVersion>
+        <AssemblyVersion>5.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Azure.Messaging.EventHubs.EventHubsTransportType</ReturnType>
@@ -477,6 +492,7 @@
         <AssemblyVersion>5.1.1.0</AssemblyVersion>
         <AssemblyVersion>5.1.2.0</AssemblyVersion>
         <AssemblyVersion>5.2.0.0</AssemblyVersion>
+        <AssemblyVersion>5.3.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Net.IWebProxy</ReturnType>

@@ -18,8 +18,8 @@
   </Interfaces>
   <Attributes>
     <Attribute>
-      <AttributeName Language="C#">[System.Text.Json.Serialization.JsonConverter(typeof(Azure.Communication.CallAutomation.Converters.EquatableEnumJsonConverter&lt;Azure.Communication.CallAutomation.DtmfTone&gt;))]</AttributeName>
-      <AttributeName Language="F#">[&lt;System.Text.Json.Serialization.JsonConverter(typeof(Azure.Communication.CallAutomation.Converters.EquatableEnumJsonConverter&lt;Azure.Communication.CallAutomation.DtmfTone&gt;))&gt;]</AttributeName>
+      <AttributeName Language="C#">[System.Text.Json.Serialization.JsonConverter(typeof(Azure.Communication.CallAutomation.EquatableEnumJsonConverter&lt;Azure.Communication.CallAutomation.DtmfTone&gt;))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Text.Json.Serialization.JsonConverter(typeof(Azure.Communication.CallAutomation.EquatableEnumJsonConverter&lt;Azure.Communication.CallAutomation.DtmfTone&gt;))&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>

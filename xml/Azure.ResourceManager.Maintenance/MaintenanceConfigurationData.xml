@@ -8,13 +8,17 @@
     <AssemblyName>Azure.ResourceManager.Maintenance</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
     <AssemblyVersion>1.1.0.0</AssemblyVersion>
+    <AssemblyVersion>1.2.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Azure.ResourceManager.Models.TrackedResourceData</BaseTypeName>
   </Base>
   <Interfaces />
   <Docs>
-    <summary> A class representing the MaintenanceConfiguration data model. </summary>
+    <summary>
+            A class representing the MaintenanceConfiguration data model.
+            Maintenance configuration record type
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -29,6 +33,7 @@
         <AssemblyName>Azure.ResourceManager.Maintenance</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="location" Type="Azure.Core.AzureLocation" />
@@ -50,32 +55,13 @@
         <AssemblyName>Azure.ResourceManager.Maintenance</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.TimeSpan&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> Duration of the maintenance window in HH:mm format. If not provided, default value will be used based on maintenance scope provided. Example: 05:00. </summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="ExpirationDateTime">
-      <MemberSignature Language="C#" Value="public string ExpirationDateTime { get; set; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance string ExpirationDateTime" />
-      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Maintenance.MaintenanceConfigurationData.ExpirationDateTime" />
-      <MemberSignature Language="VB.NET" Value="Public Property ExpirationDateTime As String" />
-      <MemberSignature Language="F#" Value="member this.ExpirationDateTime : string with get, set" Usage="Azure.ResourceManager.Maintenance.MaintenanceConfigurationData.ExpirationDateTime" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.Maintenance</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.String</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary> Effective expiration date of the maintenance window in YYYY-MM-DD hh:mm format. The window will be created in the time zone provided and adjusted to daylight savings according to that time zone. Expiration date must be set to a future date. If not provided, it will be set to the maximum datetime 9999-12-31 23:59:59. </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -91,6 +77,7 @@
         <AssemblyName>Azure.ResourceManager.Maintenance</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.DateTimeOffset&gt;</ReturnType>
@@ -112,32 +99,13 @@
         <AssemblyName>Azure.ResourceManager.Maintenance</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IDictionary&lt;System.String,System.String&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> Gets or sets extensionProperties of the maintenanceConfiguration. </summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="InstallPatches">
-      <MemberSignature Language="C#" Value="public Azure.ResourceManager.Maintenance.Models.InputPatchConfiguration InstallPatches { get; set; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance class Azure.ResourceManager.Maintenance.Models.InputPatchConfiguration InstallPatches" />
-      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Maintenance.MaintenanceConfigurationData.InstallPatches" />
-      <MemberSignature Language="VB.NET" Value="Public Property InstallPatches As InputPatchConfiguration" />
-      <MemberSignature Language="F#" Value="member this.InstallPatches : Azure.ResourceManager.Maintenance.Models.InputPatchConfiguration with get, set" Usage="Azure.ResourceManager.Maintenance.MaintenanceConfigurationData.InstallPatches" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.Maintenance</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.ResourceManager.Maintenance.Models.InputPatchConfiguration</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary> The input parameters to be passed to the patch run operation. </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -153,6 +121,7 @@
         <AssemblyName>Azure.ResourceManager.Maintenance</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;Azure.ResourceManager.Maintenance.Models.MaintenanceScope&gt;</ReturnType>
@@ -174,6 +143,7 @@
         <AssemblyName>Azure.ResourceManager.Maintenance</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -195,32 +165,13 @@
         <AssemblyName>Azure.ResourceManager.Maintenance</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> Rate at which a Maintenance window is expected to recur. The rate can be expressed as daily, weekly, or monthly schedules. Daily schedule are formatted as recurEvery: [Frequency as integer]['Day(s)']. If no frequency is provided, the default frequency is 1. Daily schedule examples are recurEvery: Day, recurEvery: 3Days.  Weekly schedule are formatted as recurEvery: [Frequency as integer]['Week(s)'] [Optional comma separated list of weekdays Monday-Sunday]. Weekly schedule examples are recurEvery: 3Weeks, recurEvery: Week Saturday,Sunday. Monthly schedules are formatted as [Frequency as integer]['Month(s)'] [Comma separated list of month days] or [Frequency as integer]['Month(s)'] [Week of Month (First, Second, Third, Fourth, Last)] [Weekday Monday-Sunday]. Monthly schedule examples are recurEvery: Month, recurEvery: 2Months, recurEvery: Month day23,day24, recurEvery: Month Last Sunday, recurEvery: Month Fourth Monday. </summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="StartDateTime">
-      <MemberSignature Language="C#" Value="public string StartDateTime { get; set; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance string StartDateTime" />
-      <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Maintenance.MaintenanceConfigurationData.StartDateTime" />
-      <MemberSignature Language="VB.NET" Value="Public Property StartDateTime As String" />
-      <MemberSignature Language="F#" Value="member this.StartDateTime : string with get, set" Usage="Azure.ResourceManager.Maintenance.MaintenanceConfigurationData.StartDateTime" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.ResourceManager.Maintenance</AssemblyName>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.String</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary> Effective start date of the maintenance window in YYYY-MM-DD hh:mm format. The start date can be set to either the current date or future date. The window will be created in the time zone provided and adjusted to daylight savings according to that time zone. </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -236,6 +187,7 @@
         <AssemblyName>Azure.ResourceManager.Maintenance</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.DateTimeOffset&gt;</ReturnType>
@@ -257,6 +209,7 @@
         <AssemblyName>Azure.ResourceManager.Maintenance</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -268,24 +221,20 @@
       </Docs>
     </Member>
     <Member MemberName="Visibility">
-      <MemberSignature Language="C#" Value="public Azure.ResourceManager.Maintenance.Models.MaintenanceConfigurationVisibility? Visibility { get; set; }" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.Maintenance.Models.MaintenanceConfigurationVisibility&gt; Visibility" FrameworkAlternate="azure-dotnet" />
+      <MemberSignature Language="C#" Value="public Azure.ResourceManager.Maintenance.Models.MaintenanceConfigurationVisibility? Visibility { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.Maintenance.Models.MaintenanceConfigurationVisibility&gt; Visibility" />
       <MemberSignature Language="DocId" Value="P:Azure.ResourceManager.Maintenance.MaintenanceConfigurationData.Visibility" />
-      <MemberSignature Language="VB.NET" Value="Public Property Visibility As Nullable(Of MaintenanceConfigurationVisibility)" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="F#" Value="member this.Visibility : Nullable&lt;Azure.ResourceManager.Maintenance.Models.MaintenanceConfigurationVisibility&gt; with get, set" Usage="Azure.ResourceManager.Maintenance.MaintenanceConfigurationData.Visibility" FrameworkAlternate="azure-dotnet" />
-      <MemberSignature Language="C#" Value="public Azure.ResourceManager.Maintenance.Models.Visibility? Visibility { get; set; }" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Azure.ResourceManager.Maintenance.Models.Visibility&gt; Visibility" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="VB.NET" Value="Public Property Visibility As Nullable(Of Visibility)" FrameworkAlternate="azure-dotnet-preview" />
-      <MemberSignature Language="F#" Value="member this.Visibility : Nullable&lt;Azure.ResourceManager.Maintenance.Models.Visibility&gt; with get, set" Usage="Azure.ResourceManager.Maintenance.MaintenanceConfigurationData.Visibility" FrameworkAlternate="azure-dotnet-preview" />
+      <MemberSignature Language="VB.NET" Value="Public Property Visibility As Nullable(Of MaintenanceConfigurationVisibility)" />
+      <MemberSignature Language="F#" Value="member this.Visibility : Nullable&lt;Azure.ResourceManager.Maintenance.Models.MaintenanceConfigurationVisibility&gt; with get, set" Usage="Azure.ResourceManager.Maintenance.MaintenanceConfigurationData.Visibility" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.ResourceManager.Maintenance</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType FrameworkAlternate="azure-dotnet">System.Nullable&lt;Azure.ResourceManager.Maintenance.Models.MaintenanceConfigurationVisibility&gt;</ReturnType>
-        <ReturnType FrameworkAlternate="azure-dotnet-preview">System.Nullable&lt;Azure.ResourceManager.Maintenance.Models.Visibility&gt;</ReturnType>
+        <ReturnType>System.Nullable&lt;Azure.ResourceManager.Maintenance.Models.MaintenanceConfigurationVisibility&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary> Gets or sets the visibility of the configuration. The default value is 'Custom'. </summary>
